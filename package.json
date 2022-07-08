@@ -1,0 +1,21 @@
+{
+  "name": "@vilja/rmmz-types",
+  "version": "1.5.0",
+  "description": "TypeScript declarations for RPG Maker MZ.",
+  "types": "lib/index.d.ts",
+  "author": {
+    "name": "Vilja",
+    "email": "i@vilja.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iVilja/rmmz-types.git"
+  },
+  "dependencies": {
+    "@types/node": "^13.13.52",
+    "@types/nw.gui": "^0.0.21",
+    "@types/pako": "^2.0.0",
+    "@types/pixi.js": "^5.0.0",
+    "localforage": "^1.10.0"
+  }
+}
