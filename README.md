@@ -2,6 +2,8 @@
 
 TypeScript declarations for RPG Maker MZ (RMMZ).
 
+[![Docs](https://github.com/iVilja/rmmz-types/actions/workflows/docs.yml/badge.svg)](https://iVilja.github.com/rmmz-types)
+
 ## Installation
 
 Install this package by
