@@ -3,6 +3,10 @@
   "version": "1.5.0",
   "description": "TypeScript declarations for RPG Maker MZ.",
   "types": "lib/index.d.ts",
+  "files": [
+    "@types",
+    "lib"
+  ],
   "author": {
     "name": "Vilja",
     "email": "i@vilja.me"
