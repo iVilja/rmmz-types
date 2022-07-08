@@ -1,0 +1,7 @@
+{
+    "srcDir": "lib",
+    "enforceVersion": false,
+    "exclude": [
+        "lib/externals.d.ts"
+    ]
+}

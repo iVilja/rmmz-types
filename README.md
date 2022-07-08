@@ -25,4 +25,4 @@ Set `rmmz` as an external module in your project. And you might need to set modu
 
 [MIT License](./LICENSE).
 
-Note that using this package does not give you access to the RPG Maker MZ, which is a copyrighted project.
+Note that using this package does not give you access to RPG Maker MZ, which is a copyrighted project.
