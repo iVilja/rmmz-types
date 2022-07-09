@@ -452,7 +452,7 @@ static _switchFullScreen(): void
 **Signature**
 
 ```ts
-static _isFullScreen(): any
+static _isFullScreen(): boolean
 ```
 
 ### \_requestFullScreen (static method)

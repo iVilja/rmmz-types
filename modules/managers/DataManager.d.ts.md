@@ -361,7 +361,7 @@ static savefileInfo(savefileId: number): DataSaveInfo | null | undefined
 **Signature**
 
 ```ts
-static savefileExists(savefileId: number): any
+static savefileExists(savefileId: number): boolean
 ```
 
 ### saveGame (static method)

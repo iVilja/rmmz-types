@@ -11,11 +11,20 @@ parent: Modules
 <h2 class="text-delta">Table of contents</h2>
 
 - [utils](#utils)
+  - [PluginParameters (type alias)](#pluginparameters-type-alias)
   - [RmmzPlugin (interface)](#rmmzplugin-interface)
 
 ---
 
 # utils
+
+## PluginParameters (type alias)
+
+**Signature**
+
+```ts
+export type PluginParameters = Record<string, unknown>
+```
 
 ## RmmzPlugin (interface)
 

@@ -56,6 +56,6 @@ export interface SaveContents {
   actors: Game_Actors
   party: Game_Party
   map: Game_Map
-  player: any
+  player: Game_Player
 }
 ```

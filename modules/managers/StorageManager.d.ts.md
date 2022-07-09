@@ -142,7 +142,7 @@ static loadZip(saveName: string): Promise<string>
 **Signature**
 
 ```ts
-static exists(saveName: string): any
+static exists(saveName: string): boolean
 ```
 
 ### remove (static method)
@@ -174,7 +174,7 @@ static loadFromLocalFile(saveName: string): Promise<string>
 **Signature**
 
 ```ts
-static localFileExists(saveName: string): any
+static localFileExists(saveName: string): boolean
 ```
 
 ### removeLocalFile (static method)
@@ -278,7 +278,7 @@ static fsWriteFile(path: string, data: string): void
 **Signature**
 
 ```ts
-static fileDirectoryPath(): any
+static fileDirectoryPath(): string
 ```
 
 ### filePath (static method)
