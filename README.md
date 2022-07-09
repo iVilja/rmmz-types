@@ -10,14 +10,17 @@ Install this package by
 
 ```bash
 $ npm install rmmz@npm:rmmz-types
+# or just
+$ npm install rmmz-types
 ```
 
 ## Usage
 
-Everything is exported at top level of the `rmmz` module.
+Everything is exported at top level of the installed `rmmz` (or `rmmz-types`) module.
 
 ```typescript
 import { Window, $dataActors } from "rmmz"
+import { DataCommand, Game_Interpreter } from "rmmz-types"
 ```
 
 Set `rmmz` as an external module in your project. And you might need to set module `rmmz` as global varible
