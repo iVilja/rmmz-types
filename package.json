@@ -1,6 +1,6 @@
 {
   "name": "rmmz-types",
-  "version": "1.5.0-0",
+  "version": "1.5.0-1",
   "description": "TypeScript declarations for RPG Maker MZ.",
   "types": "lib/index.d.ts",
   "scripts": {
