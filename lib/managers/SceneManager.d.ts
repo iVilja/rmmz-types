@@ -62,6 +62,7 @@ export declare class SceneManager {
   static stop(): void
   static prepareNextScene<
     T extends Scene_Base & {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       prepare: (...args: any[]) => void
     }
   >(...args: Parameters<T["prepare"]>): void

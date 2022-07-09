@@ -185,7 +185,7 @@ export declare namespace Tilemap {
     _needsTexturesUpdate: boolean
     _needsVertexUpdate: boolean
     _images: RmmzImage[]
-    _state: any
+    _state: PIXI.State
     z: number
     constructor()
     static readonly MAX_GL_TEXTURES = 3

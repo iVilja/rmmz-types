@@ -1,12 +1,16 @@
-import { Game_Actors } from "../objects/Game_Actors"
-import { Game_Map } from "../objects/Game_Map"
-import { Game_Party } from "../objects/Game_Party"
-import { Game_Screen } from "../objects/Game_Screen"
-import { Game_SelfSwitches } from "../objects/Game_SelfSwitches"
-import { Game_Switches } from "../objects/Game_Switches"
-import { Game_System } from "../objects/Game_System"
-import { Game_Timer } from "../objects/Game_Timer"
-import { Game_Variables } from "../objects/Game_Variables"
+import {
+  Game_System,
+  Game_Screen,
+  Game_Timer,
+  Game_Switches,
+  Game_Variables,
+  Game_SelfSwitches,
+  Game_Actors,
+  Game_Party,
+  Game_Map,
+  Game_Player,
+} from "../objects"
+
 export interface DataSaveInfo {
   title: string
   characters: [string, number][]
@@ -25,5 +29,5 @@ export interface SaveContents {
   actors: Game_Actors
   party: Game_Party
   map: Game_Map
-  player: any
+  player: Game_Player
 }

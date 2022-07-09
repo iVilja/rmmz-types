@@ -116,7 +116,7 @@ export declare class DataManager {
   static loadSavefileImages(info: DataSaveInfo): void
   static maxSavefiles(): number
   static savefileInfo(savefileId: number): DataSaveInfo | null | undefined
-  static savefileExists(savefileId: number): any
+  static savefileExists(savefileId: number): boolean
   static saveGame(savefileId: number): Promise<number>
   static loadGame(savefileId: number): Promise<number>
   static makeSavename(savefileId: number): string

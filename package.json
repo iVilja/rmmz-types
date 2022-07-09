@@ -5,6 +5,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build:docs": "docs-ts",
+    "lint": "eslint --ext .js,.ts ./",
     "prettier": "prettier --write ./lib"
   },
   "files": [

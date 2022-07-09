@@ -16,11 +16,11 @@ export declare class StorageManager {
   static zipToJson(zip: string): Promise<string>
   static saveZip(saveName: string, zip: string): Promise<void> | Promise<number>
   static loadZip(saveName: string): Promise<string>
-  static exists(saveName: string): any
+  static exists(saveName: string): boolean
   static remove(saveName: string): void | Promise<number>
   static saveToLocalFile(saveName: string, zip: string): Promise<void>
   static loadFromLocalFile(saveName: string): Promise<string>
-  static localFileExists(saveName: string): any
+  static localFileExists(saveName: string): boolean
   static removeLocalFile(saveName: string): void
   static saveToForage(saveName: string, zip: string): Promise<number>
   static loadFromForage(saveName: string): Promise<string>
@@ -33,7 +33,7 @@ export declare class StorageManager {
   static fsUnlink(path: string): void
   static fsReadFile(path: string): string | null
   static fsWriteFile(path: string, data: string): void
-  static fileDirectoryPath(): any
+  static fileDirectoryPath(): string
   static filePath(saveName: string): string
   static forageKey(saveName: string): string
   static forageTestKey(): string

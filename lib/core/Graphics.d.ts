@@ -201,7 +201,7 @@ export declare class Graphics {
   static _switchFPSCounter(): void
   static _switchStretchMode(): void
   static _switchFullScreen(): void
-  static _isFullScreen(): any
+  static _isFullScreen(): boolean
   static _requestFullScreen(): void
   static _cancelFullScreen(): void
   static _createPixiApp(): void

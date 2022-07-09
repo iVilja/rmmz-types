@@ -4,8 +4,8 @@ import { Game_Action, Game_Actor, Game_Enemy } from "../objects"
 import { Spriteset_Battle } from "../sprites"
 import { Window_Base } from "./Window_Base"
 declare type $<TMethod extends keyof Window_BattleLog> = Window_BattleLog[TMethod] extends (
-  ...args: any[]
-) => any
+  ...args: any[] // eslint-disable-line @typescript-eslint/no-explicit-any
+) => any // eslint-disable-line @typescript-eslint/no-explicit-any
   ? {
       name: TMethod
       params: Parameters<Window_BattleLog[TMethod]>

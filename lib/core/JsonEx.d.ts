@@ -18,6 +18,7 @@ export declare class JsonEx {
    * @param {object} object - The object to be converted.
    * @returns {string} The JSON string.
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static stringify(object: any): string
   /**
    * Parses a JSON string and reconstructs the corresponding object.
@@ -25,6 +26,7 @@ export declare class JsonEx {
    * @param {string} json - The JSON string.
    * @returns {object} The reconstructed object.
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static parse(json: string): any
   /**
    * Makes a deep copy of the specified object.
@@ -32,7 +34,10 @@ export declare class JsonEx {
    * @param {object} object - The object to be copied.
    * @returns {object} The copied object.
    */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static makeDeepCopy(object: any): any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static _encode(value: any, depth: number): any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static _decode(value: any): any
 }
