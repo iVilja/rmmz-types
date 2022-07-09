@@ -1,6 +1,6 @@
 {
   "name": "@vilja/rmmz-types",
-  "version": "1.5.0",
+  "version": "1.5.0-0",
   "description": "TypeScript declarations for RPG Maker MZ.",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -20,6 +20,9 @@
     "type": "git",
     "url": "git+https://github.com/iVilja/rmmz-types.git"
   },
+  "keywords": [
+    "RPG Maker MZ"
+  ],
   "dependencies": {
     "@types/node": "^14.18.21",
     "@types/nw.gui": "^0.0.21",

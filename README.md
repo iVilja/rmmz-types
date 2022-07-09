@@ -9,7 +9,7 @@ TypeScript declarations for RPG Maker MZ (RMMZ).
 Install this package by
 
 ```bash
-$ npm install rmmz:@vilja/rmmz-types
+$ npm install rmmz@npm:@vilja/rmmz-types
 ```
 
 ## Usage
