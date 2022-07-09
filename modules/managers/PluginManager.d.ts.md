@@ -110,7 +110,11 @@ static throwLoadError(url: string): void
 **Signature**
 
 ```ts
-static registerCommand(pluginName: string, commandName: string, func: () => void): void
+static registerCommand<T extends PluginParameters>(
+    pluginName: string,
+    commandName: string,
+    func: (args: T) => void
+  ): void
 ```
 
 ### callCommand (static method)
