@@ -1,5 +1,5 @@
 {
-  "name": "@vilja/rmmz-types",
+  "name": "rmmz-types",
   "version": "1.5.0-0",
   "description": "TypeScript declarations for RPG Maker MZ.",
   "types": "lib/index.d.ts",
