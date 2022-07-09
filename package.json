@@ -4,7 +4,8 @@
   "description": "TypeScript declarations for RPG Maker MZ.",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build:docs": "docs-ts"
+    "build:docs": "docs-ts",
+    "prettier": "prettier --write ./lib"
   },
   "files": [
     "@types",
@@ -20,13 +21,17 @@
     "url": "git+https://github.com/iVilja/rmmz-types.git"
   },
   "dependencies": {
-    "@types/node": "^13.13.52",
+    "@types/node": "^14.18.21",
     "@types/nw.gui": "^0.0.21",
-    "@types/pako": "^2.0.0",
-    "@types/pixi.js": "^5.0.0",
-    "localforage": "^1.10.0"
+    "@types/pako": "^1.0.4",
+    "localforage": "^1.10.0",
+    "pixi.js": "^6.4.2"
   },
   "devDependencies": {
-    "docs-ts": "^0.6.10"
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "docs-ts": "^0.6.10",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
   }
 }

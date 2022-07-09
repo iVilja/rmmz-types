@@ -1,4 +1,4 @@
-import { PIXI } from "../externals";
+import { PIXI } from "../externals"
 /**
  * The point class.
  *
@@ -8,5 +8,5 @@ import { PIXI } from "../externals";
  * @param {number} y - The y coordinate.
  */
 export declare class Point extends PIXI.Point {
-    constructor(x?: number, y?: number);
+  constructor(x?: number, y?: number)
 }

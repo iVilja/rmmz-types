@@ -1,4 +1,4 @@
-import { PIXI } from "../externals";
+import { PIXI } from "../externals"
 /**
  * The rectangle class.
  *
@@ -10,5 +10,5 @@ import { PIXI } from "../externals";
  * @param {number} height - The height of the rectangle.
  */
 export declare class Rectangle extends PIXI.Rectangle {
-    constructor(x?: number, y?: number, width?: number, height?: number);
+  constructor(x?: number, y?: number, width?: number, height?: number)
 }

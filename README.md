@@ -17,7 +17,7 @@ $ npm install rmmz:@vilja/rmmz-types
 Everything is exported at top level of the `rmmz` module.
 
 ```typescript
-import { Window, $dataActors } from "rmmz";
+import { Window, $dataActors } from "rmmz"
 ```
 
 Set `rmmz` as an external module in your project. And you might need to set module `rmmz` as global varible

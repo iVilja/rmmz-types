@@ -1,4 +1,4 @@
-import { PIXI } from "../externals";
+import { PIXI } from "../externals"
 /**
  * The root object of the display tree.
  *
@@ -6,6 +6,6 @@ import { PIXI } from "../externals";
  * @extends PIXI.Container
  */
 export declare class Stage extends PIXI.Container {
-    constructor();
-    destroy(): void;
+  constructor()
+  destroy(): void
 }
