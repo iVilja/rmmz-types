@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Screen.d.ts
-nav_order: 83
+nav_order: 84
 parent: Modules
 ---
 
@@ -103,7 +103,7 @@ export declare class Game_Screen
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### onBattleStart (method)
@@ -111,7 +111,7 @@ clear(): void;
 **Signature**
 
 ```ts
-onBattleStart(): void;
+onBattleStart(): void
 ```
 
 ### brightness (method)
@@ -119,7 +119,7 @@ onBattleStart(): void;
 **Signature**
 
 ```ts
-brightness(): number;
+brightness(): number
 ```
 
 ### tone (method)
@@ -127,7 +127,7 @@ brightness(): number;
 **Signature**
 
 ```ts
-tone(): [number, number, number, number];
+tone(): [number, number, number, number]
 ```
 
 ### flashColor (method)
@@ -135,7 +135,7 @@ tone(): [number, number, number, number];
 **Signature**
 
 ```ts
-flashColor(): [number, number, number, number];
+flashColor(): [number, number, number, number]
 ```
 
 ### shake (method)
@@ -143,7 +143,7 @@ flashColor(): [number, number, number, number];
 **Signature**
 
 ```ts
-shake(): number;
+shake(): number
 ```
 
 ### zoomX (method)
@@ -151,7 +151,7 @@ shake(): number;
 **Signature**
 
 ```ts
-zoomX(): number;
+zoomX(): number
 ```
 
 ### zoomY (method)
@@ -159,7 +159,7 @@ zoomX(): number;
 **Signature**
 
 ```ts
-zoomY(): number;
+zoomY(): number
 ```
 
 ### zoomScale (method)
@@ -167,7 +167,7 @@ zoomY(): number;
 **Signature**
 
 ```ts
-zoomScale(): number;
+zoomScale(): number
 ```
 
 ### weatherType (method)
@@ -175,7 +175,7 @@ zoomScale(): number;
 **Signature**
 
 ```ts
-weatherType(): WeatherType;
+weatherType(): WeatherType
 ```
 
 ### weatherPower (method)
@@ -183,7 +183,7 @@ weatherType(): WeatherType;
 **Signature**
 
 ```ts
-weatherPower(): number;
+weatherPower(): number
 ```
 
 ### picture (method)
@@ -191,7 +191,7 @@ weatherPower(): number;
 **Signature**
 
 ```ts
-picture(pictureId: PictureID): Game_Picture | null;
+picture(pictureId: PictureID): Game_Picture | null
 ```
 
 ### realPictureId (method)
@@ -199,7 +199,7 @@ picture(pictureId: PictureID): Game_Picture | null;
 **Signature**
 
 ```ts
-realPictureId(pictureId: PictureID): number;
+realPictureId(pictureId: PictureID): number
 ```
 
 ### clearFade (method)
@@ -207,7 +207,7 @@ realPictureId(pictureId: PictureID): number;
 **Signature**
 
 ```ts
-clearFade(): void;
+clearFade(): void
 ```
 
 ### clearTone (method)
@@ -215,7 +215,7 @@ clearFade(): void;
 **Signature**
 
 ```ts
-clearTone(): void;
+clearTone(): void
 ```
 
 ### clearFlash (method)
@@ -223,7 +223,7 @@ clearTone(): void;
 **Signature**
 
 ```ts
-clearFlash(): void;
+clearFlash(): void
 ```
 
 ### clearShake (method)
@@ -231,7 +231,7 @@ clearFlash(): void;
 **Signature**
 
 ```ts
-clearShake(): void;
+clearShake(): void
 ```
 
 ### clearZoom (method)
@@ -239,7 +239,7 @@ clearShake(): void;
 **Signature**
 
 ```ts
-clearZoom(): void;
+clearZoom(): void
 ```
 
 ### clearWeather (method)
@@ -247,7 +247,7 @@ clearZoom(): void;
 **Signature**
 
 ```ts
-clearWeather(): void;
+clearWeather(): void
 ```
 
 ### clearPictures (method)
@@ -255,7 +255,7 @@ clearWeather(): void;
 **Signature**
 
 ```ts
-clearPictures(): void;
+clearPictures(): void
 ```
 
 ### eraseBattlePictures (method)
@@ -263,7 +263,7 @@ clearPictures(): void;
 **Signature**
 
 ```ts
-eraseBattlePictures(): void;
+eraseBattlePictures(): void
 ```
 
 ### maxPictures (method)
@@ -271,7 +271,7 @@ eraseBattlePictures(): void;
 **Signature**
 
 ```ts
-maxPictures(): number;
+maxPictures(): number
 ```
 
 ### startFadeOut (method)
@@ -279,7 +279,7 @@ maxPictures(): number;
 **Signature**
 
 ```ts
-startFadeOut(duration: number): void;
+startFadeOut(duration: number): void
 ```
 
 ### startFadeIn (method)
@@ -287,7 +287,7 @@ startFadeOut(duration: number): void;
 **Signature**
 
 ```ts
-startFadeIn(duration: number): void;
+startFadeIn(duration: number): void
 ```
 
 ### startTint (method)
@@ -295,7 +295,7 @@ startFadeIn(duration: number): void;
 **Signature**
 
 ```ts
-startTint(tone: Color, duration: number): void;
+startTint(tone: Color, duration: number): void
 ```
 
 ### startFlash (method)
@@ -303,7 +303,7 @@ startTint(tone: Color, duration: number): void;
 **Signature**
 
 ```ts
-startFlash(color: Color, duration: number): void;
+startFlash(color: Color, duration: number): void
 ```
 
 ### startShake (method)
@@ -311,7 +311,7 @@ startFlash(color: Color, duration: number): void;
 **Signature**
 
 ```ts
-startShake(power: number, speed: number, duration: number): void;
+startShake(power: number, speed: number, duration: number): void
 ```
 
 ### startZoom (method)
@@ -319,7 +319,7 @@ startShake(power: number, speed: number, duration: number): void;
 **Signature**
 
 ```ts
-startZoom(x: number, y: number, scale: number, duration: number): void;
+startZoom(x: number, y: number, scale: number, duration: number): void
 ```
 
 ### setZoom (method)
@@ -327,7 +327,7 @@ startZoom(x: number, y: number, scale: number, duration: number): void;
 **Signature**
 
 ```ts
-setZoom(x: number, y: number, scale: number): void;
+setZoom(x: number, y: number, scale: number): void
 ```
 
 ### changeWeather (method)
@@ -335,7 +335,7 @@ setZoom(x: number, y: number, scale: number): void;
 **Signature**
 
 ```ts
-changeWeather(type: WeatherType, power: number, duration: number): void;
+changeWeather(type: WeatherType, power: number, duration: number): void
 ```
 
 ### update (method)
@@ -343,7 +343,7 @@ changeWeather(type: WeatherType, power: number, duration: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateFadeOut (method)
@@ -351,7 +351,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateFadeOut(): void;
+updateFadeOut(): void
 ```
 
 ### updateFadeIn (method)
@@ -359,7 +359,7 @@ updateFadeOut(): void;
 **Signature**
 
 ```ts
-updateFadeIn(): void;
+updateFadeIn(): void
 ```
 
 ### updateTone (method)
@@ -367,7 +367,7 @@ updateFadeIn(): void;
 **Signature**
 
 ```ts
-updateTone(): void;
+updateTone(): void
 ```
 
 ### updateFlash (method)
@@ -375,7 +375,7 @@ updateTone(): void;
 **Signature**
 
 ```ts
-updateFlash(): void;
+updateFlash(): void
 ```
 
 ### updateShake (method)
@@ -383,7 +383,7 @@ updateFlash(): void;
 **Signature**
 
 ```ts
-updateShake(): void;
+updateShake(): void
 ```
 
 ### updateZoom (method)
@@ -391,7 +391,7 @@ updateShake(): void;
 **Signature**
 
 ```ts
-updateZoom(): void;
+updateZoom(): void
 ```
 
 ### updateWeather (method)
@@ -399,7 +399,7 @@ updateZoom(): void;
 **Signature**
 
 ```ts
-updateWeather(): void;
+updateWeather(): void
 ```
 
 ### updatePictures (method)
@@ -407,7 +407,7 @@ updateWeather(): void;
 **Signature**
 
 ```ts
-updatePictures(): void;
+updatePictures(): void
 ```
 
 ### startFlashForDamage (method)
@@ -415,7 +415,7 @@ updatePictures(): void;
 **Signature**
 
 ```ts
-startFlashForDamage(): void;
+startFlashForDamage(): void
 ```
 
 ### showPicture (method)
@@ -423,7 +423,17 @@ startFlashForDamage(): void;
 **Signature**
 
 ```ts
-showPicture(pictureId: PictureID, name: string, origin: number, x: number, y: number, scaleX: number, scaleY: number, opacity: number, blendMode: PIXI.BLEND_MODES): void;
+showPicture(
+    pictureId: PictureID,
+    name: string,
+    origin: number,
+    x: number,
+    y: number,
+    scaleX: number,
+    scaleY: number,
+    opacity: number,
+    blendMode: PIXI.BLEND_MODES
+  ): void
 ```
 
 ### movePicture (method)
@@ -431,7 +441,18 @@ showPicture(pictureId: PictureID, name: string, origin: number, x: number, y: nu
 **Signature**
 
 ```ts
-movePicture(pictureId: PictureID, origin: number, x: number, y: number, scaleX: number, scaleY: number, opacity: number, blendMode: PIXI.BLEND_MODES, duration: number, easingType: PictureEasingType): void;
+movePicture(
+    pictureId: PictureID,
+    origin: number,
+    x: number,
+    y: number,
+    scaleX: number,
+    scaleY: number,
+    opacity: number,
+    blendMode: PIXI.BLEND_MODES,
+    duration: number,
+    easingType: PictureEasingType
+  ): void
 ```
 
 ### rotatePicture (method)
@@ -439,7 +460,7 @@ movePicture(pictureId: PictureID, origin: number, x: number, y: number, scaleX: 
 **Signature**
 
 ```ts
-rotatePicture(pictureId: PictureID, speed: number): void;
+rotatePicture(pictureId: PictureID, speed: number): void
 ```
 
 ### tintPicture (method)
@@ -447,7 +468,7 @@ rotatePicture(pictureId: PictureID, speed: number): void;
 **Signature**
 
 ```ts
-tintPicture(pictureId: PictureID, tone: Color, duration: number): void;
+tintPicture(pictureId: PictureID, tone: Color, duration: number): void
 ```
 
 ### erasePicture (method)
@@ -455,7 +476,7 @@ tintPicture(pictureId: PictureID, tone: Color, duration: number): void;
 **Signature**
 
 ```ts
-erasePicture(pictureId: PictureID): void;
+erasePicture(pictureId: PictureID): void
 ```
 
 ### \_brightness (property)

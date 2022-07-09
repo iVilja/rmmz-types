@@ -73,40 +73,40 @@ export declare type CommandParams<TCode extends CommandCode> = ExtractDataComman
 
 ```ts
 export declare type ConditionalBranchParams =
-  | [0, SwitchID, 0 | 1] /** Switch */
-  /** Variable */
-  | [1, VariableID, 0, number, VariableComparisonType] /** Compare by value */
-  | [1, VariableID, 1, VariableID, VariableComparisonType] /** Compare by variable */
-  /** Self Switch */
+  | [0, SwitchID, 0 | 1] /* Switch */
+  /* Variable */
+  | [1, VariableID, 0, number, VariableComparisonType] /* Compare by value */
+  | [1, VariableID, 1, VariableID, VariableComparisonType] /* Compare by variable */
+  /* Self Switch */
   | [2, SelfSwitchCharacter, 0 | 1]
-  /** Timer */
-  | [3, number /** Seconds */, 0 | 1 /** ≥ or ≤ */]
-  /** Actor */
-  | [4, ActorID, 0, undefined] /** In the Party */
-  | [4, ActorID, 1, string] /** Name */
-  | [4, ActorID, 2, ClassID] /** Class */
-  | [4, ActorID, 3, SkillID] /** Skill */
-  | [4, ActorID, 4, WeaponID] /** Weapon */
-  | [4, ActorID, 5, ArmorID] /** Armor */
-  | [4, ActorID, 6, StateID] /** State */
-  /** Enemy */
-  | [5, EnemyID, 0] /** Appeared */
-  | [5, EnemyID, 1, StateID] /** State */
-  /** Character */
+  /* Timer */
+  | [3, number /* Seconds */, 0 | 1 /* ≥ or ≤ */]
+  /* Actor */
+  | [4, ActorID, 0, undefined] /* In the Party */
+  | [4, ActorID, 1, string] /* Name */
+  | [4, ActorID, 2, ClassID] /* Class */
+  | [4, ActorID, 3, SkillID] /* Skill */
+  | [4, ActorID, 4, WeaponID] /* Weapon */
+  | [4, ActorID, 5, ArmorID] /* Armor */
+  | [4, ActorID, 6, StateID] /* State */
+  /* Enemy */
+  | [5, EnemyID, 0] /* Appeared */
+  | [5, EnemyID, 1, StateID] /* State */
+  /* Character */
   | [6, CharacterID, Direction]
-  /** Gold */
-  | [7, number /** Amount */, 0 | 1 | 2 /** ≥, ≤, < */]
-  /** Item */
+  /* Gold */
+  | [7, number /* Amount */, 0 | 1 | 2 /* ≥, ≤, < */]
+  /* Item */
   | [8, ItemID]
-  /** Weapon */
+  /* Weapon */
   | [9, WeaponID, boolean]
-  /** Armor */
+  /* Armor */
   | [10, WeaponID, boolean]
-  /** Button */
-  | [11, string /** Key Name */, undefined | 0 | 1 | 2 /** Is Pressed (default), Is Triggered, Is Repeated */]
-  /** Script */
+  /* Button */
+  | [11, string /* Key Name */, undefined | 0 | 1 | 2 /* Is Pressed (default), Is Triggered, Is Repeated */]
+  /* Script */
   | [12, string]
-  /** Vehicle */
+  /* Vehicle */
   | [13, VehicleType]
 ```
 
@@ -119,64 +119,64 @@ export declare type DataCommand = {
   indent?: number | null
 } & (
   | RouteMovementCommand
-  /** Show Text */
+  /* Show Text */
   | $<
       101,
       [
-        string /** Face Name */,
-        number /** Face Index */,
+        string /* Face Name */,
+        number /* Face Index */,
         TextWindowBackgroundType,
         TextWindowPositionType,
-        string /** Talker Name */
+        string /* Talker Name */
       ]
     >
-  | $<401, [string]> /** Text */
-  /** Show Choices */
+  | $<401, [string]> /* Text */
+  /* Show Choices */
   | $<
       102,
       [
-        string[] /** Choices */,
-        number /** Cancel Type */,
-        number /** Default Type */,
+        string[] /* Choices */,
+        number /* Cancel Type */,
+        number /* Default Type */,
         TextWindowPositionType,
         TextWindowBackgroundType
       ]
     >
-  | $<402, [number]> /** When [**] */
-  | $<403> /** When Cancel */
-  /** Input Number */
-  | $<103, [number /** Variable ID */, number /** Max Digits */]>
-  /** Select Item */
-  | $<104, [number /** Variable ID */, ItemType?]>
-  /** Show Scrolling Text */
-  | $<105, [number /** Speed */, boolean /** No Fast */]>
-  | $<405, [string]> /** Text */
-  /** Comment */
+  | $<402, [number]> /* When [**] */
+  | $<403> /* When Cancel */
+  /* Input Number */
+  | $<103, [number /* Variable ID */, number /* Max Digits */]>
+  /* Select Item */
+  | $<104, [number /* Variable ID */, ItemType?]>
+  /* Show Scrolling Text */
+  | $<105, [number /* Speed */, boolean /* No Fast */]>
+  | $<405, [string]> /* Text */
+  /* Comment */
   | $<108, [string]>
   | $<408, [string]>
-  /** Skip */
+  /* Skip */
   | $<109>
-  /** Conditional Branch */
+  /* Conditional Branch */
   | $<111, ConditionalBranchParams>
-  /** Else */
+  /* Else */
   | $<411>
-  /** Loop */
+  /* Loop */
   | $<112>
-  /** Repeat Above */
+  /* Repeat Above */
   | $<413>
-  /** Break Loop */
+  /* Break Loop */
   | $<113>
-  /** Exit Event Processing */
+  /* Exit Event Processing */
   | $<115>
-  /** Common Event */
+  /* Common Event */
   | $<117, [CommonEventID]>
-  /** Label */
+  /* Label */
   | $<118, [string]>
-  /** Jump to Label */
+  /* Jump to Label */
   | $<119, [string]>
-  /** Control Switches */
+  /* Control Switches */
   | $<121, [SwitchID, SwitchID, 0 | 1]>
-  /** Control Variables */
+  /* Control Variables */
   | $<
       122,
       [
@@ -184,353 +184,353 @@ export declare type DataCommand = {
         VariableID,
         VariableOperationType,
         ...(
-          | [0, number] /** Constant */
-          | [1, VariableID] /** Variable */
-          | [2, number, number] /** Random */
-          /** Game Data */
+          | [0, number] /* Constant */
+          | [1, VariableID] /* Variable */
+          | [2, number, number] /* Random */
+          /* Game Data */
           | [
               3,
               ...(
-                | [0, ItemID] /** Item */
-                | [1, WeaponID] /** Weapon */
-                | [2, ArmorID] /** Armor */
+                | [0, ItemID] /* Item */
+                | [1, WeaponID] /* Weapon */
+                | [2, ArmorID] /* Armor */
                 | [
-                    3 /** Actor */,
+                    3 /* Actor */,
                     ActorID,
-                    /** Level, EXP, HP, MP, (param 0~7), TP */
+                    /* Level, EXP, HP, MP, (param 0~7), TP */
                     0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
                   ]
                 | [
-                    4 /** Enemy */,
+                    4 /* Enemy */,
                     EnemyID,
-                    /** HP, MP, (param 0~7), TP */
+                    /* HP, MP, (param 0~7), TP */
                     0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
                   ]
                 | [
-                    5 /** Character */,
+                    5 /* Character */,
                     CharacterID,
-                    /** Map X, Map Y, Direction, Screen X, Screen Y */
+                    /* Map X, Map Y, Direction, Screen X, Screen Y */
                     0 | 1 | 2 | 3 | 4
                   ]
-                | [6, number] /** Party */
-                | [8, ActionDataType] /** Last */
+                | [6, number] /* Party */
+                | [8, ActionDataType] /* Last */
                 | [
                     7,
                     (
-                      | 0 /** Map ID */
-                      | 1 /** Party Members */
-                      | 2 /** Gold */
-                      | 3 /** Steps */
-                      | 4 /** Play Time */
-                      | 5 /** Timer */
-                      | 6 /** Save Count */
-                      | 7 /** Battle Count */
-                      | 8 /** Win Count */
-                      /** Escape Count */
+                      | 0 /* Map ID */
+                      | 1 /* Party Members */
+                      | 2 /* Gold */
+                      | 3 /* Steps */
+                      | 4 /* Play Time */
+                      | 5 /* Timer */
+                      | 6 /* Save Count */
+                      | 7 /* Battle Count */
+                      | 8 /* Win Count */
+                      /* Escape Count */
                       | 9
                     )
                   ]
               )
             ]
-          /** Script */
+          /* Script */
           | [4, string]
         )
       ]
     >
-  /** Control Self Switch */
+  /* Control Self Switch */
   | $<123, [SelfSwitchCharacter, 0 | 1]>
-  /** Control Timer */
-  | $<124, [0, number] /** Start, Second */ | [1] /** Stop */>
-  /** Change Gold */
+  /* Control Timer */
+  | $<124, [0, number] /* Start, Second */ | [1] /* Stop */>
+  /* Change Gold */
   | $<125, [ValueOperation, ...ValueOperand]>
-  /** Change Items */
+  /* Change Items */
   | $<126, [ItemID, ValueOperation, ...ValueOperand]>
-  /** Change Weapons */
+  /* Change Weapons */
   | $<127, [WeaponID, ValueOperation, ...ValueOperand, boolean]>
-  /** Change Armors */
+  /* Change Armors */
   | $<128, [ArmorID, ValueOperation, ...ValueOperand, boolean]>
-  /** Change Party Member */
-  | $<129, [ActorID, 0, boolean] /** Add, initialie */ | [ActorID, 1] /** Remove */>
-  /** Change Battle BGM */
+  /* Change Party Member */
+  | $<129, [ActorID, 0, boolean] /* Add, initialie */ | [ActorID, 1] /* Remove */>
+  /* Change Battle BGM */
   | $<132, [DataAudio]>
-  /** Change Victory ME */
+  /* Change Victory ME */
   | $<133, [DataAudio]>
-  /** Change Save Access */
+  /* Change Save Access */
   | $<134, [0 | 1]>
-  /** Change Menu Access */
+  /* Change Menu Access */
   | $<135, [0 | 1]>
-  /** Change Encounter */
+  /* Change Encounter */
   | $<136, [0 | 1]>
-  /** Change Formation Access */
+  /* Change Formation Access */
   | $<137, [0 | 1]>
-  /** Change Window Color */
+  /* Change Window Color */
   | $<138, [Color]>
-  /** Change Default ME */
+  /* Change Default ME */
   | $<139, [DataAudio]>
-  /** Change Vehicle BGM */
+  /* Change Vehicle BGM */
   | $<140, [VehicleType, DataAudio]>
-  /** Transfer Player (Map, X, Y) */
+  /* Transfer Player (Map, X, Y) */
   | $<
       201,
       [
         ...(
-          | [0, MapID, number, number] /** Direct designation */
-          /** Designation by variables */
+          | [0, MapID, number, number] /* Direct designation */
+          /* Designation by variables */
           | [1, VariableID, VariableID, VariableID]
         ),
         Direction,
-        number /** Fade type */
+        number /* Fade type */
       ]
     >
-  /** Set Vehicle Location */
+  /* Set Vehicle Location */
   | $<
       202,
       [
         VehicleType,
         ...(
-          | [0, MapID, number, number] /** Direct designation */
-          /** Designation by variables */
+          | [0, MapID, number, number] /* Direct designation */
+          /* Designation by variables */
           | [1, VariableID, VariableID, VariableID]
         )
       ]
     >
-  /** Set Event Location */
+  /* Set Event Location */
   | $<
       203,
-      | [CharacterID, 0, number, number, Direction] /** Direct designation */
-      | [CharacterID, 1, VariableID, VariableID, Direction] /** Designation by variables */
-      | [CharacterID, 2, CharacterID, undefined, Direction] /** Exchange with another event */
+      | [CharacterID, 0, number, number, Direction] /* Direct designation */
+      | [CharacterID, 1, VariableID, VariableID, Direction] /* Designation by variables */
+      | [CharacterID, 2, CharacterID, undefined, Direction] /* Exchange with another event */
     >
-  /** Scroll Map */
-  | $<204, [Direction, number /** Distance */, number /** Speed */, boolean /** Wait */]>
-  /** Set Movement Route */
-  | $<205, [number /** Character ID */, MoveRoute]>
-  /** Movement Route */
+  /* Scroll Map */
+  | $<204, [Direction, number /* Distance */, number /* Speed */, boolean /* Wait */]>
+  /* Set Movement Route */
+  | $<205, [number /* Character ID */, MoveRoute]>
+  /* Movement Route */
   | $<505, [RouteMovementCommand]>
-  /** Get on/off Vehicle */
+  /* Get on/off Vehicle */
   | $<206>
-  /** Change Transparency */
+  /* Change Transparency */
   | $<211, [0 | 1]>
-  /** Show Animation */
-  | $<212, [CharacterID, AnimationID, boolean /** Wait */]>
-  /** Show Balloon Icon */
-  | $<213, [CharacterID, BalloonIconID, boolean /** Wait */]>
-  /** Erase Event */
+  /* Show Animation */
+  | $<212, [CharacterID, AnimationID, boolean /* Wait */]>
+  /* Show Balloon Icon */
+  | $<213, [CharacterID, BalloonIconID, boolean /* Wait */]>
+  /* Erase Event */
   | $<214>
-  /** Change Player Followers */
+  /* Change Player Followers */
   | $<216, [0 | 1]>
-  /** Gather Followers */
+  /* Gather Followers */
   | $<217>
-  /** Fadeout Screen */
+  /* Fadeout Screen */
   | $<221>
-  /** Fadein Screen */
+  /* Fadein Screen */
   | $<222>
-  /** Tint Screen */
-  | $<223, [Color /** Tone */, number /** Duration */, boolean /** Wait */]>
-  /** Flash Screen */
-  | $<224, [Color /** Tone */, number /** Duration */, boolean /** Wait */]>
-  /** Shake Screen */
-  | $<225, [number /** Power */, number /** Speed */, number /** Duration */, boolean /** Wait */]>
-  /** Wait */
+  /* Tint Screen */
+  | $<223, [Color /* Tone */, number /* Duration */, boolean /* Wait */]>
+  /* Flash Screen */
+  | $<224, [Color /* Tone */, number /* Duration */, boolean /* Wait */]>
+  /* Shake Screen */
+  | $<225, [number /* Power */, number /* Speed */, number /* Duration */, boolean /* Wait */]>
+  /* Wait */
   | $<230, [number]>
-  /** Show Picture */
+  /* Show Picture */
   | $<
       231,
       [
         PictureID,
-        string /** Image Name */,
-        number /** Origin */,
-        0 | 1 /** Direct designation or Designation with variables */,
-        number | VariableID /** X */,
-        number | VariableID /** Y */,
-        number /** Scale X */,
-        number /** Scale Y */,
-        number /** Opacity */,
-        PIXI.BLEND_MODES /** Blend Mode */
+        string /* Image Name */,
+        number /* Origin */,
+        0 | 1 /* Direct designation or Designation with variables */,
+        number | VariableID /* X */,
+        number | VariableID /* Y */,
+        number /* Scale X */,
+        number /* Scale Y */,
+        number /* Opacity */,
+        PIXI.BLEND_MODES /* Blend Mode */
       ]
     >
-  /** Move Picture */
+  /* Move Picture */
   | $<
       232,
       [
         PictureID,
-        string /** Image Name */,
-        number /** Origin */,
-        0 | 1 /** Direct designation or Designation with variables */,
-        number | VariableID /** X */,
-        number | VariableID /** Y */,
-        number /** Scale X */,
-        number /** Scale Y */,
-        number /** Opacity */,
-        PIXI.BLEND_MODES /** Blend Mode */,
-        number /** Duration */,
-        boolean /** Wait */,
+        string /* Image Name */,
+        number /* Origin */,
+        0 | 1 /* Direct designation or Designation with variables */,
+        number | VariableID /* X */,
+        number | VariableID /* Y */,
+        number /* Scale X */,
+        number /* Scale Y */,
+        number /* Opacity */,
+        PIXI.BLEND_MODES /* Blend Mode */,
+        number /* Duration */,
+        boolean /* Wait */,
         PictureEasingType?
       ]
     >
-  /** Rotate Picture */
+  /* Rotate Picture */
   | $<233, [PictureID, number]>
-  /** Tint Picture */
-  | $<234, [PictureID, Color /** Tone */, number /** Duration */, boolean /** Wait */]>
-  /** Erase Picture */
+  /* Tint Picture */
+  | $<234, [PictureID, Color /* Tone */, number /* Duration */, boolean /* Wait */]>
+  /* Erase Picture */
   | $<235, [PictureID]>
-  /** Set Weather Effect */
-  | $<236, [WeatherType, number /** Power */, number /** Duration */, boolean /** Wait */]>
-  /** Play BGM */
+  /* Set Weather Effect */
+  | $<236, [WeatherType, number /* Power */, number /* Duration */, boolean /* Wait */]>
+  /* Play BGM */
   | $<241, [DataAudio]>
-  /** Fadeout BGM */
-  | $<242, [number]> /** Duration */
-  /** Save BGM */
+  /* Fadeout BGM */
+  | $<242, [number]> /* Duration */
+  /* Save BGM */
   | $<243>
-  /** Resume BGM */
+  /* Resume BGM */
   | $<244>
-  /** Play BGS */
+  /* Play BGS */
   | $<245, [DataAudio]>
-  /** Fadeout BGS */
-  | $<246, [number]> /** Duration */
-  /** Play ME */
+  /* Fadeout BGS */
+  | $<246, [number]> /* Duration */
+  /* Play ME */
   | $<249, [DataAudio]>
-  /** Play SE */
+  /* Play SE */
   | $<250, [DataAudio]>
-  /** Stop SE */
+  /* Stop SE */
   | $<251>
-  /** Play Movie */
+  /* Play Movie */
   | $<261, [string]>
-  /** Change Map Name Display */
+  /* Change Map Name Display */
   | $<281, [0 | 1]>
-  /** Change Tileset */
+  /* Change Tileset */
   | $<282, [TilesetID]>
-  /** Change Battle Background */
+  /* Change Battle Background */
   | $<283, [string, string]>
-  /** Change Parallax */
+  /* Change Parallax */
   | $<
       284,
       [
-        string /** Name */,
-        boolean /** Loop X */,
-        boolean /** Loop Y */,
-        number /** Scroll X Speed */,
-        number /** Scroll Y Speed */
+        string /* Name */,
+        boolean /* Loop X */,
+        boolean /* Loop Y */,
+        number /* Scroll X Speed */,
+        number /* Scroll Y Speed */
       ]
     >
-  /** Get Location Info */
+  /* Get Location Info */
   | $<
       285,
       [
         VariableID,
         (
-          | 0 /** Terrain Tag */
-          | 1 /** Event ID */
-          | (2 | 3 | 4 | 5) /** Tile ID (Layer 1 ~ 4) */
-          /** Region ID */
+          | 0 /* Terrain Tag */
+          | 1 /* Event ID */
+          | (2 | 3 | 4 | 5) /* Tile ID (Layer 1 ~ 4) */
+          /* Region ID */
           | -1
         ),
         ...(
-          | [0, number, number] /** Direct designation */
-          /** Designation by variables */
+          | [0, number, number] /* Direct designation */
+          /* Designation by variables */
           | [1, VariableID, VariableID]
         )
       ]
     >
-  /** Battle Processing */
+  /* Battle Processing */
   | $<
       301,
       [
         ...(
-          | [0, TroopID] /** Direct designation */
-          | [1, VariableID] /** Designation by variables */
+          | [0, TroopID] /* Direct designation */
+          | [1, VariableID] /* Designation by variables */
           | [-1, undefined]
-        ) /** Same as Random Encounters */,
-        boolean /** Can escape */,
-        boolean /** Can lose */
+        ) /* Same as Random Encounters */,
+        boolean /* Can escape */,
+        boolean /* Can lose */
       ]
     >
-  /** If Win */
+  /* If Win */
   | $<601>
-  /** If Escape */
+  /* If Escape */
   | $<602>
-  /** If Lose */
+  /* If Lose */
   | $<603>
-  /** Shop Processing */
-  | $<302, [...ShopGoods, boolean /** Purchase only */]>
+  /* Shop Processing */
+  | $<302, [...ShopGoods, boolean /* Purchase only */]>
   | $<605, ShopGoods>
-  /** Name Input Processing */
-  | $<303, [ActorID, number /** Max length */]>
-  /** Change HP */
-  | $<311, [...ChangeActorValue, boolean /** Allow Death */]>
-  /** Change MP */
+  /* Name Input Processing */
+  | $<303, [ActorID, number /* Max length */]>
+  /* Change HP */
+  | $<311, [...ChangeActorValue, boolean /* Allow Death */]>
+  /* Change MP */
   | $<312, ChangeActorValue>
-  /** Change TP */
+  /* Change TP */
   | $<326, ChangeActorValue>
-  /** Change State */
-  | $<313, [...IterateActorArguments, 0 | 1 /** Add | Remove */, StateID]>
-  /** Recover All */
+  /* Change State */
+  | $<313, [...IterateActorArguments, 0 | 1 /* Add | Remove */, StateID]>
+  /* Recover All */
   | $<314, IterateActorArguments>
-  /** Change EXP */
-  | $<315, [...ChangeActorValue, boolean /** Show */]>
-  /** Change Level */
-  | $<316, [...ChangeActorValue, boolean /** Show */]>
-  /** Change Parameter */
+  /* Change EXP */
+  | $<315, [...ChangeActorValue, boolean /* Show */]>
+  /* Change Level */
+  | $<316, [...ChangeActorValue, boolean /* Show */]>
+  /* Change Parameter */
   | $<317, [...IterateActorArguments, ParamID, ValueOperation, ...ValueOperand]>
-  /** Change Skill */
-  | $<318, [...IterateActorArguments, 0 | 1 /** Learn | Forget */, SkillID]>
-  /** Change Equipment */
+  /* Change Skill */
+  | $<318, [...IterateActorArguments, 0 | 1 /* Learn | Forget */, SkillID]>
+  /* Change Equipment */
   | $<319, [ActorID, EquipmentType, ItemID]>
-  /** Change Name */
+  /* Change Name */
   | $<320, [ActorID, string]>
-  /** Change Class */
-  | $<321, [ActorID, ClassID, boolean /** Keep EXP */]>
-  /** Change Actor Images */
+  /* Change Class */
+  | $<321, [ActorID, ClassID, boolean /* Keep EXP */]>
+  /* Change Actor Images */
   | $<
       322,
       [
         ActorID,
-        ...[string, number] /** Character Image (Name, Index) */,
-        ...[string, number] /** Face Image (Name, Index) */,
-        string /** Battler Image */
+        ...[string, number] /* Character Image (Name, Index) */,
+        ...[string, number] /* Face Image (Name, Index) */,
+        string /* Battler Image */
       ]
     >
-  /** Change Vehicle Image */
+  /* Change Vehicle Image */
   | $<323, [VehicleType, string, number]>
-  /** Change Nickname */
+  /* Change Nickname */
   | $<324, [ActorID, string]>
-  /** Change Profile */
+  /* Change Profile */
   | $<325, [ActorID, string]>
-  /** Change Enemy HP */
-  | $<331, [...ChangeEnemyValue, boolean /** Allow Death */]>
-  /** Change Enemy MP */
+  /* Change Enemy HP */
+  | $<331, [...ChangeEnemyValue, boolean /* Allow Death */]>
+  /* Change Enemy MP */
   | $<332, ChangeEnemyValue>
-  /** Change Enemy TP */
+  /* Change Enemy TP */
   | $<342, ChangeEnemyValue>
-  /** Change Enemy State */
-  | $<333, [EnemyID, 0 | 1 /** Add | Remove */, StateID]>
-  /** Enemy Recover All */
+  /* Change Enemy State */
+  | $<333, [EnemyID, 0 | 1 /* Add | Remove */, StateID]>
+  /* Enemy Recover All */
   | $<334, [EnemyID]>
-  /** Enemy Appear */
+  /* Enemy Appear */
   | $<335, [EnemyID]>
-  /** Enemy Transform */
+  /* Enemy Transform */
   | $<336, [EnemyID, EnemyID]>
-  /** Show Battle Animation */
+  /* Show Battle Animation */
   | $<337, [EnemyID, AnimationID, boolean]>
-  /** Force Action */
+  /* Force Action */
   | $<339, [...([0, EnemyID] | [1, ActorID]), SkillID, ActorID | EnemyID]>
-  /** Abort Battle */
+  /* Abort Battle */
   | $<340>
-  /** Open Menu Screen */
+  /* Open Menu Screen */
   | $<351>
-  /** Open Save Screen */
+  /* Open Save Screen */
   | $<352>
-  /** Game Over */
+  /* Game Over */
   | $<353>
-  /** Return to Title Screen */
+  /* Return to Title Screen */
   | $<354>
-  /** Script */
+  /* Script */
   | $<355, [string]>
   | $<655, [string]>
-  /** Plugin Command MV (deprecated) */
+  /* Plugin Command MV (deprecated) */
   | $<356, [string]>
-  /** Plugin Command */
-  | $<357, [string /** Plugin File name */, string /** Command Name */, undefined, unknown[] /** Arguments */]>
+  /* Plugin Command */
+  | $<357, [string /* Plugin File name */, string /* Command Name */, undefined, unknown[] /* Arguments */]>
 )
 ```
 
@@ -596,7 +596,7 @@ export declare type RouteMovementCommand =
   | $<typeof Game_Character.ROUTE_MOVE_AWAY, undefined>
   | $<typeof Game_Character.ROUTE_MOVE_FORWARD, undefined>
   | $<typeof Game_Character.ROUTE_MOVE_BACKWARD, undefined>
-  | $<typeof Game_Character.ROUTE_JUMP, [number, number]> /** x, y */
+  | $<typeof Game_Character.ROUTE_JUMP, [number, number]> /* x, y */
   | $<typeof Game_Character.ROUTE_WAIT, [number]>
   | $<typeof Game_Character.ROUTE_TURN_DOWN, undefined>
   | $<typeof Game_Character.ROUTE_TURN_LEFT, undefined>
@@ -643,7 +643,7 @@ export declare type ShopGoods = [...([0, ItemID] | [1, WeaponID] | [2, ArmorID])
 **Signature**
 
 ```ts
-export declare type TextWindowBackgroundType = 0 /** Window */ | 1 /** Dim */ | 2
+export declare type TextWindowBackgroundType = 0 /* Window */ | 1 /* Dim */ | 2
 ```
 
 ## TextWindowPositionType (type alias)
@@ -651,7 +651,7 @@ export declare type TextWindowBackgroundType = 0 /** Window */ | 1 /** Dim */ | 
 **Signature**
 
 ```ts
-export declare type TextWindowPositionType = 0 /** Top */ | 1 /** Middle */ | 2
+export declare type TextWindowPositionType = 0 /* Top */ | 1 /* Middle */ | 2
 ```
 
 ## ValueOperand (type alias)
@@ -659,7 +659,7 @@ export declare type TextWindowPositionType = 0 /** Top */ | 1 /** Middle */ | 2
 **Signature**
 
 ```ts
-export declare type ValueOperand = [0, number] /** Constant */ | [1, VariableID]
+export declare type ValueOperand = [0, number] /* Constant */ | [1, VariableID]
 ```
 
 ## ValueOperation (type alias)
@@ -667,7 +667,7 @@ export declare type ValueOperand = [0, number] /** Constant */ | [1, VariableID]
 **Signature**
 
 ```ts
-export declare type ValueOperation = 0 /** Value */ | 1
+export declare type ValueOperation = 0 /* Value */ | 1
 ```
 
 ## VariableComparisonType (type alias)
@@ -676,11 +676,11 @@ export declare type ValueOperation = 0 /** Value */ | 1
 
 ```ts
 export declare type VariableComparisonType =
-  | 0 /** Equal to */
-  | 1 /** Greater than or Equal to */
-  | 2 /** Less than or Equal to */
-  | 3 /** Greater than */
-  | 4 /** Less than */
+  | 0 /* Equal to */
+  | 1 /* Greater than or Equal to */
+  | 2 /* Less than or Equal to */
+  | 3 /* Greater than */
+  | 4 /* Less than */
   | 5
 ```
 
@@ -689,7 +689,7 @@ export declare type VariableComparisonType =
 **Signature**
 
 ```ts
-export declare type VariableOperationType = 0 /** Set */ | 1 /** Add */ | 2 /** Sub */ | 3 /** Mul */ | 4 /** Div */ | 5
+export declare type VariableOperationType = 0 /* Set */ | 1 /* Add */ | 2 /* Sub */ | 3 /* Mul */ | 4 /* Div */ | 5
 ```
 
 ## WaitMode (type alias)

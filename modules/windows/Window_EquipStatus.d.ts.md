@@ -1,6 +1,6 @@
 ---
 title: windows/Window_EquipStatus.d.ts
-nav_order: 157
+nav_order: 158
 parent: Modules
 ---
 
@@ -52,7 +52,7 @@ export declare class Window_EquipStatus {
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### colSpacing (method)
@@ -60,7 +60,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### refresh (method)
@@ -68,7 +68,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### setTempActor (method)
@@ -76,7 +76,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-setTempActor(tempActor: Game_Actor | null): void;
+setTempActor(tempActor: Game_Actor | null): void
 ```
 
 ### drawAllParams (method)
@@ -84,7 +84,7 @@ setTempActor(tempActor: Game_Actor | null): void;
 **Signature**
 
 ```ts
-drawAllParams(): void;
+drawAllParams(): void
 ```
 
 ### drawItem (method)
@@ -92,7 +92,7 @@ drawAllParams(): void;
 **Signature**
 
 ```ts
-drawItem(x: number, y: number, paramId: ParamID): void;
+drawItem(x: number, y: number, paramId: ParamID): void
 ```
 
 ### drawParamName (method)
@@ -100,7 +100,7 @@ drawItem(x: number, y: number, paramId: ParamID): void;
 **Signature**
 
 ```ts
-drawParamName(x: number, y: number, paramId: ParamID): void;
+drawParamName(x: number, y: number, paramId: ParamID): void
 ```
 
 ### drawCurrentParam (method)
@@ -108,7 +108,7 @@ drawParamName(x: number, y: number, paramId: ParamID): void;
 **Signature**
 
 ```ts
-drawCurrentParam(x: number, y: number, paramId: ParamID): void;
+drawCurrentParam(x: number, y: number, paramId: ParamID): void
 ```
 
 ### drawRightArrow (method)
@@ -116,7 +116,7 @@ drawCurrentParam(x: number, y: number, paramId: ParamID): void;
 **Signature**
 
 ```ts
-drawRightArrow(x: number, y: number): void;
+drawRightArrow(x: number, y: number): void
 ```
 
 ### drawNewParam (method)
@@ -124,7 +124,7 @@ drawRightArrow(x: number, y: number): void;
 **Signature**
 
 ```ts
-drawNewParam(x: number, y: number, paramId: ParamID): void;
+drawNewParam(x: number, y: number, paramId: ParamID): void
 ```
 
 ### rightArrowWidth (method)
@@ -132,7 +132,7 @@ drawNewParam(x: number, y: number, paramId: ParamID): void;
 **Signature**
 
 ```ts
-rightArrowWidth(): number;
+rightArrowWidth(): number
 ```
 
 ### paramWidth (method)
@@ -140,7 +140,7 @@ rightArrowWidth(): number;
 **Signature**
 
 ```ts
-paramWidth(): number;
+paramWidth(): number
 ```
 
 ### paramX (method)
@@ -148,7 +148,7 @@ paramWidth(): number;
 **Signature**
 
 ```ts
-paramX(): number;
+paramX(): number
 ```
 
 ### paramY (method)
@@ -156,7 +156,7 @@ paramX(): number;
 **Signature**
 
 ```ts
-paramY(index: number): number;
+paramY(index: number): number
 ```
 
 ### \_actor (property)

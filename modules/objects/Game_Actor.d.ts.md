@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Actor.d.ts
-nav_order: 65
+nav_order: 66
 parent: Modules
 ---
 
@@ -185,7 +185,7 @@ export declare class Game_Actor {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setup (method)
@@ -193,7 +193,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setup(actorId: ActorID): void;
+setup(actorId: ActorID): void
 ```
 
 ### actorId (method)
@@ -201,7 +201,7 @@ setup(actorId: ActorID): void;
 **Signature**
 
 ```ts
-actorId(): number;
+actorId(): number
 ```
 
 ### actor (method)
@@ -209,7 +209,7 @@ actorId(): number;
 **Signature**
 
 ```ts
-actor(): import("../data").DataActor;
+actor(): import("../data").DataActor
 ```
 
 ### name (method)
@@ -217,7 +217,7 @@ actor(): import("../data").DataActor;
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### setName (method)
@@ -225,7 +225,7 @@ name(): string;
 **Signature**
 
 ```ts
-setName(name: string): void;
+setName(name: string): void
 ```
 
 ### nickname (method)
@@ -233,7 +233,7 @@ setName(name: string): void;
 **Signature**
 
 ```ts
-nickname(): string;
+nickname(): string
 ```
 
 ### setNickname (method)
@@ -241,7 +241,7 @@ nickname(): string;
 **Signature**
 
 ```ts
-setNickname(nickname: string): void;
+setNickname(nickname: string): void
 ```
 
 ### profile (method)
@@ -249,7 +249,7 @@ setNickname(nickname: string): void;
 **Signature**
 
 ```ts
-profile(): string;
+profile(): string
 ```
 
 ### setProfile (method)
@@ -257,7 +257,7 @@ profile(): string;
 **Signature**
 
 ```ts
-setProfile(profile: string): void;
+setProfile(profile: string): void
 ```
 
 ### characterName (method)
@@ -265,7 +265,7 @@ setProfile(profile: string): void;
 **Signature**
 
 ```ts
-characterName(): string;
+characterName(): string
 ```
 
 ### characterIndex (method)
@@ -273,7 +273,7 @@ characterName(): string;
 **Signature**
 
 ```ts
-characterIndex(): number;
+characterIndex(): number
 ```
 
 ### faceName (method)
@@ -281,7 +281,7 @@ characterIndex(): number;
 **Signature**
 
 ```ts
-faceName(): string;
+faceName(): string
 ```
 
 ### faceIndex (method)
@@ -289,7 +289,7 @@ faceName(): string;
 **Signature**
 
 ```ts
-faceIndex(): number;
+faceIndex(): number
 ```
 
 ### battlerName (method)
@@ -297,7 +297,7 @@ faceIndex(): number;
 **Signature**
 
 ```ts
-battlerName(): string;
+battlerName(): string
 ```
 
 ### clearStates (method)
@@ -305,7 +305,7 @@ battlerName(): string;
 **Signature**
 
 ```ts
-clearStates(): void;
+clearStates(): void
 ```
 
 ### eraseState (method)
@@ -313,7 +313,7 @@ clearStates(): void;
 **Signature**
 
 ```ts
-eraseState(stateId: StateID): void;
+eraseState(stateId: StateID): void
 ```
 
 ### resetStateCounts (method)
@@ -321,7 +321,7 @@ eraseState(stateId: StateID): void;
 **Signature**
 
 ```ts
-resetStateCounts(stateId: StateID): void;
+resetStateCounts(stateId: StateID): void
 ```
 
 ### initImages (method)
@@ -329,7 +329,7 @@ resetStateCounts(stateId: StateID): void;
 **Signature**
 
 ```ts
-initImages(): void;
+initImages(): void
 ```
 
 ### expForLevel (method)
@@ -337,7 +337,7 @@ initImages(): void;
 **Signature**
 
 ```ts
-expForLevel(level: number): number;
+expForLevel(level: number): number
 ```
 
 ### initExp (method)
@@ -345,7 +345,7 @@ expForLevel(level: number): number;
 **Signature**
 
 ```ts
-initExp(): void;
+initExp(): void
 ```
 
 ### currentExp (method)
@@ -353,7 +353,7 @@ initExp(): void;
 **Signature**
 
 ```ts
-currentExp(): number;
+currentExp(): number
 ```
 
 ### currentLevelExp (method)
@@ -361,7 +361,7 @@ currentExp(): number;
 **Signature**
 
 ```ts
-currentLevelExp(): number;
+currentLevelExp(): number
 ```
 
 ### nextLevelExp (method)
@@ -369,7 +369,7 @@ currentLevelExp(): number;
 **Signature**
 
 ```ts
-nextLevelExp(): number;
+nextLevelExp(): number
 ```
 
 ### nextRequiredExp (method)
@@ -377,7 +377,7 @@ nextLevelExp(): number;
 **Signature**
 
 ```ts
-nextRequiredExp(): number;
+nextRequiredExp(): number
 ```
 
 ### maxLevel (method)
@@ -385,7 +385,7 @@ nextRequiredExp(): number;
 **Signature**
 
 ```ts
-maxLevel(): number;
+maxLevel(): number
 ```
 
 ### isMaxLevel (method)
@@ -393,7 +393,7 @@ maxLevel(): number;
 **Signature**
 
 ```ts
-isMaxLevel(): boolean;
+isMaxLevel(): boolean
 ```
 
 ### initSkills (method)
@@ -401,7 +401,7 @@ isMaxLevel(): boolean;
 **Signature**
 
 ```ts
-initSkills(): void;
+initSkills(): void
 ```
 
 ### initEquips (method)
@@ -409,7 +409,7 @@ initSkills(): void;
 **Signature**
 
 ```ts
-initEquips(equips: (WeaponID | ArmorID)[]): void;
+initEquips(equips: (WeaponID | ArmorID)[]): void
 ```
 
 ### equipSlots (method)
@@ -417,7 +417,7 @@ initEquips(equips: (WeaponID | ArmorID)[]): void;
 **Signature**
 
 ```ts
-equipSlots(): number[];
+equipSlots(): number[]
 ```
 
 ### equips (method)
@@ -425,7 +425,7 @@ equipSlots(): number[];
 **Signature**
 
 ```ts
-equips(): DataEquipment[];
+equips(): DataEquipment[]
 ```
 
 ### weapons (method)
@@ -433,7 +433,7 @@ equips(): DataEquipment[];
 **Signature**
 
 ```ts
-weapons(): DataWeapon[];
+weapons(): DataWeapon[]
 ```
 
 ### armors (method)
@@ -441,7 +441,7 @@ weapons(): DataWeapon[];
 **Signature**
 
 ```ts
-armors(): DataArmor[];
+armors(): DataArmor[]
 ```
 
 ### hasWeapon (method)
@@ -449,7 +449,7 @@ armors(): DataArmor[];
 **Signature**
 
 ```ts
-hasWeapon(weapon: DataWeapon): boolean;
+hasWeapon(weapon: DataWeapon): boolean
 ```
 
 ### hasArmor (method)
@@ -457,7 +457,7 @@ hasWeapon(weapon: DataWeapon): boolean;
 **Signature**
 
 ```ts
-hasArmor(armor: DataArmor): boolean;
+hasArmor(armor: DataArmor): boolean
 ```
 
 ### isEquipChangeOk (method)
@@ -465,7 +465,7 @@ hasArmor(armor: DataArmor): boolean;
 **Signature**
 
 ```ts
-isEquipChangeOk(slotId: EquipmentSlotID): boolean;
+isEquipChangeOk(slotId: EquipmentSlotID): boolean
 ```
 
 ### changeEquip (method)
@@ -473,7 +473,7 @@ isEquipChangeOk(slotId: EquipmentSlotID): boolean;
 **Signature**
 
 ```ts
-changeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void;
+changeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void
 ```
 
 ### forceChangeEquip (method)
@@ -481,7 +481,7 @@ changeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void;
 **Signature**
 
 ```ts
-forceChangeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void;
+forceChangeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void
 ```
 
 ### tradeItemWithParty (method)
@@ -489,7 +489,7 @@ forceChangeEquip(slotId: EquipmentSlotID, item: DataEquipment | null): void;
 **Signature**
 
 ```ts
-tradeItemWithParty(newItem: DataEquipment | null, oldItem: DataEquipment | null): boolean;
+tradeItemWithParty(newItem: DataEquipment | null, oldItem: DataEquipment | null): boolean
 ```
 
 ### changeEquipById (method)
@@ -497,7 +497,7 @@ tradeItemWithParty(newItem: DataEquipment | null, oldItem: DataEquipment | null)
 **Signature**
 
 ```ts
-changeEquipById(etypeId: EquipmentType, itemId: WeaponID | ArmorID): void;
+changeEquipById(etypeId: EquipmentType, itemId: WeaponID | ArmorID): void
 ```
 
 ### isEquipped (method)
@@ -505,7 +505,7 @@ changeEquipById(etypeId: EquipmentType, itemId: WeaponID | ArmorID): void;
 **Signature**
 
 ```ts
-isEquipped(item: DataEquipment): boolean;
+isEquipped(item: DataEquipment): boolean
 ```
 
 ### discardEquip (method)
@@ -513,7 +513,7 @@ isEquipped(item: DataEquipment): boolean;
 **Signature**
 
 ```ts
-discardEquip(item: DataEquipment): void;
+discardEquip(item: DataEquipment): void
 ```
 
 ### releaseUnequippableItems (method)
@@ -521,7 +521,7 @@ discardEquip(item: DataEquipment): void;
 **Signature**
 
 ```ts
-releaseUnequippableItems(forcing: boolean): void;
+releaseUnequippableItems(forcing: boolean): void
 ```
 
 ### clearEquipments (method)
@@ -529,7 +529,7 @@ releaseUnequippableItems(forcing: boolean): void;
 **Signature**
 
 ```ts
-clearEquipments(): void;
+clearEquipments(): void
 ```
 
 ### optimizeEquipments (method)
@@ -537,7 +537,7 @@ clearEquipments(): void;
 **Signature**
 
 ```ts
-optimizeEquipments(): void;
+optimizeEquipments(): void
 ```
 
 ### bestEquipItem (method)
@@ -545,7 +545,7 @@ optimizeEquipments(): void;
 **Signature**
 
 ```ts
-bestEquipItem(slotId: EquipmentSlotID): DataEquipment | null;
+bestEquipItem(slotId: EquipmentSlotID): DataEquipment | null
 ```
 
 ### calcEquipItemPerformance (method)
@@ -553,7 +553,7 @@ bestEquipItem(slotId: EquipmentSlotID): DataEquipment | null;
 **Signature**
 
 ```ts
-calcEquipItemPerformance(item: DataEquipment): number;
+calcEquipItemPerformance(item: DataEquipment): number
 ```
 
 ### isSkillWtypeOk (method)
@@ -561,7 +561,7 @@ calcEquipItemPerformance(item: DataEquipment): number;
 **Signature**
 
 ```ts
-isSkillWtypeOk(skill: DataSkill): boolean;
+isSkillWtypeOk(skill: DataSkill): boolean
 ```
 
 ### isWtypeEquipped (method)
@@ -569,7 +569,7 @@ isSkillWtypeOk(skill: DataSkill): boolean;
 **Signature**
 
 ```ts
-isWtypeEquipped(wtypeId: WeaponType): boolean;
+isWtypeEquipped(wtypeId: WeaponType): boolean
 ```
 
 ### refresh (method)
@@ -577,7 +577,7 @@ isWtypeEquipped(wtypeId: WeaponType): boolean;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### hide (method)
@@ -585,7 +585,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### isActor (method)
@@ -593,7 +593,7 @@ hide(): void;
 **Signature**
 
 ```ts
-isActor(): boolean;
+isActor(): boolean
 ```
 
 ### friendsUnit (method)
@@ -601,7 +601,7 @@ isActor(): boolean;
 **Signature**
 
 ```ts
-friendsUnit(): import("./Game_Party").Game_Party;
+friendsUnit(): import("./Game_Party").Game_Party
 ```
 
 ### opponentsUnit (method)
@@ -609,7 +609,7 @@ friendsUnit(): import("./Game_Party").Game_Party;
 **Signature**
 
 ```ts
-opponentsUnit(): import("./Game_Troop").Game_Troop;
+opponentsUnit(): import("./Game_Troop").Game_Troop
 ```
 
 ### index (method)
@@ -617,7 +617,7 @@ opponentsUnit(): import("./Game_Troop").Game_Troop;
 **Signature**
 
 ```ts
-index(): number;
+index(): number
 ```
 
 ### isBattleMember (method)
@@ -625,7 +625,7 @@ index(): number;
 **Signature**
 
 ```ts
-isBattleMember(): boolean;
+isBattleMember(): boolean
 ```
 
 ### isFormationChangeOk (method)
@@ -633,7 +633,7 @@ isBattleMember(): boolean;
 **Signature**
 
 ```ts
-isFormationChangeOk(): boolean;
+isFormationChangeOk(): boolean
 ```
 
 ### currentClass (method)
@@ -641,7 +641,7 @@ isFormationChangeOk(): boolean;
 **Signature**
 
 ```ts
-currentClass(): DataClass;
+currentClass(): DataClass
 ```
 
 ### isClass (method)
@@ -649,7 +649,7 @@ currentClass(): DataClass;
 **Signature**
 
 ```ts
-isClass(gameClass: DataClass): boolean;
+isClass(gameClass: DataClass): boolean
 ```
 
 ### skillTypes (method)
@@ -657,7 +657,7 @@ isClass(gameClass: DataClass): boolean;
 **Signature**
 
 ```ts
-skillTypes(): number[];
+skillTypes(): number[]
 ```
 
 ### skills (method)
@@ -665,7 +665,7 @@ skillTypes(): number[];
 **Signature**
 
 ```ts
-skills(): DataSkill[];
+skills(): DataSkill[]
 ```
 
 ### usableSkills (method)
@@ -673,7 +673,7 @@ skills(): DataSkill[];
 **Signature**
 
 ```ts
-usableSkills(): DataSkill[];
+usableSkills(): DataSkill[]
 ```
 
 ### traitObjects (method)
@@ -682,8 +682,8 @@ usableSkills(): DataSkill[];
 
 ```ts
 traitObjects(): {
-        traits: import("../data").Trait[];
-    }[];
+    traits: import("../data").Trait[]
+  }[]
 ```
 
 ### attackElements (method)
@@ -691,7 +691,7 @@ traitObjects(): {
 **Signature**
 
 ```ts
-attackElements(): number[];
+attackElements(): number[]
 ```
 
 ### hasNoWeapons (method)
@@ -699,7 +699,7 @@ attackElements(): number[];
 **Signature**
 
 ```ts
-hasNoWeapons(): boolean;
+hasNoWeapons(): boolean
 ```
 
 ### bareHandsElementId (method)
@@ -707,7 +707,7 @@ hasNoWeapons(): boolean;
 **Signature**
 
 ```ts
-bareHandsElementId(): number;
+bareHandsElementId(): number
 ```
 
 ### paramBase (method)
@@ -715,7 +715,7 @@ bareHandsElementId(): number;
 **Signature**
 
 ```ts
-paramBase(paramId: ParamID): number;
+paramBase(paramId: ParamID): number
 ```
 
 ### paramPlus (method)
@@ -723,7 +723,7 @@ paramBase(paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramPlus(paramId: ParamID): number;
+paramPlus(paramId: ParamID): number
 ```
 
 ### attackAnimationId1 (method)
@@ -731,7 +731,7 @@ paramPlus(paramId: ParamID): number;
 **Signature**
 
 ```ts
-attackAnimationId1(): number;
+attackAnimationId1(): number
 ```
 
 ### attackAnimationId2 (method)
@@ -739,7 +739,7 @@ attackAnimationId1(): number;
 **Signature**
 
 ```ts
-attackAnimationId2(): 0;
+attackAnimationId2(): 0
 ```
 
 ### bareHandsAnimationId (method)
@@ -747,7 +747,7 @@ attackAnimationId2(): 0;
 **Signature**
 
 ```ts
-bareHandsAnimationId(): number;
+bareHandsAnimationId(): number
 ```
 
 ### changeExp (method)
@@ -755,7 +755,7 @@ bareHandsAnimationId(): number;
 **Signature**
 
 ```ts
-changeExp(exp: number, show?: boolean): void;
+changeExp(exp: number, show?: boolean): void
 ```
 
 ### levelUp (method)
@@ -763,7 +763,7 @@ changeExp(exp: number, show?: boolean): void;
 **Signature**
 
 ```ts
-levelUp(): void;
+levelUp(): void
 ```
 
 ### levelDown (method)
@@ -771,7 +771,7 @@ levelUp(): void;
 **Signature**
 
 ```ts
-levelDown(): void;
+levelDown(): void
 ```
 
 ### findNewSkills (method)
@@ -779,7 +779,7 @@ levelDown(): void;
 **Signature**
 
 ```ts
-findNewSkills(lastSkills: DataSkill[]): DataSkill[];
+findNewSkills(lastSkills: DataSkill[]): DataSkill[]
 ```
 
 ### displayLevelUp (method)
@@ -787,7 +787,7 @@ findNewSkills(lastSkills: DataSkill[]): DataSkill[];
 **Signature**
 
 ```ts
-displayLevelUp(newSkills: DataSkill[]): void;
+displayLevelUp(newSkills: DataSkill[]): void
 ```
 
 ### gainExp (method)
@@ -795,7 +795,7 @@ displayLevelUp(newSkills: DataSkill[]): void;
 **Signature**
 
 ```ts
-gainExp(exp: number): void;
+gainExp(exp: number): void
 ```
 
 ### finalExpRate (method)
@@ -803,7 +803,7 @@ gainExp(exp: number): void;
 **Signature**
 
 ```ts
-finalExpRate(): number;
+finalExpRate(): number
 ```
 
 ### benchMembersExpRate (method)
@@ -811,7 +811,7 @@ finalExpRate(): number;
 **Signature**
 
 ```ts
-benchMembersExpRate(): 0 | 1;
+benchMembersExpRate(): 0 | 1
 ```
 
 ### shouldDisplayLevelUp (method)
@@ -819,7 +819,7 @@ benchMembersExpRate(): 0 | 1;
 **Signature**
 
 ```ts
-shouldDisplayLevelUp(): boolean;
+shouldDisplayLevelUp(): boolean
 ```
 
 ### changeLevel (method)
@@ -827,7 +827,7 @@ shouldDisplayLevelUp(): boolean;
 **Signature**
 
 ```ts
-changeLevel(level: number, show?: boolean): void;
+changeLevel(level: number, show?: boolean): void
 ```
 
 ### learnSkill (method)
@@ -835,7 +835,7 @@ changeLevel(level: number, show?: boolean): void;
 **Signature**
 
 ```ts
-learnSkill(skillId: SkillID): void;
+learnSkill(skillId: SkillID): void
 ```
 
 ### forgetSkill (method)
@@ -843,7 +843,7 @@ learnSkill(skillId: SkillID): void;
 **Signature**
 
 ```ts
-forgetSkill(skillId: SkillID): void;
+forgetSkill(skillId: SkillID): void
 ```
 
 ### isLearnedSkill (method)
@@ -851,7 +851,7 @@ forgetSkill(skillId: SkillID): void;
 **Signature**
 
 ```ts
-isLearnedSkill(skillId: SkillID): boolean;
+isLearnedSkill(skillId: SkillID): boolean
 ```
 
 ### hasSkill (method)
@@ -859,7 +859,7 @@ isLearnedSkill(skillId: SkillID): boolean;
 **Signature**
 
 ```ts
-hasSkill(skillId: SkillID): boolean;
+hasSkill(skillId: SkillID): boolean
 ```
 
 ### changeClass (method)
@@ -867,7 +867,7 @@ hasSkill(skillId: SkillID): boolean;
 **Signature**
 
 ```ts
-changeClass(classId: ClassID, keepExp?: boolean): void;
+changeClass(classId: ClassID, keepExp?: boolean): void
 ```
 
 ### setCharacterImage (method)
@@ -875,7 +875,7 @@ changeClass(classId: ClassID, keepExp?: boolean): void;
 **Signature**
 
 ```ts
-setCharacterImage(characterName: string, characterIndex: number): void;
+setCharacterImage(characterName: string, characterIndex: number): void
 ```
 
 ### setFaceImage (method)
@@ -883,7 +883,7 @@ setCharacterImage(characterName: string, characterIndex: number): void;
 **Signature**
 
 ```ts
-setFaceImage(faceName: string, faceIndex: number): void;
+setFaceImage(faceName: string, faceIndex: number): void
 ```
 
 ### setBattlerImage (method)
@@ -891,7 +891,7 @@ setFaceImage(faceName: string, faceIndex: number): void;
 **Signature**
 
 ```ts
-setBattlerImage(battlerName: string): void;
+setBattlerImage(battlerName: string): void
 ```
 
 ### isSpriteVisible (method)
@@ -899,7 +899,7 @@ setBattlerImage(battlerName: string): void;
 **Signature**
 
 ```ts
-isSpriteVisible(): boolean;
+isSpriteVisible(): boolean
 ```
 
 ### performActionStart (method)
@@ -907,7 +907,7 @@ isSpriteVisible(): boolean;
 **Signature**
 
 ```ts
-performActionStart(action: Game_Action): void;
+performActionStart(action: Game_Action): void
 ```
 
 ### performAction (method)
@@ -915,7 +915,7 @@ performActionStart(action: Game_Action): void;
 **Signature**
 
 ```ts
-performAction(action: Game_Action): void;
+performAction(action: Game_Action): void
 ```
 
 ### performActionEnd (method)
@@ -923,7 +923,7 @@ performAction(action: Game_Action): void;
 **Signature**
 
 ```ts
-performActionEnd(): void;
+performActionEnd(): void
 ```
 
 ### performAttack (method)
@@ -931,7 +931,7 @@ performActionEnd(): void;
 **Signature**
 
 ```ts
-performAttack(): void;
+performAttack(): void
 ```
 
 ### performDamage (method)
@@ -939,7 +939,7 @@ performAttack(): void;
 **Signature**
 
 ```ts
-performDamage(): void;
+performDamage(): void
 ```
 
 ### performEvasion (method)
@@ -947,7 +947,7 @@ performDamage(): void;
 **Signature**
 
 ```ts
-performEvasion(): void;
+performEvasion(): void
 ```
 
 ### performMagicEvasion (method)
@@ -955,7 +955,7 @@ performEvasion(): void;
 **Signature**
 
 ```ts
-performMagicEvasion(): void;
+performMagicEvasion(): void
 ```
 
 ### performCounter (method)
@@ -963,7 +963,7 @@ performMagicEvasion(): void;
 **Signature**
 
 ```ts
-performCounter(): void;
+performCounter(): void
 ```
 
 ### performCollapse (method)
@@ -971,7 +971,7 @@ performCounter(): void;
 **Signature**
 
 ```ts
-performCollapse(): void;
+performCollapse(): void
 ```
 
 ### performVictory (method)
@@ -979,7 +979,7 @@ performCollapse(): void;
 **Signature**
 
 ```ts
-performVictory(): void;
+performVictory(): void
 ```
 
 ### performEscape (method)
@@ -987,7 +987,7 @@ performVictory(): void;
 **Signature**
 
 ```ts
-performEscape(): void;
+performEscape(): void
 ```
 
 ### makeActionList (method)
@@ -995,7 +995,7 @@ performEscape(): void;
 **Signature**
 
 ```ts
-makeActionList(): Game_Action[];
+makeActionList(): Game_Action[]
 ```
 
 ### makeAutoBattleActions (method)
@@ -1003,7 +1003,7 @@ makeActionList(): Game_Action[];
 **Signature**
 
 ```ts
-makeAutoBattleActions(): void;
+makeAutoBattleActions(): void
 ```
 
 ### makeConfusionActions (method)
@@ -1011,7 +1011,7 @@ makeAutoBattleActions(): void;
 **Signature**
 
 ```ts
-makeConfusionActions(): void;
+makeConfusionActions(): void
 ```
 
 ### makeActions (method)
@@ -1019,7 +1019,7 @@ makeConfusionActions(): void;
 **Signature**
 
 ```ts
-makeActions(): void;
+makeActions(): void
 ```
 
 ### onPlayerWalk (method)
@@ -1027,7 +1027,7 @@ makeActions(): void;
 **Signature**
 
 ```ts
-onPlayerWalk(): void;
+onPlayerWalk(): void
 ```
 
 ### updateStateSteps (method)
@@ -1035,7 +1035,7 @@ onPlayerWalk(): void;
 **Signature**
 
 ```ts
-updateStateSteps(state: DataState): void;
+updateStateSteps(state: DataState): void
 ```
 
 ### showAddedStates (method)
@@ -1043,7 +1043,7 @@ updateStateSteps(state: DataState): void;
 **Signature**
 
 ```ts
-showAddedStates(): void;
+showAddedStates(): void
 ```
 
 ### showRemovedStates (method)
@@ -1051,7 +1051,7 @@ showAddedStates(): void;
 **Signature**
 
 ```ts
-showRemovedStates(): void;
+showRemovedStates(): void
 ```
 
 ### stepsForTurn (method)
@@ -1059,7 +1059,7 @@ showRemovedStates(): void;
 **Signature**
 
 ```ts
-stepsForTurn(): number;
+stepsForTurn(): number
 ```
 
 ### turnEndOnMap (method)
@@ -1067,7 +1067,7 @@ stepsForTurn(): number;
 **Signature**
 
 ```ts
-turnEndOnMap(): void;
+turnEndOnMap(): void
 ```
 
 ### checkFloorEffect (method)
@@ -1075,7 +1075,7 @@ turnEndOnMap(): void;
 **Signature**
 
 ```ts
-checkFloorEffect(): void;
+checkFloorEffect(): void
 ```
 
 ### executeFloorDamage (method)
@@ -1083,7 +1083,7 @@ checkFloorEffect(): void;
 **Signature**
 
 ```ts
-executeFloorDamage(): void;
+executeFloorDamage(): void
 ```
 
 ### basicFloorDamage (method)
@@ -1091,7 +1091,7 @@ executeFloorDamage(): void;
 **Signature**
 
 ```ts
-basicFloorDamage(): number;
+basicFloorDamage(): number
 ```
 
 ### maxFloorDamage (method)
@@ -1099,7 +1099,7 @@ basicFloorDamage(): number;
 **Signature**
 
 ```ts
-maxFloorDamage(): number;
+maxFloorDamage(): number
 ```
 
 ### performMapDamage (method)
@@ -1107,7 +1107,7 @@ maxFloorDamage(): number;
 **Signature**
 
 ```ts
-performMapDamage(): void;
+performMapDamage(): void
 ```
 
 ### clearActions (method)
@@ -1115,7 +1115,7 @@ performMapDamage(): void;
 **Signature**
 
 ```ts
-clearActions(): void;
+clearActions(): void
 ```
 
 ### inputtingAction (method)
@@ -1123,7 +1123,7 @@ clearActions(): void;
 **Signature**
 
 ```ts
-inputtingAction(): Game_Action;
+inputtingAction(): Game_Action
 ```
 
 ### selectNextCommand (method)
@@ -1131,7 +1131,7 @@ inputtingAction(): Game_Action;
 **Signature**
 
 ```ts
-selectNextCommand(): boolean;
+selectNextCommand(): boolean
 ```
 
 ### selectPreviousCommand (method)
@@ -1139,7 +1139,7 @@ selectNextCommand(): boolean;
 **Signature**
 
 ```ts
-selectPreviousCommand(): boolean;
+selectPreviousCommand(): boolean
 ```
 
 ### lastSkill (method)
@@ -1147,7 +1147,7 @@ selectPreviousCommand(): boolean;
 **Signature**
 
 ```ts
-lastSkill(): DataSkill;
+lastSkill(): DataSkill
 ```
 
 ### lastMenuSkill (method)
@@ -1155,7 +1155,7 @@ lastSkill(): DataSkill;
 **Signature**
 
 ```ts
-lastMenuSkill(): DataSkill;
+lastMenuSkill(): DataSkill
 ```
 
 ### setLastMenuSkill (method)
@@ -1163,7 +1163,7 @@ lastMenuSkill(): DataSkill;
 **Signature**
 
 ```ts
-setLastMenuSkill(skill: DataSkill | null): void;
+setLastMenuSkill(skill: DataSkill | null): void
 ```
 
 ### lastBattleSkill (method)
@@ -1171,7 +1171,7 @@ setLastMenuSkill(skill: DataSkill | null): void;
 **Signature**
 
 ```ts
-lastBattleSkill(): DataSkill;
+lastBattleSkill(): DataSkill
 ```
 
 ### setLastBattleSkill (method)
@@ -1179,7 +1179,7 @@ lastBattleSkill(): DataSkill;
 **Signature**
 
 ```ts
-setLastBattleSkill(skill: DataSkill | null): void;
+setLastBattleSkill(skill: DataSkill | null): void
 ```
 
 ### lastCommandSymbol (method)
@@ -1187,7 +1187,7 @@ setLastBattleSkill(skill: DataSkill | null): void;
 **Signature**
 
 ```ts
-lastCommandSymbol(): string;
+lastCommandSymbol(): string
 ```
 
 ### setLastCommandSymbol (method)
@@ -1195,7 +1195,7 @@ lastCommandSymbol(): string;
 **Signature**
 
 ```ts
-setLastCommandSymbol(symbol: string): void;
+setLastCommandSymbol(symbol: string): void
 ```
 
 ### testEscape (method)
@@ -1203,7 +1203,7 @@ setLastCommandSymbol(symbol: string): void;
 **Signature**
 
 ```ts
-testEscape(item: DataItem): boolean;
+testEscape(item: DataItem): boolean
 ```
 
 ### meetsUsableItemConditions (method)
@@ -1211,7 +1211,7 @@ testEscape(item: DataItem): boolean;
 **Signature**
 
 ```ts
-meetsUsableItemConditions(item: DataItem): boolean;
+meetsUsableItemConditions(item: DataItem): boolean
 ```
 
 ### onEscapeFailure (method)
@@ -1219,7 +1219,7 @@ meetsUsableItemConditions(item: DataItem): boolean;
 **Signature**
 
 ```ts
-onEscapeFailure(): void;
+onEscapeFailure(): void
 ```
 
 ### \_actorId (property)

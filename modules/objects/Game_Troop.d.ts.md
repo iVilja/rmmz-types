@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Troop.d.ts
-nav_order: 89
+nav_order: 90
 parent: Modules
 ---
 
@@ -61,7 +61,7 @@ export declare class Game_Troop {
 **Signature**
 
 ```ts
-isEventRunning(): boolean;
+isEventRunning(): boolean
 ```
 
 ### updateInterpreter (method)
@@ -69,7 +69,7 @@ isEventRunning(): boolean;
 **Signature**
 
 ```ts
-updateInterpreter(): void;
+updateInterpreter(): void
 ```
 
 ### turnCount (method)
@@ -77,7 +77,7 @@ updateInterpreter(): void;
 **Signature**
 
 ```ts
-turnCount(): number;
+turnCount(): number
 ```
 
 ### members (method)
@@ -85,7 +85,7 @@ turnCount(): number;
 **Signature**
 
 ```ts
-members(): Game_Enemy[];
+members(): Game_Enemy[]
 ```
 
 ### clear (method)
@@ -93,7 +93,7 @@ members(): Game_Enemy[];
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### troop (method)
@@ -101,7 +101,7 @@ clear(): void;
 **Signature**
 
 ```ts
-troop(): import("../data").DataTroop;
+troop(): import("../data").DataTroop
 ```
 
 ### setup (method)
@@ -109,7 +109,7 @@ troop(): import("../data").DataTroop;
 **Signature**
 
 ```ts
-setup(troopId: TroopID): void;
+setup(troopId: TroopID): void
 ```
 
 ### makeUniqueNames (method)
@@ -117,7 +117,7 @@ setup(troopId: TroopID): void;
 **Signature**
 
 ```ts
-makeUniqueNames(): void;
+makeUniqueNames(): void
 ```
 
 ### updatePluralFlags (method)
@@ -125,7 +125,7 @@ makeUniqueNames(): void;
 **Signature**
 
 ```ts
-updatePluralFlags(): void;
+updatePluralFlags(): void
 ```
 
 ### letterTable (method)
@@ -133,7 +133,7 @@ updatePluralFlags(): void;
 **Signature**
 
 ```ts
-letterTable(): string[];
+letterTable(): string[]
 ```
 
 ### enemyNames (method)
@@ -141,7 +141,7 @@ letterTable(): string[];
 **Signature**
 
 ```ts
-enemyNames(): string[];
+enemyNames(): string[]
 ```
 
 ### meetsConditions (method)
@@ -149,7 +149,7 @@ enemyNames(): string[];
 **Signature**
 
 ```ts
-meetsConditions(page: DataTroopPage): boolean;
+meetsConditions(page: DataTroopPage): boolean
 ```
 
 ### setupBattleEvent (method)
@@ -157,7 +157,7 @@ meetsConditions(page: DataTroopPage): boolean;
 **Signature**
 
 ```ts
-setupBattleEvent(): void;
+setupBattleEvent(): void
 ```
 
 ### increaseTurn (method)
@@ -165,7 +165,7 @@ setupBattleEvent(): void;
 **Signature**
 
 ```ts
-increaseTurn(): void;
+increaseTurn(): void
 ```
 
 ### expTotal (method)
@@ -173,7 +173,7 @@ increaseTurn(): void;
 **Signature**
 
 ```ts
-expTotal(): number;
+expTotal(): number
 ```
 
 ### goldTotal (method)
@@ -181,7 +181,7 @@ expTotal(): number;
 **Signature**
 
 ```ts
-goldTotal(): number;
+goldTotal(): number
 ```
 
 ### goldRate (method)
@@ -189,7 +189,7 @@ goldTotal(): number;
 **Signature**
 
 ```ts
-goldRate(): 1 | 2;
+goldRate(): 1 | 2
 ```
 
 ### makeDropItems (method)
@@ -197,7 +197,7 @@ goldRate(): 1 | 2;
 **Signature**
 
 ```ts
-makeDropItems(): DataItemBase[];
+makeDropItems(): DataItemBase[]
 ```
 
 ### isTpbTurnEnd (method)
@@ -205,7 +205,7 @@ makeDropItems(): DataItemBase[];
 **Signature**
 
 ```ts
-isTpbTurnEnd(): boolean;
+isTpbTurnEnd(): boolean
 ```
 
 ### \_interpreter (property)

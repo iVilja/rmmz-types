@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Status.d.ts
-nav_order: 115
+nav_order: 116
 parent: Modules
 ---
 
@@ -51,7 +51,7 @@ export declare class Scene_Status
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### helpAreaHeight (method)
@@ -59,7 +59,7 @@ create(): void;
 **Signature**
 
 ```ts
-helpAreaHeight(): number;
+helpAreaHeight(): number
 ```
 
 ### createProfileWindow (method)
@@ -67,7 +67,7 @@ helpAreaHeight(): number;
 **Signature**
 
 ```ts
-createProfileWindow(): void;
+createProfileWindow(): void
 ```
 
 ### profileWindowRect (method)
@@ -75,7 +75,7 @@ createProfileWindow(): void;
 **Signature**
 
 ```ts
-profileWindowRect(): Rectangle;
+profileWindowRect(): Rectangle
 ```
 
 ### createStatusWindow (method)
@@ -83,7 +83,7 @@ profileWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -91,7 +91,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### createStatusParamsWindow (method)
@@ -99,7 +99,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusParamsWindow(): void;
+createStatusParamsWindow(): void
 ```
 
 ### statusParamsWindowRect (method)
@@ -107,7 +107,7 @@ createStatusParamsWindow(): void;
 **Signature**
 
 ```ts
-statusParamsWindowRect(): Rectangle;
+statusParamsWindowRect(): Rectangle
 ```
 
 ### createStatusEquipWindow (method)
@@ -115,7 +115,7 @@ statusParamsWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusEquipWindow(): void;
+createStatusEquipWindow(): void
 ```
 
 ### statusEquipWindowRect (method)
@@ -123,7 +123,7 @@ createStatusEquipWindow(): void;
 **Signature**
 
 ```ts
-statusEquipWindowRect(): Rectangle;
+statusEquipWindowRect(): Rectangle
 ```
 
 ### statusParamsWidth (method)
@@ -131,7 +131,7 @@ statusEquipWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-statusParamsWidth(): number;
+statusParamsWidth(): number
 ```
 
 ### statusParamsHeight (method)
@@ -139,7 +139,7 @@ statusParamsWidth(): number;
 **Signature**
 
 ```ts
-statusParamsHeight(): number;
+statusParamsHeight(): number
 ```
 
 ### profileHeight (method)
@@ -147,7 +147,7 @@ statusParamsHeight(): number;
 **Signature**
 
 ```ts
-profileHeight(): number;
+profileHeight(): number
 ```
 
 ### start (method)
@@ -155,7 +155,7 @@ profileHeight(): number;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### needsPageButtons (method)
@@ -163,7 +163,7 @@ start(): void;
 **Signature**
 
 ```ts
-needsPageButtons(): boolean;
+needsPageButtons(): boolean
 ```
 
 ### refreshActor (method)
@@ -171,7 +171,7 @@ needsPageButtons(): boolean;
 **Signature**
 
 ```ts
-refreshActor(): void;
+refreshActor(): void
 ```
 
 ### onActorChange (method)
@@ -179,7 +179,7 @@ refreshActor(): void;
 **Signature**
 
 ```ts
-onActorChange(): void;
+onActorChange(): void
 ```
 
 ### \_profileWindow (property)

@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Followers.d.ts
-nav_order: 75
+nav_order: 76
 parent: Modules
 ---
 
@@ -57,7 +57,7 @@ export declare class Game_Followers {
 **Signature**
 
 ```ts
-setup(): void;
+setup(): void
 ```
 
 ### isVisible (method)
@@ -65,7 +65,7 @@ setup(): void;
 **Signature**
 
 ```ts
-isVisible(): boolean;
+isVisible(): boolean
 ```
 
 ### show (method)
@@ -73,7 +73,7 @@ isVisible(): boolean;
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -81,7 +81,7 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### data (method)
@@ -89,7 +89,7 @@ hide(): void;
 **Signature**
 
 ```ts
-data(): Game_Follower[];
+data(): Game_Follower[]
 ```
 
 ### reverseData (method)
@@ -97,7 +97,7 @@ data(): Game_Follower[];
 **Signature**
 
 ```ts
-reverseData(): Game_Follower[];
+reverseData(): Game_Follower[]
 ```
 
 ### follower (method)
@@ -105,7 +105,7 @@ reverseData(): Game_Follower[];
 **Signature**
 
 ```ts
-follower(index: number): Game_Follower;
+follower(index: number): Game_Follower
 ```
 
 ### refresh (method)
@@ -113,7 +113,7 @@ follower(index: number): Game_Follower;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### update (method)
@@ -121,7 +121,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateMove (method)
@@ -129,7 +129,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateMove(): void;
+updateMove(): void
 ```
 
 ### jumpAll (method)
@@ -137,7 +137,7 @@ updateMove(): void;
 **Signature**
 
 ```ts
-jumpAll(): void;
+jumpAll(): void
 ```
 
 ### synchronize (method)
@@ -145,7 +145,7 @@ jumpAll(): void;
 **Signature**
 
 ```ts
-synchronize(x: number, y: number, d: Direction): void;
+synchronize(x: number, y: number, d: Direction): void
 ```
 
 ### gather (method)
@@ -153,7 +153,7 @@ synchronize(x: number, y: number, d: Direction): void;
 **Signature**
 
 ```ts
-gather(): void;
+gather(): void
 ```
 
 ### areGathering (method)
@@ -161,7 +161,7 @@ gather(): void;
 **Signature**
 
 ```ts
-areGathering(): boolean;
+areGathering(): boolean
 ```
 
 ### visibleFollowers (method)
@@ -169,7 +169,7 @@ areGathering(): boolean;
 **Signature**
 
 ```ts
-visibleFollowers(): Game_Follower[];
+visibleFollowers(): Game_Follower[]
 ```
 
 ### areMoving (method)
@@ -177,7 +177,7 @@ visibleFollowers(): Game_Follower[];
 **Signature**
 
 ```ts
-areMoving(): boolean;
+areMoving(): boolean
 ```
 
 ### areGathered (method)
@@ -185,7 +185,7 @@ areMoving(): boolean;
 **Signature**
 
 ```ts
-areGathered(): boolean;
+areGathered(): boolean
 ```
 
 ### isSomeoneCollided (method)
@@ -193,7 +193,7 @@ areGathered(): boolean;
 **Signature**
 
 ```ts
-isSomeoneCollided(x: number, y: number): boolean;
+isSomeoneCollided(x: number, y: number): boolean
 ```
 
 ### \_visible (property)

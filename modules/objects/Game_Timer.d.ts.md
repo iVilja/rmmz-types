@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Timer.d.ts
-nav_order: 88
+nav_order: 89
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Game_Timer
 **Signature**
 
 ```ts
-update(sceneActive: boolean): void;
+update(sceneActive: boolean): void
 ```
 
 ### start (method)
@@ -55,7 +55,7 @@ update(sceneActive: boolean): void;
 **Signature**
 
 ```ts
-start(count: number): void;
+start(count: number): void
 ```
 
 ### stop (method)
@@ -63,7 +63,7 @@ start(count: number): void;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### isWorking (method)
@@ -71,7 +71,7 @@ stop(): void;
 **Signature**
 
 ```ts
-isWorking(): boolean;
+isWorking(): boolean
 ```
 
 ### seconds (method)
@@ -79,7 +79,7 @@ isWorking(): boolean;
 **Signature**
 
 ```ts
-seconds(): number;
+seconds(): number
 ```
 
 ### frames (method)
@@ -87,7 +87,7 @@ seconds(): number;
 **Signature**
 
 ```ts
-frames(): number;
+frames(): number
 ```
 
 ### onExpire (method)
@@ -95,7 +95,7 @@ frames(): number;
 **Signature**
 
 ```ts
-onExpire(): void;
+onExpire(): void
 ```
 
 ### \_frames (property)

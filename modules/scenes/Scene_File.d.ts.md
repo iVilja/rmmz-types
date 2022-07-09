@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_File.d.ts
-nav_order: 100
+nav_order: 101
 parent: Modules
 ---
 
@@ -46,7 +46,7 @@ export declare class Scene_File
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### helpAreaHeight (method)
@@ -54,7 +54,7 @@ create(): void;
 **Signature**
 
 ```ts
-helpAreaHeight(): number;
+helpAreaHeight(): number
 ```
 
 ### start (method)
@@ -62,7 +62,7 @@ helpAreaHeight(): number;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### savefileId (method)
@@ -70,7 +70,7 @@ start(): void;
 **Signature**
 
 ```ts
-savefileId(): number;
+savefileId(): number
 ```
 
 ### isSavefileEnabled (method)
@@ -78,7 +78,7 @@ savefileId(): number;
 **Signature**
 
 ```ts
-isSavefileEnabled(savefileId: number): boolean;
+isSavefileEnabled(savefileId: number): boolean
 ```
 
 ### createHelpWindow (method)
@@ -86,7 +86,7 @@ isSavefileEnabled(savefileId: number): boolean;
 **Signature**
 
 ```ts
-createHelpWindow(): void;
+createHelpWindow(): void
 ```
 
 ### helpWindowRect (method)
@@ -94,7 +94,7 @@ createHelpWindow(): void;
 **Signature**
 
 ```ts
-helpWindowRect(): Rectangle;
+helpWindowRect(): Rectangle
 ```
 
 ### createListWindow (method)
@@ -102,7 +102,7 @@ helpWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createListWindow(): void;
+createListWindow(): void
 ```
 
 ### listWindowRect (method)
@@ -110,7 +110,7 @@ createListWindow(): void;
 **Signature**
 
 ```ts
-listWindowRect(): Rectangle;
+listWindowRect(): Rectangle
 ```
 
 ### mode (method)
@@ -118,7 +118,7 @@ listWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-mode(): SavefileMode;
+mode(): SavefileMode
 ```
 
 ### needsAutosave (method)
@@ -126,7 +126,7 @@ mode(): SavefileMode;
 **Signature**
 
 ```ts
-needsAutosave(): boolean;
+needsAutosave(): boolean
 ```
 
 ### activateListWindow (method)
@@ -134,7 +134,7 @@ needsAutosave(): boolean;
 **Signature**
 
 ```ts
-activateListWindow(): void;
+activateListWindow(): void
 ```
 
 ### helpWindowText (method)
@@ -142,7 +142,7 @@ activateListWindow(): void;
 **Signature**
 
 ```ts
-helpWindowText(): string;
+helpWindowText(): string
 ```
 
 ### firstSavefileId (method)
@@ -150,7 +150,7 @@ helpWindowText(): string;
 **Signature**
 
 ```ts
-firstSavefileId(): number;
+firstSavefileId(): number
 ```
 
 ### onSavefileOk (method)
@@ -158,7 +158,7 @@ firstSavefileId(): number;
 **Signature**
 
 ```ts
-onSavefileOk(): void;
+onSavefileOk(): void
 ```
 
 ### \_listWindow (property)

@@ -61,7 +61,7 @@ Destroys the weather.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### update (method)
@@ -71,7 +71,7 @@ Updates the weather for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### \_createBitmaps (method)
@@ -79,7 +79,7 @@ update(): void;
 **Signature**
 
 ```ts
-_createBitmaps(): void;
+_createBitmaps(): void
 ```
 
 ### \_createDimmer (method)
@@ -87,7 +87,7 @@ _createBitmaps(): void;
 **Signature**
 
 ```ts
-_createDimmer(): void;
+_createDimmer(): void
 ```
 
 ### \_updateDimmer (method)
@@ -95,7 +95,7 @@ _createDimmer(): void;
 **Signature**
 
 ```ts
-_updateDimmer(): void;
+_updateDimmer(): void
 ```
 
 ### \_updateAllSprites (method)
@@ -103,7 +103,7 @@ _updateDimmer(): void;
 **Signature**
 
 ```ts
-_updateAllSprites(): void;
+_updateAllSprites(): void
 ```
 
 ### \_addSprite (method)
@@ -111,7 +111,7 @@ _updateAllSprites(): void;
 **Signature**
 
 ```ts
-_addSprite(): void;
+_addSprite(): void
 ```
 
 ### \_removeSprite (method)
@@ -119,7 +119,7 @@ _addSprite(): void;
 **Signature**
 
 ```ts
-_removeSprite(): void;
+_removeSprite(): void
 ```
 
 ### \_updateSprite (method)
@@ -127,7 +127,7 @@ _removeSprite(): void;
 **Signature**
 
 ```ts
-_updateSprite(sprite: WeatherSprite): void;
+_updateSprite(sprite: WeatherSprite): void
 ```
 
 ### \_updateRainSprite (method)
@@ -135,7 +135,7 @@ _updateSprite(sprite: WeatherSprite): void;
 **Signature**
 
 ```ts
-_updateRainSprite(sprite: WeatherSprite): void;
+_updateRainSprite(sprite: WeatherSprite): void
 ```
 
 ### \_updateStormSprite (method)
@@ -143,7 +143,7 @@ _updateRainSprite(sprite: WeatherSprite): void;
 **Signature**
 
 ```ts
-_updateStormSprite(sprite: WeatherSprite): void;
+_updateStormSprite(sprite: WeatherSprite): void
 ```
 
 ### \_updateSnowSprite (method)
@@ -151,7 +151,7 @@ _updateStormSprite(sprite: WeatherSprite): void;
 **Signature**
 
 ```ts
-_updateSnowSprite(sprite: WeatherSprite): void;
+_updateSnowSprite(sprite: WeatherSprite): void
 ```
 
 ### \_rebornSprite (method)
@@ -159,7 +159,7 @@ _updateSnowSprite(sprite: WeatherSprite): void;
 **Signature**
 
 ```ts
-_rebornSprite(sprite: WeatherSprite): void;
+_rebornSprite(sprite: WeatherSprite): void
 ```
 
 ### \_width (property)

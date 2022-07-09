@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Map.d.ts
-nav_order: 78
+nav_order: 79
 parent: Modules
 ---
 
@@ -171,7 +171,7 @@ export declare class Game_Map {
 **Signature**
 
 ```ts
-setup(mapId: MapID): void;
+setup(mapId: MapID): void
 ```
 
 ### isEventRunning (method)
@@ -179,7 +179,7 @@ setup(mapId: MapID): void;
 **Signature**
 
 ```ts
-isEventRunning(): boolean;
+isEventRunning(): boolean
 ```
 
 ### tileWidth (method)
@@ -187,7 +187,7 @@ isEventRunning(): boolean;
 **Signature**
 
 ```ts
-tileWidth(): number;
+tileWidth(): number
 ```
 
 ### tileHeight (method)
@@ -195,7 +195,7 @@ tileWidth(): number;
 **Signature**
 
 ```ts
-tileHeight(): number;
+tileHeight(): number
 ```
 
 ### bushDepth (method)
@@ -203,7 +203,7 @@ tileHeight(): number;
 **Signature**
 
 ```ts
-bushDepth(): number;
+bushDepth(): number
 ```
 
 ### mapId (method)
@@ -211,7 +211,7 @@ bushDepth(): number;
 **Signature**
 
 ```ts
-mapId(): number;
+mapId(): number
 ```
 
 ### tilesetId (method)
@@ -219,7 +219,7 @@ mapId(): number;
 **Signature**
 
 ```ts
-tilesetId(): number;
+tilesetId(): number
 ```
 
 ### displayX (method)
@@ -227,7 +227,7 @@ tilesetId(): number;
 **Signature**
 
 ```ts
-displayX(): number;
+displayX(): number
 ```
 
 ### displayY (method)
@@ -235,7 +235,7 @@ displayX(): number;
 **Signature**
 
 ```ts
-displayY(): number;
+displayY(): number
 ```
 
 ### parallaxName (method)
@@ -243,7 +243,7 @@ displayY(): number;
 **Signature**
 
 ```ts
-parallaxName(): string;
+parallaxName(): string
 ```
 
 ### battleback1Name (method)
@@ -251,7 +251,7 @@ parallaxName(): string;
 **Signature**
 
 ```ts
-battleback1Name(): string | null;
+battleback1Name(): string | null
 ```
 
 ### battleback2Name (method)
@@ -259,7 +259,7 @@ battleback1Name(): string | null;
 **Signature**
 
 ```ts
-battleback2Name(): string | null;
+battleback2Name(): string | null
 ```
 
 ### requestRefresh (method)
@@ -267,7 +267,7 @@ battleback2Name(): string | null;
 **Signature**
 
 ```ts
-requestRefresh(): void;
+requestRefresh(): void
 ```
 
 ### isNameDisplayEnabled (method)
@@ -275,7 +275,7 @@ requestRefresh(): void;
 **Signature**
 
 ```ts
-isNameDisplayEnabled(): boolean;
+isNameDisplayEnabled(): boolean
 ```
 
 ### disableNameDisplay (method)
@@ -283,7 +283,7 @@ isNameDisplayEnabled(): boolean;
 **Signature**
 
 ```ts
-disableNameDisplay(): void;
+disableNameDisplay(): void
 ```
 
 ### enableNameDisplay (method)
@@ -291,7 +291,7 @@ disableNameDisplay(): void;
 **Signature**
 
 ```ts
-enableNameDisplay(): void;
+enableNameDisplay(): void
 ```
 
 ### createVehicles (method)
@@ -299,7 +299,7 @@ enableNameDisplay(): void;
 **Signature**
 
 ```ts
-createVehicles(): void;
+createVehicles(): void
 ```
 
 ### refereshVehicles (method)
@@ -307,7 +307,7 @@ createVehicles(): void;
 **Signature**
 
 ```ts
-refereshVehicles(): void;
+refereshVehicles(): void
 ```
 
 ### vehicles (method)
@@ -315,7 +315,7 @@ refereshVehicles(): void;
 **Signature**
 
 ```ts
-vehicles(): Game_Vehicle[];
+vehicles(): Game_Vehicle[]
 ```
 
 ### vehicle (method)
@@ -323,7 +323,7 @@ vehicles(): Game_Vehicle[];
 **Signature**
 
 ```ts
-vehicle(type: number | VehicleType): Game_Vehicle | null;
+vehicle(type: number | VehicleType): Game_Vehicle | null
 ```
 
 ### boat (method)
@@ -331,7 +331,7 @@ vehicle(type: number | VehicleType): Game_Vehicle | null;
 **Signature**
 
 ```ts
-boat(): Game_Vehicle;
+boat(): Game_Vehicle
 ```
 
 ### ship (method)
@@ -339,7 +339,7 @@ boat(): Game_Vehicle;
 **Signature**
 
 ```ts
-ship(): Game_Vehicle;
+ship(): Game_Vehicle
 ```
 
 ### airship (method)
@@ -347,7 +347,7 @@ ship(): Game_Vehicle;
 **Signature**
 
 ```ts
-airship(): Game_Vehicle;
+airship(): Game_Vehicle
 ```
 
 ### setupEvents (method)
@@ -355,7 +355,7 @@ airship(): Game_Vehicle;
 **Signature**
 
 ```ts
-setupEvents(): void;
+setupEvents(): void
 ```
 
 ### events (method)
@@ -363,7 +363,7 @@ setupEvents(): void;
 **Signature**
 
 ```ts
-events(): Game_Event[];
+events(): Game_Event[]
 ```
 
 ### event (method)
@@ -371,7 +371,7 @@ events(): Game_Event[];
 **Signature**
 
 ```ts
-event(eventId: EventID): Game_Event;
+event(eventId: EventID): Game_Event
 ```
 
 ### eraseEvent (method)
@@ -379,7 +379,7 @@ event(eventId: EventID): Game_Event;
 **Signature**
 
 ```ts
-eraseEvent(eventId: EventID): void;
+eraseEvent(eventId: EventID): void
 ```
 
 ### autorunCommonEvents (method)
@@ -387,7 +387,7 @@ eraseEvent(eventId: EventID): void;
 **Signature**
 
 ```ts
-autorunCommonEvents(): import("../data").DataCommonEvent[];
+autorunCommonEvents(): import("../data").DataCommonEvent[]
 ```
 
 ### parallelCommonEvents (method)
@@ -395,7 +395,7 @@ autorunCommonEvents(): import("../data").DataCommonEvent[];
 **Signature**
 
 ```ts
-parallelCommonEvents(): import("../data").DataCommonEvent[];
+parallelCommonEvents(): import("../data").DataCommonEvent[]
 ```
 
 ### setupScroll (method)
@@ -403,7 +403,7 @@ parallelCommonEvents(): import("../data").DataCommonEvent[];
 **Signature**
 
 ```ts
-setupScroll(): void;
+setupScroll(): void
 ```
 
 ### setupParallax (method)
@@ -411,7 +411,7 @@ setupScroll(): void;
 **Signature**
 
 ```ts
-setupParallax(): void;
+setupParallax(): void
 ```
 
 ### setupBattleback (method)
@@ -419,7 +419,7 @@ setupParallax(): void;
 **Signature**
 
 ```ts
-setupBattleback(): void;
+setupBattleback(): void
 ```
 
 ### setDisplayPos (method)
@@ -427,7 +427,7 @@ setupBattleback(): void;
 **Signature**
 
 ```ts
-setDisplayPos(x: number, y: number): void;
+setDisplayPos(x: number, y: number): void
 ```
 
 ### parallaxOx (method)
@@ -435,7 +435,7 @@ setDisplayPos(x: number, y: number): void;
 **Signature**
 
 ```ts
-parallaxOx(): number;
+parallaxOx(): number
 ```
 
 ### parallaxOy (method)
@@ -443,7 +443,7 @@ parallaxOx(): number;
 **Signature**
 
 ```ts
-parallaxOy(): number;
+parallaxOy(): number
 ```
 
 ### tileset (method)
@@ -451,7 +451,7 @@ parallaxOy(): number;
 **Signature**
 
 ```ts
-tileset(): import("../data").DataTileset;
+tileset(): import("../data").DataTileset
 ```
 
 ### tilesetFlags (method)
@@ -459,7 +459,7 @@ tileset(): import("../data").DataTileset;
 **Signature**
 
 ```ts
-tilesetFlags(): number[];
+tilesetFlags(): number[]
 ```
 
 ### displayName (method)
@@ -467,7 +467,7 @@ tilesetFlags(): number[];
 **Signature**
 
 ```ts
-displayName(): string;
+displayName(): string
 ```
 
 ### width (method)
@@ -475,7 +475,7 @@ displayName(): string;
 **Signature**
 
 ```ts
-width(): number;
+width(): number
 ```
 
 ### height (method)
@@ -483,7 +483,7 @@ width(): number;
 **Signature**
 
 ```ts
-height(): number;
+height(): number
 ```
 
 ### data (method)
@@ -491,7 +491,7 @@ height(): number;
 **Signature**
 
 ```ts
-data(): number[];
+data(): number[]
 ```
 
 ### isLoopHorizontal (method)
@@ -499,7 +499,7 @@ data(): number[];
 **Signature**
 
 ```ts
-isLoopHorizontal(): boolean;
+isLoopHorizontal(): boolean
 ```
 
 ### isLoopVertical (method)
@@ -507,7 +507,7 @@ isLoopHorizontal(): boolean;
 **Signature**
 
 ```ts
-isLoopVertical(): boolean;
+isLoopVertical(): boolean
 ```
 
 ### isDashDisabled (method)
@@ -515,7 +515,7 @@ isLoopVertical(): boolean;
 **Signature**
 
 ```ts
-isDashDisabled(): boolean;
+isDashDisabled(): boolean
 ```
 
 ### encounterList (method)
@@ -523,7 +523,7 @@ isDashDisabled(): boolean;
 **Signature**
 
 ```ts
-encounterList(): import("../data").DataEncounter[];
+encounterList(): import("../data").DataEncounter[]
 ```
 
 ### encounterStep (method)
@@ -531,7 +531,7 @@ encounterList(): import("../data").DataEncounter[];
 **Signature**
 
 ```ts
-encounterStep(): number;
+encounterStep(): number
 ```
 
 ### isOverworld (method)
@@ -539,7 +539,7 @@ encounterStep(): number;
 **Signature**
 
 ```ts
-isOverworld(): boolean;
+isOverworld(): boolean
 ```
 
 ### screenTileX (method)
@@ -547,7 +547,7 @@ isOverworld(): boolean;
 **Signature**
 
 ```ts
-screenTileX(): number;
+screenTileX(): number
 ```
 
 ### screenTileY (method)
@@ -555,7 +555,7 @@ screenTileX(): number;
 **Signature**
 
 ```ts
-screenTileY(): number;
+screenTileY(): number
 ```
 
 ### adjustX (method)
@@ -563,7 +563,7 @@ screenTileY(): number;
 **Signature**
 
 ```ts
-adjustX(x: number): number;
+adjustX(x: number): number
 ```
 
 ### adjustY (method)
@@ -571,7 +571,7 @@ adjustX(x: number): number;
 **Signature**
 
 ```ts
-adjustY(y: number): number;
+adjustY(y: number): number
 ```
 
 ### roundX (method)
@@ -579,7 +579,7 @@ adjustY(y: number): number;
 **Signature**
 
 ```ts
-roundX(x: number): number;
+roundX(x: number): number
 ```
 
 ### roundY (method)
@@ -587,7 +587,7 @@ roundX(x: number): number;
 **Signature**
 
 ```ts
-roundY(y: number): number;
+roundY(y: number): number
 ```
 
 ### xWithDirection (method)
@@ -595,7 +595,7 @@ roundY(y: number): number;
 **Signature**
 
 ```ts
-xWithDirection(x: number, d: Direction): number;
+xWithDirection(x: number, d: Direction): number
 ```
 
 ### yWithDirection (method)
@@ -603,7 +603,7 @@ xWithDirection(x: number, d: Direction): number;
 **Signature**
 
 ```ts
-yWithDirection(y: number, d: Direction): number;
+yWithDirection(y: number, d: Direction): number
 ```
 
 ### roundXWithDirection (method)
@@ -611,7 +611,7 @@ yWithDirection(y: number, d: Direction): number;
 **Signature**
 
 ```ts
-roundXWithDirection(x: number, d: Direction): number;
+roundXWithDirection(x: number, d: Direction): number
 ```
 
 ### roundYWithDirection (method)
@@ -619,7 +619,7 @@ roundXWithDirection(x: number, d: Direction): number;
 **Signature**
 
 ```ts
-roundYWithDirection(y: number, d: Direction): number;
+roundYWithDirection(y: number, d: Direction): number
 ```
 
 ### deltaX (method)
@@ -627,7 +627,7 @@ roundYWithDirection(y: number, d: Direction): number;
 **Signature**
 
 ```ts
-deltaX(x1: number, x2: number): number;
+deltaX(x1: number, x2: number): number
 ```
 
 ### deltaY (method)
@@ -635,7 +635,7 @@ deltaX(x1: number, x2: number): number;
 **Signature**
 
 ```ts
-deltaY(y1: number, y2: number): number;
+deltaY(y1: number, y2: number): number
 ```
 
 ### distance (method)
@@ -643,7 +643,7 @@ deltaY(y1: number, y2: number): number;
 **Signature**
 
 ```ts
-distance(x1: number, y1: number, x2: number, y2: number): number;
+distance(x1: number, y1: number, x2: number, y2: number): number
 ```
 
 ### canvasToMapX (method)
@@ -651,7 +651,7 @@ distance(x1: number, y1: number, x2: number, y2: number): number;
 **Signature**
 
 ```ts
-canvasToMapX(x: number): number;
+canvasToMapX(x: number): number
 ```
 
 ### canvasToMapY (method)
@@ -659,7 +659,7 @@ canvasToMapX(x: number): number;
 **Signature**
 
 ```ts
-canvasToMapY(y: number): number;
+canvasToMapY(y: number): number
 ```
 
 ### autoplay (method)
@@ -667,7 +667,7 @@ canvasToMapY(y: number): number;
 **Signature**
 
 ```ts
-autoplay(): void;
+autoplay(): void
 ```
 
 ### refreshIfNeeded (method)
@@ -675,7 +675,7 @@ autoplay(): void;
 **Signature**
 
 ```ts
-refreshIfNeeded(): void;
+refreshIfNeeded(): void
 ```
 
 ### refresh (method)
@@ -683,7 +683,7 @@ refreshIfNeeded(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### refreshTileEvents (method)
@@ -691,7 +691,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-refreshTileEvents(): void;
+refreshTileEvents(): void
 ```
 
 ### eventsXy (method)
@@ -699,7 +699,7 @@ refreshTileEvents(): void;
 **Signature**
 
 ```ts
-eventsXy(x: number, y: number): Game_Event[];
+eventsXy(x: number, y: number): Game_Event[]
 ```
 
 ### eventsXyNt (method)
@@ -707,7 +707,7 @@ eventsXy(x: number, y: number): Game_Event[];
 **Signature**
 
 ```ts
-eventsXyNt(x: number, y: number): Game_Event[];
+eventsXyNt(x: number, y: number): Game_Event[]
 ```
 
 ### tileEventsXy (method)
@@ -715,7 +715,7 @@ eventsXyNt(x: number, y: number): Game_Event[];
 **Signature**
 
 ```ts
-tileEventsXy(x: number, y: number): Game_Event[];
+tileEventsXy(x: number, y: number): Game_Event[]
 ```
 
 ### eventIdXy (method)
@@ -723,7 +723,7 @@ tileEventsXy(x: number, y: number): Game_Event[];
 **Signature**
 
 ```ts
-eventIdXy(x: number, y: number): number;
+eventIdXy(x: number, y: number): number
 ```
 
 ### scrollDown (method)
@@ -731,7 +731,7 @@ eventIdXy(x: number, y: number): number;
 **Signature**
 
 ```ts
-scrollDown(distance: number): void;
+scrollDown(distance: number): void
 ```
 
 ### scrollLeft (method)
@@ -739,7 +739,7 @@ scrollDown(distance: number): void;
 **Signature**
 
 ```ts
-scrollLeft(distance: number): void;
+scrollLeft(distance: number): void
 ```
 
 ### scrollRight (method)
@@ -747,7 +747,7 @@ scrollLeft(distance: number): void;
 **Signature**
 
 ```ts
-scrollRight(distance: number): void;
+scrollRight(distance: number): void
 ```
 
 ### scrollUp (method)
@@ -755,7 +755,7 @@ scrollRight(distance: number): void;
 **Signature**
 
 ```ts
-scrollUp(distance: number): void;
+scrollUp(distance: number): void
 ```
 
 ### isValid (method)
@@ -763,7 +763,7 @@ scrollUp(distance: number): void;
 **Signature**
 
 ```ts
-isValid(x: number, y: number): boolean;
+isValid(x: number, y: number): boolean
 ```
 
 ### checkPassage (method)
@@ -771,7 +771,7 @@ isValid(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-checkPassage(x: number, y: number, bit: number): boolean;
+checkPassage(x: number, y: number, bit: number): boolean
 ```
 
 ### tileId (method)
@@ -779,7 +779,7 @@ checkPassage(x: number, y: number, bit: number): boolean;
 **Signature**
 
 ```ts
-tileId(x: number, y: number, z: number): number;
+tileId(x: number, y: number, z: number): number
 ```
 
 ### layeredTiles (method)
@@ -787,7 +787,7 @@ tileId(x: number, y: number, z: number): number;
 **Signature**
 
 ```ts
-layeredTiles(x: number, y: number): number[];
+layeredTiles(x: number, y: number): number[]
 ```
 
 ### allTiles (method)
@@ -795,7 +795,7 @@ layeredTiles(x: number, y: number): number[];
 **Signature**
 
 ```ts
-allTiles(x: number, y: number): number[];
+allTiles(x: number, y: number): number[]
 ```
 
 ### autotileType (method)
@@ -803,7 +803,7 @@ allTiles(x: number, y: number): number[];
 **Signature**
 
 ```ts
-autotileType(x: number, y: number, z: number): number;
+autotileType(x: number, y: number, z: number): number
 ```
 
 ### isPassable (method)
@@ -811,7 +811,7 @@ autotileType(x: number, y: number, z: number): number;
 **Signature**
 
 ```ts
-isPassable(x: number, y: number, d: Direction): boolean;
+isPassable(x: number, y: number, d: Direction): boolean
 ```
 
 ### isBoatPassable (method)
@@ -819,7 +819,7 @@ isPassable(x: number, y: number, d: Direction): boolean;
 **Signature**
 
 ```ts
-isBoatPassable(x: number, y: number): boolean;
+isBoatPassable(x: number, y: number): boolean
 ```
 
 ### isShipPassable (method)
@@ -827,7 +827,7 @@ isBoatPassable(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isShipPassable(x: number, y: number): boolean;
+isShipPassable(x: number, y: number): boolean
 ```
 
 ### isAirshipLandOk (method)
@@ -835,7 +835,7 @@ isShipPassable(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isAirshipLandOk(x: number, y: number): boolean;
+isAirshipLandOk(x: number, y: number): boolean
 ```
 
 ### checkLayeredTilesFlags (method)
@@ -843,7 +843,7 @@ isAirshipLandOk(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-checkLayeredTilesFlags(x: number, y: number, bit: number): boolean;
+checkLayeredTilesFlags(x: number, y: number, bit: number): boolean
 ```
 
 ### isLadder (method)
@@ -851,7 +851,7 @@ checkLayeredTilesFlags(x: number, y: number, bit: number): boolean;
 **Signature**
 
 ```ts
-isLadder(x: number, y: number): boolean;
+isLadder(x: number, y: number): boolean
 ```
 
 ### isBush (method)
@@ -859,7 +859,7 @@ isLadder(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isBush(x: number, y: number): boolean;
+isBush(x: number, y: number): boolean
 ```
 
 ### isCounter (method)
@@ -867,7 +867,7 @@ isBush(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isCounter(x: number, y: number): boolean;
+isCounter(x: number, y: number): boolean
 ```
 
 ### isDamageFloor (method)
@@ -875,7 +875,7 @@ isCounter(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isDamageFloor(x: number, y: number): boolean;
+isDamageFloor(x: number, y: number): boolean
 ```
 
 ### terrainTag (method)
@@ -883,7 +883,7 @@ isDamageFloor(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-terrainTag(x: number, y: number): number;
+terrainTag(x: number, y: number): number
 ```
 
 ### regionId (method)
@@ -891,7 +891,7 @@ terrainTag(x: number, y: number): number;
 **Signature**
 
 ```ts
-regionId(x: number, y: number): number;
+regionId(x: number, y: number): number
 ```
 
 ### startScroll (method)
@@ -899,7 +899,7 @@ regionId(x: number, y: number): number;
 **Signature**
 
 ```ts
-startScroll(direction: Direction, distance: number, speed: number): void;
+startScroll(direction: Direction, distance: number, speed: number): void
 ```
 
 ### isScrolling (method)
@@ -907,7 +907,7 @@ startScroll(direction: Direction, distance: number, speed: number): void;
 **Signature**
 
 ```ts
-isScrolling(): boolean;
+isScrolling(): boolean
 ```
 
 ### update (method)
@@ -915,7 +915,7 @@ isScrolling(): boolean;
 **Signature**
 
 ```ts
-update(sceneActive: boolean): void;
+update(sceneActive: boolean): void
 ```
 
 ### updateScroll (method)
@@ -923,7 +923,7 @@ update(sceneActive: boolean): void;
 **Signature**
 
 ```ts
-updateScroll(): void;
+updateScroll(): void
 ```
 
 ### scrollDistance (method)
@@ -931,7 +931,7 @@ updateScroll(): void;
 **Signature**
 
 ```ts
-scrollDistance(): number;
+scrollDistance(): number
 ```
 
 ### doScroll (method)
@@ -939,7 +939,7 @@ scrollDistance(): number;
 **Signature**
 
 ```ts
-doScroll(direction: Direction, distance: number): void;
+doScroll(direction: Direction, distance: number): void
 ```
 
 ### updateEvents (method)
@@ -947,7 +947,7 @@ doScroll(direction: Direction, distance: number): void;
 **Signature**
 
 ```ts
-updateEvents(): void;
+updateEvents(): void
 ```
 
 ### updateVehicles (method)
@@ -955,7 +955,7 @@ updateEvents(): void;
 **Signature**
 
 ```ts
-updateVehicles(): void;
+updateVehicles(): void
 ```
 
 ### updateParallax (method)
@@ -963,7 +963,7 @@ updateVehicles(): void;
 **Signature**
 
 ```ts
-updateParallax(): void;
+updateParallax(): void
 ```
 
 ### changeTileset (method)
@@ -971,7 +971,7 @@ updateParallax(): void;
 **Signature**
 
 ```ts
-changeTileset(tilesetId: number): void;
+changeTileset(tilesetId: number): void
 ```
 
 ### changeBattleback (method)
@@ -979,7 +979,7 @@ changeTileset(tilesetId: number): void;
 **Signature**
 
 ```ts
-changeBattleback(battleback1Name: string | null, battleback2Name: string | null): void;
+changeBattleback(battleback1Name: string | null, battleback2Name: string | null): void
 ```
 
 ### changeParallax (method)
@@ -987,7 +987,7 @@ changeBattleback(battleback1Name: string | null, battleback2Name: string | null)
 **Signature**
 
 ```ts
-changeParallax(name: string, loopX: boolean, loopY: boolean, sx: number, sy: number): void;
+changeParallax(name: string, loopX: boolean, loopY: boolean, sx: number, sy: number): void
 ```
 
 ### updateInterpreter (method)
@@ -995,7 +995,7 @@ changeParallax(name: string, loopX: boolean, loopY: boolean, sx: number, sy: num
 **Signature**
 
 ```ts
-updateInterpreter(): void;
+updateInterpreter(): void
 ```
 
 ### unlockEvent (method)
@@ -1003,7 +1003,7 @@ updateInterpreter(): void;
 **Signature**
 
 ```ts
-unlockEvent(eventId: EventID): void;
+unlockEvent(eventId: EventID): void
 ```
 
 ### setupStartingEvent (method)
@@ -1011,7 +1011,7 @@ unlockEvent(eventId: EventID): void;
 **Signature**
 
 ```ts
-setupStartingEvent(): boolean;
+setupStartingEvent(): boolean
 ```
 
 ### setupTestEvent (method)
@@ -1019,7 +1019,7 @@ setupStartingEvent(): boolean;
 **Signature**
 
 ```ts
-setupTestEvent(): boolean;
+setupTestEvent(): boolean
 ```
 
 ### setupStartingMapEvent (method)
@@ -1027,7 +1027,7 @@ setupTestEvent(): boolean;
 **Signature**
 
 ```ts
-setupStartingMapEvent(): boolean;
+setupStartingMapEvent(): boolean
 ```
 
 ### setupAutorunCommonEvent (method)
@@ -1035,7 +1035,7 @@ setupStartingMapEvent(): boolean;
 **Signature**
 
 ```ts
-setupAutorunCommonEvent(): boolean;
+setupAutorunCommonEvent(): boolean
 ```
 
 ### isAnyEventStarting (method)
@@ -1043,7 +1043,7 @@ setupAutorunCommonEvent(): boolean;
 **Signature**
 
 ```ts
-isAnyEventStarting(): boolean;
+isAnyEventStarting(): boolean
 ```
 
 ### \_interpreter (property)

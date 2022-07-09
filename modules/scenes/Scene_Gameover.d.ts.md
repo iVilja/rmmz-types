@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Gameover.d.ts
-nav_order: 102
+nav_order: 103
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Scene_Gameover
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -49,7 +49,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -57,7 +57,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### stop (method)
@@ -65,7 +65,7 @@ update(): void;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### terminate (method)
@@ -73,7 +73,7 @@ stop(): void;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### playGameoverMusic (method)
@@ -81,7 +81,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-playGameoverMusic(): void;
+playGameoverMusic(): void
 ```
 
 ### createBackground (method)
@@ -89,7 +89,7 @@ playGameoverMusic(): void;
 **Signature**
 
 ```ts
-createBackground(): void;
+createBackground(): void
 ```
 
 ### adjustBackground (method)
@@ -97,7 +97,7 @@ createBackground(): void;
 **Signature**
 
 ```ts
-adjustBackground(): void;
+adjustBackground(): void
 ```
 
 ### isTriggered (method)
@@ -105,7 +105,7 @@ adjustBackground(): void;
 **Signature**
 
 ```ts
-isTriggered(): boolean;
+isTriggered(): boolean
 ```
 
 ### gotoTitle (method)
@@ -113,7 +113,7 @@ isTriggered(): boolean;
 **Signature**
 
 ```ts
-gotoTitle(): void;
+gotoTitle(): void
 ```
 
 ### \_backSprite (property)

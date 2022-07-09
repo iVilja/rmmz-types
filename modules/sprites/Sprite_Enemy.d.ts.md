@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Enemy.d.ts
-nav_order: 129
+nav_order: 130
 parent: Modules
 ---
 
@@ -74,7 +74,7 @@ export declare class Sprite_Enemy
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### createStateIconSprite (method)
@@ -82,7 +82,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-createStateIconSprite(): void;
+createStateIconSprite(): void
 ```
 
 ### setBattler (method)
@@ -90,7 +90,7 @@ createStateIconSprite(): void;
 **Signature**
 
 ```ts
-setBattler(battler: Game_Enemy): void;
+setBattler(battler: Game_Enemy): void
 ```
 
 ### update (method)
@@ -98,7 +98,7 @@ setBattler(battler: Game_Enemy): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBitmap (method)
@@ -106,7 +106,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### loadBitmap (method)
@@ -114,7 +114,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-loadBitmap(name: string): void;
+loadBitmap(name: string): void
 ```
 
 ### setHue (method)
@@ -122,7 +122,7 @@ loadBitmap(name: string): void;
 **Signature**
 
 ```ts
-setHue(hue: number): void;
+setHue(hue: number): void
 ```
 
 ### updateFrame (method)
@@ -130,7 +130,7 @@ setHue(hue: number): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### updatePosition (method)
@@ -138,7 +138,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateStateSprite (method)
@@ -146,7 +146,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateStateSprite(): void;
+updateStateSprite(): void
 ```
 
 ### initVisibility (method)
@@ -154,7 +154,7 @@ updateStateSprite(): void;
 **Signature**
 
 ```ts
-initVisibility(): void;
+initVisibility(): void
 ```
 
 ### setupEffect (method)
@@ -162,7 +162,7 @@ initVisibility(): void;
 **Signature**
 
 ```ts
-setupEffect(): void;
+setupEffect(): void
 ```
 
 ### startEffect (method)
@@ -170,7 +170,7 @@ setupEffect(): void;
 **Signature**
 
 ```ts
-startEffect(effectType: BattlerEffectType): void;
+startEffect(effectType: BattlerEffectType): void
 ```
 
 ### startAppear (method)
@@ -178,7 +178,7 @@ startEffect(effectType: BattlerEffectType): void;
 **Signature**
 
 ```ts
-startAppear(): void;
+startAppear(): void
 ```
 
 ### startDisappear (method)
@@ -186,7 +186,7 @@ startAppear(): void;
 **Signature**
 
 ```ts
-startDisappear(): void;
+startDisappear(): void
 ```
 
 ### startWhiten (method)
@@ -194,7 +194,7 @@ startDisappear(): void;
 **Signature**
 
 ```ts
-startWhiten(): void;
+startWhiten(): void
 ```
 
 ### startBlink (method)
@@ -202,7 +202,7 @@ startWhiten(): void;
 **Signature**
 
 ```ts
-startBlink(): void;
+startBlink(): void
 ```
 
 ### startCollapse (method)
@@ -210,7 +210,7 @@ startBlink(): void;
 **Signature**
 
 ```ts
-startCollapse(): void;
+startCollapse(): void
 ```
 
 ### startBossCollapse (method)
@@ -218,7 +218,7 @@ startCollapse(): void;
 **Signature**
 
 ```ts
-startBossCollapse(): void;
+startBossCollapse(): void
 ```
 
 ### startInstantCollapse (method)
@@ -226,7 +226,7 @@ startBossCollapse(): void;
 **Signature**
 
 ```ts
-startInstantCollapse(): void;
+startInstantCollapse(): void
 ```
 
 ### updateEffect (method)
@@ -234,7 +234,7 @@ startInstantCollapse(): void;
 **Signature**
 
 ```ts
-updateEffect(): void;
+updateEffect(): void
 ```
 
 ### isEffecting (method)
@@ -242,7 +242,7 @@ updateEffect(): void;
 **Signature**
 
 ```ts
-isEffecting(): boolean;
+isEffecting(): boolean
 ```
 
 ### revertToNormal (method)
@@ -250,7 +250,7 @@ isEffecting(): boolean;
 **Signature**
 
 ```ts
-revertToNormal(): void;
+revertToNormal(): void
 ```
 
 ### updateWhiten (method)
@@ -258,7 +258,7 @@ revertToNormal(): void;
 **Signature**
 
 ```ts
-updateWhiten(): void;
+updateWhiten(): void
 ```
 
 ### updateBlink (method)
@@ -266,7 +266,7 @@ updateWhiten(): void;
 **Signature**
 
 ```ts
-updateBlink(): void;
+updateBlink(): void
 ```
 
 ### updateAppear (method)
@@ -274,7 +274,7 @@ updateBlink(): void;
 **Signature**
 
 ```ts
-updateAppear(): void;
+updateAppear(): void
 ```
 
 ### updateDisappear (method)
@@ -282,7 +282,7 @@ updateAppear(): void;
 **Signature**
 
 ```ts
-updateDisappear(): void;
+updateDisappear(): void
 ```
 
 ### updateCollapse (method)
@@ -290,7 +290,7 @@ updateDisappear(): void;
 **Signature**
 
 ```ts
-updateCollapse(): void;
+updateCollapse(): void
 ```
 
 ### updateBossCollapse (method)
@@ -298,7 +298,7 @@ updateCollapse(): void;
 **Signature**
 
 ```ts
-updateBossCollapse(): void;
+updateBossCollapse(): void
 ```
 
 ### updateInstantCollapse (method)
@@ -306,7 +306,7 @@ updateBossCollapse(): void;
 **Signature**
 
 ```ts
-updateInstantCollapse(): void;
+updateInstantCollapse(): void
 ```
 
 ### damageOffsetX (method)
@@ -314,7 +314,7 @@ updateInstantCollapse(): void;
 **Signature**
 
 ```ts
-damageOffsetX(): number;
+damageOffsetX(): number
 ```
 
 ### damageOffsetY (method)
@@ -322,7 +322,7 @@ damageOffsetX(): number;
 **Signature**
 
 ```ts
-damageOffsetY(): number;
+damageOffsetY(): number
 ```
 
 ### \_enemy (property)

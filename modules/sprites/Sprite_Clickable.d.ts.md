@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Clickable.d.ts
-nav_order: 126
+nav_order: 127
 parent: Modules
 ---
 
@@ -46,7 +46,7 @@ export declare class Sprite_Clickable<T>
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### processTouch (method)
@@ -54,7 +54,7 @@ update(): void;
 **Signature**
 
 ```ts
-processTouch(): void;
+processTouch(): void
 ```
 
 ### isPressed (method)
@@ -62,7 +62,7 @@ processTouch(): void;
 **Signature**
 
 ```ts
-isPressed(): boolean;
+isPressed(): boolean
 ```
 
 ### isClickEnabled (method)
@@ -70,7 +70,7 @@ isPressed(): boolean;
 **Signature**
 
 ```ts
-isClickEnabled(): boolean;
+isClickEnabled(): boolean
 ```
 
 ### isBeingTouched (method)
@@ -78,7 +78,7 @@ isClickEnabled(): boolean;
 **Signature**
 
 ```ts
-isBeingTouched(): boolean;
+isBeingTouched(): boolean
 ```
 
 ### hitTest (method)
@@ -86,7 +86,7 @@ isBeingTouched(): boolean;
 **Signature**
 
 ```ts
-hitTest(x: number, y: number): boolean;
+hitTest(x: number, y: number): boolean
 ```
 
 ### onMouseEnter (method)
@@ -94,7 +94,7 @@ hitTest(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-onMouseEnter(): void;
+onMouseEnter(): void
 ```
 
 ### onMouseExit (method)
@@ -102,7 +102,7 @@ onMouseEnter(): void;
 **Signature**
 
 ```ts
-onMouseExit(): void;
+onMouseExit(): void
 ```
 
 ### onPress (method)
@@ -110,7 +110,7 @@ onMouseExit(): void;
 **Signature**
 
 ```ts
-onPress(): void;
+onPress(): void
 ```
 
 ### onClick (method)
@@ -118,7 +118,7 @@ onPress(): void;
 **Signature**
 
 ```ts
-onClick(): void;
+onClick(): void
 ```
 
 ### \_pressed (property)

@@ -1,6 +1,6 @@
 ---
 title: managers/SoundManager.d.ts
-nav_order: 60
+nav_order: 61
 parent: Modules
 ---
 
@@ -67,7 +67,7 @@ export declare class SoundManager {
 **Signature**
 
 ```ts
-static preloadImportantSounds(): void;
+static preloadImportantSounds(): void
 ```
 
 ### loadSystemSound (static method)
@@ -75,7 +75,7 @@ static preloadImportantSounds(): void;
 **Signature**
 
 ```ts
-static loadSystemSound(n: number): void;
+static loadSystemSound(n: number): void
 ```
 
 ### playSystemSound (static method)
@@ -83,7 +83,7 @@ static loadSystemSound(n: number): void;
 **Signature**
 
 ```ts
-static playSystemSound(n: number): void;
+static playSystemSound(n: number): void
 ```
 
 ### playCursor (static method)
@@ -91,7 +91,7 @@ static playSystemSound(n: number): void;
 **Signature**
 
 ```ts
-static playCursor(): void;
+static playCursor(): void
 ```
 
 ### playOk (static method)
@@ -99,7 +99,7 @@ static playCursor(): void;
 **Signature**
 
 ```ts
-static playOk(): void;
+static playOk(): void
 ```
 
 ### playCancel (static method)
@@ -107,7 +107,7 @@ static playOk(): void;
 **Signature**
 
 ```ts
-static playCancel(): void;
+static playCancel(): void
 ```
 
 ### playBuzzer (static method)
@@ -115,7 +115,7 @@ static playCancel(): void;
 **Signature**
 
 ```ts
-static playBuzzer(): void;
+static playBuzzer(): void
 ```
 
 ### playEquip (static method)
@@ -123,7 +123,7 @@ static playBuzzer(): void;
 **Signature**
 
 ```ts
-static playEquip(): void;
+static playEquip(): void
 ```
 
 ### playSave (static method)
@@ -131,7 +131,7 @@ static playEquip(): void;
 **Signature**
 
 ```ts
-static playSave(): void;
+static playSave(): void
 ```
 
 ### playLoad (static method)
@@ -139,7 +139,7 @@ static playSave(): void;
 **Signature**
 
 ```ts
-static playLoad(): void;
+static playLoad(): void
 ```
 
 ### playBattleStart (static method)
@@ -147,7 +147,7 @@ static playLoad(): void;
 **Signature**
 
 ```ts
-static playBattleStart(): void;
+static playBattleStart(): void
 ```
 
 ### playEscape (static method)
@@ -155,7 +155,7 @@ static playBattleStart(): void;
 **Signature**
 
 ```ts
-static playEscape(): void;
+static playEscape(): void
 ```
 
 ### playEnemyAttack (static method)
@@ -163,7 +163,7 @@ static playEscape(): void;
 **Signature**
 
 ```ts
-static playEnemyAttack(): void;
+static playEnemyAttack(): void
 ```
 
 ### playEnemyDamage (static method)
@@ -171,7 +171,7 @@ static playEnemyAttack(): void;
 **Signature**
 
 ```ts
-static playEnemyDamage(): void;
+static playEnemyDamage(): void
 ```
 
 ### playEnemyCollapse (static method)
@@ -179,7 +179,7 @@ static playEnemyDamage(): void;
 **Signature**
 
 ```ts
-static playEnemyCollapse(): void;
+static playEnemyCollapse(): void
 ```
 
 ### playBossCollapse1 (static method)
@@ -187,7 +187,7 @@ static playEnemyCollapse(): void;
 **Signature**
 
 ```ts
-static playBossCollapse1(): void;
+static playBossCollapse1(): void
 ```
 
 ### playBossCollapse2 (static method)
@@ -195,7 +195,7 @@ static playBossCollapse1(): void;
 **Signature**
 
 ```ts
-static playBossCollapse2(): void;
+static playBossCollapse2(): void
 ```
 
 ### playActorDamage (static method)
@@ -203,7 +203,7 @@ static playBossCollapse2(): void;
 **Signature**
 
 ```ts
-static playActorDamage(): void;
+static playActorDamage(): void
 ```
 
 ### playActorCollapse (static method)
@@ -211,7 +211,7 @@ static playActorDamage(): void;
 **Signature**
 
 ```ts
-static playActorCollapse(): void;
+static playActorCollapse(): void
 ```
 
 ### playRecovery (static method)
@@ -219,7 +219,7 @@ static playActorCollapse(): void;
 **Signature**
 
 ```ts
-static playRecovery(): void;
+static playRecovery(): void
 ```
 
 ### playMiss (static method)
@@ -227,7 +227,7 @@ static playRecovery(): void;
 **Signature**
 
 ```ts
-static playMiss(): void;
+static playMiss(): void
 ```
 
 ### playEvasion (static method)
@@ -235,7 +235,7 @@ static playMiss(): void;
 **Signature**
 
 ```ts
-static playEvasion(): void;
+static playEvasion(): void
 ```
 
 ### playMagicEvasion (static method)
@@ -243,7 +243,7 @@ static playEvasion(): void;
 **Signature**
 
 ```ts
-static playMagicEvasion(): void;
+static playMagicEvasion(): void
 ```
 
 ### playReflection (static method)
@@ -251,7 +251,7 @@ static playMagicEvasion(): void;
 **Signature**
 
 ```ts
-static playReflection(): void;
+static playReflection(): void
 ```
 
 ### playShop (static method)
@@ -259,7 +259,7 @@ static playReflection(): void;
 **Signature**
 
 ```ts
-static playShop(): void;
+static playShop(): void
 ```
 
 ### playUseItem (static method)
@@ -267,7 +267,7 @@ static playShop(): void;
 **Signature**
 
 ```ts
-static playUseItem(): void;
+static playUseItem(): void
 ```
 
 ### playUseSkill (static method)
@@ -275,5 +275,5 @@ static playUseItem(): void;
 **Signature**
 
 ```ts
-static playUseSkill(): void;
+static playUseSkill(): void
 ```

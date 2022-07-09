@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Action.d.ts
-nav_order: 63
+nav_order: 64
 parent: Modules
 ---
 
@@ -147,7 +147,7 @@ export declare class Game_Action {
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### setSubject (method)
@@ -155,7 +155,7 @@ clear(): void;
 **Signature**
 
 ```ts
-setSubject(subject: ActionTarget): void;
+setSubject(subject: ActionTarget): void
 ```
 
 ### subject (method)
@@ -163,7 +163,7 @@ setSubject(subject: ActionTarget): void;
 **Signature**
 
 ```ts
-subject(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy;
+subject(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy
 ```
 
 ### friendsUnit (method)
@@ -171,7 +171,7 @@ subject(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy
 **Signature**
 
 ```ts
-friendsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game_Troop;
+friendsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game_Troop
 ```
 
 ### opponentsUnit (method)
@@ -179,7 +179,7 @@ friendsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game_T
 **Signature**
 
 ```ts
-opponentsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game_Troop;
+opponentsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game_Troop
 ```
 
 ### setEnemyAction (method)
@@ -187,7 +187,7 @@ opponentsUnit(): import("./Game_Party").Game_Party | import("./Game_Troop").Game
 **Signature**
 
 ```ts
-setEnemyAction(action: EnemyAction | null | undefined): void;
+setEnemyAction(action: EnemyAction | null | undefined): void
 ```
 
 ### setAttack (method)
@@ -195,7 +195,7 @@ setEnemyAction(action: EnemyAction | null | undefined): void;
 **Signature**
 
 ```ts
-setAttack(): void;
+setAttack(): void
 ```
 
 ### setGuard (method)
@@ -203,7 +203,7 @@ setAttack(): void;
 **Signature**
 
 ```ts
-setGuard(): void;
+setGuard(): void
 ```
 
 ### setSkill (method)
@@ -211,7 +211,7 @@ setGuard(): void;
 **Signature**
 
 ```ts
-setSkill(skillId: SkillID): void;
+setSkill(skillId: SkillID): void
 ```
 
 ### setItem (method)
@@ -219,7 +219,7 @@ setSkill(skillId: SkillID): void;
 **Signature**
 
 ```ts
-setItem(itemId: ItemID): void;
+setItem(itemId: ItemID): void
 ```
 
 ### setItemObject (method)
@@ -227,7 +227,7 @@ setItem(itemId: ItemID): void;
 **Signature**
 
 ```ts
-setItemObject(object: ActionItem | null): void;
+setItemObject(object: ActionItem | null): void
 ```
 
 ### setTarget (method)
@@ -235,7 +235,7 @@ setItemObject(object: ActionItem | null): void;
 **Signature**
 
 ```ts
-setTarget(targetIndex: number): void;
+setTarget(targetIndex: number): void
 ```
 
 ### item (method)
@@ -243,7 +243,7 @@ setTarget(targetIndex: number): void;
 **Signature**
 
 ```ts
-item(): ActionItem;
+item(): ActionItem
 ```
 
 ### isSkill (method)
@@ -251,7 +251,7 @@ item(): ActionItem;
 **Signature**
 
 ```ts
-isSkill(): boolean;
+isSkill(): boolean
 ```
 
 ### isItem (method)
@@ -259,7 +259,7 @@ isSkill(): boolean;
 **Signature**
 
 ```ts
-isItem(): boolean;
+isItem(): boolean
 ```
 
 ### numRepeats (method)
@@ -267,7 +267,7 @@ isItem(): boolean;
 **Signature**
 
 ```ts
-numRepeats(): number;
+numRepeats(): number
 ```
 
 ### checkItemScope (method)
@@ -275,7 +275,7 @@ numRepeats(): number;
 **Signature**
 
 ```ts
-checkItemScope(list: Scope[]): boolean;
+checkItemScope(list: Scope[]): boolean
 ```
 
 ### isForOpponent (method)
@@ -283,7 +283,7 @@ checkItemScope(list: Scope[]): boolean;
 **Signature**
 
 ```ts
-isForOpponent(): boolean;
+isForOpponent(): boolean
 ```
 
 ### isForFriend (method)
@@ -291,7 +291,7 @@ isForOpponent(): boolean;
 **Signature**
 
 ```ts
-isForFriend(): boolean;
+isForFriend(): boolean
 ```
 
 ### isForEveryone (method)
@@ -299,7 +299,7 @@ isForFriend(): boolean;
 **Signature**
 
 ```ts
-isForEveryone(): boolean;
+isForEveryone(): boolean
 ```
 
 ### isForAliveFriend (method)
@@ -307,7 +307,7 @@ isForEveryone(): boolean;
 **Signature**
 
 ```ts
-isForAliveFriend(): boolean;
+isForAliveFriend(): boolean
 ```
 
 ### isForDeadFriend (method)
@@ -315,7 +315,7 @@ isForAliveFriend(): boolean;
 **Signature**
 
 ```ts
-isForDeadFriend(): boolean;
+isForDeadFriend(): boolean
 ```
 
 ### isForUser (method)
@@ -323,7 +323,7 @@ isForDeadFriend(): boolean;
 **Signature**
 
 ```ts
-isForUser(): boolean;
+isForUser(): boolean
 ```
 
 ### isForOne (method)
@@ -331,7 +331,7 @@ isForUser(): boolean;
 **Signature**
 
 ```ts
-isForOne(): boolean;
+isForOne(): boolean
 ```
 
 ### isForRandom (method)
@@ -339,7 +339,7 @@ isForOne(): boolean;
 **Signature**
 
 ```ts
-isForRandom(): boolean;
+isForRandom(): boolean
 ```
 
 ### isForAll (method)
@@ -347,7 +347,7 @@ isForRandom(): boolean;
 **Signature**
 
 ```ts
-isForAll(): boolean;
+isForAll(): boolean
 ```
 
 ### needsSelection (method)
@@ -355,7 +355,7 @@ isForAll(): boolean;
 **Signature**
 
 ```ts
-needsSelection(): boolean;
+needsSelection(): boolean
 ```
 
 ### numTargets (method)
@@ -363,7 +363,7 @@ needsSelection(): boolean;
 **Signature**
 
 ```ts
-numTargets(): number;
+numTargets(): number
 ```
 
 ### checkDamageType (method)
@@ -371,7 +371,7 @@ numTargets(): number;
 **Signature**
 
 ```ts
-checkDamageType(list: DamageType[]): boolean;
+checkDamageType(list: DamageType[]): boolean
 ```
 
 ### isHpEffect (method)
@@ -379,7 +379,7 @@ checkDamageType(list: DamageType[]): boolean;
 **Signature**
 
 ```ts
-isHpEffect(): boolean;
+isHpEffect(): boolean
 ```
 
 ### isMpEffect (method)
@@ -387,7 +387,7 @@ isHpEffect(): boolean;
 **Signature**
 
 ```ts
-isMpEffect(): boolean;
+isMpEffect(): boolean
 ```
 
 ### isDamage (method)
@@ -395,7 +395,7 @@ isMpEffect(): boolean;
 **Signature**
 
 ```ts
-isDamage(): boolean;
+isDamage(): boolean
 ```
 
 ### isRecover (method)
@@ -403,7 +403,7 @@ isDamage(): boolean;
 **Signature**
 
 ```ts
-isRecover(): boolean;
+isRecover(): boolean
 ```
 
 ### isDrain (method)
@@ -411,7 +411,7 @@ isRecover(): boolean;
 **Signature**
 
 ```ts
-isDrain(): boolean;
+isDrain(): boolean
 ```
 
 ### isHpRecover (method)
@@ -419,7 +419,7 @@ isDrain(): boolean;
 **Signature**
 
 ```ts
-isHpRecover(): boolean;
+isHpRecover(): boolean
 ```
 
 ### isMpRecover (method)
@@ -427,7 +427,7 @@ isHpRecover(): boolean;
 **Signature**
 
 ```ts
-isMpRecover(): boolean;
+isMpRecover(): boolean
 ```
 
 ### isCertainHit (method)
@@ -435,7 +435,7 @@ isMpRecover(): boolean;
 **Signature**
 
 ```ts
-isCertainHit(): boolean;
+isCertainHit(): boolean
 ```
 
 ### isPhysical (method)
@@ -443,7 +443,7 @@ isCertainHit(): boolean;
 **Signature**
 
 ```ts
-isPhysical(): boolean;
+isPhysical(): boolean
 ```
 
 ### isMagical (method)
@@ -451,7 +451,7 @@ isPhysical(): boolean;
 **Signature**
 
 ```ts
-isMagical(): boolean;
+isMagical(): boolean
 ```
 
 ### isAttack (method)
@@ -459,7 +459,7 @@ isMagical(): boolean;
 **Signature**
 
 ```ts
-isAttack(): boolean;
+isAttack(): boolean
 ```
 
 ### isGuard (method)
@@ -467,7 +467,7 @@ isAttack(): boolean;
 **Signature**
 
 ```ts
-isGuard(): boolean;
+isGuard(): boolean
 ```
 
 ### isMagicSkill (method)
@@ -475,7 +475,7 @@ isGuard(): boolean;
 **Signature**
 
 ```ts
-isMagicSkill(): boolean;
+isMagicSkill(): boolean
 ```
 
 ### decideRandomTarget (method)
@@ -483,7 +483,7 @@ isMagicSkill(): boolean;
 **Signature**
 
 ```ts
-decideRandomTarget(): void;
+decideRandomTarget(): void
 ```
 
 ### setConfusion (method)
@@ -491,7 +491,7 @@ decideRandomTarget(): void;
 **Signature**
 
 ```ts
-setConfusion(): void;
+setConfusion(): void
 ```
 
 ### prepare (method)
@@ -499,7 +499,7 @@ setConfusion(): void;
 **Signature**
 
 ```ts
-prepare(): void;
+prepare(): void
 ```
 
 ### isValid (method)
@@ -507,7 +507,7 @@ prepare(): void;
 **Signature**
 
 ```ts
-isValid(): boolean | ActionItem;
+isValid(): boolean | ActionItem
 ```
 
 ### speed (method)
@@ -515,7 +515,7 @@ isValid(): boolean | ActionItem;
 **Signature**
 
 ```ts
-speed(): number;
+speed(): number
 ```
 
 ### makeTargets (method)
@@ -523,7 +523,7 @@ speed(): number;
 **Signature**
 
 ```ts
-makeTargets(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+makeTargets(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### repeatTargets (method)
@@ -531,7 +531,9 @@ makeTargets(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_
 **Signature**
 
 ```ts
-repeatTargets(targets: (ActionTarget | null)[]): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+repeatTargets(
+    targets: (ActionTarget | null)[]
+  ): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### confusionTarget (method)
@@ -539,7 +541,7 @@ repeatTargets(targets: (ActionTarget | null)[]): (import("./Game_Actor").Game_Ac
 **Signature**
 
 ```ts
-confusionTarget(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null;
+confusionTarget(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null
 ```
 
 ### targetsForEveryone (method)
@@ -547,7 +549,7 @@ confusionTarget(): import("./Game_Actor").Game_Actor | import("./Game_Enemy").Ga
 **Signature**
 
 ```ts
-targetsForEveryone(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+targetsForEveryone(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### targetsForOpponents (method)
@@ -555,7 +557,7 @@ targetsForEveryone(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy"
 **Signature**
 
 ```ts
-targetsForOpponents(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[];
+targetsForOpponents(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[]
 ```
 
 ### targetsForFriends (method)
@@ -563,7 +565,7 @@ targetsForOpponents(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy
 **Signature**
 
 ```ts
-targetsForFriends(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[];
+targetsForFriends(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[]
 ```
 
 ### randomTargets (method)
@@ -571,7 +573,9 @@ targetsForFriends(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy")
 **Signature**
 
 ```ts
-randomTargets(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[];
+randomTargets(
+    unit: ActionUnit
+  ): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[]
 ```
 
 ### targetsForDead (method)
@@ -579,7 +583,7 @@ randomTargets(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./
 **Signature**
 
 ```ts
-targetsForDead(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+targetsForDead(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### targetsForAlive (method)
@@ -587,7 +591,9 @@ targetsForDead(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import(".
 **Signature**
 
 ```ts
-targetsForAlive(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[];
+targetsForAlive(
+    unit: ActionUnit
+  ): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy | null)[]
 ```
 
 ### targetsForDeadAndAlive (method)
@@ -595,7 +601,9 @@ targetsForAlive(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("
 **Signature**
 
 ```ts
-targetsForDeadAndAlive(unit: ActionUnit): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+targetsForDeadAndAlive(
+    unit: ActionUnit
+  ): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### evaluate (method)
@@ -603,7 +611,7 @@ targetsForDeadAndAlive(unit: ActionUnit): (import("./Game_Actor").Game_Actor | i
 **Signature**
 
 ```ts
-evaluate(): number;
+evaluate(): number
 ```
 
 ### itemTargetCandidates (method)
@@ -611,7 +619,7 @@ evaluate(): number;
 **Signature**
 
 ```ts
-itemTargetCandidates(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[];
+itemTargetCandidates(): (import("./Game_Actor").Game_Actor | import("./Game_Enemy").Game_Enemy)[]
 ```
 
 ### evaluateWithTarget (method)
@@ -619,7 +627,7 @@ itemTargetCandidates(): (import("./Game_Actor").Game_Actor | import("./Game_Enem
 **Signature**
 
 ```ts
-evaluateWithTarget(target: ActionTarget): number | undefined;
+evaluateWithTarget(target: ActionTarget): number | undefined
 ```
 
 ### testApply (method)
@@ -627,7 +635,7 @@ evaluateWithTarget(target: ActionTarget): number | undefined;
 **Signature**
 
 ```ts
-testApply(target: ActionTarget): boolean;
+testApply(target: ActionTarget): boolean
 ```
 
 ### testLifeAndDeath (method)
@@ -635,7 +643,7 @@ testApply(target: ActionTarget): boolean;
 **Signature**
 
 ```ts
-testLifeAndDeath(target: ActionTarget): boolean;
+testLifeAndDeath(target: ActionTarget): boolean
 ```
 
 ### hasItemAnyValidEffects (method)
@@ -643,7 +651,7 @@ testLifeAndDeath(target: ActionTarget): boolean;
 **Signature**
 
 ```ts
-hasItemAnyValidEffects(target: ActionTarget): boolean;
+hasItemAnyValidEffects(target: ActionTarget): boolean
 ```
 
 ### testItemEffect (method)
@@ -651,7 +659,7 @@ hasItemAnyValidEffects(target: ActionTarget): boolean;
 **Signature**
 
 ```ts
-testItemEffect(target: ActionTarget, effect: ActionEffectBase): boolean;
+testItemEffect(target: ActionTarget, effect: ActionEffectBase): boolean
 ```
 
 ### itemCnt (method)
@@ -659,7 +667,7 @@ testItemEffect(target: ActionTarget, effect: ActionEffectBase): boolean;
 **Signature**
 
 ```ts
-itemCnt(target: ActionTarget): number;
+itemCnt(target: ActionTarget): number
 ```
 
 ### itemMrf (method)
@@ -667,7 +675,7 @@ itemCnt(target: ActionTarget): number;
 **Signature**
 
 ```ts
-itemMrf(target: ActionTarget): number;
+itemMrf(target: ActionTarget): number
 ```
 
 ### itemHit (method)
@@ -675,7 +683,7 @@ itemMrf(target: ActionTarget): number;
 **Signature**
 
 ```ts
-itemHit(_target: ActionTarget): number;
+itemHit(_target: ActionTarget): number
 ```
 
 ### itemEva (method)
@@ -683,7 +691,7 @@ itemHit(_target: ActionTarget): number;
 **Signature**
 
 ```ts
-itemEva(target: ActionTarget): number;
+itemEva(target: ActionTarget): number
 ```
 
 ### itemCri (method)
@@ -691,7 +699,7 @@ itemEva(target: ActionTarget): number;
 **Signature**
 
 ```ts
-itemCri(target: ActionTarget): number;
+itemCri(target: ActionTarget): number
 ```
 
 ### apply (method)
@@ -699,7 +707,7 @@ itemCri(target: ActionTarget): number;
 **Signature**
 
 ```ts
-apply(target: ActionTarget): void;
+apply(target: ActionTarget): void
 ```
 
 ### makeDamageValue (method)
@@ -707,7 +715,7 @@ apply(target: ActionTarget): void;
 **Signature**
 
 ```ts
-makeDamageValue(target: ActionTarget, critical: boolean): number;
+makeDamageValue(target: ActionTarget, critical: boolean): number
 ```
 
 ### evalDamageFormula (method)
@@ -715,7 +723,7 @@ makeDamageValue(target: ActionTarget, critical: boolean): number;
 **Signature**
 
 ```ts
-evalDamageFormula(target: ActionTarget): number;
+evalDamageFormula(target: ActionTarget): number
 ```
 
 ### calcElementRate (method)
@@ -723,7 +731,7 @@ evalDamageFormula(target: ActionTarget): number;
 **Signature**
 
 ```ts
-calcElementRate(target: ActionTarget): number;
+calcElementRate(target: ActionTarget): number
 ```
 
 ### elementsMaxRate (method)
@@ -731,7 +739,7 @@ calcElementRate(target: ActionTarget): number;
 **Signature**
 
 ```ts
-elementsMaxRate(target: ActionTarget, elements: DataID[]): number;
+elementsMaxRate(target: ActionTarget, elements: DataID[]): number
 ```
 
 ### applyCritical (method)
@@ -739,7 +747,7 @@ elementsMaxRate(target: ActionTarget, elements: DataID[]): number;
 **Signature**
 
 ```ts
-applyCritical(damage: number): number;
+applyCritical(damage: number): number
 ```
 
 ### applyVariance (method)
@@ -747,7 +755,7 @@ applyCritical(damage: number): number;
 **Signature**
 
 ```ts
-applyVariance(damage: number, variance: number): number;
+applyVariance(damage: number, variance: number): number
 ```
 
 ### applyGuard (method)
@@ -755,7 +763,7 @@ applyVariance(damage: number, variance: number): number;
 **Signature**
 
 ```ts
-applyGuard(damage: number, target: ActionTarget): number;
+applyGuard(damage: number, target: ActionTarget): number
 ```
 
 ### executeDamage (method)
@@ -763,7 +771,7 @@ applyGuard(damage: number, target: ActionTarget): number;
 **Signature**
 
 ```ts
-executeDamage(target: ActionTarget, value: number): void;
+executeDamage(target: ActionTarget, value: number): void
 ```
 
 ### executeHpDamage (method)
@@ -771,7 +779,7 @@ executeDamage(target: ActionTarget, value: number): void;
 **Signature**
 
 ```ts
-executeHpDamage(target: ActionTarget, value: number): void;
+executeHpDamage(target: ActionTarget, value: number): void
 ```
 
 ### executeMpDamage (method)
@@ -779,7 +787,7 @@ executeHpDamage(target: ActionTarget, value: number): void;
 **Signature**
 
 ```ts
-executeMpDamage(target: ActionTarget, value: number): void;
+executeMpDamage(target: ActionTarget, value: number): void
 ```
 
 ### gainDrainedHp (method)
@@ -787,7 +795,7 @@ executeMpDamage(target: ActionTarget, value: number): void;
 **Signature**
 
 ```ts
-gainDrainedHp(value: number): void;
+gainDrainedHp(value: number): void
 ```
 
 ### gainDrainedMp (method)
@@ -795,7 +803,7 @@ gainDrainedHp(value: number): void;
 **Signature**
 
 ```ts
-gainDrainedMp(value: number): void;
+gainDrainedMp(value: number): void
 ```
 
 ### applyItemEffect (method)
@@ -803,7 +811,7 @@ gainDrainedMp(value: number): void;
 **Signature**
 
 ```ts
-applyItemEffect(target: ActionTarget, effect: ActionEffectBase): void;
+applyItemEffect(target: ActionTarget, effect: ActionEffectBase): void
 ```
 
 ### itemEffectRecoverHp (method)
@@ -811,7 +819,7 @@ applyItemEffect(target: ActionTarget, effect: ActionEffectBase): void;
 **Signature**
 
 ```ts
-itemEffectRecoverHp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_RECOVER_HP>): void;
+itemEffectRecoverHp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_RECOVER_HP>): void
 ```
 
 ### itemEffectRecoverMp (method)
@@ -819,7 +827,7 @@ itemEffectRecoverHp(target: ActionTarget, effect: ActionEffect<typeof Game_Actio
 **Signature**
 
 ```ts
-itemEffectRecoverMp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_RECOVER_MP>): void;
+itemEffectRecoverMp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_RECOVER_MP>): void
 ```
 
 ### itemEffectGainTp (method)
@@ -827,7 +835,7 @@ itemEffectRecoverMp(target: ActionTarget, effect: ActionEffect<typeof Game_Actio
 **Signature**
 
 ```ts
-itemEffectGainTp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_GAIN_TP>): void;
+itemEffectGainTp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_GAIN_TP>): void
 ```
 
 ### itemEffectAddState (method)
@@ -835,7 +843,7 @@ itemEffectGainTp(target: ActionTarget, effect: ActionEffect<typeof Game_Action.E
 **Signature**
 
 ```ts
-itemEffectAddState(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>): void;
+itemEffectAddState(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>): void
 ```
 
 ### itemEffectAddAttackState (method)
@@ -843,7 +851,10 @@ itemEffectAddState(target: ActionTarget, effect: ActionEffect<typeof Game_Action
 **Signature**
 
 ```ts
-itemEffectAddAttackState(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>): void;
+itemEffectAddAttackState(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>
+  ): void
 ```
 
 ### itemEffectAddNormalState (method)
@@ -851,7 +862,10 @@ itemEffectAddAttackState(target: ActionTarget, effect: ActionEffect<typeof Game_
 **Signature**
 
 ```ts
-itemEffectAddNormalState(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>): void;
+itemEffectAddNormalState(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_ADD_STATE>
+  ): void
 ```
 
 ### itemEffectRemoveState (method)
@@ -859,7 +873,10 @@ itemEffectAddNormalState(target: ActionTarget, effect: ActionEffect<typeof Game_
 **Signature**
 
 ```ts
-itemEffectRemoveState(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_STATE>): void;
+itemEffectRemoveState(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_STATE>
+  ): void
 ```
 
 ### itemEffectAddBuff (method)
@@ -867,7 +884,7 @@ itemEffectRemoveState(target: ActionTarget, effect: ActionEffect<typeof Game_Act
 **Signature**
 
 ```ts
-itemEffectAddBuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_BUFF>): void;
+itemEffectAddBuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_BUFF>): void
 ```
 
 ### itemEffectAddDebuff (method)
@@ -875,7 +892,7 @@ itemEffectAddBuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.
 **Signature**
 
 ```ts
-itemEffectAddDebuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_DEBUFF>): void;
+itemEffectAddDebuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_ADD_DEBUFF>): void
 ```
 
 ### itemEffectRemoveBuff (method)
@@ -883,7 +900,10 @@ itemEffectAddDebuff(target: ActionTarget, effect: ActionEffect<typeof Game_Actio
 **Signature**
 
 ```ts
-itemEffectRemoveBuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_BUFF>): void;
+itemEffectRemoveBuff(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_BUFF>
+  ): void
 ```
 
 ### itemEffectRemoveDebuff (method)
@@ -891,7 +911,10 @@ itemEffectRemoveBuff(target: ActionTarget, effect: ActionEffect<typeof Game_Acti
 **Signature**
 
 ```ts
-itemEffectRemoveDebuff(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_DEBUFF>): void;
+itemEffectRemoveDebuff(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_REMOVE_DEBUFF>
+  ): void
 ```
 
 ### itemEffectSpecial (method)
@@ -899,7 +922,7 @@ itemEffectRemoveDebuff(target: ActionTarget, effect: ActionEffect<typeof Game_Ac
 **Signature**
 
 ```ts
-itemEffectSpecial(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_SPECIAL>): void;
+itemEffectSpecial(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_SPECIAL>): void
 ```
 
 ### itemEffectGrow (method)
@@ -907,7 +930,7 @@ itemEffectSpecial(target: ActionTarget, effect: ActionEffect<typeof Game_Action.
 **Signature**
 
 ```ts
-itemEffectGrow(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_GROW>): void;
+itemEffectGrow(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_GROW>): void
 ```
 
 ### itemEffectLearnSkill (method)
@@ -915,7 +938,10 @@ itemEffectGrow(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFF
 **Signature**
 
 ```ts
-itemEffectLearnSkill(target: ActionTarget, effect: ActionEffect<typeof Game_Action.EFFECT_LEARN_SKILL>): void;
+itemEffectLearnSkill(
+    target: ActionTarget,
+    effect: ActionEffect<typeof Game_Action.EFFECT_LEARN_SKILL>
+  ): void
 ```
 
 ### itemEffectCommonEvent (method)
@@ -923,8 +949,10 @@ itemEffectLearnSkill(target: ActionTarget, effect: ActionEffect<typeof Game_Acti
 **Signature**
 
 ```ts
-itemEffectCommonEvent(_target: ActionTarget, // eslint-disable-line @typescript-eslint/no-unused-vars
-    _effect: ActionEffect<typeof Game_Action.EFFECT_COMMON_EVENT>): void;
+itemEffectCommonEvent(
+    _target: ActionTarget, // eslint-disable-line @typescript-eslint/no-unused-vars
+    _effect: ActionEffect<typeof Game_Action.EFFECT_COMMON_EVENT>
+  ): void
 ```
 
 ### makeSuccess (method)
@@ -932,7 +960,7 @@ itemEffectCommonEvent(_target: ActionTarget, // eslint-disable-line @typescript-
 **Signature**
 
 ```ts
-makeSuccess(target: ActionTarget): void;
+makeSuccess(target: ActionTarget): void
 ```
 
 ### applyItemUserEffect (method)
@@ -940,7 +968,7 @@ makeSuccess(target: ActionTarget): void;
 **Signature**
 
 ```ts
-applyItemUserEffect(_target: ActionTarget): void;
+applyItemUserEffect(_target: ActionTarget): void
 ```
 
 ### lukEffectRate (method)
@@ -948,7 +976,7 @@ applyItemUserEffect(_target: ActionTarget): void;
 **Signature**
 
 ```ts
-lukEffectRate(target: ActionTarget): number;
+lukEffectRate(target: ActionTarget): number
 ```
 
 ### applyGlobal (method)
@@ -956,7 +984,7 @@ lukEffectRate(target: ActionTarget): number;
 **Signature**
 
 ```ts
-applyGlobal(): void;
+applyGlobal(): void
 ```
 
 ### updateLastUsed (method)
@@ -964,7 +992,7 @@ applyGlobal(): void;
 **Signature**
 
 ```ts
-updateLastUsed(): void;
+updateLastUsed(): void
 ```
 
 ### updateLastSubject (method)
@@ -972,7 +1000,7 @@ updateLastUsed(): void;
 **Signature**
 
 ```ts
-updateLastSubject(): void;
+updateLastSubject(): void
 ```
 
 ### updateLastTarget (method)
@@ -980,7 +1008,7 @@ updateLastSubject(): void;
 **Signature**
 
 ```ts
-updateLastTarget(target: ActionTarget): void;
+updateLastTarget(target: ActionTarget): void
 ```
 
 ### \_subjectActorId (property)

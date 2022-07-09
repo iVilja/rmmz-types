@@ -1,6 +1,6 @@
 ---
 title: objects/Game_SelfSwitches.d.ts
-nav_order: 84
+nav_order: 85
 parent: Modules
 ---
 
@@ -38,7 +38,7 @@ export declare class Game_SelfSwitches
 **Signature**
 
 ```ts
-value(key: SelfSwitchID): boolean;
+value(key: SelfSwitchID): boolean
 ```
 
 ### setValue (method)
@@ -46,7 +46,7 @@ value(key: SelfSwitchID): boolean;
 **Signature**
 
 ```ts
-setValue(key: SelfSwitchID, value: boolean): void;
+setValue(key: SelfSwitchID, value: boolean): void
 ```
 
 ### onChange (method)
@@ -54,7 +54,7 @@ setValue(key: SelfSwitchID, value: boolean): void;
 **Signature**
 
 ```ts
-onChange(): void;
+onChange(): void
 ```
 
 ### \_data (property)

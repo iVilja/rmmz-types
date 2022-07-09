@@ -63,7 +63,7 @@ Destroys the sprite.
 **Signature**
 
 ```ts
-destroy(_options?: PIXI.IDestroyOptions | boolean): void;
+destroy(_options?: PIXIDestroyOptions): void
 ```
 
 ### update (method)
@@ -73,7 +73,7 @@ Updates the sprite for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### hide (method)
@@ -83,7 +83,7 @@ Makes the sprite "hidden".
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### show (method)
@@ -93,7 +93,7 @@ Releases the "hidden" state of the sprite.
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### updateVisibility (method)
@@ -103,7 +103,7 @@ Reflects the "hidden" state of the sprite to the visible state.
 **Signature**
 
 ```ts
-updateVisibility(): void;
+updateVisibility(): void
 ```
 
 ### move (method)
@@ -113,7 +113,7 @@ Sets the x and y at once.
 **Signature**
 
 ```ts
-move(x: number, y: number): void;
+move(x: number, y: number): void
 ```
 
 ### setFrame (method)
@@ -123,7 +123,7 @@ Sets the rectagle of the bitmap that the sprite displays.
 **Signature**
 
 ```ts
-setFrame(x: number, y: number, width: number, height: number): void;
+setFrame(x: number, y: number, width: number, height: number): void
 ```
 
 ### setHue (method)
@@ -133,7 +133,7 @@ Sets the hue rotation value.
 **Signature**
 
 ```ts
-setHue(hue: number): void;
+setHue(hue: number): void
 ```
 
 ### getBlendColor (method)
@@ -143,7 +143,7 @@ Gets the blend color for the sprite.
 **Signature**
 
 ```ts
-getBlendColor(): [number, number, number, number];
+getBlendColor(): [number, number, number, number]
 ```
 
 ### setBlendColor (method)
@@ -153,7 +153,7 @@ Sets the blend color for the sprite.
 **Signature**
 
 ```ts
-setBlendColor(color: Color): void;
+setBlendColor(color: Color): void
 ```
 
 ### getColorTone (method)
@@ -163,7 +163,7 @@ Gets the color tone for the sprite.
 **Signature**
 
 ```ts
-getColorTone(): [number, number, number, number];
+getColorTone(): [number, number, number, number]
 ```
 
 ### setColorTone (method)
@@ -173,7 +173,7 @@ Sets the color tone for the sprite.
 **Signature**
 
 ```ts
-setColorTone(tone: Color): void;
+setColorTone(tone: Color): void
 ```
 
 ### \_onBitmapChange (method)
@@ -181,7 +181,7 @@ setColorTone(tone: Color): void;
 **Signature**
 
 ```ts
-_onBitmapChange(): void;
+_onBitmapChange(): void
 ```
 
 ### \_onBitmapLoad (method)
@@ -189,7 +189,7 @@ _onBitmapChange(): void;
 **Signature**
 
 ```ts
-_onBitmapLoad(bitmapLoaded: Bitmap): void;
+_onBitmapLoad(bitmapLoaded: Bitmap): void
 ```
 
 ### \_refresh (method)
@@ -197,7 +197,7 @@ _onBitmapLoad(bitmapLoaded: Bitmap): void;
 **Signature**
 
 ```ts
-_refresh(): void;
+_refresh(): void
 ```
 
 ### \_createColorFilter (method)
@@ -205,7 +205,7 @@ _refresh(): void;
 **Signature**
 
 ```ts
-_createColorFilter(): void;
+_createColorFilter(): void
 ```
 
 ### \_updateColorFilter (method)
@@ -213,7 +213,7 @@ _createColorFilter(): void;
 **Signature**
 
 ```ts
-_updateColorFilter(): void;
+_updateColorFilter(): void
 ```
 
 ### \_refreshFrame (property)

@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ShopCommand.d.ts
-nav_order: 181
+nav_order: 182
 parent: Modules
 ---
 
@@ -38,7 +38,7 @@ export declare class Window_ShopCommand
 **Signature**
 
 ```ts
-setPurchaseOnly(purchaseOnly: boolean): void;
+setPurchaseOnly(purchaseOnly: boolean): void
 ```
 
 ### maxCols (method)
@@ -46,7 +46,7 @@ setPurchaseOnly(purchaseOnly: boolean): void;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### makeCommandList (method)
@@ -54,7 +54,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### \_purchaseOnly (property)

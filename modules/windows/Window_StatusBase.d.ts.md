@@ -1,6 +1,6 @@
 ---
 title: windows/Window_StatusBase.d.ts
-nav_order: 189
+nav_order: 190
 parent: Modules
 ---
 
@@ -56,7 +56,7 @@ export declare class Window_StatusBase {
 **Signature**
 
 ```ts
-loadFaceImages(): void;
+loadFaceImages(): void
 ```
 
 ### refresh (method)
@@ -64,7 +64,7 @@ loadFaceImages(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### hideAdditionalSprites (method)
@@ -72,7 +72,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-hideAdditionalSprites(): void;
+hideAdditionalSprites(): void
 ```
 
 ### placeActorName (method)
@@ -80,7 +80,7 @@ hideAdditionalSprites(): void;
 **Signature**
 
 ```ts
-placeActorName(actor: Game_Actor, x: number, y: number): void;
+placeActorName(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### placeStateIcon (method)
@@ -88,7 +88,7 @@ placeActorName(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-placeStateIcon(actor: Game_Actor, x: number, y: number): void;
+placeStateIcon(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### placeGauge (method)
@@ -96,7 +96,7 @@ placeStateIcon(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-placeGauge(actor: Game_Actor, type: GaugeStatusType, x: number, y: number): void;
+placeGauge(actor: Game_Actor, type: GaugeStatusType, x: number, y: number): void
 ```
 
 ### createInnerSprite (method)
@@ -104,7 +104,7 @@ placeGauge(actor: Game_Actor, type: GaugeStatusType, x: number, y: number): void
 **Signature**
 
 ```ts
-createInnerSprite<T extends Sprite>(key: string, spriteClass: new () => T): T;
+createInnerSprite<T extends Sprite>(key: string, spriteClass: new () => T): T
 ```
 
 ### placeTimeGauge (method)
@@ -112,7 +112,7 @@ createInnerSprite<T extends Sprite>(key: string, spriteClass: new () => T): T;
 **Signature**
 
 ```ts
-placeTimeGauge(actor: Game_Actor, x: number, y: number): void;
+placeTimeGauge(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### placeBasicGauges (method)
@@ -120,7 +120,7 @@ placeTimeGauge(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-placeBasicGauges(actor: Game_Actor, x: number, y: number): void;
+placeBasicGauges(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### gaugeLineHeight (method)
@@ -128,7 +128,7 @@ placeBasicGauges(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-gaugeLineHeight(): number;
+gaugeLineHeight(): number
 ```
 
 ### drawActorCharacter (method)
@@ -136,7 +136,7 @@ gaugeLineHeight(): number;
 **Signature**
 
 ```ts
-drawActorCharacter(actor: Game_Actor, x: number, y: number): void;
+drawActorCharacter(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### drawActorFace (method)
@@ -144,7 +144,7 @@ drawActorCharacter(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-drawActorFace(actor: Game_Actor, x: number, y: number, width?: number, height?: number): void;
+drawActorFace(actor: Game_Actor, x: number, y: number, width?: number, height?: number): void
 ```
 
 ### drawActorName (method)
@@ -152,7 +152,7 @@ drawActorFace(actor: Game_Actor, x: number, y: number, width?: number, height?: 
 **Signature**
 
 ```ts
-drawActorName(actor: Game_Actor, x: number, y: number, width?: number): void;
+drawActorName(actor: Game_Actor, x: number, y: number, width?: number): void
 ```
 
 ### drawActorClass (method)
@@ -160,7 +160,7 @@ drawActorName(actor: Game_Actor, x: number, y: number, width?: number): void;
 **Signature**
 
 ```ts
-drawActorClass(actor: Game_Actor, x: number, y: number, width?: number): void;
+drawActorClass(actor: Game_Actor, x: number, y: number, width?: number): void
 ```
 
 ### drawActorNickname (method)
@@ -168,7 +168,7 @@ drawActorClass(actor: Game_Actor, x: number, y: number, width?: number): void;
 **Signature**
 
 ```ts
-drawActorNickname(actor: Game_Actor, x: number, y: number, width?: number): void;
+drawActorNickname(actor: Game_Actor, x: number, y: number, width?: number): void
 ```
 
 ### drawActorLevel (method)
@@ -176,7 +176,7 @@ drawActorNickname(actor: Game_Actor, x: number, y: number, width?: number): void
 **Signature**
 
 ```ts
-drawActorLevel(actor: Game_Actor, x: number, y: number): void;
+drawActorLevel(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### drawActorIcons (method)
@@ -184,7 +184,7 @@ drawActorLevel(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-drawActorIcons(actor: Game_Actor, x: number, y: number, width?: number): void;
+drawActorIcons(actor: Game_Actor, x: number, y: number, width?: number): void
 ```
 
 ### drawActorSimpleStatus (method)
@@ -192,7 +192,7 @@ drawActorIcons(actor: Game_Actor, x: number, y: number, width?: number): void;
 **Signature**
 
 ```ts
-drawActorSimpleStatus(actor: Game_Actor, x: number, y: number): void;
+drawActorSimpleStatus(actor: Game_Actor, x: number, y: number): void
 ```
 
 ### actorSlotName (method)
@@ -200,7 +200,7 @@ drawActorSimpleStatus(actor: Game_Actor, x: number, y: number): void;
 **Signature**
 
 ```ts
-actorSlotName(actor: Game_Actor, index: number): string;
+actorSlotName(actor: Game_Actor, index: number): string
 ```
 
 ### \_additionalSprites (property)

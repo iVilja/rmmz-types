@@ -1,6 +1,6 @@
 ---
 title: windows/Window_MenuStatus.d.ts
-nav_order: 168
+nav_order: 169
 parent: Modules
 ---
 
@@ -53,7 +53,7 @@ export declare class Window_MenuStatus {
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### numVisibleRows (method)
@@ -61,7 +61,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-numVisibleRows(): number;
+numVisibleRows(): number
 ```
 
 ### itemHeight (method)
@@ -69,7 +69,7 @@ numVisibleRows(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### actor (method)
@@ -77,7 +77,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-actor(index: number): import("..").Game_Actor;
+actor(index: number): import("..").Game_Actor
 ```
 
 ### drawItem (method)
@@ -85,7 +85,7 @@ actor(index: number): import("..").Game_Actor;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### drawPendingItemBackground (method)
@@ -93,7 +93,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-drawPendingItemBackground(index: number): void;
+drawPendingItemBackground(index: number): void
 ```
 
 ### drawItemImage (method)
@@ -101,7 +101,7 @@ drawPendingItemBackground(index: number): void;
 **Signature**
 
 ```ts
-drawItemImage(index: number): void;
+drawItemImage(index: number): void
 ```
 
 ### drawItemStatus (method)
@@ -109,7 +109,7 @@ drawItemImage(index: number): void;
 **Signature**
 
 ```ts
-drawItemStatus(index: number): void;
+drawItemStatus(index: number): void
 ```
 
 ### processOk (method)
@@ -117,7 +117,7 @@ drawItemStatus(index: number): void;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### isCurrentItemEnabled (method)
@@ -125,7 +125,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### selectLast (method)
@@ -133,7 +133,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### formationMode (method)
@@ -141,7 +141,7 @@ selectLast(): void;
 **Signature**
 
 ```ts
-formationMode(): boolean;
+formationMode(): boolean
 ```
 
 ### setFormationMode (method)
@@ -149,7 +149,7 @@ formationMode(): boolean;
 **Signature**
 
 ```ts
-setFormationMode(formationMode: boolean): void;
+setFormationMode(formationMode: boolean): void
 ```
 
 ### pendingIndex (method)
@@ -157,7 +157,7 @@ setFormationMode(formationMode: boolean): void;
 **Signature**
 
 ```ts
-pendingIndex(): number;
+pendingIndex(): number
 ```
 
 ### setPendingIndex (method)
@@ -165,7 +165,7 @@ pendingIndex(): number;
 **Signature**
 
 ```ts
-setPendingIndex(index: number): void;
+setPendingIndex(index: number): void
 ```
 
 ### \_formationMode (property)

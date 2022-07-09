@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ShopSell.d.ts
-nav_order: 183
+nav_order: 184
 parent: Modules
 ---
 
@@ -35,5 +35,5 @@ export declare class Window_ShopSell
 **Signature**
 
 ```ts
-isEnabled(item: DataPricedItemBase | null): boolean;
+isEnabled(item: DataPricedItemBase | null): boolean
 ```

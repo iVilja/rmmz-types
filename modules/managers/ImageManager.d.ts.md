@@ -1,6 +1,6 @@
 ---
 title: managers/ImageManager.d.ts
-nav_order: 56
+nav_order: 57
 parent: Modules
 ---
 
@@ -58,7 +58,7 @@ export declare class ImageManager {
 **Signature**
 
 ```ts
-static loadAnimation(filename: string): Bitmap;
+static loadAnimation(filename: string): Bitmap
 ```
 
 ### loadBattleback1 (static method)
@@ -66,7 +66,7 @@ static loadAnimation(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadBattleback1(filename: string): Bitmap;
+static loadBattleback1(filename: string): Bitmap
 ```
 
 ### loadBattleback2 (static method)
@@ -74,7 +74,7 @@ static loadBattleback1(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadBattleback2(filename: string): Bitmap;
+static loadBattleback2(filename: string): Bitmap
 ```
 
 ### loadEnemy (static method)
@@ -82,7 +82,7 @@ static loadBattleback2(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadEnemy(filename: string): Bitmap;
+static loadEnemy(filename: string): Bitmap
 ```
 
 ### loadCharacter (static method)
@@ -90,7 +90,7 @@ static loadEnemy(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadCharacter(filename: string): Bitmap;
+static loadCharacter(filename: string): Bitmap
 ```
 
 ### loadFace (static method)
@@ -98,7 +98,7 @@ static loadCharacter(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadFace(filename: string): Bitmap;
+static loadFace(filename: string): Bitmap
 ```
 
 ### loadParallax (static method)
@@ -106,7 +106,7 @@ static loadFace(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadParallax(filename: string): Bitmap;
+static loadParallax(filename: string): Bitmap
 ```
 
 ### loadPicture (static method)
@@ -114,7 +114,7 @@ static loadParallax(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadPicture(filename: string): Bitmap;
+static loadPicture(filename: string): Bitmap
 ```
 
 ### loadSvActor (static method)
@@ -122,7 +122,7 @@ static loadPicture(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadSvActor(filename: string): Bitmap;
+static loadSvActor(filename: string): Bitmap
 ```
 
 ### loadSvEnemy (static method)
@@ -130,7 +130,7 @@ static loadSvActor(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadSvEnemy(filename: string): Bitmap;
+static loadSvEnemy(filename: string): Bitmap
 ```
 
 ### loadSystem (static method)
@@ -138,7 +138,7 @@ static loadSvEnemy(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadSystem(filename: string): Bitmap;
+static loadSystem(filename: string): Bitmap
 ```
 
 ### loadTileset (static method)
@@ -146,7 +146,7 @@ static loadSystem(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadTileset(filename: string): Bitmap;
+static loadTileset(filename: string): Bitmap
 ```
 
 ### loadTitle1 (static method)
@@ -154,7 +154,7 @@ static loadTileset(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadTitle1(filename: string): Bitmap;
+static loadTitle1(filename: string): Bitmap
 ```
 
 ### loadTitle2 (static method)
@@ -162,7 +162,7 @@ static loadTitle1(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadTitle2(filename: string): Bitmap;
+static loadTitle2(filename: string): Bitmap
 ```
 
 ### loadBitmap (static method)
@@ -170,7 +170,7 @@ static loadTitle2(filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadBitmap(folder: string, filename: string): Bitmap;
+static loadBitmap(folder: string, filename: string): Bitmap
 ```
 
 ### loadBitmapFromUrl (static method)
@@ -178,7 +178,7 @@ static loadBitmap(folder: string, filename: string): Bitmap;
 **Signature**
 
 ```ts
-static loadBitmapFromUrl(url: string): Bitmap;
+static loadBitmapFromUrl(url: string): Bitmap
 ```
 
 ### clear (static method)
@@ -186,7 +186,7 @@ static loadBitmapFromUrl(url: string): Bitmap;
 **Signature**
 
 ```ts
-static clear(): void;
+static clear(): void
 ```
 
 ### isReady (static method)
@@ -194,7 +194,7 @@ static clear(): void;
 **Signature**
 
 ```ts
-static isReady(): boolean;
+static isReady(): boolean
 ```
 
 ### throwLoadError (static method)
@@ -202,7 +202,7 @@ static isReady(): boolean;
 **Signature**
 
 ```ts
-static throwLoadError(bitmap: Bitmap): void;
+static throwLoadError(bitmap: Bitmap): void
 ```
 
 ### isObjectCharacter (static method)
@@ -210,7 +210,7 @@ static throwLoadError(bitmap: Bitmap): void;
 **Signature**
 
 ```ts
-static isObjectCharacter(filename: string): boolean;
+static isObjectCharacter(filename: string): boolean
 ```
 
 ### isBigCharacter (static method)
@@ -218,7 +218,7 @@ static isObjectCharacter(filename: string): boolean;
 **Signature**
 
 ```ts
-static isBigCharacter(filename: string): boolean;
+static isBigCharacter(filename: string): boolean
 ```
 
 ### isZeroParallax (static method)
@@ -226,5 +226,5 @@ static isBigCharacter(filename: string): boolean;
 **Signature**
 
 ```ts
-static isZeroParallax(filename: string): boolean;
+static isZeroParallax(filename: string): boolean
 ```

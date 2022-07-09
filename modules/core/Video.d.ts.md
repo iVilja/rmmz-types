@@ -51,7 +51,7 @@ Initializes the video system.
 **Signature**
 
 ```ts
-static initialize(width: number, height: number): void;
+static initialize(width: number, height: number): void
 ```
 
 ### resize (static method)
@@ -61,7 +61,7 @@ Changes the display size of the video.
 **Signature**
 
 ```ts
-static resize(width: number, height: number): void;
+static resize(width: number, height: number): void
 ```
 
 ### play (static method)
@@ -71,7 +71,7 @@ Starts playback of a video.
 **Signature**
 
 ```ts
-static play(src: string): void;
+static play(src: string): void
 ```
 
 ### isPlaying (static method)
@@ -81,7 +81,7 @@ Checks whether the video is playing.
 **Signature**
 
 ```ts
-static isPlaying(): boolean;
+static isPlaying(): boolean
 ```
 
 ### setVolume (static method)
@@ -91,7 +91,7 @@ Sets the volume for videos.
 **Signature**
 
 ```ts
-static setVolume(volume: number): void;
+static setVolume(volume: number): void
 ```
 
 ### \_createElement (static method)
@@ -99,7 +99,7 @@ static setVolume(volume: number): void;
 **Signature**
 
 ```ts
-static _createElement(): void;
+static _createElement(): void
 ```
 
 ### \_onLoad (static method)
@@ -107,7 +107,7 @@ static _createElement(): void;
 **Signature**
 
 ```ts
-static _onLoad(): void;
+static _onLoad(): void
 ```
 
 ### \_onError (static method)
@@ -115,7 +115,7 @@ static _onLoad(): void;
 **Signature**
 
 ```ts
-static _onError(): void;
+static _onError(): void
 ```
 
 ### \_onEnd (static method)
@@ -123,7 +123,7 @@ static _onError(): void;
 **Signature**
 
 ```ts
-static _onEnd(): void;
+static _onEnd(): void
 ```
 
 ### \_updateVisibility (static method)
@@ -131,7 +131,7 @@ static _onEnd(): void;
 **Signature**
 
 ```ts
-static _updateVisibility(videoVisible: boolean): void;
+static _updateVisibility(videoVisible: boolean): void
 ```
 
 ### \_isVisible (static method)
@@ -139,7 +139,7 @@ static _updateVisibility(videoVisible: boolean): void;
 **Signature**
 
 ```ts
-static _isVisible(): boolean;
+static _isVisible(): boolean
 ```
 
 ### \_setupEventHandlers (static method)
@@ -147,7 +147,7 @@ static _isVisible(): boolean;
 **Signature**
 
 ```ts
-static _setupEventHandlers(): void;
+static _setupEventHandlers(): void
 ```
 
 ### \_onUserGesture (static method)
@@ -155,5 +155,5 @@ static _setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static _onUserGesture(): void;
+static _onUserGesture(): void
 ```

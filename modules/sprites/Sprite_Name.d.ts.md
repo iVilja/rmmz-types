@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Name.d.ts
-nav_order: 131
+nav_order: 132
 parent: Modules
 ---
 
@@ -55,7 +55,7 @@ export declare class Sprite_Name {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### destroy (method)
@@ -63,7 +63,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### createBitmap (method)
@@ -71,7 +71,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-createBitmap(): void;
+createBitmap(): void
 ```
 
 ### bitmapWidth (method)
@@ -79,7 +79,7 @@ createBitmap(): void;
 **Signature**
 
 ```ts
-bitmapWidth(): number;
+bitmapWidth(): number
 ```
 
 ### bitmapHeight (method)
@@ -87,7 +87,7 @@ bitmapWidth(): number;
 **Signature**
 
 ```ts
-bitmapHeight(): number;
+bitmapHeight(): number
 ```
 
 ### fontFace (method)
@@ -95,7 +95,7 @@ bitmapHeight(): number;
 **Signature**
 
 ```ts
-fontFace(): string;
+fontFace(): string
 ```
 
 ### fontSize (method)
@@ -103,7 +103,7 @@ fontFace(): string;
 **Signature**
 
 ```ts
-fontSize(): number;
+fontSize(): number
 ```
 
 ### setup (method)
@@ -111,7 +111,7 @@ fontSize(): number;
 **Signature**
 
 ```ts
-setup(battler: ActionTarget): void;
+setup(battler: ActionTarget): void
 ```
 
 ### update (method)
@@ -119,7 +119,7 @@ setup(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBitmap (method)
@@ -127,7 +127,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### name (method)
@@ -135,7 +135,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### textColor (method)
@@ -143,7 +143,7 @@ name(): string;
 **Signature**
 
 ```ts
-textColor(): string;
+textColor(): string
 ```
 
 ### outlineColor (method)
@@ -151,7 +151,7 @@ textColor(): string;
 **Signature**
 
 ```ts
-outlineColor(): string;
+outlineColor(): string
 ```
 
 ### outlineWidth (method)
@@ -159,7 +159,7 @@ outlineColor(): string;
 **Signature**
 
 ```ts
-outlineWidth(): number;
+outlineWidth(): number
 ```
 
 ### redraw (method)
@@ -167,7 +167,7 @@ outlineWidth(): number;
 **Signature**
 
 ```ts
-redraw(): void;
+redraw(): void
 ```
 
 ### setupFont (method)
@@ -175,7 +175,7 @@ redraw(): void;
 **Signature**
 
 ```ts
-setupFont(): void;
+setupFont(): void
 ```
 
 ### \_battler (property)

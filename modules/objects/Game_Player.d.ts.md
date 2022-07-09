@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Player.d.ts
-nav_order: 82
+nav_order: 83
 parent: Modules
 ---
 
@@ -120,7 +120,7 @@ export declare class Game_Player {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### clearTransferInfo (method)
@@ -128,7 +128,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-clearTransferInfo(): void;
+clearTransferInfo(): void
 ```
 
 ### followers (method)
@@ -136,7 +136,7 @@ clearTransferInfo(): void;
 **Signature**
 
 ```ts
-followers(): Game_Followers;
+followers(): Game_Followers
 ```
 
 ### refresh (method)
@@ -144,7 +144,7 @@ followers(): Game_Followers;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### isStopping (method)
@@ -152,7 +152,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-isStopping(): boolean;
+isStopping(): boolean
 ```
 
 ### reserveTransfer (method)
@@ -160,7 +160,7 @@ isStopping(): boolean;
 **Signature**
 
 ```ts
-reserveTransfer(mapId: MapID, x: number, y: number, d?: Direction, fadeType?: number): void;
+reserveTransfer(mapId: MapID, x: number, y: number, d?: Direction, fadeType?: number): void
 ```
 
 ### setupForNewGame (method)
@@ -168,7 +168,7 @@ reserveTransfer(mapId: MapID, x: number, y: number, d?: Direction, fadeType?: nu
 **Signature**
 
 ```ts
-setupForNewGame(): void;
+setupForNewGame(): void
 ```
 
 ### requestMapReload (method)
@@ -176,7 +176,7 @@ setupForNewGame(): void;
 **Signature**
 
 ```ts
-requestMapReload(): void;
+requestMapReload(): void
 ```
 
 ### isTransferring (method)
@@ -184,7 +184,7 @@ requestMapReload(): void;
 **Signature**
 
 ```ts
-isTransferring(): boolean;
+isTransferring(): boolean
 ```
 
 ### newMapId (method)
@@ -192,7 +192,7 @@ isTransferring(): boolean;
 **Signature**
 
 ```ts
-newMapId(): number;
+newMapId(): number
 ```
 
 ### fadeType (method)
@@ -200,7 +200,7 @@ newMapId(): number;
 **Signature**
 
 ```ts
-fadeType(): number | undefined;
+fadeType(): number | undefined
 ```
 
 ### performTransfer (method)
@@ -208,7 +208,7 @@ fadeType(): number | undefined;
 **Signature**
 
 ```ts
-performTransfer(): void;
+performTransfer(): void
 ```
 
 ### isMapPassable (method)
@@ -216,7 +216,7 @@ performTransfer(): void;
 **Signature**
 
 ```ts
-isMapPassable(x: number, y: number, d: Direction): boolean;
+isMapPassable(x: number, y: number, d: Direction): boolean
 ```
 
 ### vehicle (method)
@@ -224,7 +224,7 @@ isMapPassable(x: number, y: number, d: Direction): boolean;
 **Signature**
 
 ```ts
-vehicle(): import("./Game_Vehicle").Game_Vehicle;
+vehicle(): import("./Game_Vehicle").Game_Vehicle
 ```
 
 ### isInBoat (method)
@@ -232,7 +232,7 @@ vehicle(): import("./Game_Vehicle").Game_Vehicle;
 **Signature**
 
 ```ts
-isInBoat(): boolean;
+isInBoat(): boolean
 ```
 
 ### isInShip (method)
@@ -240,7 +240,7 @@ isInBoat(): boolean;
 **Signature**
 
 ```ts
-isInShip(): boolean;
+isInShip(): boolean
 ```
 
 ### isInAirship (method)
@@ -248,7 +248,7 @@ isInShip(): boolean;
 **Signature**
 
 ```ts
-isInAirship(): boolean;
+isInAirship(): boolean
 ```
 
 ### isInVehicle (method)
@@ -256,7 +256,7 @@ isInAirship(): boolean;
 **Signature**
 
 ```ts
-isInVehicle(): boolean;
+isInVehicle(): boolean
 ```
 
 ### isNormal (method)
@@ -264,7 +264,7 @@ isInVehicle(): boolean;
 **Signature**
 
 ```ts
-isNormal(): boolean;
+isNormal(): boolean
 ```
 
 ### isDashing (method)
@@ -272,7 +272,7 @@ isNormal(): boolean;
 **Signature**
 
 ```ts
-isDashing(): boolean;
+isDashing(): boolean
 ```
 
 ### isDebugThrough (method)
@@ -280,7 +280,7 @@ isDashing(): boolean;
 **Signature**
 
 ```ts
-isDebugThrough(): boolean;
+isDebugThrough(): boolean
 ```
 
 ### isCollided (method)
@@ -288,7 +288,7 @@ isDebugThrough(): boolean;
 **Signature**
 
 ```ts
-isCollided(x: number, y: number): boolean;
+isCollided(x: number, y: number): boolean
 ```
 
 ### centerX (method)
@@ -296,7 +296,7 @@ isCollided(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-centerX(): number;
+centerX(): number
 ```
 
 ### centerY (method)
@@ -304,7 +304,7 @@ centerX(): number;
 **Signature**
 
 ```ts
-centerY(): number;
+centerY(): number
 ```
 
 ### center (method)
@@ -312,7 +312,7 @@ centerY(): number;
 **Signature**
 
 ```ts
-center(x: number, y: number): void;
+center(x: number, y: number): void
 ```
 
 ### locate (method)
@@ -320,7 +320,7 @@ center(x: number, y: number): void;
 **Signature**
 
 ```ts
-locate(x: number, y: number): void;
+locate(x: number, y: number): void
 ```
 
 ### increaseSteps (method)
@@ -328,7 +328,7 @@ locate(x: number, y: number): void;
 **Signature**
 
 ```ts
-increaseSteps(): void;
+increaseSteps(): void
 ```
 
 ### makeEncounterCount (method)
@@ -336,7 +336,7 @@ increaseSteps(): void;
 **Signature**
 
 ```ts
-makeEncounterCount(): void;
+makeEncounterCount(): void
 ```
 
 ### makeEncounterTroopId (method)
@@ -344,7 +344,7 @@ makeEncounterCount(): void;
 **Signature**
 
 ```ts
-makeEncounterTroopId(): number;
+makeEncounterTroopId(): number
 ```
 
 ### meetsEncounterConditions (method)
@@ -352,7 +352,7 @@ makeEncounterTroopId(): number;
 **Signature**
 
 ```ts
-meetsEncounterConditions(encounter: DataEncounter): boolean;
+meetsEncounterConditions(encounter: DataEncounter): boolean
 ```
 
 ### executeEncounter (method)
@@ -360,7 +360,7 @@ meetsEncounterConditions(encounter: DataEncounter): boolean;
 **Signature**
 
 ```ts
-executeEncounter(): boolean;
+executeEncounter(): boolean
 ```
 
 ### startMapEvent (method)
@@ -368,7 +368,7 @@ executeEncounter(): boolean;
 **Signature**
 
 ```ts
-startMapEvent(x: number, y: number, triggers: number[], normal: boolean): void;
+startMapEvent(x: number, y: number, triggers: number[], normal: boolean): void
 ```
 
 ### moveByInput (method)
@@ -376,7 +376,7 @@ startMapEvent(x: number, y: number, triggers: number[], normal: boolean): void;
 **Signature**
 
 ```ts
-moveByInput(): void;
+moveByInput(): void
 ```
 
 ### canMove (method)
@@ -384,7 +384,7 @@ moveByInput(): void;
 **Signature**
 
 ```ts
-canMove(): boolean;
+canMove(): boolean
 ```
 
 ### getInputDirection (method)
@@ -392,7 +392,7 @@ canMove(): boolean;
 **Signature**
 
 ```ts
-getInputDirection(): Direction;
+getInputDirection(): Direction
 ```
 
 ### executeMove (method)
@@ -400,7 +400,7 @@ getInputDirection(): Direction;
 **Signature**
 
 ```ts
-executeMove(direction: Direction): void;
+executeMove(direction: Direction): void
 ```
 
 ### update (method)
@@ -408,7 +408,7 @@ executeMove(direction: Direction): void;
 **Signature**
 
 ```ts
-update(sceneActive?: boolean): void;
+update(sceneActive?: boolean): void
 ```
 
 ### updateDashing (method)
@@ -416,7 +416,7 @@ update(sceneActive?: boolean): void;
 **Signature**
 
 ```ts
-updateDashing(): void;
+updateDashing(): void
 ```
 
 ### isDashButtonPressed (method)
@@ -424,7 +424,7 @@ updateDashing(): void;
 **Signature**
 
 ```ts
-isDashButtonPressed(): boolean;
+isDashButtonPressed(): boolean
 ```
 
 ### updateScroll (method)
@@ -432,7 +432,7 @@ isDashButtonPressed(): boolean;
 **Signature**
 
 ```ts
-updateScroll(lastScrolledX: number, lastScrolledY: number): void;
+updateScroll(lastScrolledX: number, lastScrolledY: number): void
 ```
 
 ### updateVehicle (method)
@@ -440,7 +440,7 @@ updateScroll(lastScrolledX: number, lastScrolledY: number): void;
 **Signature**
 
 ```ts
-updateVehicle(): void;
+updateVehicle(): void
 ```
 
 ### updateVehicleGetOn (method)
@@ -448,7 +448,7 @@ updateVehicle(): void;
 **Signature**
 
 ```ts
-updateVehicleGetOn(): void;
+updateVehicleGetOn(): void
 ```
 
 ### updateVehicleGetOff (method)
@@ -456,7 +456,7 @@ updateVehicleGetOn(): void;
 **Signature**
 
 ```ts
-updateVehicleGetOff(): void;
+updateVehicleGetOff(): void
 ```
 
 ### updateNonmoving (method)
@@ -464,7 +464,7 @@ updateVehicleGetOff(): void;
 **Signature**
 
 ```ts
-updateNonmoving(wasMoving: boolean, sceneActive?: boolean): void;
+updateNonmoving(wasMoving: boolean, sceneActive?: boolean): void
 ```
 
 ### triggerAction (method)
@@ -472,7 +472,7 @@ updateNonmoving(wasMoving: boolean, sceneActive?: boolean): void;
 **Signature**
 
 ```ts
-triggerAction(): boolean;
+triggerAction(): boolean
 ```
 
 ### triggerButtonAction (method)
@@ -480,7 +480,7 @@ triggerAction(): boolean;
 **Signature**
 
 ```ts
-triggerButtonAction(): boolean;
+triggerButtonAction(): boolean
 ```
 
 ### triggerTouchAction (method)
@@ -488,7 +488,7 @@ triggerButtonAction(): boolean;
 **Signature**
 
 ```ts
-triggerTouchAction(): boolean;
+triggerTouchAction(): boolean
 ```
 
 ### triggerTouchActionD1 (method)
@@ -496,7 +496,7 @@ triggerTouchAction(): boolean;
 **Signature**
 
 ```ts
-triggerTouchActionD1(x1: number, y1: number): boolean;
+triggerTouchActionD1(x1: number, y1: number): boolean
 ```
 
 ### triggerTouchActionD2 (method)
@@ -504,7 +504,7 @@ triggerTouchActionD1(x1: number, y1: number): boolean;
 **Signature**
 
 ```ts
-triggerTouchActionD2(x2: number, y2: number): boolean;
+triggerTouchActionD2(x2: number, y2: number): boolean
 ```
 
 ### triggerTouchActionD3 (method)
@@ -512,7 +512,7 @@ triggerTouchActionD2(x2: number, y2: number): boolean;
 **Signature**
 
 ```ts
-triggerTouchActionD3(x2: number, y2: number): boolean;
+triggerTouchActionD3(x2: number, y2: number): boolean
 ```
 
 ### updateEncounterCount (method)
@@ -520,7 +520,7 @@ triggerTouchActionD3(x2: number, y2: number): boolean;
 **Signature**
 
 ```ts
-updateEncounterCount(): void;
+updateEncounterCount(): void
 ```
 
 ### canEncounter (method)
@@ -528,7 +528,7 @@ updateEncounterCount(): void;
 **Signature**
 
 ```ts
-canEncounter(): boolean;
+canEncounter(): boolean
 ```
 
 ### encounterProgressValue (method)
@@ -536,7 +536,7 @@ canEncounter(): boolean;
 **Signature**
 
 ```ts
-encounterProgressValue(): number;
+encounterProgressValue(): number
 ```
 
 ### checkEventTriggerHere (method)
@@ -544,7 +544,7 @@ encounterProgressValue(): number;
 **Signature**
 
 ```ts
-checkEventTriggerHere(triggers: number[]): void;
+checkEventTriggerHere(triggers: number[]): void
 ```
 
 ### checkEventTriggerThere (method)
@@ -552,7 +552,7 @@ checkEventTriggerHere(triggers: number[]): void;
 **Signature**
 
 ```ts
-checkEventTriggerThere(triggers: number[]): void;
+checkEventTriggerThere(triggers: number[]): void
 ```
 
 ### checkEventTriggerTouch (method)
@@ -560,7 +560,7 @@ checkEventTriggerThere(triggers: number[]): void;
 **Signature**
 
 ```ts
-checkEventTriggerTouch(x: number, y: number): void;
+checkEventTriggerTouch(x: number, y: number): void
 ```
 
 ### canStartLocalEvents (method)
@@ -568,7 +568,7 @@ checkEventTriggerTouch(x: number, y: number): void;
 **Signature**
 
 ```ts
-canStartLocalEvents(): boolean;
+canStartLocalEvents(): boolean
 ```
 
 ### getOnOffVehicle (method)
@@ -576,7 +576,7 @@ canStartLocalEvents(): boolean;
 **Signature**
 
 ```ts
-getOnOffVehicle(): boolean;
+getOnOffVehicle(): boolean
 ```
 
 ### getOnVehicle (method)
@@ -584,7 +584,7 @@ getOnOffVehicle(): boolean;
 **Signature**
 
 ```ts
-getOnVehicle(): boolean;
+getOnVehicle(): boolean
 ```
 
 ### getOffVehicle (method)
@@ -592,7 +592,7 @@ getOnVehicle(): boolean;
 **Signature**
 
 ```ts
-getOffVehicle(): boolean;
+getOffVehicle(): boolean
 ```
 
 ### forceMoveForward (method)
@@ -600,7 +600,7 @@ getOffVehicle(): boolean;
 **Signature**
 
 ```ts
-forceMoveForward(): void;
+forceMoveForward(): void
 ```
 
 ### isOnDamageFloor (method)
@@ -608,7 +608,7 @@ forceMoveForward(): void;
 **Signature**
 
 ```ts
-isOnDamageFloor(): boolean;
+isOnDamageFloor(): boolean
 ```
 
 ### moveStraight (method)
@@ -616,7 +616,7 @@ isOnDamageFloor(): boolean;
 **Signature**
 
 ```ts
-moveStraight(d: Direction): void;
+moveStraight(d: Direction): void
 ```
 
 ### moveDiagonally (method)
@@ -624,7 +624,7 @@ moveStraight(d: Direction): void;
 **Signature**
 
 ```ts
-moveDiagonally(horz: Direction, vert: Direction): void;
+moveDiagonally(horz: Direction, vert: Direction): void
 ```
 
 ### jump (method)
@@ -632,7 +632,7 @@ moveDiagonally(horz: Direction, vert: Direction): void;
 **Signature**
 
 ```ts
-jump(xPlus: number, yPlus: number): void;
+jump(xPlus: number, yPlus: number): void
 ```
 
 ### showFollowers (method)
@@ -640,7 +640,7 @@ jump(xPlus: number, yPlus: number): void;
 **Signature**
 
 ```ts
-showFollowers(): void;
+showFollowers(): void
 ```
 
 ### hideFollowers (method)
@@ -648,7 +648,7 @@ showFollowers(): void;
 **Signature**
 
 ```ts
-hideFollowers(): void;
+hideFollowers(): void
 ```
 
 ### gatherFollowers (method)
@@ -656,7 +656,7 @@ hideFollowers(): void;
 **Signature**
 
 ```ts
-gatherFollowers(): void;
+gatherFollowers(): void
 ```
 
 ### areFollowersGathering (method)
@@ -664,7 +664,7 @@ gatherFollowers(): void;
 **Signature**
 
 ```ts
-areFollowersGathering(): boolean;
+areFollowersGathering(): boolean
 ```
 
 ### areFollowersGathered (method)
@@ -672,7 +672,7 @@ areFollowersGathering(): boolean;
 **Signature**
 
 ```ts
-areFollowersGathered(): boolean;
+areFollowersGathered(): boolean
 ```
 
 ### \_vehicleType (property)

@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_ItemBase.d.ts
-nav_order: 104
+nav_order: 105
 parent: Modules
 ---
 
@@ -52,7 +52,7 @@ export declare class Scene_ItemBase<T>
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### createActorWindow (method)
@@ -60,7 +60,7 @@ create(): void;
 **Signature**
 
 ```ts
-createActorWindow(): void;
+createActorWindow(): void
 ```
 
 ### actorWindowRect (method)
@@ -68,7 +68,7 @@ createActorWindow(): void;
 **Signature**
 
 ```ts
-actorWindowRect(): Rectangle;
+actorWindowRect(): Rectangle
 ```
 
 ### item (method)
@@ -76,7 +76,7 @@ actorWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-item(): T | null;
+item(): T | null
 ```
 
 ### user (method)
@@ -84,7 +84,7 @@ item(): T | null;
 **Signature**
 
 ```ts
-user(): Game_Actor | null | undefined;
+user(): Game_Actor | null | undefined
 ```
 
 ### isCursorLeft (method)
@@ -92,7 +92,7 @@ user(): Game_Actor | null | undefined;
 **Signature**
 
 ```ts
-isCursorLeft(): boolean;
+isCursorLeft(): boolean
 ```
 
 ### showActorWindow (method)
@@ -100,7 +100,7 @@ isCursorLeft(): boolean;
 **Signature**
 
 ```ts
-showActorWindow(): void;
+showActorWindow(): void
 ```
 
 ### hideActorWindow (method)
@@ -108,7 +108,7 @@ showActorWindow(): void;
 **Signature**
 
 ```ts
-hideActorWindow(): void;
+hideActorWindow(): void
 ```
 
 ### isActorWindowActive (method)
@@ -116,7 +116,7 @@ hideActorWindow(): void;
 **Signature**
 
 ```ts
-isActorWindowActive(): boolean;
+isActorWindowActive(): boolean
 ```
 
 ### onActorOk (method)
@@ -124,7 +124,7 @@ isActorWindowActive(): boolean;
 **Signature**
 
 ```ts
-onActorOk(): void;
+onActorOk(): void
 ```
 
 ### onActorCancel (method)
@@ -132,7 +132,7 @@ onActorOk(): void;
 **Signature**
 
 ```ts
-onActorCancel(): void;
+onActorCancel(): void
 ```
 
 ### determineItem (method)
@@ -140,7 +140,7 @@ onActorCancel(): void;
 **Signature**
 
 ```ts
-determineItem(): void;
+determineItem(): void
 ```
 
 ### useItem (method)
@@ -148,7 +148,7 @@ determineItem(): void;
 **Signature**
 
 ```ts
-useItem(): void;
+useItem(): void
 ```
 
 ### activateItemWindow (method)
@@ -156,7 +156,7 @@ useItem(): void;
 **Signature**
 
 ```ts
-activateItemWindow(): void;
+activateItemWindow(): void
 ```
 
 ### itemTargetActors (method)
@@ -164,7 +164,7 @@ activateItemWindow(): void;
 **Signature**
 
 ```ts
-itemTargetActors(): Game_Actor[];
+itemTargetActors(): Game_Actor[]
 ```
 
 ### canUse (method)
@@ -172,7 +172,7 @@ itemTargetActors(): Game_Actor[];
 **Signature**
 
 ```ts
-canUse(): boolean | null | undefined;
+canUse(): boolean | null | undefined
 ```
 
 ### isItemEffectsValid (method)
@@ -180,7 +180,7 @@ canUse(): boolean | null | undefined;
 **Signature**
 
 ```ts
-isItemEffectsValid(): boolean;
+isItemEffectsValid(): boolean
 ```
 
 ### applyItem (method)
@@ -188,7 +188,7 @@ isItemEffectsValid(): boolean;
 **Signature**
 
 ```ts
-applyItem(): void;
+applyItem(): void
 ```
 
 ### checkCommonEvent (method)
@@ -196,7 +196,7 @@ applyItem(): void;
 **Signature**
 
 ```ts
-checkCommonEvent(): void;
+checkCommonEvent(): void
 ```
 
 ### playSeForItem (method)
@@ -204,7 +204,7 @@ checkCommonEvent(): void;
 **Signature**
 
 ```ts
-playSeForItem(): void;
+playSeForItem(): void
 ```
 
 ### \_actorWindow (property)

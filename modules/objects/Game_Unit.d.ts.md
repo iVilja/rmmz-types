@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Unit.d.ts
-nav_order: 90
+nav_order: 91
 parent: Modules
 ---
 
@@ -57,7 +57,7 @@ export declare class Game_Unit<T>
 **Signature**
 
 ```ts
-inBattle(): boolean;
+inBattle(): boolean
 ```
 
 ### members (method)
@@ -65,7 +65,7 @@ inBattle(): boolean;
 **Signature**
 
 ```ts
-members(): T[];
+members(): T[]
 ```
 
 ### aliveMembers (method)
@@ -73,7 +73,7 @@ members(): T[];
 **Signature**
 
 ```ts
-aliveMembers(): T[];
+aliveMembers(): T[]
 ```
 
 ### deadMembers (method)
@@ -81,7 +81,7 @@ aliveMembers(): T[];
 **Signature**
 
 ```ts
-deadMembers(): T[];
+deadMembers(): T[]
 ```
 
 ### movableMembers (method)
@@ -89,7 +89,7 @@ deadMembers(): T[];
 **Signature**
 
 ```ts
-movableMembers(): T[];
+movableMembers(): T[]
 ```
 
 ### clearActions (method)
@@ -97,7 +97,7 @@ movableMembers(): T[];
 **Signature**
 
 ```ts
-clearActions(): void;
+clearActions(): void
 ```
 
 ### agility (method)
@@ -105,7 +105,7 @@ clearActions(): void;
 **Signature**
 
 ```ts
-agility(): number;
+agility(): number
 ```
 
 ### tgrSum (method)
@@ -113,7 +113,7 @@ agility(): number;
 **Signature**
 
 ```ts
-tgrSum(): number;
+tgrSum(): number
 ```
 
 ### randomTarget (method)
@@ -121,7 +121,7 @@ tgrSum(): number;
 **Signature**
 
 ```ts
-randomTarget(): T | null;
+randomTarget(): T | null
 ```
 
 ### randomDeadTarget (method)
@@ -129,7 +129,7 @@ randomTarget(): T | null;
 **Signature**
 
 ```ts
-randomDeadTarget(): T | null;
+randomDeadTarget(): T | null
 ```
 
 ### smoothTarget (method)
@@ -137,7 +137,7 @@ randomDeadTarget(): T | null;
 **Signature**
 
 ```ts
-smoothTarget(index: number): T;
+smoothTarget(index: number): T
 ```
 
 ### smoothDeadTarget (method)
@@ -145,7 +145,7 @@ smoothTarget(index: number): T;
 **Signature**
 
 ```ts
-smoothDeadTarget(index: number): T;
+smoothDeadTarget(index: number): T
 ```
 
 ### clearResults (method)
@@ -153,7 +153,7 @@ smoothDeadTarget(index: number): T;
 **Signature**
 
 ```ts
-clearResults(): void;
+clearResults(): void
 ```
 
 ### onBattleStart (method)
@@ -161,7 +161,7 @@ clearResults(): void;
 **Signature**
 
 ```ts
-onBattleStart(advantageous: boolean): void;
+onBattleStart(advantageous: boolean): void
 ```
 
 ### onBattleEnd (method)
@@ -169,7 +169,7 @@ onBattleStart(advantageous: boolean): void;
 **Signature**
 
 ```ts
-onBattleEnd(): void;
+onBattleEnd(): void
 ```
 
 ### makeActions (method)
@@ -177,7 +177,7 @@ onBattleEnd(): void;
 **Signature**
 
 ```ts
-makeActions(): void;
+makeActions(): void
 ```
 
 ### select (method)
@@ -185,7 +185,7 @@ makeActions(): void;
 **Signature**
 
 ```ts
-select(activeMember: Game_Battler | null): void;
+select(activeMember: Game_Battler | null): void
 ```
 
 ### isAllDead (method)
@@ -193,7 +193,7 @@ select(activeMember: Game_Battler | null): void;
 **Signature**
 
 ```ts
-isAllDead(): boolean;
+isAllDead(): boolean
 ```
 
 ### substituteBattler (method)
@@ -201,7 +201,7 @@ isAllDead(): boolean;
 **Signature**
 
 ```ts
-substituteBattler(): T | null;
+substituteBattler(): T | null
 ```
 
 ### tpbBaseSpeed (method)
@@ -209,7 +209,7 @@ substituteBattler(): T | null;
 **Signature**
 
 ```ts
-tpbBaseSpeed(): number;
+tpbBaseSpeed(): number
 ```
 
 ### tpbReferenceTime (method)
@@ -217,7 +217,7 @@ tpbBaseSpeed(): number;
 **Signature**
 
 ```ts
-tpbReferenceTime(): 60 | 240;
+tpbReferenceTime(): 60 | 240
 ```
 
 ### updateTpb (method)
@@ -225,7 +225,7 @@ tpbReferenceTime(): 60 | 240;
 **Signature**
 
 ```ts
-updateTpb(): void;
+updateTpb(): void
 ```
 
 ### \_inBattle (property)

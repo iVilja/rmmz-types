@@ -1,6 +1,6 @@
 ---
 title: managers/index.d.ts
-nav_order: 57
+nav_order: 58
 parent: Modules
 ---
 

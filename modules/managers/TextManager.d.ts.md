@@ -1,6 +1,6 @@
 ---
 title: managers/TextManager.d.ts
-nav_order: 62
+nav_order: 63
 parent: Modules
 ---
 
@@ -40,7 +40,7 @@ export declare class TextManager {
 **Signature**
 
 ```ts
-static basic(basicId: number): string;
+static basic(basicId: number): string
 ```
 
 ### param (static method)
@@ -48,7 +48,7 @@ static basic(basicId: number): string;
 **Signature**
 
 ```ts
-static param(paramId: number): string;
+static param(paramId: number): string
 ```
 
 ### command (static method)
@@ -56,7 +56,7 @@ static param(paramId: number): string;
 **Signature**
 
 ```ts
-static command(commandId: number): string;
+static command(commandId: number): string
 ```
 
 ### message (static method)
@@ -64,5 +64,5 @@ static command(commandId: number): string;
 **Signature**
 
 ```ts
-static message(messageId: keyof Messages): string;
+static message(messageId: keyof Messages): string
 ```

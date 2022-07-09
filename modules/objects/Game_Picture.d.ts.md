@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Picture.d.ts
-nav_order: 81
+nav_order: 82
 parent: Modules
 ---
 
@@ -84,7 +84,7 @@ export declare class Game_Picture
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### origin (method)
@@ -92,7 +92,7 @@ name(): string;
 **Signature**
 
 ```ts
-origin(): number;
+origin(): number
 ```
 
 ### x (method)
@@ -100,7 +100,7 @@ origin(): number;
 **Signature**
 
 ```ts
-x(): number;
+x(): number
 ```
 
 ### y (method)
@@ -108,7 +108,7 @@ x(): number;
 **Signature**
 
 ```ts
-y(): number;
+y(): number
 ```
 
 ### scaleX (method)
@@ -116,7 +116,7 @@ y(): number;
 **Signature**
 
 ```ts
-scaleX(): number;
+scaleX(): number
 ```
 
 ### scaleY (method)
@@ -124,7 +124,7 @@ scaleX(): number;
 **Signature**
 
 ```ts
-scaleY(): number;
+scaleY(): number
 ```
 
 ### opacity (method)
@@ -132,7 +132,7 @@ scaleY(): number;
 **Signature**
 
 ```ts
-opacity(): number;
+opacity(): number
 ```
 
 ### blendMode (method)
@@ -140,7 +140,7 @@ opacity(): number;
 **Signature**
 
 ```ts
-blendMode(): PIXI.BLEND_MODES;
+blendMode(): PIXI.BLEND_MODES
 ```
 
 ### tone (method)
@@ -148,7 +148,7 @@ blendMode(): PIXI.BLEND_MODES;
 **Signature**
 
 ```ts
-tone(): [number, number, number, number] | null;
+tone(): [number, number, number, number] | null
 ```
 
 ### angle (method)
@@ -156,7 +156,7 @@ tone(): [number, number, number, number] | null;
 **Signature**
 
 ```ts
-angle(): number;
+angle(): number
 ```
 
 ### initBasic (method)
@@ -164,7 +164,7 @@ angle(): number;
 **Signature**
 
 ```ts
-initBasic(): void;
+initBasic(): void
 ```
 
 ### initTarget (method)
@@ -172,7 +172,7 @@ initBasic(): void;
 **Signature**
 
 ```ts
-initTarget(): void;
+initTarget(): void
 ```
 
 ### initTone (method)
@@ -180,7 +180,7 @@ initTarget(): void;
 **Signature**
 
 ```ts
-initTone(): void;
+initTone(): void
 ```
 
 ### initRotation (method)
@@ -188,7 +188,7 @@ initTone(): void;
 **Signature**
 
 ```ts
-initRotation(): void;
+initRotation(): void
 ```
 
 ### show (method)
@@ -196,7 +196,16 @@ initRotation(): void;
 **Signature**
 
 ```ts
-show(name: string, origin: number, x: number, y: number, scaleX: number, scaleY: number, opacity: number, blendMode: PIXI.BLEND_MODES): void;
+show(
+    name: string,
+    origin: number,
+    x: number,
+    y: number,
+    scaleX: number,
+    scaleY: number,
+    opacity: number,
+    blendMode: PIXI.BLEND_MODES
+  ): void
 ```
 
 ### move (method)
@@ -204,7 +213,17 @@ show(name: string, origin: number, x: number, y: number, scaleX: number, scaleY:
 **Signature**
 
 ```ts
-move(origin: number, x: number, y: number, scaleX: number, scaleY: number, opacity: number, blendMode: PIXI.BLEND_MODES, duration: number, easingType: PictureEasingType): void;
+move(
+    origin: number,
+    x: number,
+    y: number,
+    scaleX: number,
+    scaleY: number,
+    opacity: number,
+    blendMode: PIXI.BLEND_MODES,
+    duration: number,
+    easingType: PictureEasingType
+  ): void
 ```
 
 ### rotate (method)
@@ -212,7 +231,7 @@ move(origin: number, x: number, y: number, scaleX: number, scaleY: number, opaci
 **Signature**
 
 ```ts
-rotate(speed: number): void;
+rotate(speed: number): void
 ```
 
 ### tint (method)
@@ -220,7 +239,7 @@ rotate(speed: number): void;
 **Signature**
 
 ```ts
-tint(tone: Color, duration: number): void;
+tint(tone: Color, duration: number): void
 ```
 
 ### update (method)
@@ -228,7 +247,7 @@ tint(tone: Color, duration: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateMove (method)
@@ -236,7 +255,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateMove(): void;
+updateMove(): void
 ```
 
 ### updateTone (method)
@@ -244,7 +263,7 @@ updateMove(): void;
 **Signature**
 
 ```ts
-updateTone(): void;
+updateTone(): void
 ```
 
 ### updateRotation (method)
@@ -252,7 +271,7 @@ updateTone(): void;
 **Signature**
 
 ```ts
-updateRotation(): void;
+updateRotation(): void
 ```
 
 ### applyEasing (method)
@@ -260,7 +279,7 @@ updateRotation(): void;
 **Signature**
 
 ```ts
-applyEasing(current: number, target: number): number;
+applyEasing(current: number, target: number): number
 ```
 
 ### calcEasing (method)
@@ -268,7 +287,7 @@ applyEasing(current: number, target: number): number;
 **Signature**
 
 ```ts
-calcEasing(t: number): number;
+calcEasing(t: number): number
 ```
 
 ### easeIn (method)
@@ -276,7 +295,7 @@ calcEasing(t: number): number;
 **Signature**
 
 ```ts
-easeIn(t: number, exponent: number): number;
+easeIn(t: number, exponent: number): number
 ```
 
 ### easeOut (method)
@@ -284,7 +303,7 @@ easeIn(t: number, exponent: number): number;
 **Signature**
 
 ```ts
-easeOut(t: number, exponent: number): number;
+easeOut(t: number, exponent: number): number
 ```
 
 ### easeInOut (method)
@@ -292,7 +311,7 @@ easeOut(t: number, exponent: number): number;
 **Signature**
 
 ```ts
-easeInOut(t: number, exponent: number): number;
+easeInOut(t: number, exponent: number): number
 ```
 
 ### \_name (property)

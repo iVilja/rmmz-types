@@ -1,6 +1,6 @@
 ---
 title: windows/Window_GameEnd.d.ts
-nav_order: 159
+nav_order: 160
 parent: Modules
 ---
 
@@ -37,5 +37,5 @@ export declare class Window_GameEnd {
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```

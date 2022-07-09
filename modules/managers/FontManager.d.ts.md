@@ -1,6 +1,6 @@
 ---
 title: managers/FontManager.d.ts
-nav_order: 55
+nav_order: 56
 parent: Modules
 ---
 
@@ -45,7 +45,7 @@ export declare class FontManager {
 **Signature**
 
 ```ts
-static load(family: string, filename: string): void;
+static load(family: string, filename: string): void
 ```
 
 ### isReady (static method)
@@ -53,7 +53,7 @@ static load(family: string, filename: string): void;
 **Signature**
 
 ```ts
-static isReady(): boolean;
+static isReady(): boolean
 ```
 
 ### startLoading (static method)
@@ -61,7 +61,7 @@ static isReady(): boolean;
 **Signature**
 
 ```ts
-static startLoading(family: string, url: string): void;
+static startLoading(family: string, url: string): void
 ```
 
 ### throwLoadError (static method)
@@ -69,7 +69,7 @@ static startLoading(family: string, url: string): void;
 **Signature**
 
 ```ts
-static throwLoadError(family: string): void;
+static throwLoadError(family: string): void
 ```
 
 ### makeUrl (static method)
@@ -77,5 +77,5 @@ static throwLoadError(family: string): void;
 **Signature**
 
 ```ts
-static makeUrl(filename: string): string;
+static makeUrl(filename: string): string
 ```

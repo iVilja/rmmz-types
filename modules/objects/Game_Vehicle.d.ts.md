@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Vehicle.d.ts
-nav_order: 92
+nav_order: 93
 parent: Modules
 ---
 
@@ -71,7 +71,7 @@ export declare class Game_Vehicle {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### isBoat (method)
@@ -79,7 +79,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-isBoat(): boolean;
+isBoat(): boolean
 ```
 
 ### isShip (method)
@@ -87,7 +87,7 @@ isBoat(): boolean;
 **Signature**
 
 ```ts
-isShip(): boolean;
+isShip(): boolean
 ```
 
 ### isAirship (method)
@@ -95,7 +95,7 @@ isShip(): boolean;
 **Signature**
 
 ```ts
-isAirship(): boolean;
+isAirship(): boolean
 ```
 
 ### resetDirection (method)
@@ -103,7 +103,7 @@ isAirship(): boolean;
 **Signature**
 
 ```ts
-resetDirection(): void;
+resetDirection(): void
 ```
 
 ### initMoveSpeed (method)
@@ -111,7 +111,7 @@ resetDirection(): void;
 **Signature**
 
 ```ts
-initMoveSpeed(): void;
+initMoveSpeed(): void
 ```
 
 ### vehicle (method)
@@ -119,7 +119,7 @@ initMoveSpeed(): void;
 **Signature**
 
 ```ts
-vehicle(): import("../data").DataVehicle | null;
+vehicle(): import("../data").DataVehicle | null
 ```
 
 ### loadSystemSettings (method)
@@ -127,7 +127,7 @@ vehicle(): import("../data").DataVehicle | null;
 **Signature**
 
 ```ts
-loadSystemSettings(): void;
+loadSystemSettings(): void
 ```
 
 ### refresh (method)
@@ -135,7 +135,7 @@ loadSystemSettings(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### setLocation (method)
@@ -143,7 +143,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-setLocation(mapId: MapID, x: number, y: number): void;
+setLocation(mapId: MapID, x: number, y: number): void
 ```
 
 ### pos (method)
@@ -151,7 +151,7 @@ setLocation(mapId: MapID, x: number, y: number): void;
 **Signature**
 
 ```ts
-pos(x: number, y: number): boolean;
+pos(x: number, y: number): boolean
 ```
 
 ### isMapPassable (method)
@@ -159,7 +159,7 @@ pos(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isMapPassable(x: number, y: number, d: Direction): boolean;
+isMapPassable(x: number, y: number, d: Direction): boolean
 ```
 
 ### getOn (method)
@@ -167,7 +167,7 @@ isMapPassable(x: number, y: number, d: Direction): boolean;
 **Signature**
 
 ```ts
-getOn(): void;
+getOn(): void
 ```
 
 ### getOff (method)
@@ -175,7 +175,7 @@ getOn(): void;
 **Signature**
 
 ```ts
-getOff(): void;
+getOff(): void
 ```
 
 ### setBgm (method)
@@ -183,7 +183,7 @@ getOff(): void;
 **Signature**
 
 ```ts
-setBgm(bgm: DataAudio): void;
+setBgm(bgm: DataAudio): void
 ```
 
 ### playBgm (method)
@@ -191,7 +191,7 @@ setBgm(bgm: DataAudio): void;
 **Signature**
 
 ```ts
-playBgm(): void;
+playBgm(): void
 ```
 
 ### syncWithPlayer (method)
@@ -199,7 +199,7 @@ playBgm(): void;
 **Signature**
 
 ```ts
-syncWithPlayer(): void;
+syncWithPlayer(): void
 ```
 
 ### screenY (method)
@@ -207,7 +207,7 @@ syncWithPlayer(): void;
 **Signature**
 
 ```ts
-screenY(): number;
+screenY(): number
 ```
 
 ### shadowX (method)
@@ -215,7 +215,7 @@ screenY(): number;
 **Signature**
 
 ```ts
-shadowX(): number;
+shadowX(): number
 ```
 
 ### shadowY (method)
@@ -223,7 +223,7 @@ shadowX(): number;
 **Signature**
 
 ```ts
-shadowY(): number;
+shadowY(): number
 ```
 
 ### shadowOpacity (method)
@@ -231,7 +231,7 @@ shadowY(): number;
 **Signature**
 
 ```ts
-shadowOpacity(): number;
+shadowOpacity(): number
 ```
 
 ### canMove (method)
@@ -239,7 +239,7 @@ shadowOpacity(): number;
 **Signature**
 
 ```ts
-canMove(): boolean;
+canMove(): boolean
 ```
 
 ### update (method)
@@ -247,7 +247,7 @@ canMove(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateAirship (method)
@@ -255,7 +255,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateAirship(): void;
+updateAirship(): void
 ```
 
 ### updateAirshipAltitude (method)
@@ -263,7 +263,7 @@ updateAirship(): void;
 **Signature**
 
 ```ts
-updateAirshipAltitude(): void;
+updateAirshipAltitude(): void
 ```
 
 ### maxAltitude (method)
@@ -271,7 +271,7 @@ updateAirshipAltitude(): void;
 **Signature**
 
 ```ts
-maxAltitude(): number;
+maxAltitude(): number
 ```
 
 ### isLowest (method)
@@ -279,7 +279,7 @@ maxAltitude(): number;
 **Signature**
 
 ```ts
-isLowest(): boolean;
+isLowest(): boolean
 ```
 
 ### isHighest (method)
@@ -287,7 +287,7 @@ isLowest(): boolean;
 **Signature**
 
 ```ts
-isHighest(): boolean;
+isHighest(): boolean
 ```
 
 ### isTakeoffOk (method)
@@ -295,7 +295,7 @@ isHighest(): boolean;
 **Signature**
 
 ```ts
-isTakeoffOk(): boolean;
+isTakeoffOk(): boolean
 ```
 
 ### isLandOk (method)
@@ -303,7 +303,7 @@ isTakeoffOk(): boolean;
 **Signature**
 
 ```ts
-isLandOk(x: number, y: number, d: Direction): boolean;
+isLandOk(x: number, y: number, d: Direction): boolean
 ```
 
 ### \_type (property)

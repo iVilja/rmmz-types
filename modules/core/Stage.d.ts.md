@@ -35,5 +35,5 @@ export declare class Stage {
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```

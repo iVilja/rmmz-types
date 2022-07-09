@@ -1,6 +1,6 @@
 ---
 title: windows/Window_SkillType.d.ts
-nav_order: 187
+nav_order: 188
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Window_SkillType
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### makeCommandList (method)
@@ -49,7 +49,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### update (method)
@@ -57,7 +57,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### setSkillWindow (method)
@@ -65,7 +65,7 @@ update(): void;
 **Signature**
 
 ```ts
-setSkillWindow(skillWindow: Window_SkillList): void;
+setSkillWindow(skillWindow: Window_SkillList): void
 ```
 
 ### selectLast (method)
@@ -73,7 +73,7 @@ setSkillWindow(skillWindow: Window_SkillList): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### \_actor (property)

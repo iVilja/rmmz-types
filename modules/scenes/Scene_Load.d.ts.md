@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Load.d.ts
-nav_order: 105
+nav_order: 106
 parent: Modules
 ---
 
@@ -40,7 +40,7 @@ export declare class Scene_Load
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### mode (method)
@@ -48,7 +48,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-mode(): "load";
+mode(): "load"
 ```
 
 ### helpWindowText (method)
@@ -56,7 +56,7 @@ mode(): "load";
 **Signature**
 
 ```ts
-helpWindowText(): string;
+helpWindowText(): string
 ```
 
 ### firstSavefileId (method)
@@ -64,7 +64,7 @@ helpWindowText(): string;
 **Signature**
 
 ```ts
-firstSavefileId(): number;
+firstSavefileId(): number
 ```
 
 ### onSavefileOk (method)
@@ -72,7 +72,7 @@ firstSavefileId(): number;
 **Signature**
 
 ```ts
-onSavefileOk(): void;
+onSavefileOk(): void
 ```
 
 ### executeLoad (method)
@@ -80,7 +80,7 @@ onSavefileOk(): void;
 **Signature**
 
 ```ts
-executeLoad(savefileId: number): void;
+executeLoad(savefileId: number): void
 ```
 
 ### onLoadSuccess (method)
@@ -88,7 +88,7 @@ executeLoad(savefileId: number): void;
 **Signature**
 
 ```ts
-onLoadSuccess(): void;
+onLoadSuccess(): void
 ```
 
 ### onLoadFailure (method)
@@ -96,7 +96,7 @@ onLoadSuccess(): void;
 **Signature**
 
 ```ts
-onLoadFailure(): void;
+onLoadFailure(): void
 ```
 
 ### reloadMapIfUpdated (method)
@@ -104,7 +104,7 @@ onLoadFailure(): void;
 **Signature**
 
 ```ts
-reloadMapIfUpdated(): void;
+reloadMapIfUpdated(): void
 ```
 
 ### \_loadSuccess (property)

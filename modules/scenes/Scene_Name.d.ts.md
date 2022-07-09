@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Name.d.ts
-nav_order: 110
+nav_order: 111
 parent: Modules
 ---
 
@@ -43,7 +43,7 @@ export declare class Scene_Name
 **Signature**
 
 ```ts
-prepare(actorId: ActorID, maxLength: number): void;
+prepare(actorId: ActorID, maxLength: number): void
 ```
 
 ### create (method)
@@ -51,7 +51,7 @@ prepare(actorId: ActorID, maxLength: number): void;
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -59,7 +59,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### createEditWindow (method)
@@ -67,7 +67,7 @@ start(): void;
 **Signature**
 
 ```ts
-createEditWindow(): void;
+createEditWindow(): void
 ```
 
 ### editWindowRect (method)
@@ -75,7 +75,7 @@ createEditWindow(): void;
 **Signature**
 
 ```ts
-editWindowRect(): Rectangle;
+editWindowRect(): Rectangle
 ```
 
 ### createInputWindow (method)
@@ -83,7 +83,7 @@ editWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createInputWindow(): void;
+createInputWindow(): void
 ```
 
 ### inputWindowRect (method)
@@ -91,7 +91,7 @@ createInputWindow(): void;
 **Signature**
 
 ```ts
-inputWindowRect(): Rectangle;
+inputWindowRect(): Rectangle
 ```
 
 ### onInputOk (method)
@@ -99,7 +99,7 @@ inputWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-onInputOk(): void;
+onInputOk(): void
 ```
 
 ### \_actorId (property)

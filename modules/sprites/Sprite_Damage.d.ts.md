@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Damage.d.ts
-nav_order: 127
+nav_order: 128
 parent: Modules
 ---
 
@@ -55,7 +55,7 @@ export declare class Sprite_Damage
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### setup (method)
@@ -63,7 +63,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-setup(target: ActionTarget): void;
+setup(target: ActionTarget): void
 ```
 
 ### setupCriticalEffect (method)
@@ -71,7 +71,7 @@ setup(target: ActionTarget): void;
 **Signature**
 
 ```ts
-setupCriticalEffect(): void;
+setupCriticalEffect(): void
 ```
 
 ### fontFace (method)
@@ -79,7 +79,7 @@ setupCriticalEffect(): void;
 **Signature**
 
 ```ts
-fontFace(): string;
+fontFace(): string
 ```
 
 ### fontSize (method)
@@ -87,7 +87,7 @@ fontFace(): string;
 **Signature**
 
 ```ts
-fontSize(): number;
+fontSize(): number
 ```
 
 ### damageColor (method)
@@ -95,7 +95,7 @@ fontSize(): number;
 **Signature**
 
 ```ts
-damageColor(): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b0ff" | "#808080";
+damageColor(): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b0ff" | "#808080"
 ```
 
 ### outlineColor (method)
@@ -103,7 +103,7 @@ damageColor(): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b0ff" | "#808080";
 **Signature**
 
 ```ts
-outlineColor(): string;
+outlineColor(): string
 ```
 
 ### outlineWidth (method)
@@ -111,7 +111,7 @@ outlineColor(): string;
 **Signature**
 
 ```ts
-outlineWidth(): number;
+outlineWidth(): number
 ```
 
 ### createMiss (method)
@@ -119,7 +119,7 @@ outlineWidth(): number;
 **Signature**
 
 ```ts
-createMiss(): void;
+createMiss(): void
 ```
 
 ### createDigits (method)
@@ -127,7 +127,7 @@ createMiss(): void;
 **Signature**
 
 ```ts
-createDigits(value: number): void;
+createDigits(value: number): void
 ```
 
 ### createChildSprite (method)
@@ -135,7 +135,7 @@ createDigits(value: number): void;
 **Signature**
 
 ```ts
-createChildSprite(width: number, height: number): Sprite<Bitmap>;
+createChildSprite(width: number, height: number): Sprite<Bitmap>
 ```
 
 ### createBitmap (method)
@@ -143,7 +143,7 @@ createChildSprite(width: number, height: number): Sprite<Bitmap>;
 **Signature**
 
 ```ts
-createBitmap(width: number, height: number): Bitmap;
+createBitmap(width: number, height: number): Bitmap
 ```
 
 ### update (method)
@@ -151,7 +151,7 @@ createBitmap(width: number, height: number): Bitmap;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateChild (method)
@@ -159,7 +159,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateChild(sprite: Sprite): void;
+updateChild(sprite: Sprite): void
 ```
 
 ### updateFlash (method)
@@ -167,7 +167,7 @@ updateChild(sprite: Sprite): void;
 **Signature**
 
 ```ts
-updateFlash(): void;
+updateFlash(): void
 ```
 
 ### updateOpacity (method)
@@ -175,7 +175,7 @@ updateFlash(): void;
 **Signature**
 
 ```ts
-updateOpacity(): void;
+updateOpacity(): void
 ```
 
 ### isPlaying (method)
@@ -183,7 +183,7 @@ updateOpacity(): void;
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### \_duration (property)

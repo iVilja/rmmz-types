@@ -1,6 +1,6 @@
 ---
 title: windows/Window_NameEdit.d.ts
-nav_order: 171
+nav_order: 172
 parent: Modules
 ---
 
@@ -55,7 +55,7 @@ export declare class Window_NameEdit {
 **Signature**
 
 ```ts
-setup(actor: Game_Actor, maxLength: number): void;
+setup(actor: Game_Actor, maxLength: number): void
 ```
 
 ### name (method)
@@ -63,7 +63,7 @@ setup(actor: Game_Actor, maxLength: number): void;
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### restoreDefault (method)
@@ -71,7 +71,7 @@ name(): string;
 **Signature**
 
 ```ts
-restoreDefault(): boolean;
+restoreDefault(): boolean
 ```
 
 ### add (method)
@@ -79,7 +79,7 @@ restoreDefault(): boolean;
 **Signature**
 
 ```ts
-add(ch: string): boolean;
+add(ch: string): boolean
 ```
 
 ### back (method)
@@ -87,7 +87,7 @@ add(ch: string): boolean;
 **Signature**
 
 ```ts
-back(): boolean;
+back(): boolean
 ```
 
 ### faceWidth (method)
@@ -95,7 +95,7 @@ back(): boolean;
 **Signature**
 
 ```ts
-faceWidth(): number;
+faceWidth(): number
 ```
 
 ### charWidth (method)
@@ -103,7 +103,7 @@ faceWidth(): number;
 **Signature**
 
 ```ts
-charWidth(): number;
+charWidth(): number
 ```
 
 ### left (method)
@@ -111,7 +111,7 @@ charWidth(): number;
 **Signature**
 
 ```ts
-left(): number;
+left(): number
 ```
 
 ### itemRect (method)
@@ -119,7 +119,7 @@ left(): number;
 **Signature**
 
 ```ts
-itemRect(index: number): Rectangle;
+itemRect(index: number): Rectangle
 ```
 
 ### underlineRect (method)
@@ -127,7 +127,7 @@ itemRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-underlineRect(index: number): Rectangle;
+underlineRect(index: number): Rectangle
 ```
 
 ### underlineColor (method)
@@ -135,7 +135,7 @@ underlineRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-underlineColor(): string;
+underlineColor(): string
 ```
 
 ### drawUnderline (method)
@@ -143,7 +143,7 @@ underlineColor(): string;
 **Signature**
 
 ```ts
-drawUnderline(index: number): void;
+drawUnderline(index: number): void
 ```
 
 ### drawChar (method)
@@ -151,7 +151,7 @@ drawUnderline(index: number): void;
 **Signature**
 
 ```ts
-drawChar(index: number): void;
+drawChar(index: number): void
 ```
 
 ### refresh (method)
@@ -159,7 +159,7 @@ drawChar(index: number): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_actor (property)

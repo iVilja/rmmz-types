@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Destination.d.ts
-nav_order: 128
+nav_order: 129
 parent: Modules
 ---
 
@@ -42,7 +42,7 @@ export declare class Sprite_Destination {
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### update (method)
@@ -50,7 +50,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### createBitmap (method)
@@ -58,7 +58,7 @@ update(): void;
 **Signature**
 
 ```ts
-createBitmap(): void;
+createBitmap(): void
 ```
 
 ### updatePosition (method)
@@ -66,7 +66,7 @@ createBitmap(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateAnimation (method)
@@ -74,7 +74,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateAnimation(): void;
+updateAnimation(): void
 ```
 
 ### \_frameCount (property)

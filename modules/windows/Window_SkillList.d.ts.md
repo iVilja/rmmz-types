@@ -1,6 +1,6 @@
 ---
 title: windows/Window_SkillList.d.ts
-nav_order: 185
+nav_order: 186
 parent: Modules
 ---
 
@@ -54,7 +54,7 @@ export declare class Window_SkillList
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### setStypeId (method)
@@ -62,7 +62,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-setStypeId(stypeId: SkillType): void;
+setStypeId(stypeId: SkillType): void
 ```
 
 ### maxCols (method)
@@ -70,7 +70,7 @@ setStypeId(stypeId: SkillType): void;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### colSpacing (method)
@@ -78,7 +78,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### maxItems (method)
@@ -86,7 +86,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### item (method)
@@ -94,7 +94,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-item(): DataSkill | null;
+item(): DataSkill | null
 ```
 
 ### itemAt (method)
@@ -102,7 +102,7 @@ item(): DataSkill | null;
 **Signature**
 
 ```ts
-itemAt(index: number): DataSkill | null;
+itemAt(index: number): DataSkill | null
 ```
 
 ### isCurrentItemEnabled (method)
@@ -110,7 +110,7 @@ itemAt(index: number): DataSkill | null;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### includes (method)
@@ -118,7 +118,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-includes(item: DataSkill): boolean;
+includes(item: DataSkill): boolean
 ```
 
 ### isEnabled (method)
@@ -126,7 +126,7 @@ includes(item: DataSkill): boolean;
 **Signature**
 
 ```ts
-isEnabled(item: DataSkill): boolean;
+isEnabled(item: DataSkill): boolean
 ```
 
 ### makeItemList (method)
@@ -134,7 +134,7 @@ isEnabled(item: DataSkill): boolean;
 **Signature**
 
 ```ts
-makeItemList(): void;
+makeItemList(): void
 ```
 
 ### selectLast (method)
@@ -142,7 +142,7 @@ makeItemList(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### drawItem (method)
@@ -150,7 +150,7 @@ selectLast(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### costWidth (method)
@@ -158,7 +158,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-costWidth(): number;
+costWidth(): number
 ```
 
 ### drawSkillCost (method)
@@ -166,7 +166,7 @@ costWidth(): number;
 **Signature**
 
 ```ts
-drawSkillCost(skill: DataSkill, x: number, y: number, width: number): void;
+drawSkillCost(skill: DataSkill, x: number, y: number, width: number): void
 ```
 
 ### updateHelp (method)
@@ -174,7 +174,7 @@ drawSkillCost(skill: DataSkill, x: number, y: number, width: number): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### refresh (method)
@@ -182,7 +182,7 @@ updateHelp(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_actor (property)

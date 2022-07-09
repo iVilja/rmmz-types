@@ -1,6 +1,6 @@
 ---
 title: windows/Window_EquipItem.d.ts
-nav_order: 155
+nav_order: 156
 parent: Modules
 ---
 
@@ -48,7 +48,7 @@ export declare class Window_EquipItem
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### colSpacing (method)
@@ -56,7 +56,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### setActor (method)
@@ -64,7 +64,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### setSlotId (method)
@@ -72,7 +72,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-setSlotId(slotId: EquipmentSlotID): void;
+setSlotId(slotId: EquipmentSlotID): void
 ```
 
 ### includes (method)
@@ -80,7 +80,7 @@ setSlotId(slotId: EquipmentSlotID): void;
 **Signature**
 
 ```ts
-includes(item: DataItemBase | null): boolean;
+includes(item: DataItemBase | null): boolean
 ```
 
 ### etypeId (method)
@@ -88,7 +88,7 @@ includes(item: DataItemBase | null): boolean;
 **Signature**
 
 ```ts
-etypeId(): number;
+etypeId(): number
 ```
 
 ### isEnabled (method)
@@ -96,7 +96,7 @@ etypeId(): number;
 **Signature**
 
 ```ts
-isEnabled(): boolean;
+isEnabled(): boolean
 ```
 
 ### selectLast (method)
@@ -104,7 +104,7 @@ isEnabled(): boolean;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### setStatusWindow (method)
@@ -112,7 +112,7 @@ selectLast(): void;
 **Signature**
 
 ```ts
-setStatusWindow(statusWindow: Window_EquipStatus): void;
+setStatusWindow(statusWindow: Window_EquipStatus): void
 ```
 
 ### updateHelp (method)
@@ -120,7 +120,7 @@ setStatusWindow(statusWindow: Window_EquipStatus): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### playOkSound (method)
@@ -128,7 +128,7 @@ updateHelp(): void;
 **Signature**
 
 ```ts
-playOkSound(): void;
+playOkSound(): void
 ```
 
 ### \_actor (property)

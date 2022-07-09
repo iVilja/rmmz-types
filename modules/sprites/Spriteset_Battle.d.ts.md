@@ -1,6 +1,6 @@
 ---
 title: sprites/Spriteset_Battle.d.ts
-nav_order: 138
+nav_order: 139
 parent: Modules
 ---
 
@@ -59,7 +59,7 @@ export declare class Spriteset_Battle
 **Signature**
 
 ```ts
-loadSystemImages(): void;
+loadSystemImages(): void
 ```
 
 ### createLowerLayer (method)
@@ -67,7 +67,7 @@ loadSystemImages(): void;
 **Signature**
 
 ```ts
-createLowerLayer(): void;
+createLowerLayer(): void
 ```
 
 ### createBackground (method)
@@ -75,7 +75,7 @@ createLowerLayer(): void;
 **Signature**
 
 ```ts
-createBackground(): void;
+createBackground(): void
 ```
 
 ### createBattleback (method)
@@ -83,7 +83,7 @@ createBackground(): void;
 **Signature**
 
 ```ts
-createBattleback(): void;
+createBattleback(): void
 ```
 
 ### createBattleField (method)
@@ -91,7 +91,7 @@ createBattleback(): void;
 **Signature**
 
 ```ts
-createBattleField(): void;
+createBattleField(): void
 ```
 
 ### battleFieldOffsetY (method)
@@ -99,7 +99,7 @@ createBattleField(): void;
 **Signature**
 
 ```ts
-battleFieldOffsetY(): number;
+battleFieldOffsetY(): number
 ```
 
 ### update (method)
@@ -107,7 +107,7 @@ battleFieldOffsetY(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBattleback (method)
@@ -115,7 +115,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBattleback(): void;
+updateBattleback(): void
 ```
 
 ### createEnemies (method)
@@ -123,7 +123,7 @@ updateBattleback(): void;
 **Signature**
 
 ```ts
-createEnemies(): void;
+createEnemies(): void
 ```
 
 ### compareEnemySprite (method)
@@ -131,7 +131,7 @@ createEnemies(): void;
 **Signature**
 
 ```ts
-compareEnemySprite(a: Sprite_Enemy, b: Sprite_Enemy): number;
+compareEnemySprite(a: Sprite_Enemy, b: Sprite_Enemy): number
 ```
 
 ### createActors (method)
@@ -139,7 +139,7 @@ compareEnemySprite(a: Sprite_Enemy, b: Sprite_Enemy): number;
 **Signature**
 
 ```ts
-createActors(): void;
+createActors(): void
 ```
 
 ### updateActors (method)
@@ -147,7 +147,7 @@ createActors(): void;
 **Signature**
 
 ```ts
-updateActors(): void;
+updateActors(): void
 ```
 
 ### findTargetSprite (method)
@@ -155,7 +155,7 @@ updateActors(): void;
 **Signature**
 
 ```ts
-findTargetSprite(target: ActionTarget): Sprite<Bitmap> | undefined;
+findTargetSprite(target: ActionTarget): Sprite<Bitmap> | undefined
 ```
 
 ### battlerSprites (method)
@@ -163,7 +163,7 @@ findTargetSprite(target: ActionTarget): Sprite<Bitmap> | undefined;
 **Signature**
 
 ```ts
-battlerSprites(): (Sprite_Actor | Sprite_Enemy)[];
+battlerSprites(): (Sprite_Actor | Sprite_Enemy)[]
 ```
 
 ### isEffecting (method)
@@ -171,7 +171,7 @@ battlerSprites(): (Sprite_Actor | Sprite_Enemy)[];
 **Signature**
 
 ```ts
-isEffecting(): boolean;
+isEffecting(): boolean
 ```
 
 ### isAnyoneMoving (method)
@@ -179,7 +179,7 @@ isEffecting(): boolean;
 **Signature**
 
 ```ts
-isAnyoneMoving(): boolean;
+isAnyoneMoving(): boolean
 ```
 
 ### isBusy (method)
@@ -187,7 +187,7 @@ isAnyoneMoving(): boolean;
 **Signature**
 
 ```ts
-isBusy(): boolean;
+isBusy(): boolean
 ```
 
 ### \_battlebackLocated (property)

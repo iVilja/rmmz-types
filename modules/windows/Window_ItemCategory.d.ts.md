@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ItemCategory.d.ts
-nav_order: 163
+nav_order: 164
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Window_ItemCategory
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### update (method)
@@ -49,7 +49,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### makeCommandList (method)
@@ -57,7 +57,7 @@ update(): void;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### needsCommand (method)
@@ -65,7 +65,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-needsCommand(name: string): boolean;
+needsCommand(name: string): boolean
 ```
 
 ### setItemWindow (method)
@@ -73,7 +73,7 @@ needsCommand(name: string): boolean;
 **Signature**
 
 ```ts
-setItemWindow(itemWindow: Window_ItemList): void;
+setItemWindow(itemWindow: Window_ItemList): void
 ```
 
 ### needsSelection (method)
@@ -81,7 +81,7 @@ setItemWindow(itemWindow: Window_ItemList): void;
 **Signature**
 
 ```ts
-needsSelection(): boolean;
+needsSelection(): boolean
 ```
 
 ### \_itemWindow (property)

@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Help.d.ts
-nav_order: 161
+nav_order: 162
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Window_Help {
 **Signature**
 
 ```ts
-setText(text: string): void;
+setText(text: string): void
 ```
 
 ### clear (method)
@@ -49,7 +49,7 @@ setText(text: string): void;
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### setItem (method)
@@ -57,7 +57,7 @@ clear(): void;
 **Signature**
 
 ```ts
-setItem(item: DataItemBase | null): void;
+setItem(item: DataItemBase | null): void
 ```
 
 ### refresh (method)
@@ -65,7 +65,7 @@ setItem(item: DataItemBase | null): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_text (property)

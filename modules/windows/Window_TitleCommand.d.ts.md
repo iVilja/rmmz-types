@@ -1,6 +1,6 @@
 ---
 title: windows/Window_TitleCommand.d.ts
-nav_order: 192
+nav_order: 193
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Window_TitleCommand {
 **Signature**
 
 ```ts
-static initCommandPosition(): void;
+static initCommandPosition(): void
 ```
 
 ### makeCommandList (method)
@@ -49,7 +49,7 @@ static initCommandPosition(): void;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### isContinueEnabled (method)
@@ -57,7 +57,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-isContinueEnabled(): boolean;
+isContinueEnabled(): boolean
 ```
 
 ### processOk (method)
@@ -65,7 +65,7 @@ isContinueEnabled(): boolean;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### selectLast (method)
@@ -73,5 +73,5 @@ processOk(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```

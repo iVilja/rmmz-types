@@ -1,6 +1,6 @@
 ---
 title: managers/PluginManager.d.ts
-nav_order: 58
+nav_order: 59
 parent: Modules
 ---
 
@@ -46,7 +46,7 @@ export declare class PluginManager {
 **Signature**
 
 ```ts
-static setup(plugins: RmmzPlugin[]): void;
+static setup(plugins: RmmzPlugin[]): void
 ```
 
 ### parameters (static method)
@@ -54,7 +54,7 @@ static setup(plugins: RmmzPlugin[]): void;
 **Signature**
 
 ```ts
-static parameters(name: string): Record<string, unknown>;
+static parameters(name: string): Record<string, unknown>
 ```
 
 ### setParameters (static method)
@@ -62,7 +62,7 @@ static parameters(name: string): Record<string, unknown>;
 **Signature**
 
 ```ts
-static setParameters(name: string, parameters: Record<string, unknown>): void;
+static setParameters(name: string, parameters: Record<string, unknown>): void
 ```
 
 ### loadScript (static method)
@@ -70,7 +70,7 @@ static setParameters(name: string, parameters: Record<string, unknown>): void;
 **Signature**
 
 ```ts
-static loadScript(filename: string): void;
+static loadScript(filename: string): void
 ```
 
 ### onError (static method)
@@ -78,7 +78,7 @@ static loadScript(filename: string): void;
 **Signature**
 
 ```ts
-static onError(e: Event | string): void;
+static onError(e: Event | string): void
 ```
 
 ### makeUrl (static method)
@@ -86,7 +86,7 @@ static onError(e: Event | string): void;
 **Signature**
 
 ```ts
-static makeUrl(filename: string): string;
+static makeUrl(filename: string): string
 ```
 
 ### checkErrors (static method)
@@ -94,7 +94,7 @@ static makeUrl(filename: string): string;
 **Signature**
 
 ```ts
-static checkErrors(): void;
+static checkErrors(): void
 ```
 
 ### throwLoadError (static method)
@@ -102,7 +102,7 @@ static checkErrors(): void;
 **Signature**
 
 ```ts
-static throwLoadError(url: string): void;
+static throwLoadError(url: string): void
 ```
 
 ### registerCommand (static method)
@@ -110,7 +110,7 @@ static throwLoadError(url: string): void;
 **Signature**
 
 ```ts
-static registerCommand(pluginName: string, commandName: string, func: () => void): void;
+static registerCommand(pluginName: string, commandName: string, func: () => void): void
 ```
 
 ### callCommand (static method)
@@ -118,5 +118,5 @@ static registerCommand(pluginName: string, commandName: string, func: () => void
 **Signature**
 
 ```ts
-static callCommand(self: unknown, pluginName: string, commandName: string, args: unknown[]): void;
+static callCommand(self: unknown, pluginName: string, commandName: string, args: unknown[]): void
 ```

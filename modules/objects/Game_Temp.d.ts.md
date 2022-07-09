@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Temp.d.ts
-nav_order: 87
+nav_order: 88
 parent: Modules
 ---
 
@@ -74,7 +74,7 @@ export declare class Game_Temp
 **Signature**
 
 ```ts
-isPlaytest(): boolean;
+isPlaytest(): boolean
 ```
 
 ### setDestination (method)
@@ -82,7 +82,7 @@ isPlaytest(): boolean;
 **Signature**
 
 ```ts
-setDestination(x: number, y: number): void;
+setDestination(x: number, y: number): void
 ```
 
 ### clearDestination (method)
@@ -90,7 +90,7 @@ setDestination(x: number, y: number): void;
 **Signature**
 
 ```ts
-clearDestination(): void;
+clearDestination(): void
 ```
 
 ### isDestinationValid (method)
@@ -98,7 +98,7 @@ clearDestination(): void;
 **Signature**
 
 ```ts
-isDestinationValid(): boolean;
+isDestinationValid(): boolean
 ```
 
 ### destinationX (method)
@@ -106,7 +106,7 @@ isDestinationValid(): boolean;
 **Signature**
 
 ```ts
-destinationX(): number | null;
+destinationX(): number | null
 ```
 
 ### destinationY (method)
@@ -114,7 +114,7 @@ destinationX(): number | null;
 **Signature**
 
 ```ts
-destinationY(): number | null;
+destinationY(): number | null
 ```
 
 ### setTouchState (method)
@@ -122,7 +122,7 @@ destinationY(): number | null;
 **Signature**
 
 ```ts
-setTouchState(target: Game_Battler, state: TouchState): void;
+setTouchState(target: Game_Battler, state: TouchState): void
 ```
 
 ### clearTouchState (method)
@@ -130,7 +130,7 @@ setTouchState(target: Game_Battler, state: TouchState): void;
 **Signature**
 
 ```ts
-clearTouchState(): void;
+clearTouchState(): void
 ```
 
 ### touchTarget (method)
@@ -138,7 +138,7 @@ clearTouchState(): void;
 **Signature**
 
 ```ts
-touchTarget(): Game_Battler | null;
+touchTarget(): Game_Battler | null
 ```
 
 ### touchState (method)
@@ -146,7 +146,7 @@ touchTarget(): Game_Battler | null;
 **Signature**
 
 ```ts
-touchState(): string;
+touchState(): string
 ```
 
 ### requestBattleRefresh (method)
@@ -154,7 +154,7 @@ touchState(): string;
 **Signature**
 
 ```ts
-requestBattleRefresh(): void;
+requestBattleRefresh(): void
 ```
 
 ### clearBattleRefreshRequest (method)
@@ -162,7 +162,7 @@ requestBattleRefresh(): void;
 **Signature**
 
 ```ts
-clearBattleRefreshRequest(): void;
+clearBattleRefreshRequest(): void
 ```
 
 ### isBattleRefreshRequested (method)
@@ -170,7 +170,7 @@ clearBattleRefreshRequest(): void;
 **Signature**
 
 ```ts
-isBattleRefreshRequested(): boolean;
+isBattleRefreshRequested(): boolean
 ```
 
 ### reserveCommonEvent (method)
@@ -178,7 +178,7 @@ isBattleRefreshRequested(): boolean;
 **Signature**
 
 ```ts
-reserveCommonEvent(commonEventId: CommonEventID): void;
+reserveCommonEvent(commonEventId: CommonEventID): void
 ```
 
 ### retrieveCommonEvent (method)
@@ -186,7 +186,7 @@ reserveCommonEvent(commonEventId: CommonEventID): void;
 **Signature**
 
 ```ts
-retrieveCommonEvent(): import("../data").DataCommonEvent;
+retrieveCommonEvent(): import("../data").DataCommonEvent
 ```
 
 ### clearCommonEventReservation (method)
@@ -194,7 +194,7 @@ retrieveCommonEvent(): import("../data").DataCommonEvent;
 **Signature**
 
 ```ts
-clearCommonEventReservation(): void;
+clearCommonEventReservation(): void
 ```
 
 ### isCommonEventReserved (method)
@@ -202,7 +202,7 @@ clearCommonEventReservation(): void;
 **Signature**
 
 ```ts
-isCommonEventReserved(): boolean;
+isCommonEventReserved(): boolean
 ```
 
 ### requestAnimation (method)
@@ -210,7 +210,11 @@ isCommonEventReserved(): boolean;
 **Signature**
 
 ```ts
-requestAnimation(targets: (Game_Character | Game_Battler)[], animationId: AnimationID, mirror?: boolean): void;
+requestAnimation(
+    targets: (Game_Character | Game_Battler)[],
+    animationId: AnimationID,
+    mirror?: boolean
+  ): void
 ```
 
 ### retrieveAnimation (method)
@@ -218,7 +222,7 @@ requestAnimation(targets: (Game_Character | Game_Battler)[], animationId: Animat
 **Signature**
 
 ```ts
-retrieveAnimation(): AnimationRequest | undefined;
+retrieveAnimation(): AnimationRequest | undefined
 ```
 
 ### requestBalloon (method)
@@ -226,7 +230,7 @@ retrieveAnimation(): AnimationRequest | undefined;
 **Signature**
 
 ```ts
-requestBalloon(target: Game_Character, balloonId: BalloonIconID): void;
+requestBalloon(target: Game_Character, balloonId: BalloonIconID): void
 ```
 
 ### retrieveBalloon (method)
@@ -234,7 +238,7 @@ requestBalloon(target: Game_Character, balloonId: BalloonIconID): void;
 **Signature**
 
 ```ts
-retrieveBalloon(): BalloonRequest | undefined;
+retrieveBalloon(): BalloonRequest | undefined
 ```
 
 ### lastActionData (method)
@@ -242,7 +246,7 @@ retrieveBalloon(): BalloonRequest | undefined;
 **Signature**
 
 ```ts
-lastActionData(type: ActionDataType): number;
+lastActionData(type: ActionDataType): number
 ```
 
 ### setLastActionData (method)
@@ -250,7 +254,7 @@ lastActionData(type: ActionDataType): number;
 **Signature**
 
 ```ts
-setLastActionData(type: ActionDataType, value: number): void;
+setLastActionData(type: ActionDataType, value: number): void
 ```
 
 ### setLastUsedSkillId (method)
@@ -258,7 +262,7 @@ setLastActionData(type: ActionDataType, value: number): void;
 **Signature**
 
 ```ts
-setLastUsedSkillId(skillID: SkillID): void;
+setLastUsedSkillId(skillID: SkillID): void
 ```
 
 ### setLastUsedItemId (method)
@@ -266,7 +270,7 @@ setLastUsedSkillId(skillID: SkillID): void;
 **Signature**
 
 ```ts
-setLastUsedItemId(itemID: ItemID): void;
+setLastUsedItemId(itemID: ItemID): void
 ```
 
 ### setLastSubjectActorId (method)
@@ -274,7 +278,7 @@ setLastUsedItemId(itemID: ItemID): void;
 **Signature**
 
 ```ts
-setLastSubjectActorId(actorID: ActorID): void;
+setLastSubjectActorId(actorID: ActorID): void
 ```
 
 ### setLastSubjectEnemyIndex (method)
@@ -282,7 +286,7 @@ setLastSubjectActorId(actorID: ActorID): void;
 **Signature**
 
 ```ts
-setLastSubjectEnemyIndex(enemyIndex: EnemyID): void;
+setLastSubjectEnemyIndex(enemyIndex: EnemyID): void
 ```
 
 ### setLastTargetActorId (method)
@@ -290,7 +294,7 @@ setLastSubjectEnemyIndex(enemyIndex: EnemyID): void;
 **Signature**
 
 ```ts
-setLastTargetActorId(actorID: ActorID): void;
+setLastTargetActorId(actorID: ActorID): void
 ```
 
 ### setLastTargetEnemyIndex (method)
@@ -298,7 +302,7 @@ setLastTargetActorId(actorID: ActorID): void;
 **Signature**
 
 ```ts
-setLastTargetEnemyIndex(enemyIndex: EnemyID): void;
+setLastTargetEnemyIndex(enemyIndex: EnemyID): void
 ```
 
 ### \_isPlaytest (property)

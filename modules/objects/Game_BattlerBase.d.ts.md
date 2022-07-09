@@ -1,6 +1,6 @@
 ---
 title: objects/Game_BattlerBase.d.ts
-nav_order: 68
+nav_order: 69
 parent: Modules
 ---
 
@@ -170,7 +170,7 @@ export declare class Game_BattlerBase {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### clearParamPlus (method)
@@ -178,7 +178,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-clearParamPlus(): void;
+clearParamPlus(): void
 ```
 
 ### clearStates (method)
@@ -186,7 +186,7 @@ clearParamPlus(): void;
 **Signature**
 
 ```ts
-clearStates(): void;
+clearStates(): void
 ```
 
 ### eraseState (method)
@@ -194,7 +194,7 @@ clearStates(): void;
 **Signature**
 
 ```ts
-eraseState(stateId: StateID): void;
+eraseState(stateId: StateID): void
 ```
 
 ### isStateAffected (method)
@@ -202,7 +202,7 @@ eraseState(stateId: StateID): void;
 **Signature**
 
 ```ts
-isStateAffected(stateId: StateID): boolean;
+isStateAffected(stateId: StateID): boolean
 ```
 
 ### isDeathStateAffected (method)
@@ -210,7 +210,7 @@ isStateAffected(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-isDeathStateAffected(): boolean;
+isDeathStateAffected(): boolean
 ```
 
 ### deathStateId (method)
@@ -218,7 +218,7 @@ isDeathStateAffected(): boolean;
 **Signature**
 
 ```ts
-deathStateId(): number;
+deathStateId(): number
 ```
 
 ### resetStateCounts (method)
@@ -226,7 +226,7 @@ deathStateId(): number;
 **Signature**
 
 ```ts
-resetStateCounts(stateId: StateID): void;
+resetStateCounts(stateId: StateID): void
 ```
 
 ### isStateExpired (method)
@@ -234,7 +234,7 @@ resetStateCounts(stateId: StateID): void;
 **Signature**
 
 ```ts
-isStateExpired(stateId: StateID): boolean;
+isStateExpired(stateId: StateID): boolean
 ```
 
 ### updateStateTurns (method)
@@ -242,7 +242,7 @@ isStateExpired(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-updateStateTurns(): void;
+updateStateTurns(): void
 ```
 
 ### clearBuffs (method)
@@ -250,7 +250,7 @@ updateStateTurns(): void;
 **Signature**
 
 ```ts
-clearBuffs(): void;
+clearBuffs(): void
 ```
 
 ### eraseBuff (method)
@@ -258,7 +258,7 @@ clearBuffs(): void;
 **Signature**
 
 ```ts
-eraseBuff(paramId: ParamID): void;
+eraseBuff(paramId: ParamID): void
 ```
 
 ### buffLength (method)
@@ -266,7 +266,7 @@ eraseBuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-buffLength(): 8;
+buffLength(): 8
 ```
 
 ### buff (method)
@@ -274,7 +274,7 @@ buffLength(): 8;
 **Signature**
 
 ```ts
-buff(paramId: ParamID): number;
+buff(paramId: ParamID): number
 ```
 
 ### isBuffAffected (method)
@@ -282,7 +282,7 @@ buff(paramId: ParamID): number;
 **Signature**
 
 ```ts
-isBuffAffected(paramId: ParamID): boolean;
+isBuffAffected(paramId: ParamID): boolean
 ```
 
 ### isDebuffAffected (method)
@@ -290,7 +290,7 @@ isBuffAffected(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-isDebuffAffected(paramId: ParamID): boolean;
+isDebuffAffected(paramId: ParamID): boolean
 ```
 
 ### isBuffOrDebuffAffected (method)
@@ -298,7 +298,7 @@ isDebuffAffected(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-isBuffOrDebuffAffected(paramId: ParamID): boolean;
+isBuffOrDebuffAffected(paramId: ParamID): boolean
 ```
 
 ### isMaxBuffAffected (method)
@@ -306,7 +306,7 @@ isBuffOrDebuffAffected(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-isMaxBuffAffected(paramId: ParamID): boolean;
+isMaxBuffAffected(paramId: ParamID): boolean
 ```
 
 ### isMaxDebuffAffected (method)
@@ -314,7 +314,7 @@ isMaxBuffAffected(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-isMaxDebuffAffected(paramId: ParamID): boolean;
+isMaxDebuffAffected(paramId: ParamID): boolean
 ```
 
 ### increaseBuff (method)
@@ -322,7 +322,7 @@ isMaxDebuffAffected(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-increaseBuff(paramId: ParamID): void;
+increaseBuff(paramId: ParamID): void
 ```
 
 ### decreaseBuff (method)
@@ -330,7 +330,7 @@ increaseBuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-decreaseBuff(paramId: ParamID): void;
+decreaseBuff(paramId: ParamID): void
 ```
 
 ### overwriteBuffTurns (method)
@@ -338,7 +338,7 @@ decreaseBuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-overwriteBuffTurns(paramId: ParamID, turns: number): void;
+overwriteBuffTurns(paramId: ParamID, turns: number): void
 ```
 
 ### isBuffExpired (method)
@@ -346,7 +346,7 @@ overwriteBuffTurns(paramId: ParamID, turns: number): void;
 **Signature**
 
 ```ts
-isBuffExpired(paramId: ParamID): boolean;
+isBuffExpired(paramId: ParamID): boolean
 ```
 
 ### updateBuffTurns (method)
@@ -354,7 +354,7 @@ isBuffExpired(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-updateBuffTurns(): void;
+updateBuffTurns(): void
 ```
 
 ### die (method)
@@ -362,7 +362,7 @@ updateBuffTurns(): void;
 **Signature**
 
 ```ts
-die(): void;
+die(): void
 ```
 
 ### revive (method)
@@ -370,7 +370,7 @@ die(): void;
 **Signature**
 
 ```ts
-revive(): void;
+revive(): void
 ```
 
 ### states (method)
@@ -378,7 +378,7 @@ revive(): void;
 **Signature**
 
 ```ts
-states(): import("../data").DataState[];
+states(): import("../data").DataState[]
 ```
 
 ### stateIcons (method)
@@ -386,7 +386,7 @@ states(): import("../data").DataState[];
 **Signature**
 
 ```ts
-stateIcons(): number[];
+stateIcons(): number[]
 ```
 
 ### buffIcons (method)
@@ -394,7 +394,7 @@ stateIcons(): number[];
 **Signature**
 
 ```ts
-buffIcons(): number[];
+buffIcons(): number[]
 ```
 
 ### buffIconIndex (method)
@@ -402,7 +402,7 @@ buffIcons(): number[];
 **Signature**
 
 ```ts
-buffIconIndex(buffLevel: number, paramId: ParamID): number;
+buffIconIndex(buffLevel: number, paramId: ParamID): number
 ```
 
 ### allIcons (method)
@@ -410,7 +410,7 @@ buffIconIndex(buffLevel: number, paramId: ParamID): number;
 **Signature**
 
 ```ts
-allIcons(): number[];
+allIcons(): number[]
 ```
 
 ### traitObjects (method)
@@ -419,8 +419,8 @@ allIcons(): number[];
 
 ```ts
 traitObjects(): {
-        traits: Trait[];
-    }[];
+    traits: Trait[]
+  }[]
 ```
 
 ### allTraits (method)
@@ -428,7 +428,7 @@ traitObjects(): {
 **Signature**
 
 ```ts
-allTraits(): Trait[];
+allTraits(): Trait[]
 ```
 
 ### traits (method)
@@ -436,7 +436,7 @@ allTraits(): Trait[];
 **Signature**
 
 ```ts
-traits(code: TraitType): Trait[];
+traits(code: TraitType): Trait[]
 ```
 
 ### traitsWithId (method)
@@ -444,7 +444,7 @@ traits(code: TraitType): Trait[];
 **Signature**
 
 ```ts
-traitsWithId(code: TraitType, id: DataID): Trait[];
+traitsWithId(code: TraitType, id: DataID): Trait[]
 ```
 
 ### traitsPi (method)
@@ -452,7 +452,7 @@ traitsWithId(code: TraitType, id: DataID): Trait[];
 **Signature**
 
 ```ts
-traitsPi(code: TraitType, id: DataID): number;
+traitsPi(code: TraitType, id: DataID): number
 ```
 
 ### traitsSum (method)
@@ -460,7 +460,7 @@ traitsPi(code: TraitType, id: DataID): number;
 **Signature**
 
 ```ts
-traitsSum(code: TraitType, id: DataID): number;
+traitsSum(code: TraitType, id: DataID): number
 ```
 
 ### traitsSumAll (method)
@@ -468,7 +468,7 @@ traitsSum(code: TraitType, id: DataID): number;
 **Signature**
 
 ```ts
-traitsSumAll(code: TraitType): number;
+traitsSumAll(code: TraitType): number
 ```
 
 ### traitsSet (method)
@@ -476,7 +476,7 @@ traitsSumAll(code: TraitType): number;
 **Signature**
 
 ```ts
-traitsSet(code: TraitType): number[];
+traitsSet(code: TraitType): number[]
 ```
 
 ### paramBase (method)
@@ -484,7 +484,7 @@ traitsSet(code: TraitType): number[];
 **Signature**
 
 ```ts
-paramBase(_paramId: ParamID): number;
+paramBase(_paramId: ParamID): number
 ```
 
 ### paramPlus (method)
@@ -492,7 +492,7 @@ paramBase(_paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramPlus(paramId: ParamID): number;
+paramPlus(paramId: ParamID): number
 ```
 
 ### paramBasePlus (method)
@@ -500,7 +500,7 @@ paramPlus(paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramBasePlus(paramId: ParamID): number;
+paramBasePlus(paramId: ParamID): number
 ```
 
 ### paramMin (method)
@@ -508,7 +508,7 @@ paramBasePlus(paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramMin(paramId: ParamID): 0 | 1;
+paramMin(paramId: ParamID): 0 | 1
 ```
 
 ### paramMax (method)
@@ -516,7 +516,7 @@ paramMin(paramId: ParamID): 0 | 1;
 **Signature**
 
 ```ts
-paramMax(_paramId: ParamID): number;
+paramMax(_paramId: ParamID): number
 ```
 
 ### paramRate (method)
@@ -524,7 +524,7 @@ paramMax(_paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramRate(paramId: ParamID): number;
+paramRate(paramId: ParamID): number
 ```
 
 ### paramBuffRate (method)
@@ -532,7 +532,7 @@ paramRate(paramId: ParamID): number;
 **Signature**
 
 ```ts
-paramBuffRate(paramId: ParamID): number;
+paramBuffRate(paramId: ParamID): number
 ```
 
 ### param (method)
@@ -540,7 +540,7 @@ paramBuffRate(paramId: ParamID): number;
 **Signature**
 
 ```ts
-param(paramId: ParamID): number;
+param(paramId: ParamID): number
 ```
 
 ### xparam (method)
@@ -548,7 +548,7 @@ param(paramId: ParamID): number;
 **Signature**
 
 ```ts
-xparam(xparamId: DataID): number;
+xparam(xparamId: DataID): number
 ```
 
 ### sparam (method)
@@ -556,7 +556,7 @@ xparam(xparamId: DataID): number;
 **Signature**
 
 ```ts
-sparam(sparamId: DataID): number;
+sparam(sparamId: DataID): number
 ```
 
 ### elementRate (method)
@@ -564,7 +564,7 @@ sparam(sparamId: DataID): number;
 **Signature**
 
 ```ts
-elementRate(elementId: DataID): number;
+elementRate(elementId: DataID): number
 ```
 
 ### debuffRate (method)
@@ -572,7 +572,7 @@ elementRate(elementId: DataID): number;
 **Signature**
 
 ```ts
-debuffRate(paramId: ParamID): number;
+debuffRate(paramId: ParamID): number
 ```
 
 ### stateRate (method)
@@ -580,7 +580,7 @@ debuffRate(paramId: ParamID): number;
 **Signature**
 
 ```ts
-stateRate(stateId: StateID): number;
+stateRate(stateId: StateID): number
 ```
 
 ### stateResistSet (method)
@@ -588,7 +588,7 @@ stateRate(stateId: StateID): number;
 **Signature**
 
 ```ts
-stateResistSet(): number[];
+stateResistSet(): number[]
 ```
 
 ### isStateResist (method)
@@ -596,7 +596,7 @@ stateResistSet(): number[];
 **Signature**
 
 ```ts
-isStateResist(stateId: StateID): boolean;
+isStateResist(stateId: StateID): boolean
 ```
 
 ### attackElements (method)
@@ -604,7 +604,7 @@ isStateResist(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-attackElements(): number[];
+attackElements(): number[]
 ```
 
 ### attackStates (method)
@@ -612,7 +612,7 @@ attackElements(): number[];
 **Signature**
 
 ```ts
-attackStates(): number[];
+attackStates(): number[]
 ```
 
 ### attackStatesRate (method)
@@ -620,7 +620,7 @@ attackStates(): number[];
 **Signature**
 
 ```ts
-attackStatesRate(stateId: StateID): number;
+attackStatesRate(stateId: StateID): number
 ```
 
 ### attackSpeed (method)
@@ -628,7 +628,7 @@ attackStatesRate(stateId: StateID): number;
 **Signature**
 
 ```ts
-attackSpeed(): number;
+attackSpeed(): number
 ```
 
 ### attackTimesAdd (method)
@@ -636,7 +636,7 @@ attackSpeed(): number;
 **Signature**
 
 ```ts
-attackTimesAdd(): number;
+attackTimesAdd(): number
 ```
 
 ### attackSkillId (method)
@@ -644,7 +644,7 @@ attackTimesAdd(): number;
 **Signature**
 
 ```ts
-attackSkillId(): number;
+attackSkillId(): number
 ```
 
 ### addedSkillTypes (method)
@@ -652,7 +652,7 @@ attackSkillId(): number;
 **Signature**
 
 ```ts
-addedSkillTypes(): number[];
+addedSkillTypes(): number[]
 ```
 
 ### isSkillTypeSealed (method)
@@ -660,7 +660,7 @@ addedSkillTypes(): number[];
 **Signature**
 
 ```ts
-isSkillTypeSealed(stypeId: SkillType): boolean;
+isSkillTypeSealed(stypeId: SkillType): boolean
 ```
 
 ### addedSkills (method)
@@ -668,7 +668,7 @@ isSkillTypeSealed(stypeId: SkillType): boolean;
 **Signature**
 
 ```ts
-addedSkills(): number[];
+addedSkills(): number[]
 ```
 
 ### isSkillSealed (method)
@@ -676,7 +676,7 @@ addedSkills(): number[];
 **Signature**
 
 ```ts
-isSkillSealed(skillId: SkillID): boolean;
+isSkillSealed(skillId: SkillID): boolean
 ```
 
 ### isEquipWtypeOk (method)
@@ -684,7 +684,7 @@ isSkillSealed(skillId: SkillID): boolean;
 **Signature**
 
 ```ts
-isEquipWtypeOk(wtypeId: WeaponType): boolean;
+isEquipWtypeOk(wtypeId: WeaponType): boolean
 ```
 
 ### isEquipAtypeOk (method)
@@ -692,7 +692,7 @@ isEquipWtypeOk(wtypeId: WeaponType): boolean;
 **Signature**
 
 ```ts
-isEquipAtypeOk(atypeId: ArmorType): boolean;
+isEquipAtypeOk(atypeId: ArmorType): boolean
 ```
 
 ### isEquipTypeLocked (method)
@@ -700,7 +700,7 @@ isEquipAtypeOk(atypeId: ArmorType): boolean;
 **Signature**
 
 ```ts
-isEquipTypeLocked(etypeId: ElementType): boolean;
+isEquipTypeLocked(etypeId: ElementType): boolean
 ```
 
 ### isEquipTypeSealed (method)
@@ -708,7 +708,7 @@ isEquipTypeLocked(etypeId: ElementType): boolean;
 **Signature**
 
 ```ts
-isEquipTypeSealed(etypeId: ElementType): boolean;
+isEquipTypeSealed(etypeId: ElementType): boolean
 ```
 
 ### slotType (method)
@@ -716,7 +716,7 @@ isEquipTypeSealed(etypeId: ElementType): boolean;
 **Signature**
 
 ```ts
-slotType(): number;
+slotType(): number
 ```
 
 ### isDualWield (method)
@@ -724,7 +724,7 @@ slotType(): number;
 **Signature**
 
 ```ts
-isDualWield(): boolean;
+isDualWield(): boolean
 ```
 
 ### actionPlusSet (method)
@@ -732,7 +732,7 @@ isDualWield(): boolean;
 **Signature**
 
 ```ts
-actionPlusSet(): number[];
+actionPlusSet(): number[]
 ```
 
 ### specialFlag (method)
@@ -740,7 +740,7 @@ actionPlusSet(): number[];
 **Signature**
 
 ```ts
-specialFlag(flagId: DataID): boolean;
+specialFlag(flagId: DataID): boolean
 ```
 
 ### collapseType (method)
@@ -748,7 +748,7 @@ specialFlag(flagId: DataID): boolean;
 **Signature**
 
 ```ts
-collapseType(): number;
+collapseType(): number
 ```
 
 ### partyAbility (method)
@@ -756,7 +756,7 @@ collapseType(): number;
 **Signature**
 
 ```ts
-partyAbility(abilityId: DataID): boolean;
+partyAbility(abilityId: DataID): boolean
 ```
 
 ### isAutoBattle (method)
@@ -764,7 +764,7 @@ partyAbility(abilityId: DataID): boolean;
 **Signature**
 
 ```ts
-isAutoBattle(): boolean;
+isAutoBattle(): boolean
 ```
 
 ### isGuard (method)
@@ -772,7 +772,7 @@ isAutoBattle(): boolean;
 **Signature**
 
 ```ts
-isGuard(): boolean;
+isGuard(): boolean
 ```
 
 ### isSubstitute (method)
@@ -780,7 +780,7 @@ isGuard(): boolean;
 **Signature**
 
 ```ts
-isSubstitute(): boolean;
+isSubstitute(): boolean
 ```
 
 ### isPreserveTp (method)
@@ -788,7 +788,7 @@ isSubstitute(): boolean;
 **Signature**
 
 ```ts
-isPreserveTp(): boolean;
+isPreserveTp(): boolean
 ```
 
 ### addParam (method)
@@ -796,7 +796,7 @@ isPreserveTp(): boolean;
 **Signature**
 
 ```ts
-addParam(paramId: ParamID, value: number): void;
+addParam(paramId: ParamID, value: number): void
 ```
 
 ### setHp (method)
@@ -804,7 +804,7 @@ addParam(paramId: ParamID, value: number): void;
 **Signature**
 
 ```ts
-setHp(hp: number): void;
+setHp(hp: number): void
 ```
 
 ### setMp (method)
@@ -812,7 +812,7 @@ setHp(hp: number): void;
 **Signature**
 
 ```ts
-setMp(mp: number): void;
+setMp(mp: number): void
 ```
 
 ### setTp (method)
@@ -820,7 +820,7 @@ setMp(mp: number): void;
 **Signature**
 
 ```ts
-setTp(tp: number): void;
+setTp(tp: number): void
 ```
 
 ### maxTp (method)
@@ -828,7 +828,7 @@ setTp(tp: number): void;
 **Signature**
 
 ```ts
-maxTp(): number;
+maxTp(): number
 ```
 
 ### refresh (method)
@@ -836,7 +836,7 @@ maxTp(): number;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### recoverAll (method)
@@ -844,7 +844,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-recoverAll(): void;
+recoverAll(): void
 ```
 
 ### hpRate (method)
@@ -852,7 +852,7 @@ recoverAll(): void;
 **Signature**
 
 ```ts
-hpRate(): number;
+hpRate(): number
 ```
 
 ### mpRate (method)
@@ -860,7 +860,7 @@ hpRate(): number;
 **Signature**
 
 ```ts
-mpRate(): number;
+mpRate(): number
 ```
 
 ### tpRate (method)
@@ -868,7 +868,7 @@ mpRate(): number;
 **Signature**
 
 ```ts
-tpRate(): number;
+tpRate(): number
 ```
 
 ### hide (method)
@@ -876,7 +876,7 @@ tpRate(): number;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### appear (method)
@@ -884,7 +884,7 @@ hide(): void;
 **Signature**
 
 ```ts
-appear(): void;
+appear(): void
 ```
 
 ### isHidden (method)
@@ -892,7 +892,7 @@ appear(): void;
 **Signature**
 
 ```ts
-isHidden(): boolean;
+isHidden(): boolean
 ```
 
 ### isAppeared (method)
@@ -900,7 +900,7 @@ isHidden(): boolean;
 **Signature**
 
 ```ts
-isAppeared(): boolean;
+isAppeared(): boolean
 ```
 
 ### isDead (method)
@@ -908,7 +908,7 @@ isAppeared(): boolean;
 **Signature**
 
 ```ts
-isDead(): boolean;
+isDead(): boolean
 ```
 
 ### isAlive (method)
@@ -916,7 +916,7 @@ isDead(): boolean;
 **Signature**
 
 ```ts
-isAlive(): boolean;
+isAlive(): boolean
 ```
 
 ### isDying (method)
@@ -924,7 +924,7 @@ isAlive(): boolean;
 **Signature**
 
 ```ts
-isDying(): boolean;
+isDying(): boolean
 ```
 
 ### isRestricted (method)
@@ -932,7 +932,7 @@ isDying(): boolean;
 **Signature**
 
 ```ts
-isRestricted(): boolean;
+isRestricted(): boolean
 ```
 
 ### canInput (method)
@@ -940,7 +940,7 @@ isRestricted(): boolean;
 **Signature**
 
 ```ts
-canInput(): boolean;
+canInput(): boolean
 ```
 
 ### canMove (method)
@@ -948,7 +948,7 @@ canInput(): boolean;
 **Signature**
 
 ```ts
-canMove(): boolean;
+canMove(): boolean
 ```
 
 ### isConfused (method)
@@ -956,7 +956,7 @@ canMove(): boolean;
 **Signature**
 
 ```ts
-isConfused(): boolean;
+isConfused(): boolean
 ```
 
 ### confusionLevel (method)
@@ -964,7 +964,7 @@ isConfused(): boolean;
 **Signature**
 
 ```ts
-confusionLevel(): number;
+confusionLevel(): number
 ```
 
 ### isActor (method)
@@ -972,7 +972,7 @@ confusionLevel(): number;
 **Signature**
 
 ```ts
-isActor(): this is Game_Actor;
+isActor(): this is Game_Actor
 ```
 
 ### isEnemy (method)
@@ -980,7 +980,7 @@ isActor(): this is Game_Actor;
 **Signature**
 
 ```ts
-isEnemy(): this is Game_Enemy;
+isEnemy(): this is Game_Enemy
 ```
 
 ### sortStates (method)
@@ -988,7 +988,7 @@ isEnemy(): this is Game_Enemy;
 **Signature**
 
 ```ts
-sortStates(): void;
+sortStates(): void
 ```
 
 ### restriction (method)
@@ -996,7 +996,7 @@ sortStates(): void;
 **Signature**
 
 ```ts
-restriction(): number;
+restriction(): number
 ```
 
 ### addNewState (method)
@@ -1004,7 +1004,7 @@ restriction(): number;
 **Signature**
 
 ```ts
-addNewState(stateId: StateID): void;
+addNewState(stateId: StateID): void
 ```
 
 ### onRestrict (method)
@@ -1012,7 +1012,7 @@ addNewState(stateId: StateID): void;
 **Signature**
 
 ```ts
-onRestrict(): void;
+onRestrict(): void
 ```
 
 ### mostImportantStateText (method)
@@ -1020,7 +1020,7 @@ onRestrict(): void;
 **Signature**
 
 ```ts
-mostImportantStateText(): string;
+mostImportantStateText(): string
 ```
 
 ### stateMotionIndex (method)
@@ -1028,7 +1028,7 @@ mostImportantStateText(): string;
 **Signature**
 
 ```ts
-stateMotionIndex(): import("../data").Motion;
+stateMotionIndex(): import("../data").Motion
 ```
 
 ### stateOverlayIndex (method)
@@ -1036,7 +1036,7 @@ stateMotionIndex(): import("../data").Motion;
 **Signature**
 
 ```ts
-stateOverlayIndex(): import("../data").Overlay;
+stateOverlayIndex(): import("../data").Overlay
 ```
 
 ### isSkillWtypeOk (method)
@@ -1044,7 +1044,7 @@ stateOverlayIndex(): import("../data").Overlay;
 **Signature**
 
 ```ts
-isSkillWtypeOk(_skill: DataSkill): boolean;
+isSkillWtypeOk(_skill: DataSkill): boolean
 ```
 
 ### skillMpCost (method)
@@ -1052,7 +1052,7 @@ isSkillWtypeOk(_skill: DataSkill): boolean;
 **Signature**
 
 ```ts
-skillMpCost(skill: DataSkill): number;
+skillMpCost(skill: DataSkill): number
 ```
 
 ### skillTpCost (method)
@@ -1060,7 +1060,7 @@ skillMpCost(skill: DataSkill): number;
 **Signature**
 
 ```ts
-skillTpCost(skill: DataSkill): number;
+skillTpCost(skill: DataSkill): number
 ```
 
 ### canPaySkillCost (method)
@@ -1068,7 +1068,7 @@ skillTpCost(skill: DataSkill): number;
 **Signature**
 
 ```ts
-canPaySkillCost(skill: DataSkill): boolean;
+canPaySkillCost(skill: DataSkill): boolean
 ```
 
 ### paySkillCost (method)
@@ -1076,7 +1076,7 @@ canPaySkillCost(skill: DataSkill): boolean;
 **Signature**
 
 ```ts
-paySkillCost(skill: DataSkill): void;
+paySkillCost(skill: DataSkill): void
 ```
 
 ### isOccasionOk (method)
@@ -1084,7 +1084,7 @@ paySkillCost(skill: DataSkill): void;
 **Signature**
 
 ```ts
-isOccasionOk(item: DataSkill | DataItem): boolean;
+isOccasionOk(item: DataSkill | DataItem): boolean
 ```
 
 ### meetsUsableItemConditions (method)
@@ -1092,7 +1092,7 @@ isOccasionOk(item: DataSkill | DataItem): boolean;
 **Signature**
 
 ```ts
-meetsUsableItemConditions(item: DataSkill | DataItem): boolean;
+meetsUsableItemConditions(item: DataSkill | DataItem): boolean
 ```
 
 ### meetsSkillConditions (method)
@@ -1100,7 +1100,7 @@ meetsUsableItemConditions(item: DataSkill | DataItem): boolean;
 **Signature**
 
 ```ts
-meetsSkillConditions(skill: DataSkill): boolean;
+meetsSkillConditions(skill: DataSkill): boolean
 ```
 
 ### meetsItemConditions (method)
@@ -1108,7 +1108,7 @@ meetsSkillConditions(skill: DataSkill): boolean;
 **Signature**
 
 ```ts
-meetsItemConditions(item: DataSkill | DataItem): boolean;
+meetsItemConditions(item: DataSkill | DataItem): boolean
 ```
 
 ### canUse (method)
@@ -1116,7 +1116,7 @@ meetsItemConditions(item: DataSkill | DataItem): boolean;
 **Signature**
 
 ```ts
-canUse(item: DataItemBase | null): boolean;
+canUse(item: DataItemBase | null): boolean
 ```
 
 ### canEquip (method)
@@ -1124,7 +1124,7 @@ canUse(item: DataItemBase | null): boolean;
 **Signature**
 
 ```ts
-canEquip(item: DataItemBase): item is DataWeapon | DataArmor;
+canEquip(item: DataItemBase): item is DataWeapon | DataArmor
 ```
 
 ### canEquipWeapon (method)
@@ -1132,7 +1132,7 @@ canEquip(item: DataItemBase): item is DataWeapon | DataArmor;
 **Signature**
 
 ```ts
-canEquipWeapon(item: DataWeapon): boolean;
+canEquipWeapon(item: DataWeapon): boolean
 ```
 
 ### canEquipArmor (method)
@@ -1140,7 +1140,7 @@ canEquipWeapon(item: DataWeapon): boolean;
 **Signature**
 
 ```ts
-canEquipArmor(item: DataArmor): boolean;
+canEquipArmor(item: DataArmor): boolean
 ```
 
 ### guardSkillId (method)
@@ -1148,7 +1148,7 @@ canEquipArmor(item: DataArmor): boolean;
 **Signature**
 
 ```ts
-guardSkillId(): number;
+guardSkillId(): number
 ```
 
 ### canAttack (method)
@@ -1156,7 +1156,7 @@ guardSkillId(): number;
 **Signature**
 
 ```ts
-canAttack(): boolean;
+canAttack(): boolean
 ```
 
 ### canGuard (method)
@@ -1164,7 +1164,7 @@ canAttack(): boolean;
 **Signature**
 
 ```ts
-canGuard(): boolean;
+canGuard(): boolean
 ```
 
 ### \_hp (property)

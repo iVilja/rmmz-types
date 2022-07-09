@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Base.d.ts
-nav_order: 143
+nav_order: 144
 parent: Modules
 ---
 
@@ -143,7 +143,7 @@ export declare class Window_Base {
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### checkRectObject (method)
@@ -151,7 +151,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-checkRectObject(rect: Rectangle): void;
+checkRectObject(rect: Rectangle): void
 ```
 
 ### lineHeight (method)
@@ -159,7 +159,7 @@ checkRectObject(rect: Rectangle): void;
 **Signature**
 
 ```ts
-lineHeight(): number;
+lineHeight(): number
 ```
 
 ### itemWidth (method)
@@ -167,7 +167,7 @@ lineHeight(): number;
 **Signature**
 
 ```ts
-itemWidth(): number;
+itemWidth(): number
 ```
 
 ### itemHeight (method)
@@ -175,7 +175,7 @@ itemWidth(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### itemPadding (method)
@@ -183,7 +183,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-itemPadding(): number;
+itemPadding(): number
 ```
 
 ### baseTextRect (method)
@@ -191,7 +191,7 @@ itemPadding(): number;
 **Signature**
 
 ```ts
-baseTextRect(): Rectangle;
+baseTextRect(): Rectangle
 ```
 
 ### loadWindowskin (method)
@@ -199,7 +199,7 @@ baseTextRect(): Rectangle;
 **Signature**
 
 ```ts
-loadWindowskin(): void;
+loadWindowskin(): void
 ```
 
 ### updatePadding (method)
@@ -207,7 +207,7 @@ loadWindowskin(): void;
 **Signature**
 
 ```ts
-updatePadding(): void;
+updatePadding(): void
 ```
 
 ### updateBackOpacity (method)
@@ -215,7 +215,7 @@ updatePadding(): void;
 **Signature**
 
 ```ts
-updateBackOpacity(): void;
+updateBackOpacity(): void
 ```
 
 ### fittingHeight (method)
@@ -223,7 +223,7 @@ updateBackOpacity(): void;
 **Signature**
 
 ```ts
-fittingHeight(numLines: number): number;
+fittingHeight(numLines: number): number
 ```
 
 ### updateTone (method)
@@ -231,7 +231,7 @@ fittingHeight(numLines: number): number;
 **Signature**
 
 ```ts
-updateTone(): void;
+updateTone(): void
 ```
 
 ### createContents (method)
@@ -239,7 +239,7 @@ updateTone(): void;
 **Signature**
 
 ```ts
-createContents(): void;
+createContents(): void
 ```
 
 ### destroyContents (method)
@@ -247,7 +247,7 @@ createContents(): void;
 **Signature**
 
 ```ts
-destroyContents(): void;
+destroyContents(): void
 ```
 
 ### contentsWidth (method)
@@ -255,7 +255,7 @@ destroyContents(): void;
 **Signature**
 
 ```ts
-contentsWidth(): number;
+contentsWidth(): number
 ```
 
 ### contentsHeight (method)
@@ -263,7 +263,7 @@ contentsWidth(): number;
 **Signature**
 
 ```ts
-contentsHeight(): number;
+contentsHeight(): number
 ```
 
 ### resetFontSettings (method)
@@ -271,7 +271,7 @@ contentsHeight(): number;
 **Signature**
 
 ```ts
-resetFontSettings(): void;
+resetFontSettings(): void
 ```
 
 ### resetTextColor (method)
@@ -279,7 +279,7 @@ resetFontSettings(): void;
 **Signature**
 
 ```ts
-resetTextColor(): void;
+resetTextColor(): void
 ```
 
 ### update (method)
@@ -287,7 +287,7 @@ resetTextColor(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateOpen (method)
@@ -295,7 +295,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateOpen(): void;
+updateOpen(): void
 ```
 
 ### updateClose (method)
@@ -303,7 +303,7 @@ updateOpen(): void;
 **Signature**
 
 ```ts
-updateClose(): void;
+updateClose(): void
 ```
 
 ### open (method)
@@ -311,7 +311,7 @@ updateClose(): void;
 **Signature**
 
 ```ts
-open(): void;
+open(): void
 ```
 
 ### close (method)
@@ -319,7 +319,7 @@ open(): void;
 **Signature**
 
 ```ts
-close(): void;
+close(): void
 ```
 
 ### isOpening (method)
@@ -327,7 +327,7 @@ close(): void;
 **Signature**
 
 ```ts
-isOpening(): boolean;
+isOpening(): boolean
 ```
 
 ### isClosing (method)
@@ -335,7 +335,7 @@ isOpening(): boolean;
 **Signature**
 
 ```ts
-isClosing(): boolean;
+isClosing(): boolean
 ```
 
 ### show (method)
@@ -343,7 +343,7 @@ isClosing(): boolean;
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -351,7 +351,7 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### activate (method)
@@ -359,7 +359,7 @@ hide(): void;
 **Signature**
 
 ```ts
-activate(): void;
+activate(): void
 ```
 
 ### deactivate (method)
@@ -367,7 +367,7 @@ activate(): void;
 **Signature**
 
 ```ts
-deactivate(): void;
+deactivate(): void
 ```
 
 ### systemColor (method)
@@ -375,7 +375,7 @@ deactivate(): void;
 **Signature**
 
 ```ts
-systemColor(): string;
+systemColor(): string
 ```
 
 ### translucentOpacity (method)
@@ -383,7 +383,7 @@ systemColor(): string;
 **Signature**
 
 ```ts
-translucentOpacity(): number;
+translucentOpacity(): number
 ```
 
 ### changeTextColor (method)
@@ -391,7 +391,7 @@ translucentOpacity(): number;
 **Signature**
 
 ```ts
-changeTextColor(color: string): void;
+changeTextColor(color: string): void
 ```
 
 ### changeOutlineColor (method)
@@ -399,7 +399,7 @@ changeTextColor(color: string): void;
 **Signature**
 
 ```ts
-changeOutlineColor(color: string): void;
+changeOutlineColor(color: string): void
 ```
 
 ### changePaintOpacity (method)
@@ -407,7 +407,7 @@ changeOutlineColor(color: string): void;
 **Signature**
 
 ```ts
-changePaintOpacity(enabled: boolean | number): void;
+changePaintOpacity(enabled: boolean | number): void
 ```
 
 ### drawRect (method)
@@ -415,7 +415,7 @@ changePaintOpacity(enabled: boolean | number): void;
 **Signature**
 
 ```ts
-drawRect(x: number, y: number, width: number, height: number): void;
+drawRect(x: number, y: number, width: number, height: number): void
 ```
 
 ### drawText (method)
@@ -423,7 +423,7 @@ drawRect(x: number, y: number, width: number, height: number): void;
 **Signature**
 
 ```ts
-drawText(text: string | number, x: number, y: number, maxWidth?: number, align?: CanvasTextAlign): void;
+drawText(text: string | number, x: number, y: number, maxWidth?: number, align?: CanvasTextAlign): void
 ```
 
 ### textWidth (method)
@@ -431,7 +431,7 @@ drawText(text: string | number, x: number, y: number, maxWidth?: number, align?:
 **Signature**
 
 ```ts
-textWidth(text: string): number;
+textWidth(text: string): number
 ```
 
 ### drawTextEx (method)
@@ -439,7 +439,7 @@ textWidth(text: string): number;
 **Signature**
 
 ```ts
-drawTextEx(text: string, x: number, y: number, width: number): number;
+drawTextEx(text: string, x: number, y: number, width: number): number
 ```
 
 ### textSizeEx (method)
@@ -448,9 +448,9 @@ drawTextEx(text: string, x: number, y: number, width: number): number;
 
 ```ts
 textSizeEx(text: string): {
-        width: number;
-        height: number;
-    };
+    width: number
+    height: number
+  }
 ```
 
 ### createTextState (method)
@@ -458,7 +458,7 @@ textSizeEx(text: string): {
 **Signature**
 
 ```ts
-createTextState(text: string, x: number, y: number, width: number): TextState;
+createTextState(text: string, x: number, y: number, width: number): TextState
 ```
 
 ### processAllText (method)
@@ -466,7 +466,7 @@ createTextState(text: string, x: number, y: number, width: number): TextState;
 **Signature**
 
 ```ts
-processAllText(textState: TextState): void;
+processAllText(textState: TextState): void
 ```
 
 ### flushTextState (method)
@@ -474,7 +474,7 @@ processAllText(textState: TextState): void;
 **Signature**
 
 ```ts
-flushTextState(textState: TextState): void;
+flushTextState(textState: TextState): void
 ```
 
 ### createTextBuffer (method)
@@ -482,7 +482,7 @@ flushTextState(textState: TextState): void;
 **Signature**
 
 ```ts
-createTextBuffer(rtl: boolean): "" | "‫";
+createTextBuffer(rtl: boolean): "" | "‫"
 ```
 
 ### convertEscapeCharacters (method)
@@ -490,7 +490,7 @@ createTextBuffer(rtl: boolean): "" | "‫";
 **Signature**
 
 ```ts
-convertEscapeCharacters(text: string): string;
+convertEscapeCharacters(text: string): string
 ```
 
 ### actorName (method)
@@ -498,7 +498,7 @@ convertEscapeCharacters(text: string): string;
 **Signature**
 
 ```ts
-actorName(n: ActorID): string;
+actorName(n: ActorID): string
 ```
 
 ### partyMemberName (method)
@@ -506,7 +506,7 @@ actorName(n: ActorID): string;
 **Signature**
 
 ```ts
-partyMemberName(n: number): string;
+partyMemberName(n: number): string
 ```
 
 ### processCharacter (method)
@@ -514,7 +514,7 @@ partyMemberName(n: number): string;
 **Signature**
 
 ```ts
-processCharacter(textState: TextState): void;
+processCharacter(textState: TextState): void
 ```
 
 ### processControlCharacter (method)
@@ -522,7 +522,7 @@ processCharacter(textState: TextState): void;
 **Signature**
 
 ```ts
-processControlCharacter(textState: TextState, c: string): void;
+processControlCharacter(textState: TextState, c: string): void
 ```
 
 ### processNewLine (method)
@@ -530,7 +530,7 @@ processControlCharacter(textState: TextState, c: string): void;
 **Signature**
 
 ```ts
-processNewLine(textState: TextState): void;
+processNewLine(textState: TextState): void
 ```
 
 ### obtainEscapeCode (method)
@@ -538,7 +538,7 @@ processNewLine(textState: TextState): void;
 **Signature**
 
 ```ts
-obtainEscapeCode(textState: TextState): string;
+obtainEscapeCode(textState: TextState): string
 ```
 
 ### obtainEscapeParam (method)
@@ -546,7 +546,7 @@ obtainEscapeCode(textState: TextState): string;
 **Signature**
 
 ```ts
-obtainEscapeParam(textState: TextState): number;
+obtainEscapeParam(textState: TextState): number
 ```
 
 ### processEscapeCharacter (method)
@@ -554,7 +554,7 @@ obtainEscapeParam(textState: TextState): number;
 **Signature**
 
 ```ts
-processEscapeCharacter(code: EscapeCharacter, textState: TextState): void;
+processEscapeCharacter(code: EscapeCharacter, textState: TextState): void
 ```
 
 ### processColorChange (method)
@@ -562,7 +562,7 @@ processEscapeCharacter(code: EscapeCharacter, textState: TextState): void;
 **Signature**
 
 ```ts
-processColorChange(colorIndex: number): void;
+processColorChange(colorIndex: number): void
 ```
 
 ### processDrawIcon (method)
@@ -570,7 +570,7 @@ processColorChange(colorIndex: number): void;
 **Signature**
 
 ```ts
-processDrawIcon(iconIndex: number, textState: TextState): void;
+processDrawIcon(iconIndex: number, textState: TextState): void
 ```
 
 ### makeFontBigger (method)
@@ -578,7 +578,7 @@ processDrawIcon(iconIndex: number, textState: TextState): void;
 **Signature**
 
 ```ts
-makeFontBigger(): void;
+makeFontBigger(): void
 ```
 
 ### makeFontSmaller (method)
@@ -586,7 +586,7 @@ makeFontBigger(): void;
 **Signature**
 
 ```ts
-makeFontSmaller(): void;
+makeFontSmaller(): void
 ```
 
 ### calcTextHeight (method)
@@ -594,9 +594,11 @@ makeFontSmaller(): void;
 **Signature**
 
 ```ts
-calcTextHeight(textState: Partial<TextState> & {
-        text: string;
-    }): number;
+calcTextHeight(
+    textState: Partial<TextState> & {
+      text: string
+    }
+  ): number
 ```
 
 ### maxFontSizeInLine (method)
@@ -604,7 +606,7 @@ calcTextHeight(textState: Partial<TextState> & {
 **Signature**
 
 ```ts
-maxFontSizeInLine(line: string): number;
+maxFontSizeInLine(line: string): number
 ```
 
 ### drawIcon (method)
@@ -612,7 +614,7 @@ maxFontSizeInLine(line: string): number;
 **Signature**
 
 ```ts
-drawIcon(iconIndex: number, x: number, y: number): void;
+drawIcon(iconIndex: number, x: number, y: number): void
 ```
 
 ### drawFace (method)
@@ -620,7 +622,7 @@ drawIcon(iconIndex: number, x: number, y: number): void;
 **Signature**
 
 ```ts
-drawFace(faceName: string, faceIndex: number, x: number, y: number, width?: number, height?: number): void;
+drawFace(faceName: string, faceIndex: number, x: number, y: number, width?: number, height?: number): void
 ```
 
 ### drawCharacter (method)
@@ -628,7 +630,7 @@ drawFace(faceName: string, faceIndex: number, x: number, y: number, width?: numb
 **Signature**
 
 ```ts
-drawCharacter(characterName: string, characterIndex: number, x: number, y: number): void;
+drawCharacter(characterName: string, characterIndex: number, x: number, y: number): void
 ```
 
 ### drawItemName (method)
@@ -636,7 +638,7 @@ drawCharacter(characterName: string, characterIndex: number, x: number, y: numbe
 **Signature**
 
 ```ts
-drawItemName(item: DataItemBase | null, x: number, y: number, width: number): void;
+drawItemName(item: DataItemBase | null, x: number, y: number, width: number): void
 ```
 
 ### drawCurrencyValue (method)
@@ -644,7 +646,7 @@ drawItemName(item: DataItemBase | null, x: number, y: number, width: number): vo
 **Signature**
 
 ```ts
-drawCurrencyValue(value: number, unit: string, x: number, y: number, width: number): void;
+drawCurrencyValue(value: number, unit: string, x: number, y: number, width: number): void
 ```
 
 ### setBackgroundType (method)
@@ -652,7 +654,7 @@ drawCurrencyValue(value: number, unit: string, x: number, y: number, width: numb
 **Signature**
 
 ```ts
-setBackgroundType(type: TextWindowBackgroundType): void;
+setBackgroundType(type: TextWindowBackgroundType): void
 ```
 
 ### showBackgroundDimmer (method)
@@ -660,7 +662,7 @@ setBackgroundType(type: TextWindowBackgroundType): void;
 **Signature**
 
 ```ts
-showBackgroundDimmer(): void;
+showBackgroundDimmer(): void
 ```
 
 ### createDimmerSprite (method)
@@ -668,7 +670,7 @@ showBackgroundDimmer(): void;
 **Signature**
 
 ```ts
-createDimmerSprite(): void;
+createDimmerSprite(): void
 ```
 
 ### hideBackgroundDimmer (method)
@@ -676,7 +678,7 @@ createDimmerSprite(): void;
 **Signature**
 
 ```ts
-hideBackgroundDimmer(): void;
+hideBackgroundDimmer(): void
 ```
 
 ### updateBackgroundDimmer (method)
@@ -684,7 +686,7 @@ hideBackgroundDimmer(): void;
 **Signature**
 
 ```ts
-updateBackgroundDimmer(): void;
+updateBackgroundDimmer(): void
 ```
 
 ### refreshDimmerBitmap (method)
@@ -692,7 +694,7 @@ updateBackgroundDimmer(): void;
 **Signature**
 
 ```ts
-refreshDimmerBitmap(): void;
+refreshDimmerBitmap(): void
 ```
 
 ### playCursorSound (method)
@@ -700,7 +702,7 @@ refreshDimmerBitmap(): void;
 **Signature**
 
 ```ts
-playCursorSound(): void;
+playCursorSound(): void
 ```
 
 ### playOkSound (method)
@@ -708,7 +710,7 @@ playCursorSound(): void;
 **Signature**
 
 ```ts
-playOkSound(): void;
+playOkSound(): void
 ```
 
 ### playBuzzerSound (method)
@@ -716,7 +718,7 @@ playOkSound(): void;
 **Signature**
 
 ```ts
-playBuzzerSound(): void;
+playBuzzerSound(): void
 ```
 
 ### \_opening (property)

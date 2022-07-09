@@ -43,7 +43,7 @@ Converts an object to a JSON string with object information.
 **Signature**
 
 ```ts
-static stringify(object: any): string;
+static stringify(object: any): string
 ```
 
 ### parse (static method)
@@ -53,7 +53,7 @@ Parses a JSON string and reconstructs the corresponding object.
 **Signature**
 
 ```ts
-static parse(json: string): any;
+static parse(json: string): any
 ```
 
 ### makeDeepCopy (static method)
@@ -63,7 +63,7 @@ Makes a deep copy of the specified object.
 **Signature**
 
 ```ts
-static makeDeepCopy(object: any): any;
+static makeDeepCopy(object: any): any
 ```
 
 ### \_encode (static method)
@@ -71,7 +71,7 @@ static makeDeepCopy(object: any): any;
 **Signature**
 
 ```ts
-static _encode(value: any, depth: number): any;
+static _encode(value: any, depth: number): any
 ```
 
 ### \_decode (static method)
@@ -79,5 +79,5 @@ static _encode(value: any, depth: number): any;
 **Signature**
 
 ```ts
-static _decode(value: any): any;
+static _decode(value: any): any
 ```

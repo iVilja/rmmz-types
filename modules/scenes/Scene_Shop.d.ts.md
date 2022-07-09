@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Shop.d.ts
-nav_order: 113
+nav_order: 114
 parent: Modules
 ---
 
@@ -81,7 +81,7 @@ export declare class Scene_Shop
 **Signature**
 
 ```ts
-prepare(goods: ShopGoods[], purchaseOnly: boolean): void;
+prepare(goods: ShopGoods[], purchaseOnly: boolean): void
 ```
 
 ### create (method)
@@ -89,7 +89,7 @@ prepare(goods: ShopGoods[], purchaseOnly: boolean): void;
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### createGoldWindow (method)
@@ -97,7 +97,7 @@ create(): void;
 **Signature**
 
 ```ts
-createGoldWindow(): void;
+createGoldWindow(): void
 ```
 
 ### goldWindowRect (method)
@@ -105,7 +105,7 @@ createGoldWindow(): void;
 **Signature**
 
 ```ts
-goldWindowRect(): Rectangle;
+goldWindowRect(): Rectangle
 ```
 
 ### createCommandWindow (method)
@@ -113,7 +113,7 @@ goldWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createCommandWindow(): void;
+createCommandWindow(): void
 ```
 
 ### commandWindowRect (method)
@@ -121,7 +121,7 @@ createCommandWindow(): void;
 **Signature**
 
 ```ts
-commandWindowRect(): Rectangle;
+commandWindowRect(): Rectangle
 ```
 
 ### createDummyWindow (method)
@@ -129,7 +129,7 @@ commandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createDummyWindow(): void;
+createDummyWindow(): void
 ```
 
 ### dummyWindowRect (method)
@@ -137,7 +137,7 @@ createDummyWindow(): void;
 **Signature**
 
 ```ts
-dummyWindowRect(): Rectangle;
+dummyWindowRect(): Rectangle
 ```
 
 ### createNumberWindow (method)
@@ -145,7 +145,7 @@ dummyWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createNumberWindow(): void;
+createNumberWindow(): void
 ```
 
 ### numberWindowRect (method)
@@ -153,7 +153,7 @@ createNumberWindow(): void;
 **Signature**
 
 ```ts
-numberWindowRect(): Rectangle;
+numberWindowRect(): Rectangle
 ```
 
 ### createStatusWindow (method)
@@ -161,7 +161,7 @@ numberWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -169,7 +169,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### createBuyWindow (method)
@@ -177,7 +177,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createBuyWindow(): void;
+createBuyWindow(): void
 ```
 
 ### buyWindowRect (method)
@@ -185,7 +185,7 @@ createBuyWindow(): void;
 **Signature**
 
 ```ts
-buyWindowRect(): Rectangle;
+buyWindowRect(): Rectangle
 ```
 
 ### createCategoryWindow (method)
@@ -193,7 +193,7 @@ buyWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createCategoryWindow(): void;
+createCategoryWindow(): void
 ```
 
 ### categoryWindowRect (method)
@@ -201,7 +201,7 @@ createCategoryWindow(): void;
 **Signature**
 
 ```ts
-categoryWindowRect(): Rectangle;
+categoryWindowRect(): Rectangle
 ```
 
 ### createSellWindow (method)
@@ -209,7 +209,7 @@ categoryWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createSellWindow(): void;
+createSellWindow(): void
 ```
 
 ### sellWindowRect (method)
@@ -217,7 +217,7 @@ createSellWindow(): void;
 **Signature**
 
 ```ts
-sellWindowRect(): Rectangle;
+sellWindowRect(): Rectangle
 ```
 
 ### statusWidth (method)
@@ -225,7 +225,7 @@ sellWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-statusWidth(): number;
+statusWidth(): number
 ```
 
 ### activateBuyWindow (method)
@@ -233,7 +233,7 @@ statusWidth(): number;
 **Signature**
 
 ```ts
-activateBuyWindow(): void;
+activateBuyWindow(): void
 ```
 
 ### activateSellWindow (method)
@@ -241,7 +241,7 @@ activateBuyWindow(): void;
 **Signature**
 
 ```ts
-activateSellWindow(): void;
+activateSellWindow(): void
 ```
 
 ### commandBuy (method)
@@ -249,7 +249,7 @@ activateSellWindow(): void;
 **Signature**
 
 ```ts
-commandBuy(): void;
+commandBuy(): void
 ```
 
 ### commandSell (method)
@@ -257,7 +257,7 @@ commandBuy(): void;
 **Signature**
 
 ```ts
-commandSell(): void;
+commandSell(): void
 ```
 
 ### onBuyOk (method)
@@ -265,7 +265,7 @@ commandSell(): void;
 **Signature**
 
 ```ts
-onBuyOk(): void;
+onBuyOk(): void
 ```
 
 ### onBuyCancel (method)
@@ -273,7 +273,7 @@ onBuyOk(): void;
 **Signature**
 
 ```ts
-onBuyCancel(): void;
+onBuyCancel(): void
 ```
 
 ### onCategoryOk (method)
@@ -281,7 +281,7 @@ onBuyCancel(): void;
 **Signature**
 
 ```ts
-onCategoryOk(): void;
+onCategoryOk(): void
 ```
 
 ### onCategoryCancel (method)
@@ -289,7 +289,7 @@ onCategoryOk(): void;
 **Signature**
 
 ```ts
-onCategoryCancel(): void;
+onCategoryCancel(): void
 ```
 
 ### onSellOk (method)
@@ -297,7 +297,7 @@ onCategoryCancel(): void;
 **Signature**
 
 ```ts
-onSellOk(): void;
+onSellOk(): void
 ```
 
 ### onSellCancel (method)
@@ -305,7 +305,7 @@ onSellOk(): void;
 **Signature**
 
 ```ts
-onSellCancel(): void;
+onSellCancel(): void
 ```
 
 ### onNumberOk (method)
@@ -313,7 +313,7 @@ onSellCancel(): void;
 **Signature**
 
 ```ts
-onNumberOk(): void;
+onNumberOk(): void
 ```
 
 ### onNumberCancel (method)
@@ -321,7 +321,7 @@ onNumberOk(): void;
 **Signature**
 
 ```ts
-onNumberCancel(): void;
+onNumberCancel(): void
 ```
 
 ### doBuy (method)
@@ -329,7 +329,7 @@ onNumberCancel(): void;
 **Signature**
 
 ```ts
-doBuy(number: number): void;
+doBuy(number: number): void
 ```
 
 ### doSell (method)
@@ -337,7 +337,7 @@ doBuy(number: number): void;
 **Signature**
 
 ```ts
-doSell(number: number): void;
+doSell(number: number): void
 ```
 
 ### endNumberInput (method)
@@ -345,7 +345,7 @@ doSell(number: number): void;
 **Signature**
 
 ```ts
-endNumberInput(): void;
+endNumberInput(): void
 ```
 
 ### maxBuy (method)
@@ -353,7 +353,7 @@ endNumberInput(): void;
 **Signature**
 
 ```ts
-maxBuy(): number;
+maxBuy(): number
 ```
 
 ### maxSell (method)
@@ -361,7 +361,7 @@ maxBuy(): number;
 **Signature**
 
 ```ts
-maxSell(): number;
+maxSell(): number
 ```
 
 ### money (method)
@@ -369,7 +369,7 @@ maxSell(): number;
 **Signature**
 
 ```ts
-money(): number;
+money(): number
 ```
 
 ### currencyUnit (method)
@@ -377,7 +377,7 @@ money(): number;
 **Signature**
 
 ```ts
-currencyUnit(): string;
+currencyUnit(): string
 ```
 
 ### buyingPrice (method)
@@ -385,7 +385,7 @@ currencyUnit(): string;
 **Signature**
 
 ```ts
-buyingPrice(): number;
+buyingPrice(): number
 ```
 
 ### sellingPrice (method)
@@ -393,7 +393,7 @@ buyingPrice(): number;
 **Signature**
 
 ```ts
-sellingPrice(): number;
+sellingPrice(): number
 ```
 
 ### \_goldWindow (property)

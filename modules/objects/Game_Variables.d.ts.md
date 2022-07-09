@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Variables.d.ts
-nav_order: 91
+nav_order: 92
 parent: Modules
 ---
 
@@ -39,7 +39,7 @@ export declare class Game_Variables
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### value (method)
@@ -47,7 +47,7 @@ clear(): void;
 **Signature**
 
 ```ts
-value(variableId?: VariableID): number;
+value(variableId?: VariableID): number
 ```
 
 ### setValue (method)
@@ -55,7 +55,7 @@ value(variableId?: VariableID): number;
 **Signature**
 
 ```ts
-setValue(variableId: VariableID, value: number): void;
+setValue(variableId: VariableID, value: number): void
 ```
 
 ### onChange (method)
@@ -63,7 +63,7 @@ setValue(variableId: VariableID, value: number): void;
 **Signature**
 
 ```ts
-onChange(): void;
+onChange(): void
 ```
 
 ### \_data (property)

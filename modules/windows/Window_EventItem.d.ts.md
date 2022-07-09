@@ -1,6 +1,6 @@
 ---
 title: windows/Window_EventItem.d.ts
-nav_order: 158
+nav_order: 159
 parent: Modules
 ---
 
@@ -50,7 +50,7 @@ export declare class Window_EventItem {
 **Signature**
 
 ```ts
-setMessageWindow(messageWindow: Window_Message): void;
+setMessageWindow(messageWindow: Window_Message): void
 ```
 
 ### createCancelButton (method)
@@ -58,7 +58,7 @@ setMessageWindow(messageWindow: Window_Message): void;
 **Signature**
 
 ```ts
-createCancelButton(): void;
+createCancelButton(): void
 ```
 
 ### start (method)
@@ -66,7 +66,7 @@ createCancelButton(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -74,7 +74,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateCancelButton (method)
@@ -82,7 +82,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateCancelButton(): void;
+updateCancelButton(): void
 ```
 
 ### updatePlacement (method)
@@ -90,7 +90,7 @@ updateCancelButton(): void;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### placeCancelButton (method)
@@ -98,7 +98,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-placeCancelButton(): void;
+placeCancelButton(): void
 ```
 
 ### includes (method)
@@ -106,7 +106,7 @@ placeCancelButton(): void;
 **Signature**
 
 ```ts
-includes(item: DataItemBase): boolean;
+includes(item: DataItemBase): boolean
 ```
 
 ### needsNumber (method)
@@ -114,7 +114,7 @@ includes(item: DataItemBase): boolean;
 **Signature**
 
 ```ts
-needsNumber(): boolean;
+needsNumber(): boolean
 ```
 
 ### isEnabled (method)
@@ -122,7 +122,7 @@ needsNumber(): boolean;
 **Signature**
 
 ```ts
-isEnabled(): boolean;
+isEnabled(): boolean
 ```
 
 ### onOk (method)
@@ -130,7 +130,7 @@ isEnabled(): boolean;
 **Signature**
 
 ```ts
-onOk(): void;
+onOk(): void
 ```
 
 ### onCancel (method)
@@ -138,7 +138,7 @@ onOk(): void;
 **Signature**
 
 ```ts
-onCancel(): void;
+onCancel(): void
 ```
 
 ### \_messageWindow (property)

@@ -1,6 +1,6 @@
 ---
 title: objects/Game_CharacterBase.d.ts
-nav_order: 70
+nav_order: 71
 parent: Modules
 ---
 
@@ -155,7 +155,7 @@ export declare class Game_CharacterBase {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### pos (method)
@@ -163,7 +163,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-pos(x: number, y: number): boolean;
+pos(x: number, y: number): boolean
 ```
 
 ### posNt (method)
@@ -171,7 +171,7 @@ pos(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-posNt(x: number, y: number): boolean;
+posNt(x: number, y: number): boolean
 ```
 
 ### moveSpeed (method)
@@ -179,7 +179,7 @@ posNt(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-moveSpeed(): number;
+moveSpeed(): number
 ```
 
 ### setMoveSpeed (method)
@@ -187,7 +187,7 @@ moveSpeed(): number;
 **Signature**
 
 ```ts
-setMoveSpeed(moveSpeed: number): void;
+setMoveSpeed(moveSpeed: number): void
 ```
 
 ### moveFrequency (method)
@@ -195,7 +195,7 @@ setMoveSpeed(moveSpeed: number): void;
 **Signature**
 
 ```ts
-moveFrequency(): number;
+moveFrequency(): number
 ```
 
 ### setMoveFrequency (method)
@@ -203,7 +203,7 @@ moveFrequency(): number;
 **Signature**
 
 ```ts
-setMoveFrequency(moveFrequency: number): void;
+setMoveFrequency(moveFrequency: number): void
 ```
 
 ### opacity (method)
@@ -211,7 +211,7 @@ setMoveFrequency(moveFrequency: number): void;
 **Signature**
 
 ```ts
-opacity(): number;
+opacity(): number
 ```
 
 ### setOpacity (method)
@@ -219,7 +219,7 @@ opacity(): number;
 **Signature**
 
 ```ts
-setOpacity(opacity: number): void;
+setOpacity(opacity: number): void
 ```
 
 ### blendMode (method)
@@ -227,7 +227,7 @@ setOpacity(opacity: number): void;
 **Signature**
 
 ```ts
-blendMode(): PIXI.BLEND_MODES;
+blendMode(): PIXI.BLEND_MODES
 ```
 
 ### setBlendMode (method)
@@ -235,7 +235,7 @@ blendMode(): PIXI.BLEND_MODES;
 **Signature**
 
 ```ts
-setBlendMode(blendMode: PIXI.BLEND_MODES): void;
+setBlendMode(blendMode: PIXI.BLEND_MODES): void
 ```
 
 ### isNormalPriority (method)
@@ -243,7 +243,7 @@ setBlendMode(blendMode: PIXI.BLEND_MODES): void;
 **Signature**
 
 ```ts
-isNormalPriority(): boolean;
+isNormalPriority(): boolean
 ```
 
 ### setPriorityType (method)
@@ -251,7 +251,7 @@ isNormalPriority(): boolean;
 **Signature**
 
 ```ts
-setPriorityType(priorityType: PriorityType): void;
+setPriorityType(priorityType: PriorityType): void
 ```
 
 ### isMoving (method)
@@ -259,7 +259,7 @@ setPriorityType(priorityType: PriorityType): void;
 **Signature**
 
 ```ts
-isMoving(): boolean;
+isMoving(): boolean
 ```
 
 ### isJumping (method)
@@ -267,7 +267,7 @@ isMoving(): boolean;
 **Signature**
 
 ```ts
-isJumping(): boolean;
+isJumping(): boolean
 ```
 
 ### jumpHeight (method)
@@ -275,7 +275,7 @@ isJumping(): boolean;
 **Signature**
 
 ```ts
-jumpHeight(): number;
+jumpHeight(): number
 ```
 
 ### isStopping (method)
@@ -283,7 +283,7 @@ jumpHeight(): number;
 **Signature**
 
 ```ts
-isStopping(): boolean;
+isStopping(): boolean
 ```
 
 ### checkStop (method)
@@ -291,7 +291,7 @@ isStopping(): boolean;
 **Signature**
 
 ```ts
-checkStop(threshold: number): boolean;
+checkStop(threshold: number): boolean
 ```
 
 ### resetStopCount (method)
@@ -299,7 +299,7 @@ checkStop(threshold: number): boolean;
 **Signature**
 
 ```ts
-resetStopCount(): void;
+resetStopCount(): void
 ```
 
 ### realMoveSpeed (method)
@@ -307,7 +307,7 @@ resetStopCount(): void;
 **Signature**
 
 ```ts
-realMoveSpeed(): number;
+realMoveSpeed(): number
 ```
 
 ### distancePerFrame (method)
@@ -315,7 +315,7 @@ realMoveSpeed(): number;
 **Signature**
 
 ```ts
-distancePerFrame(): number;
+distancePerFrame(): number
 ```
 
 ### isDashing (method)
@@ -323,7 +323,7 @@ distancePerFrame(): number;
 **Signature**
 
 ```ts
-isDashing(): boolean;
+isDashing(): boolean
 ```
 
 ### isDebugThrough (method)
@@ -331,7 +331,7 @@ isDashing(): boolean;
 **Signature**
 
 ```ts
-isDebugThrough(): boolean;
+isDebugThrough(): boolean
 ```
 
 ### straighten (method)
@@ -339,7 +339,7 @@ isDebugThrough(): boolean;
 **Signature**
 
 ```ts
-straighten(): void;
+straighten(): void
 ```
 
 ### reverseDir (method)
@@ -347,7 +347,7 @@ straighten(): void;
 **Signature**
 
 ```ts
-reverseDir(d: Direction): Direction;
+reverseDir(d: Direction): Direction
 ```
 
 ### canPass (method)
@@ -355,7 +355,7 @@ reverseDir(d: Direction): Direction;
 **Signature**
 
 ```ts
-canPass(x: number, y: number, d: Direction): boolean;
+canPass(x: number, y: number, d: Direction): boolean
 ```
 
 ### canPassDiagonally (method)
@@ -363,7 +363,7 @@ canPass(x: number, y: number, d: Direction): boolean;
 **Signature**
 
 ```ts
-canPassDiagonally(x: number, y: number, horz: Direction, vert: Direction): boolean;
+canPassDiagonally(x: number, y: number, horz: Direction, vert: Direction): boolean
 ```
 
 ### isMapPassable (method)
@@ -371,7 +371,7 @@ canPassDiagonally(x: number, y: number, horz: Direction, vert: Direction): boole
 **Signature**
 
 ```ts
-isMapPassable(x: number, y: number, d: Direction): boolean;
+isMapPassable(x: number, y: number, d: Direction): boolean
 ```
 
 ### isCollidedWithCharacters (method)
@@ -379,7 +379,7 @@ isMapPassable(x: number, y: number, d: Direction): boolean;
 **Signature**
 
 ```ts
-isCollidedWithCharacters(x: number, y: number): boolean;
+isCollidedWithCharacters(x: number, y: number): boolean
 ```
 
 ### isCollidedWithEvents (method)
@@ -387,7 +387,7 @@ isCollidedWithCharacters(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isCollidedWithEvents(x: number, y: number): boolean;
+isCollidedWithEvents(x: number, y: number): boolean
 ```
 
 ### isCollidedWithVehicles (method)
@@ -395,7 +395,7 @@ isCollidedWithEvents(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isCollidedWithVehicles(x: number, y: number): boolean;
+isCollidedWithVehicles(x: number, y: number): boolean
 ```
 
 ### setPosition (method)
@@ -403,7 +403,7 @@ isCollidedWithVehicles(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-setPosition(x: number, y: number): void;
+setPosition(x: number, y: number): void
 ```
 
 ### copyPosition (method)
@@ -411,7 +411,7 @@ setPosition(x: number, y: number): void;
 **Signature**
 
 ```ts
-copyPosition(character: Game_CharacterBase): void;
+copyPosition(character: Game_CharacterBase): void
 ```
 
 ### locate (method)
@@ -419,7 +419,7 @@ copyPosition(character: Game_CharacterBase): void;
 **Signature**
 
 ```ts
-locate(x: number, y: number): void;
+locate(x: number, y: number): void
 ```
 
 ### direction (method)
@@ -427,7 +427,7 @@ locate(x: number, y: number): void;
 **Signature**
 
 ```ts
-direction(): Direction;
+direction(): Direction
 ```
 
 ### setDirection (method)
@@ -435,7 +435,7 @@ direction(): Direction;
 **Signature**
 
 ```ts
-setDirection(d?: Direction | 0): void;
+setDirection(d?: Direction | 0): void
 ```
 
 ### isTile (method)
@@ -443,7 +443,7 @@ setDirection(d?: Direction | 0): void;
 **Signature**
 
 ```ts
-isTile(): boolean;
+isTile(): boolean
 ```
 
 ### isObjectCharacter (method)
@@ -451,7 +451,7 @@ isTile(): boolean;
 **Signature**
 
 ```ts
-isObjectCharacter(): boolean;
+isObjectCharacter(): boolean
 ```
 
 ### shiftY (method)
@@ -459,7 +459,7 @@ isObjectCharacter(): boolean;
 **Signature**
 
 ```ts
-shiftY(): 0 | 6;
+shiftY(): 0 | 6
 ```
 
 ### scrolledX (method)
@@ -467,7 +467,7 @@ shiftY(): 0 | 6;
 **Signature**
 
 ```ts
-scrolledX(): number;
+scrolledX(): number
 ```
 
 ### scrolledY (method)
@@ -475,7 +475,7 @@ scrolledX(): number;
 **Signature**
 
 ```ts
-scrolledY(): number;
+scrolledY(): number
 ```
 
 ### screenX (method)
@@ -483,7 +483,7 @@ scrolledY(): number;
 **Signature**
 
 ```ts
-screenX(): number;
+screenX(): number
 ```
 
 ### screenY (method)
@@ -491,7 +491,7 @@ screenX(): number;
 **Signature**
 
 ```ts
-screenY(): number;
+screenY(): number
 ```
 
 ### screenZ (method)
@@ -499,7 +499,7 @@ screenY(): number;
 **Signature**
 
 ```ts
-screenZ(): number;
+screenZ(): number
 ```
 
 ### isNearTheScreen (method)
@@ -507,7 +507,7 @@ screenZ(): number;
 **Signature**
 
 ```ts
-isNearTheScreen(): boolean;
+isNearTheScreen(): boolean
 ```
 
 ### update (method)
@@ -515,7 +515,7 @@ isNearTheScreen(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateStop (method)
@@ -523,7 +523,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateStop(): void;
+updateStop(): void
 ```
 
 ### updateJump (method)
@@ -531,7 +531,7 @@ updateStop(): void;
 **Signature**
 
 ```ts
-updateJump(): void;
+updateJump(): void
 ```
 
 ### updateMove (method)
@@ -539,7 +539,7 @@ updateJump(): void;
 **Signature**
 
 ```ts
-updateMove(): void;
+updateMove(): void
 ```
 
 ### updateAnimation (method)
@@ -547,7 +547,7 @@ updateMove(): void;
 **Signature**
 
 ```ts
-updateAnimation(): void;
+updateAnimation(): void
 ```
 
 ### animationWait (method)
@@ -555,7 +555,7 @@ updateAnimation(): void;
 **Signature**
 
 ```ts
-animationWait(): number;
+animationWait(): number
 ```
 
 ### updateAnimationCount (method)
@@ -563,7 +563,7 @@ animationWait(): number;
 **Signature**
 
 ```ts
-updateAnimationCount(): void;
+updateAnimationCount(): void
 ```
 
 ### updatePattern (method)
@@ -571,7 +571,7 @@ updateAnimationCount(): void;
 **Signature**
 
 ```ts
-updatePattern(): void;
+updatePattern(): void
 ```
 
 ### maxPattern (method)
@@ -579,7 +579,7 @@ updatePattern(): void;
 **Signature**
 
 ```ts
-maxPattern(): number;
+maxPattern(): number
 ```
 
 ### pattern (method)
@@ -587,7 +587,7 @@ maxPattern(): number;
 **Signature**
 
 ```ts
-pattern(): number;
+pattern(): number
 ```
 
 ### setPattern (method)
@@ -595,7 +595,7 @@ pattern(): number;
 **Signature**
 
 ```ts
-setPattern(pattern: number): void;
+setPattern(pattern: number): void
 ```
 
 ### isOriginalPattern (method)
@@ -603,7 +603,7 @@ setPattern(pattern: number): void;
 **Signature**
 
 ```ts
-isOriginalPattern(): boolean;
+isOriginalPattern(): boolean
 ```
 
 ### resetPattern (method)
@@ -611,7 +611,7 @@ isOriginalPattern(): boolean;
 **Signature**
 
 ```ts
-resetPattern(): void;
+resetPattern(): void
 ```
 
 ### refreshBushDepth (method)
@@ -619,7 +619,7 @@ resetPattern(): void;
 **Signature**
 
 ```ts
-refreshBushDepth(): void;
+refreshBushDepth(): void
 ```
 
 ### isOnLadder (method)
@@ -627,7 +627,7 @@ refreshBushDepth(): void;
 **Signature**
 
 ```ts
-isOnLadder(): boolean;
+isOnLadder(): boolean
 ```
 
 ### isOnBush (method)
@@ -635,7 +635,7 @@ isOnLadder(): boolean;
 **Signature**
 
 ```ts
-isOnBush(): boolean;
+isOnBush(): boolean
 ```
 
 ### terrainTag (method)
@@ -643,7 +643,7 @@ isOnBush(): boolean;
 **Signature**
 
 ```ts
-terrainTag(): number;
+terrainTag(): number
 ```
 
 ### regionId (method)
@@ -651,7 +651,7 @@ terrainTag(): number;
 **Signature**
 
 ```ts
-regionId(): number;
+regionId(): number
 ```
 
 ### increaseSteps (method)
@@ -659,7 +659,7 @@ regionId(): number;
 **Signature**
 
 ```ts
-increaseSteps(): void;
+increaseSteps(): void
 ```
 
 ### tileId (method)
@@ -667,7 +667,7 @@ increaseSteps(): void;
 **Signature**
 
 ```ts
-tileId(): number;
+tileId(): number
 ```
 
 ### characterName (method)
@@ -675,7 +675,7 @@ tileId(): number;
 **Signature**
 
 ```ts
-characterName(): string;
+characterName(): string
 ```
 
 ### characterIndex (method)
@@ -683,7 +683,7 @@ characterName(): string;
 **Signature**
 
 ```ts
-characterIndex(): number;
+characterIndex(): number
 ```
 
 ### setImage (method)
@@ -691,7 +691,7 @@ characterIndex(): number;
 **Signature**
 
 ```ts
-setImage(characterName: string, characterIndex: number): void;
+setImage(characterName: string, characterIndex: number): void
 ```
 
 ### setTileImage (method)
@@ -699,7 +699,7 @@ setImage(characterName: string, characterIndex: number): void;
 **Signature**
 
 ```ts
-setTileImage(tileId: TileID): void;
+setTileImage(tileId: TileID): void
 ```
 
 ### checkEventTriggerTouchFront (method)
@@ -707,7 +707,7 @@ setTileImage(tileId: TileID): void;
 **Signature**
 
 ```ts
-checkEventTriggerTouchFront(d: Direction): void;
+checkEventTriggerTouchFront(d: Direction): void
 ```
 
 ### checkEventTriggerTouch (method)
@@ -715,7 +715,7 @@ checkEventTriggerTouchFront(d: Direction): void;
 **Signature**
 
 ```ts
-checkEventTriggerTouch(_x: number, _y: number): void;
+checkEventTriggerTouch(_x: number, _y: number): void
 ```
 
 ### isMovementSucceeded (method)
@@ -723,7 +723,7 @@ checkEventTriggerTouch(_x: number, _y: number): void;
 **Signature**
 
 ```ts
-isMovementSucceeded(_x?: number, _y?: number): boolean;
+isMovementSucceeded(_x?: number, _y?: number): boolean
 ```
 
 ### setMovementSuccess (method)
@@ -731,7 +731,7 @@ isMovementSucceeded(_x?: number, _y?: number): boolean;
 **Signature**
 
 ```ts
-setMovementSuccess(success: boolean): void;
+setMovementSuccess(success: boolean): void
 ```
 
 ### moveStraight (method)
@@ -739,7 +739,7 @@ setMovementSuccess(success: boolean): void;
 **Signature**
 
 ```ts
-moveStraight(d: Direction): void;
+moveStraight(d: Direction): void
 ```
 
 ### moveDiagonally (method)
@@ -747,7 +747,7 @@ moveStraight(d: Direction): void;
 **Signature**
 
 ```ts
-moveDiagonally(horz: Direction, vert: Direction): void;
+moveDiagonally(horz: Direction, vert: Direction): void
 ```
 
 ### jump (method)
@@ -755,7 +755,7 @@ moveDiagonally(horz: Direction, vert: Direction): void;
 **Signature**
 
 ```ts
-jump(xPlus: number, yPlus: number): void;
+jump(xPlus: number, yPlus: number): void
 ```
 
 ### hasWalkAnime (method)
@@ -763,7 +763,7 @@ jump(xPlus: number, yPlus: number): void;
 **Signature**
 
 ```ts
-hasWalkAnime(): boolean;
+hasWalkAnime(): boolean
 ```
 
 ### setWalkAnime (method)
@@ -771,7 +771,7 @@ hasWalkAnime(): boolean;
 **Signature**
 
 ```ts
-setWalkAnime(walkAnime: boolean): void;
+setWalkAnime(walkAnime: boolean): void
 ```
 
 ### hasStepAnime (method)
@@ -779,7 +779,7 @@ setWalkAnime(walkAnime: boolean): void;
 **Signature**
 
 ```ts
-hasStepAnime(): boolean;
+hasStepAnime(): boolean
 ```
 
 ### setStepAnime (method)
@@ -787,7 +787,7 @@ hasStepAnime(): boolean;
 **Signature**
 
 ```ts
-setStepAnime(stepAnime: boolean): void;
+setStepAnime(stepAnime: boolean): void
 ```
 
 ### isDirectionFixed (method)
@@ -795,7 +795,7 @@ setStepAnime(stepAnime: boolean): void;
 **Signature**
 
 ```ts
-isDirectionFixed(): boolean;
+isDirectionFixed(): boolean
 ```
 
 ### setDirectionFix (method)
@@ -803,7 +803,7 @@ isDirectionFixed(): boolean;
 **Signature**
 
 ```ts
-setDirectionFix(directionFix: boolean): void;
+setDirectionFix(directionFix: boolean): void
 ```
 
 ### isThrough (method)
@@ -811,7 +811,7 @@ setDirectionFix(directionFix: boolean): void;
 **Signature**
 
 ```ts
-isThrough(): boolean;
+isThrough(): boolean
 ```
 
 ### setThrough (method)
@@ -819,7 +819,7 @@ isThrough(): boolean;
 **Signature**
 
 ```ts
-setThrough(through: boolean): void;
+setThrough(through: boolean): void
 ```
 
 ### isTransparent (method)
@@ -827,7 +827,7 @@ setThrough(through: boolean): void;
 **Signature**
 
 ```ts
-isTransparent(): boolean;
+isTransparent(): boolean
 ```
 
 ### bushDepth (method)
@@ -835,7 +835,7 @@ isTransparent(): boolean;
 **Signature**
 
 ```ts
-bushDepth(): number;
+bushDepth(): number
 ```
 
 ### setTransparent (method)
@@ -843,7 +843,7 @@ bushDepth(): number;
 **Signature**
 
 ```ts
-setTransparent(transparent: boolean): void;
+setTransparent(transparent: boolean): void
 ```
 
 ### startAnimation (method)
@@ -851,7 +851,7 @@ setTransparent(transparent: boolean): void;
 **Signature**
 
 ```ts
-startAnimation(): void;
+startAnimation(): void
 ```
 
 ### startBalloon (method)
@@ -859,7 +859,7 @@ startAnimation(): void;
 **Signature**
 
 ```ts
-startBalloon(): void;
+startBalloon(): void
 ```
 
 ### isAnimationPlaying (method)
@@ -867,7 +867,7 @@ startBalloon(): void;
 **Signature**
 
 ```ts
-isAnimationPlaying(): boolean;
+isAnimationPlaying(): boolean
 ```
 
 ### isBalloonPlaying (method)
@@ -875,7 +875,7 @@ isAnimationPlaying(): boolean;
 **Signature**
 
 ```ts
-isBalloonPlaying(): boolean;
+isBalloonPlaying(): boolean
 ```
 
 ### endAnimation (method)
@@ -883,7 +883,7 @@ isBalloonPlaying(): boolean;
 **Signature**
 
 ```ts
-endAnimation(): void;
+endAnimation(): void
 ```
 
 ### endBalloon (method)
@@ -891,7 +891,7 @@ endAnimation(): void;
 **Signature**
 
 ```ts
-endBalloon(): void;
+endBalloon(): void
 ```
 
 ### \_x (property)

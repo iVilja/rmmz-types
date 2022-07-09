@@ -84,7 +84,7 @@ Initializes the graphics system.
 **Signature**
 
 ```ts
-static initialize(): boolean;
+static initialize(): boolean
 ```
 
 ### setTickHandler (static method)
@@ -94,7 +94,7 @@ Register a handler for tick events.
 **Signature**
 
 ```ts
-static setTickHandler(handler: (deltaTime: number) => void): void;
+static setTickHandler(handler: (deltaTime: number) => void): void
 ```
 
 ### startGameLoop (static method)
@@ -104,7 +104,7 @@ Starts the game loop.
 **Signature**
 
 ```ts
-static startGameLoop(): void;
+static startGameLoop(): void
 ```
 
 ### stopGameLoop (static method)
@@ -114,7 +114,7 @@ Stops the game loop.
 **Signature**
 
 ```ts
-static stopGameLoop(): void;
+static stopGameLoop(): void
 ```
 
 ### setStage (static method)
@@ -124,7 +124,7 @@ Sets the stage to be rendered.
 **Signature**
 
 ```ts
-static setStage(stage: Stage | null): void;
+static setStage(stage: Stage | null): void
 ```
 
 ### startLoading (static method)
@@ -134,7 +134,7 @@ Shows the loading spinner.
 **Signature**
 
 ```ts
-static startLoading(): void;
+static startLoading(): void
 ```
 
 ### endLoading (static method)
@@ -144,7 +144,7 @@ Erases the loading spinner.
 **Signature**
 
 ```ts
-static endLoading(): boolean;
+static endLoading(): boolean
 ```
 
 ### printError (static method)
@@ -154,7 +154,7 @@ Displays the error text to the screen.
 **Signature**
 
 ```ts
-static printError(name: string, message: string, error?: Error | ErrorEvent): void;
+static printError(name: string, message: string, error?: Error | ErrorEvent): void
 ```
 
 ### showRetryButton (static method)
@@ -164,7 +164,7 @@ Displays a button to try to reload resources.
 **Signature**
 
 ```ts
-static showRetryButton(retry: () => void): void;
+static showRetryButton(retry: () => void): void
 ```
 
 ### eraseError (static method)
@@ -174,7 +174,7 @@ Erases the loading error text.
 **Signature**
 
 ```ts
-static eraseError(): void;
+static eraseError(): void
 ```
 
 ### pageToCanvasX (static method)
@@ -185,7 +185,7 @@ x coordinate on the canvas area.
 **Signature**
 
 ```ts
-static pageToCanvasX(x: number): number;
+static pageToCanvasX(x: number): number
 ```
 
 ### pageToCanvasY (static method)
@@ -196,7 +196,7 @@ y coordinate on the canvas area.
 **Signature**
 
 ```ts
-static pageToCanvasY(y: number): number;
+static pageToCanvasY(y: number): number
 ```
 
 ### isInsideCanvas (static method)
@@ -206,7 +206,7 @@ Checks whether the specified point is inside the game canvas area.
 **Signature**
 
 ```ts
-static isInsideCanvas(x: number, y: number): boolean;
+static isInsideCanvas(x: number, y: number): boolean
 ```
 
 ### showScreen (static method)
@@ -216,7 +216,7 @@ Shows the game screen.
 **Signature**
 
 ```ts
-static showScreen(): void;
+static showScreen(): void
 ```
 
 ### hideScreen (static method)
@@ -226,7 +226,7 @@ Hides the game screen.
 **Signature**
 
 ```ts
-static hideScreen(): void;
+static hideScreen(): void
 ```
 
 ### resize (static method)
@@ -236,7 +236,7 @@ Changes the size of the game screen.
 **Signature**
 
 ```ts
-static resize(width: number, height: number): void;
+static resize(width: number, height: number): void
 ```
 
 ### \_createAllElements (static method)
@@ -244,7 +244,7 @@ static resize(width: number, height: number): void;
 **Signature**
 
 ```ts
-static _createAllElements(): void;
+static _createAllElements(): void
 ```
 
 ### \_updateAllElements (static method)
@@ -252,7 +252,7 @@ static _createAllElements(): void;
 **Signature**
 
 ```ts
-static _updateAllElements(): void;
+static _updateAllElements(): void
 ```
 
 ### \_onTick (static method)
@@ -260,7 +260,7 @@ static _updateAllElements(): void;
 **Signature**
 
 ```ts
-static _onTick(deltaTime: number): void;
+static _onTick(deltaTime: number): void
 ```
 
 ### \_canRender (static method)
@@ -268,7 +268,7 @@ static _onTick(deltaTime: number): void;
 **Signature**
 
 ```ts
-static _canRender(): boolean;
+static _canRender(): boolean
 ```
 
 ### \_updateRealScale (static method)
@@ -276,7 +276,7 @@ static _canRender(): boolean;
 **Signature**
 
 ```ts
-static _updateRealScale(): void;
+static _updateRealScale(): void
 ```
 
 ### \_stretchWidth (static method)
@@ -284,7 +284,7 @@ static _updateRealScale(): void;
 **Signature**
 
 ```ts
-static _stretchWidth(): number;
+static _stretchWidth(): number
 ```
 
 ### \_stretchHeight (static method)
@@ -292,7 +292,7 @@ static _stretchWidth(): number;
 **Signature**
 
 ```ts
-static _stretchHeight(): number;
+static _stretchHeight(): number
 ```
 
 ### \_makeErrorHtml (static method)
@@ -300,7 +300,7 @@ static _stretchHeight(): number;
 **Signature**
 
 ```ts
-static _makeErrorHtml(name?: string, message?: string, _error?: Error | ErrorEvent): string;
+static _makeErrorHtml(name?: string, message?: string, _error?: Error | ErrorEvent): string
 ```
 
 ### \_defaultStretchMode (static method)
@@ -308,7 +308,7 @@ static _makeErrorHtml(name?: string, message?: string, _error?: Error | ErrorEve
 **Signature**
 
 ```ts
-static _defaultStretchMode(): boolean;
+static _defaultStretchMode(): boolean
 ```
 
 ### \_createErrorPrinter (static method)
@@ -316,7 +316,7 @@ static _defaultStretchMode(): boolean;
 **Signature**
 
 ```ts
-static _createErrorPrinter(): void;
+static _createErrorPrinter(): void
 ```
 
 ### \_updateErrorPrinter (static method)
@@ -324,7 +324,7 @@ static _createErrorPrinter(): void;
 **Signature**
 
 ```ts
-static _updateErrorPrinter(): void;
+static _updateErrorPrinter(): void
 ```
 
 ### \_createCanvas (static method)
@@ -332,7 +332,7 @@ static _updateErrorPrinter(): void;
 **Signature**
 
 ```ts
-static _createCanvas(): void;
+static _createCanvas(): void
 ```
 
 ### \_updateCanvas (static method)
@@ -340,7 +340,7 @@ static _createCanvas(): void;
 **Signature**
 
 ```ts
-static _updateCanvas(): void;
+static _updateCanvas(): void
 ```
 
 ### \_updateVideo (static method)
@@ -348,7 +348,7 @@ static _updateCanvas(): void;
 **Signature**
 
 ```ts
-static _updateVideo(): void;
+static _updateVideo(): void
 ```
 
 ### \_createLoadingSpinner (static method)
@@ -356,7 +356,7 @@ static _updateVideo(): void;
 **Signature**
 
 ```ts
-static _createLoadingSpinner(): void;
+static _createLoadingSpinner(): void
 ```
 
 ### \_createFPSCounter (static method)
@@ -364,7 +364,7 @@ static _createLoadingSpinner(): void;
 **Signature**
 
 ```ts
-static _createFPSCounter(): void;
+static _createFPSCounter(): void
 ```
 
 ### \_centerElement (static method)
@@ -372,7 +372,7 @@ static _createFPSCounter(): void;
 **Signature**
 
 ```ts
-static _centerElement(element: HTMLCanvasElement): void;
+static _centerElement(element: HTMLCanvasElement): void
 ```
 
 ### \_disableContextMenu (static method)
@@ -380,7 +380,7 @@ static _centerElement(element: HTMLCanvasElement): void;
 **Signature**
 
 ```ts
-static _disableContextMenu(): void;
+static _disableContextMenu(): void
 ```
 
 ### \_applyCanvasFilter (static method)
@@ -388,7 +388,7 @@ static _disableContextMenu(): void;
 **Signature**
 
 ```ts
-static _applyCanvasFilter(): void;
+static _applyCanvasFilter(): void
 ```
 
 ### \_clearCanvasFilter (static method)
@@ -396,7 +396,7 @@ static _applyCanvasFilter(): void;
 **Signature**
 
 ```ts
-static _clearCanvasFilter(): void;
+static _clearCanvasFilter(): void
 ```
 
 ### \_setupEventHandlers (static method)
@@ -404,7 +404,7 @@ static _clearCanvasFilter(): void;
 **Signature**
 
 ```ts
-static _setupEventHandlers(): void;
+static _setupEventHandlers(): void
 ```
 
 ### \_onWindowResize (static method)
@@ -412,7 +412,7 @@ static _setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static _onWindowResize(): void;
+static _onWindowResize(): void
 ```
 
 ### \_onKeyDown (static method)
@@ -420,7 +420,7 @@ static _onWindowResize(): void;
 **Signature**
 
 ```ts
-static _onKeyDown(event: KeyboardEvent): void;
+static _onKeyDown(event: KeyboardEvent): void
 ```
 
 ### \_switchFPSCounter (static method)
@@ -428,7 +428,7 @@ static _onKeyDown(event: KeyboardEvent): void;
 **Signature**
 
 ```ts
-static _switchFPSCounter(): void;
+static _switchFPSCounter(): void
 ```
 
 ### \_switchStretchMode (static method)
@@ -436,7 +436,7 @@ static _switchFPSCounter(): void;
 **Signature**
 
 ```ts
-static _switchStretchMode(): void;
+static _switchStretchMode(): void
 ```
 
 ### \_switchFullScreen (static method)
@@ -444,7 +444,7 @@ static _switchStretchMode(): void;
 **Signature**
 
 ```ts
-static _switchFullScreen(): void;
+static _switchFullScreen(): void
 ```
 
 ### \_isFullScreen (static method)
@@ -452,7 +452,7 @@ static _switchFullScreen(): void;
 **Signature**
 
 ```ts
-static _isFullScreen(): any;
+static _isFullScreen(): any
 ```
 
 ### \_requestFullScreen (static method)
@@ -460,7 +460,7 @@ static _isFullScreen(): any;
 **Signature**
 
 ```ts
-static _requestFullScreen(): void;
+static _requestFullScreen(): void
 ```
 
 ### \_cancelFullScreen (static method)
@@ -468,7 +468,7 @@ static _requestFullScreen(): void;
 **Signature**
 
 ```ts
-static _cancelFullScreen(): void;
+static _cancelFullScreen(): void
 ```
 
 ### \_createPixiApp (static method)
@@ -476,7 +476,7 @@ static _cancelFullScreen(): void;
 **Signature**
 
 ```ts
-static _createPixiApp(): void;
+static _createPixiApp(): void
 ```
 
 ### \_setupPixi (static method)
@@ -484,7 +484,7 @@ static _createPixiApp(): void;
 **Signature**
 
 ```ts
-static _setupPixi(): void;
+static _setupPixi(): void
 ```
 
 ### \_createEffekseerContext (static method)
@@ -492,5 +492,5 @@ static _setupPixi(): void;
 **Signature**
 
 ```ts
-static _createEffekseerContext(): void;
+static _createEffekseerContext(): void
 ```

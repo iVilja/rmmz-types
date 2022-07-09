@@ -1,6 +1,6 @@
 ---
 title: windows/Window_EquipCommand.d.ts
-nav_order: 154
+nav_order: 155
 parent: Modules
 ---
 
@@ -36,7 +36,7 @@ export declare class Window_EquipCommand
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### makeCommandList (method)
@@ -44,5 +44,5 @@ maxCols(): number;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```

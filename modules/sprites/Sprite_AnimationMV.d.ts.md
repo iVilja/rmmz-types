@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_AnimationMV.d.ts
-nav_order: 120
+nav_order: 121
 parent: Modules
 ---
 
@@ -79,7 +79,7 @@ export declare class Sprite_AnimationMV {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setup (method)
@@ -87,7 +87,13 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setup(targets: Sprite[], animation: DataAnimationMV, mirror: boolean, delay: number, _previous: Sprite_AnimationMV | null): void;
+setup(
+    targets: Sprite[],
+    animation: DataAnimationMV,
+    mirror: boolean,
+    delay: number,
+    _previous: Sprite_AnimationMV | null
+  ): void
 ```
 
 ### setupRate (method)
@@ -95,7 +101,7 @@ setup(targets: Sprite[], animation: DataAnimationMV, mirror: boolean, delay: num
 **Signature**
 
 ```ts
-setupRate(): void;
+setupRate(): void
 ```
 
 ### setupDuration (method)
@@ -103,7 +109,7 @@ setupRate(): void;
 **Signature**
 
 ```ts
-setupDuration(): void;
+setupDuration(): void
 ```
 
 ### update (method)
@@ -111,7 +117,7 @@ setupDuration(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateFlash (method)
@@ -119,7 +125,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateFlash(): void;
+updateFlash(): void
 ```
 
 ### updateScreenFlash (method)
@@ -127,7 +133,7 @@ updateFlash(): void;
 **Signature**
 
 ```ts
-updateScreenFlash(): void;
+updateScreenFlash(): void
 ```
 
 ### absoluteX (method)
@@ -135,7 +141,7 @@ updateScreenFlash(): void;
 **Signature**
 
 ```ts
-absoluteX(): number;
+absoluteX(): number
 ```
 
 ### absoluteY (method)
@@ -143,7 +149,7 @@ absoluteX(): number;
 **Signature**
 
 ```ts
-absoluteY(): number;
+absoluteY(): number
 ```
 
 ### updateHiding (method)
@@ -151,7 +157,7 @@ absoluteY(): number;
 **Signature**
 
 ```ts
-updateHiding(): void;
+updateHiding(): void
 ```
 
 ### isPlaying (method)
@@ -159,7 +165,7 @@ updateHiding(): void;
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### loadBitmaps (method)
@@ -167,7 +173,7 @@ isPlaying(): boolean;
 **Signature**
 
 ```ts
-loadBitmaps(): void;
+loadBitmaps(): void
 ```
 
 ### isReady (method)
@@ -175,7 +181,7 @@ loadBitmaps(): void;
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### createCellSprites (method)
@@ -183,7 +189,7 @@ isReady(): boolean;
 **Signature**
 
 ```ts
-createCellSprites(): void;
+createCellSprites(): void
 ```
 
 ### createScreenFlashSprite (method)
@@ -191,7 +197,7 @@ createCellSprites(): void;
 **Signature**
 
 ```ts
-createScreenFlashSprite(): void;
+createScreenFlashSprite(): void
 ```
 
 ### updateMain (method)
@@ -199,7 +205,7 @@ createScreenFlashSprite(): void;
 **Signature**
 
 ```ts
-updateMain(): void;
+updateMain(): void
 ```
 
 ### updatePosition (method)
@@ -207,7 +213,7 @@ updateMain(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateFrame (method)
@@ -215,7 +221,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### currentFrameIndex (method)
@@ -223,7 +229,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-currentFrameIndex(): number;
+currentFrameIndex(): number
 ```
 
 ### updateAllCellSprites (method)
@@ -231,7 +237,7 @@ currentFrameIndex(): number;
 **Signature**
 
 ```ts
-updateAllCellSprites(frame: DataFrameMV): void;
+updateAllCellSprites(frame: DataFrameMV): void
 ```
 
 ### updateCellSprite (method)
@@ -239,7 +245,7 @@ updateAllCellSprites(frame: DataFrameMV): void;
 **Signature**
 
 ```ts
-updateCellSprite(sprite: Sprite, cell: DataFrameCellMV): void;
+updateCellSprite(sprite: Sprite, cell: DataFrameCellMV): void
 ```
 
 ### processTimingData (method)
@@ -247,7 +253,7 @@ updateCellSprite(sprite: Sprite, cell: DataFrameCellMV): void;
 **Signature**
 
 ```ts
-processTimingData(timing: DataTimingMV): void;
+processTimingData(timing: DataTimingMV): void
 ```
 
 ### startFlash (method)
@@ -255,7 +261,7 @@ processTimingData(timing: DataTimingMV): void;
 **Signature**
 
 ```ts
-startFlash(color: Color, duration: number): void;
+startFlash(color: Color, duration: number): void
 ```
 
 ### startScreenFlash (method)
@@ -263,7 +269,7 @@ startFlash(color: Color, duration: number): void;
 **Signature**
 
 ```ts
-startScreenFlash(color: Color, duration: number): void;
+startScreenFlash(color: Color, duration: number): void
 ```
 
 ### startHiding (method)
@@ -271,7 +277,7 @@ startScreenFlash(color: Color, duration: number): void;
 **Signature**
 
 ```ts
-startHiding(duration: number): void;
+startHiding(duration: number): void
 ```
 
 ### onEnd (method)
@@ -279,7 +285,7 @@ startHiding(duration: number): void;
 **Signature**
 
 ```ts
-onEnd(): void;
+onEnd(): void
 ```
 
 ### \_targets (property)

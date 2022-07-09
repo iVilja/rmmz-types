@@ -1,6 +1,6 @@
 ---
 title: objects/Game_ActionResult.d.ts
-nav_order: 64
+nav_order: 65
 parent: Modules
 ---
 
@@ -68,7 +68,7 @@ export declare class Game_ActionResult {
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### addedStateObjects (method)
@@ -76,7 +76,7 @@ clear(): void;
 **Signature**
 
 ```ts
-addedStateObjects(): import("../data").DataState[];
+addedStateObjects(): import("../data").DataState[]
 ```
 
 ### removedStateObjects (method)
@@ -84,7 +84,7 @@ addedStateObjects(): import("../data").DataState[];
 **Signature**
 
 ```ts
-removedStateObjects(): import("../data").DataState[];
+removedStateObjects(): import("../data").DataState[]
 ```
 
 ### isStatusAffected (method)
@@ -92,7 +92,7 @@ removedStateObjects(): import("../data").DataState[];
 **Signature**
 
 ```ts
-isStatusAffected(): boolean;
+isStatusAffected(): boolean
 ```
 
 ### isHit (method)
@@ -100,7 +100,7 @@ isStatusAffected(): boolean;
 **Signature**
 
 ```ts
-isHit(): boolean;
+isHit(): boolean
 ```
 
 ### isStateAdded (method)
@@ -108,7 +108,7 @@ isHit(): boolean;
 **Signature**
 
 ```ts
-isStateAdded(stateId: StateID): boolean;
+isStateAdded(stateId: StateID): boolean
 ```
 
 ### pushAddedState (method)
@@ -116,7 +116,7 @@ isStateAdded(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-pushAddedState(stateId: StateID): void;
+pushAddedState(stateId: StateID): void
 ```
 
 ### isStateRemoved (method)
@@ -124,7 +124,7 @@ pushAddedState(stateId: StateID): void;
 **Signature**
 
 ```ts
-isStateRemoved(stateId: StateID): boolean;
+isStateRemoved(stateId: StateID): boolean
 ```
 
 ### pushRemovedState (method)
@@ -132,7 +132,7 @@ isStateRemoved(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-pushRemovedState(stateId: StateID): void;
+pushRemovedState(stateId: StateID): void
 ```
 
 ### isBuffAdded (method)
@@ -140,7 +140,7 @@ pushRemovedState(stateId: StateID): void;
 **Signature**
 
 ```ts
-isBuffAdded(paramId: ParamID): boolean;
+isBuffAdded(paramId: ParamID): boolean
 ```
 
 ### pushAddedBuff (method)
@@ -148,7 +148,7 @@ isBuffAdded(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-pushAddedBuff(paramId: ParamID): void;
+pushAddedBuff(paramId: ParamID): void
 ```
 
 ### isDebuffAdded (method)
@@ -156,7 +156,7 @@ pushAddedBuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-isDebuffAdded(paramId: ParamID): boolean;
+isDebuffAdded(paramId: ParamID): boolean
 ```
 
 ### pushAddedDebuff (method)
@@ -164,7 +164,7 @@ isDebuffAdded(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-pushAddedDebuff(paramId: ParamID): void;
+pushAddedDebuff(paramId: ParamID): void
 ```
 
 ### isBuffRemoved (method)
@@ -172,7 +172,7 @@ pushAddedDebuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-isBuffRemoved(paramId: ParamID): boolean;
+isBuffRemoved(paramId: ParamID): boolean
 ```
 
 ### pushRemovedBuff (method)
@@ -180,7 +180,7 @@ isBuffRemoved(paramId: ParamID): boolean;
 **Signature**
 
 ```ts
-pushRemovedBuff(paramId: ParamID): void;
+pushRemovedBuff(paramId: ParamID): void
 ```
 
 ### used (property)

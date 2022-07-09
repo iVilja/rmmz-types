@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Gold.d.ts
-nav_order: 160
+nav_order: 161
 parent: Modules
 ---
 
@@ -41,7 +41,7 @@ export declare class Window_Gold {
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### refresh (method)
@@ -49,7 +49,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### value (method)
@@ -57,7 +57,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-value(): number;
+value(): number
 ```
 
 ### currencyUnit (method)
@@ -65,7 +65,7 @@ value(): number;
 **Signature**
 
 ```ts
-currencyUnit(): string;
+currencyUnit(): string
 ```
 
 ### open (method)
@@ -73,5 +73,5 @@ currencyUnit(): string;
 **Signature**
 
 ```ts
-open(): void;
+open(): void
 ```

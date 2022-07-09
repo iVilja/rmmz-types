@@ -1,6 +1,6 @@
 ---
 title: windows/Window_PartyCommand.d.ts
-nav_order: 175
+nav_order: 176
 parent: Modules
 ---
 
@@ -38,7 +38,7 @@ export declare class Window_PartyCommand {
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### setup (method)
@@ -46,5 +46,5 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-setup(): void;
+setup(): void
 ```

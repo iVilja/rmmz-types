@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Item.d.ts
-nav_order: 77
+nav_order: 78
 parent: Modules
 ---
 
@@ -50,7 +50,7 @@ export declare class Game_Item<T> {
 **Signature**
 
 ```ts
-isSkill(): boolean;
+isSkill(): boolean
 ```
 
 ### isItem (method)
@@ -58,7 +58,7 @@ isSkill(): boolean;
 **Signature**
 
 ```ts
-isItem(): boolean;
+isItem(): boolean
 ```
 
 ### isUsableItem (method)
@@ -66,7 +66,7 @@ isItem(): boolean;
 **Signature**
 
 ```ts
-isUsableItem(): boolean;
+isUsableItem(): boolean
 ```
 
 ### isWeapon (method)
@@ -74,7 +74,7 @@ isUsableItem(): boolean;
 **Signature**
 
 ```ts
-isWeapon(): boolean;
+isWeapon(): boolean
 ```
 
 ### isArmor (method)
@@ -82,7 +82,7 @@ isWeapon(): boolean;
 **Signature**
 
 ```ts
-isArmor(): boolean;
+isArmor(): boolean
 ```
 
 ### isEquipItem (method)
@@ -90,7 +90,7 @@ isArmor(): boolean;
 **Signature**
 
 ```ts
-isEquipItem(): boolean;
+isEquipItem(): boolean
 ```
 
 ### isNull (method)
@@ -98,7 +98,7 @@ isEquipItem(): boolean;
 **Signature**
 
 ```ts
-isNull(): boolean;
+isNull(): boolean
 ```
 
 ### itemId (method)
@@ -106,7 +106,7 @@ isNull(): boolean;
 **Signature**
 
 ```ts
-itemId(): number;
+itemId(): number
 ```
 
 ### object (method)
@@ -114,7 +114,7 @@ itemId(): number;
 **Signature**
 
 ```ts
-object(): T;
+object(): T
 ```
 
 ### setObject (method)
@@ -122,7 +122,7 @@ object(): T;
 **Signature**
 
 ```ts
-setObject(item: T | null): void;
+setObject(item: T | null): void
 ```
 
 ### setEquip (method)
@@ -130,7 +130,7 @@ setObject(item: T | null): void;
 **Signature**
 
 ```ts
-setEquip(isWeapon: boolean, itemId: number): void;
+setEquip(isWeapon: boolean, itemId: number): void
 ```
 
 ### \_dataClass (property)

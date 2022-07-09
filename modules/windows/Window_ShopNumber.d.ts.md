@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ShopNumber.d.ts
-nav_order: 182
+nav_order: 183
 parent: Modules
 ---
 
@@ -77,7 +77,7 @@ export declare class Window_ShopNumber {
 **Signature**
 
 ```ts
-isScrollEnabled(): boolean;
+isScrollEnabled(): boolean
 ```
 
 ### number (method)
@@ -85,7 +85,7 @@ isScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-number(): number;
+number(): number
 ```
 
 ### setup (method)
@@ -93,7 +93,7 @@ number(): number;
 **Signature**
 
 ```ts
-setup(item: DataPricedItemBase | null, max: number, price: number): void;
+setup(item: DataPricedItemBase | null, max: number, price: number): void
 ```
 
 ### setCurrencyUnit (method)
@@ -101,7 +101,7 @@ setup(item: DataPricedItemBase | null, max: number, price: number): void;
 **Signature**
 
 ```ts
-setCurrencyUnit(currencyUnit: string): void;
+setCurrencyUnit(currencyUnit: string): void
 ```
 
 ### createButtons (method)
@@ -109,7 +109,7 @@ setCurrencyUnit(currencyUnit: string): void;
 **Signature**
 
 ```ts
-createButtons(): void;
+createButtons(): void
 ```
 
 ### placeButtons (method)
@@ -117,7 +117,7 @@ createButtons(): void;
 **Signature**
 
 ```ts
-placeButtons(): void;
+placeButtons(): void
 ```
 
 ### totalButtonWidth (method)
@@ -125,7 +125,7 @@ placeButtons(): void;
 **Signature**
 
 ```ts
-totalButtonWidth(): number;
+totalButtonWidth(): number
 ```
 
 ### buttonSpacing (method)
@@ -133,7 +133,7 @@ totalButtonWidth(): number;
 **Signature**
 
 ```ts
-buttonSpacing(): number;
+buttonSpacing(): number
 ```
 
 ### refresh (method)
@@ -141,7 +141,7 @@ buttonSpacing(): number;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### drawCurrentItemName (method)
@@ -149,7 +149,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-drawCurrentItemName(): void;
+drawCurrentItemName(): void
 ```
 
 ### drawMultiplicationSign (method)
@@ -157,7 +157,7 @@ drawCurrentItemName(): void;
 **Signature**
 
 ```ts
-drawMultiplicationSign(): void;
+drawMultiplicationSign(): void
 ```
 
 ### multiplicationSign (method)
@@ -165,7 +165,7 @@ drawMultiplicationSign(): void;
 **Signature**
 
 ```ts
-multiplicationSign(): string;
+multiplicationSign(): string
 ```
 
 ### multiplicationSignX (method)
@@ -173,7 +173,7 @@ multiplicationSign(): string;
 **Signature**
 
 ```ts
-multiplicationSignX(): number;
+multiplicationSignX(): number
 ```
 
 ### drawNumber (method)
@@ -181,7 +181,7 @@ multiplicationSignX(): number;
 **Signature**
 
 ```ts
-drawNumber(): void;
+drawNumber(): void
 ```
 
 ### drawHorzLine (method)
@@ -189,7 +189,7 @@ drawNumber(): void;
 **Signature**
 
 ```ts
-drawHorzLine(): void;
+drawHorzLine(): void
 ```
 
 ### drawTotalPrice (method)
@@ -197,7 +197,7 @@ drawHorzLine(): void;
 **Signature**
 
 ```ts
-drawTotalPrice(): void;
+drawTotalPrice(): void
 ```
 
 ### itemNameY (method)
@@ -205,7 +205,7 @@ drawTotalPrice(): void;
 **Signature**
 
 ```ts
-itemNameY(): number;
+itemNameY(): number
 ```
 
 ### totalPriceY (method)
@@ -213,7 +213,7 @@ itemNameY(): number;
 **Signature**
 
 ```ts
-totalPriceY(): number;
+totalPriceY(): number
 ```
 
 ### buttonY (method)
@@ -221,7 +221,7 @@ totalPriceY(): number;
 **Signature**
 
 ```ts
-buttonY(): number;
+buttonY(): number
 ```
 
 ### cursorWidth (method)
@@ -229,7 +229,7 @@ buttonY(): number;
 **Signature**
 
 ```ts
-cursorWidth(): number;
+cursorWidth(): number
 ```
 
 ### cursorX (method)
@@ -237,7 +237,7 @@ cursorWidth(): number;
 **Signature**
 
 ```ts
-cursorX(): number;
+cursorX(): number
 ```
 
 ### maxDigits (method)
@@ -245,7 +245,7 @@ cursorX(): number;
 **Signature**
 
 ```ts
-maxDigits(): number;
+maxDigits(): number
 ```
 
 ### update (method)
@@ -253,7 +253,7 @@ maxDigits(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### playOkSound (method)
@@ -261,7 +261,7 @@ update(): void;
 **Signature**
 
 ```ts
-playOkSound(): void;
+playOkSound(): void
 ```
 
 ### processNumberChange (method)
@@ -269,7 +269,7 @@ playOkSound(): void;
 **Signature**
 
 ```ts
-processNumberChange(): void;
+processNumberChange(): void
 ```
 
 ### changeNumber (method)
@@ -277,7 +277,7 @@ processNumberChange(): void;
 **Signature**
 
 ```ts
-changeNumber(amount: number): void;
+changeNumber(amount: number): void
 ```
 
 ### itemRect (method)
@@ -285,7 +285,7 @@ changeNumber(amount: number): void;
 **Signature**
 
 ```ts
-itemRect(): Rectangle;
+itemRect(): Rectangle
 ```
 
 ### isTouchOkEnabled (method)
@@ -293,7 +293,7 @@ itemRect(): Rectangle;
 **Signature**
 
 ```ts
-isTouchOkEnabled(): boolean;
+isTouchOkEnabled(): boolean
 ```
 
 ### onButtonUp (method)
@@ -301,7 +301,7 @@ isTouchOkEnabled(): boolean;
 **Signature**
 
 ```ts
-onButtonUp(): void;
+onButtonUp(): void
 ```
 
 ### onButtonUp2 (method)
@@ -309,7 +309,7 @@ onButtonUp(): void;
 **Signature**
 
 ```ts
-onButtonUp2(): void;
+onButtonUp2(): void
 ```
 
 ### onButtonDown (method)
@@ -317,7 +317,7 @@ onButtonUp2(): void;
 **Signature**
 
 ```ts
-onButtonDown(): void;
+onButtonDown(): void
 ```
 
 ### onButtonDown2 (method)
@@ -325,7 +325,7 @@ onButtonDown(): void;
 **Signature**
 
 ```ts
-onButtonDown2(): void;
+onButtonDown2(): void
 ```
 
 ### onButtonOk (method)
@@ -333,7 +333,7 @@ onButtonDown2(): void;
 **Signature**
 
 ```ts
-onButtonOk(): void;
+onButtonOk(): void
 ```
 
 ### \_item (property)

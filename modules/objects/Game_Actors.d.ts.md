@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Actors.d.ts
-nav_order: 66
+nav_order: 67
 parent: Modules
 ---
 
@@ -36,7 +36,7 @@ export declare class Game_Actors
 **Signature**
 
 ```ts
-actor(actorId: ActorID): Game_Actor | null;
+actor(actorId: ActorID): Game_Actor | null
 ```
 
 ### \_data (property)

@@ -1,6 +1,6 @@
 ---
 title: managers/SceneManager.d.ts
-nav_order: 59
+nav_order: 60
 parent: Modules
 ---
 
@@ -93,7 +93,7 @@ export declare class SceneManager {
 **Signature**
 
 ```ts
-static run(sceneClass: SceneConstructor): void;
+static run(sceneClass: SceneConstructor): void
 ```
 
 ### initialize (static method)
@@ -101,7 +101,7 @@ static run(sceneClass: SceneConstructor): void;
 **Signature**
 
 ```ts
-static initialize(): void;
+static initialize(): void
 ```
 
 ### checkBrowser (static method)
@@ -109,7 +109,7 @@ static initialize(): void;
 **Signature**
 
 ```ts
-static checkBrowser(): void;
+static checkBrowser(): void
 ```
 
 ### checkPluginErrors (static method)
@@ -117,7 +117,7 @@ static checkBrowser(): void;
 **Signature**
 
 ```ts
-static checkPluginErrors(): void;
+static checkPluginErrors(): void
 ```
 
 ### initGraphics (static method)
@@ -125,7 +125,7 @@ static checkPluginErrors(): void;
 **Signature**
 
 ```ts
-static initGraphics(): void;
+static initGraphics(): void
 ```
 
 ### initAudio (static method)
@@ -133,7 +133,7 @@ static initGraphics(): void;
 **Signature**
 
 ```ts
-static initAudio(): void;
+static initAudio(): void
 ```
 
 ### initVideo (static method)
@@ -141,7 +141,7 @@ static initAudio(): void;
 **Signature**
 
 ```ts
-static initVideo(): void;
+static initVideo(): void
 ```
 
 ### initInput (static method)
@@ -149,7 +149,7 @@ static initVideo(): void;
 **Signature**
 
 ```ts
-static initInput(): void;
+static initInput(): void
 ```
 
 ### setupEventHandlers (static method)
@@ -157,7 +157,7 @@ static initInput(): void;
 **Signature**
 
 ```ts
-static setupEventHandlers(): void;
+static setupEventHandlers(): void
 ```
 
 ### update (static method)
@@ -165,7 +165,7 @@ static setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static update(deltaTime: number): void;
+static update(deltaTime: number): void
 ```
 
 ### determineRepeatNumber (static method)
@@ -173,7 +173,7 @@ static update(deltaTime: number): void;
 **Signature**
 
 ```ts
-static determineRepeatNumber(deltaTime: number): number;
+static determineRepeatNumber(deltaTime: number): number
 ```
 
 ### terminate (static method)
@@ -181,7 +181,7 @@ static determineRepeatNumber(deltaTime: number): number;
 **Signature**
 
 ```ts
-static terminate(): void;
+static terminate(): void
 ```
 
 ### onError (static method)
@@ -189,7 +189,7 @@ static terminate(): void;
 **Signature**
 
 ```ts
-static onError(event: ErrorEvent): void;
+static onError(event: ErrorEvent): void
 ```
 
 ### onReject (static method)
@@ -197,7 +197,7 @@ static onError(event: ErrorEvent): void;
 **Signature**
 
 ```ts
-static onReject(event: PromiseRejectionEvent): void;
+static onReject(event: PromiseRejectionEvent): void
 ```
 
 ### onUnload (static method)
@@ -205,7 +205,7 @@ static onReject(event: PromiseRejectionEvent): void;
 **Signature**
 
 ```ts
-static onUnload(): void;
+static onUnload(): void
 ```
 
 ### onKeyDown (static method)
@@ -213,7 +213,7 @@ static onUnload(): void;
 **Signature**
 
 ```ts
-static onKeyDown(event: KeyboardEvent): void;
+static onKeyDown(event: KeyboardEvent): void
 ```
 
 ### reloadGame (static method)
@@ -221,7 +221,7 @@ static onKeyDown(event: KeyboardEvent): void;
 **Signature**
 
 ```ts
-static reloadGame(): void;
+static reloadGame(): void
 ```
 
 ### showDevTools (static method)
@@ -229,7 +229,7 @@ static reloadGame(): void;
 **Signature**
 
 ```ts
-static showDevTools(): void;
+static showDevTools(): void
 ```
 
 ### catchException (static method)
@@ -237,7 +237,7 @@ static showDevTools(): void;
 **Signature**
 
 ```ts
-static catchException(e: unknown): void;
+static catchException(e: unknown): void
 ```
 
 ### catchNormalError (static method)
@@ -245,7 +245,7 @@ static catchException(e: unknown): void;
 **Signature**
 
 ```ts
-static catchNormalError(e: Error): void;
+static catchNormalError(e: Error): void
 ```
 
 ### catchLoadError (static method)
@@ -253,7 +253,7 @@ static catchNormalError(e: Error): void;
 **Signature**
 
 ```ts
-static catchLoadError(e: ["LoadError", string, () => void]): void;
+static catchLoadError(e: ["LoadError", string, () => void]): void
 ```
 
 ### catchUnknownError (static method)
@@ -261,7 +261,7 @@ static catchLoadError(e: ["LoadError", string, () => void]): void;
 **Signature**
 
 ```ts
-static catchUnknownError(e: unknown): void;
+static catchUnknownError(e: unknown): void
 ```
 
 ### updateMain (static method)
@@ -269,7 +269,7 @@ static catchUnknownError(e: unknown): void;
 **Signature**
 
 ```ts
-static updateMain(): void;
+static updateMain(): void
 ```
 
 ### updateFrameCount (static method)
@@ -277,7 +277,7 @@ static updateMain(): void;
 **Signature**
 
 ```ts
-static updateFrameCount(): void;
+static updateFrameCount(): void
 ```
 
 ### updateInputData (static method)
@@ -285,7 +285,7 @@ static updateFrameCount(): void;
 **Signature**
 
 ```ts
-static updateInputData(): void;
+static updateInputData(): void
 ```
 
 ### updateEffekseer (static method)
@@ -293,7 +293,7 @@ static updateInputData(): void;
 **Signature**
 
 ```ts
-static updateEffekseer(): void;
+static updateEffekseer(): void
 ```
 
 ### changeScene (static method)
@@ -301,7 +301,7 @@ static updateEffekseer(): void;
 **Signature**
 
 ```ts
-static changeScene(): void;
+static changeScene(): void
 ```
 
 ### updateScene (static method)
@@ -309,7 +309,7 @@ static changeScene(): void;
 **Signature**
 
 ```ts
-static updateScene(): void;
+static updateScene(): void
 ```
 
 ### isGameActive (static method)
@@ -317,7 +317,7 @@ static updateScene(): void;
 **Signature**
 
 ```ts
-static isGameActive(): boolean;
+static isGameActive(): boolean
 ```
 
 ### onSceneTerminate (static method)
@@ -325,7 +325,7 @@ static isGameActive(): boolean;
 **Signature**
 
 ```ts
-static onSceneTerminate(): void;
+static onSceneTerminate(): void
 ```
 
 ### onSceneCreate (static method)
@@ -333,7 +333,7 @@ static onSceneTerminate(): void;
 **Signature**
 
 ```ts
-static onSceneCreate(): void;
+static onSceneCreate(): void
 ```
 
 ### onBeforeSceneStart (static method)
@@ -341,7 +341,7 @@ static onSceneCreate(): void;
 **Signature**
 
 ```ts
-static onBeforeSceneStart(): void;
+static onBeforeSceneStart(): void
 ```
 
 ### onSceneStart (static method)
@@ -349,7 +349,7 @@ static onBeforeSceneStart(): void;
 **Signature**
 
 ```ts
-static onSceneStart(): void;
+static onSceneStart(): void
 ```
 
 ### isSceneChanging (static method)
@@ -357,7 +357,7 @@ static onSceneStart(): void;
 **Signature**
 
 ```ts
-static isSceneChanging(): boolean;
+static isSceneChanging(): boolean
 ```
 
 ### isCurrentSceneBusy (static method)
@@ -365,7 +365,7 @@ static isSceneChanging(): boolean;
 **Signature**
 
 ```ts
-static isCurrentSceneBusy(): boolean | null;
+static isCurrentSceneBusy(): boolean | null
 ```
 
 ### isNextScene (static method)
@@ -373,7 +373,7 @@ static isCurrentSceneBusy(): boolean | null;
 **Signature**
 
 ```ts
-static isNextScene(sceneClass: SceneConstructor): boolean | null;
+static isNextScene(sceneClass: SceneConstructor): boolean | null
 ```
 
 ### isPreviousScene (static method)
@@ -381,7 +381,7 @@ static isNextScene(sceneClass: SceneConstructor): boolean | null;
 **Signature**
 
 ```ts
-static isPreviousScene(sceneClass: SceneConstructor): boolean;
+static isPreviousScene(sceneClass: SceneConstructor): boolean
 ```
 
 ### goto (static method)
@@ -389,7 +389,7 @@ static isPreviousScene(sceneClass: SceneConstructor): boolean;
 **Signature**
 
 ```ts
-static goto(sceneClass: SceneConstructor | null): void;
+static goto(sceneClass: SceneConstructor | null): void
 ```
 
 ### push (static method)
@@ -397,7 +397,7 @@ static goto(sceneClass: SceneConstructor | null): void;
 **Signature**
 
 ```ts
-static push(sceneClass: SceneConstructor): void;
+static push(sceneClass: SceneConstructor): void
 ```
 
 ### pop (static method)
@@ -405,7 +405,7 @@ static push(sceneClass: SceneConstructor): void;
 **Signature**
 
 ```ts
-static pop(): void;
+static pop(): void
 ```
 
 ### exit (static method)
@@ -413,7 +413,7 @@ static pop(): void;
 **Signature**
 
 ```ts
-static exit(): void;
+static exit(): void
 ```
 
 ### clearStack (static method)
@@ -421,7 +421,7 @@ static exit(): void;
 **Signature**
 
 ```ts
-static clearStack(): void;
+static clearStack(): void
 ```
 
 ### stop (static method)
@@ -429,7 +429,7 @@ static clearStack(): void;
 **Signature**
 
 ```ts
-static stop(): void;
+static stop(): void
 ```
 
 ### prepareNextScene (static method)
@@ -437,9 +437,11 @@ static stop(): void;
 **Signature**
 
 ```ts
-static prepareNextScene<T extends Scene_Base & {
-        prepare: (...args: any[]) => void;
-    }>(...args: Parameters<T["prepare"]>): void;
+static prepareNextScene<
+    T extends Scene_Base & {
+      prepare: (...args: any[]) => void
+    }
+  >(...args: Parameters<T["prepare"]>): void
 ```
 
 ### snap (static method)
@@ -447,7 +449,7 @@ static prepareNextScene<T extends Scene_Base & {
 **Signature**
 
 ```ts
-static snap(): Bitmap;
+static snap(): Bitmap
 ```
 
 ### snapForBackground (static method)
@@ -455,7 +457,7 @@ static snap(): Bitmap;
 **Signature**
 
 ```ts
-static snapForBackground(): void;
+static snapForBackground(): void
 ```
 
 ### backgroundBitmap (static method)
@@ -463,7 +465,7 @@ static snapForBackground(): void;
 **Signature**
 
 ```ts
-static backgroundBitmap(): Bitmap | null;
+static backgroundBitmap(): Bitmap | null
 ```
 
 ### resume (static method)
@@ -471,5 +473,5 @@ static backgroundBitmap(): Bitmap | null;
 **Signature**
 
 ```ts
-static resume(): void;
+static resume(): void
 ```

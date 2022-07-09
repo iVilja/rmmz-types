@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Character.d.ts
-nav_order: 125
+nav_order: 126
 parent: Modules
 ---
 
@@ -72,7 +72,7 @@ export declare class Sprite_Character {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setCharacter (method)
@@ -80,7 +80,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setCharacter(character: Game_Character): void;
+setCharacter(character: Game_Character): void
 ```
 
 ### checkCharacter (method)
@@ -88,7 +88,7 @@ setCharacter(character: Game_Character): void;
 **Signature**
 
 ```ts
-checkCharacter(character: Game_Character): boolean;
+checkCharacter(character: Game_Character): boolean
 ```
 
 ### update (method)
@@ -96,7 +96,7 @@ checkCharacter(character: Game_Character): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateVisibility (method)
@@ -104,7 +104,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateVisibility(): void;
+updateVisibility(): void
 ```
 
 ### isTile (method)
@@ -112,7 +112,7 @@ updateVisibility(): void;
 **Signature**
 
 ```ts
-isTile(): boolean;
+isTile(): boolean
 ```
 
 ### isObjectCharacter (method)
@@ -120,7 +120,7 @@ isTile(): boolean;
 **Signature**
 
 ```ts
-isObjectCharacter(): boolean;
+isObjectCharacter(): boolean
 ```
 
 ### isEmptyCharacter (method)
@@ -128,7 +128,7 @@ isObjectCharacter(): boolean;
 **Signature**
 
 ```ts
-isEmptyCharacter(): boolean;
+isEmptyCharacter(): boolean
 ```
 
 ### tilesetBitmap (method)
@@ -136,7 +136,7 @@ isEmptyCharacter(): boolean;
 **Signature**
 
 ```ts
-tilesetBitmap(tileId: TileID): import("../core").Bitmap;
+tilesetBitmap(tileId: TileID): import("../core").Bitmap
 ```
 
 ### updateBitmap (method)
@@ -144,7 +144,7 @@ tilesetBitmap(tileId: TileID): import("../core").Bitmap;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### isImageChanged (method)
@@ -152,7 +152,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-isImageChanged(): boolean;
+isImageChanged(): boolean
 ```
 
 ### setTileBitmap (method)
@@ -160,7 +160,7 @@ isImageChanged(): boolean;
 **Signature**
 
 ```ts
-setTileBitmap(): void;
+setTileBitmap(): void
 ```
 
 ### setCharacterBitmap (method)
@@ -168,7 +168,7 @@ setTileBitmap(): void;
 **Signature**
 
 ```ts
-setCharacterBitmap(): void;
+setCharacterBitmap(): void
 ```
 
 ### updateFrame (method)
@@ -176,7 +176,7 @@ setCharacterBitmap(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### updateTileFrame (method)
@@ -184,7 +184,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-updateTileFrame(): void;
+updateTileFrame(): void
 ```
 
 ### updateCharacterFrame (method)
@@ -192,7 +192,7 @@ updateTileFrame(): void;
 **Signature**
 
 ```ts
-updateCharacterFrame(): void;
+updateCharacterFrame(): void
 ```
 
 ### characterBlockX (method)
@@ -200,7 +200,7 @@ updateCharacterFrame(): void;
 **Signature**
 
 ```ts
-characterBlockX(): number;
+characterBlockX(): number
 ```
 
 ### characterBlockY (method)
@@ -208,7 +208,7 @@ characterBlockX(): number;
 **Signature**
 
 ```ts
-characterBlockY(): number;
+characterBlockY(): number
 ```
 
 ### characterPatternX (method)
@@ -216,7 +216,7 @@ characterBlockY(): number;
 **Signature**
 
 ```ts
-characterPatternX(): number;
+characterPatternX(): number
 ```
 
 ### characterPatternY (method)
@@ -224,7 +224,7 @@ characterPatternX(): number;
 **Signature**
 
 ```ts
-characterPatternY(): number;
+characterPatternY(): number
 ```
 
 ### patternWidth (method)
@@ -232,7 +232,7 @@ characterPatternY(): number;
 **Signature**
 
 ```ts
-patternWidth(): number;
+patternWidth(): number
 ```
 
 ### patternHeight (method)
@@ -240,7 +240,7 @@ patternWidth(): number;
 **Signature**
 
 ```ts
-patternHeight(): number;
+patternHeight(): number
 ```
 
 ### updateHalfBodySprites (method)
@@ -248,7 +248,7 @@ patternHeight(): number;
 **Signature**
 
 ```ts
-updateHalfBodySprites(): void;
+updateHalfBodySprites(): void
 ```
 
 ### createHalfBodySprites (method)
@@ -256,7 +256,7 @@ updateHalfBodySprites(): void;
 **Signature**
 
 ```ts
-createHalfBodySprites(): void;
+createHalfBodySprites(): void
 ```
 
 ### updatePosition (method)
@@ -264,7 +264,7 @@ createHalfBodySprites(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateOther (method)
@@ -272,7 +272,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateOther(): void;
+updateOther(): void
 ```
 
 ### \_character (property)

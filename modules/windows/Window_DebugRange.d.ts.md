@@ -1,6 +1,6 @@
 ---
 title: windows/Window_DebugRange.d.ts
-nav_order: 153
+nav_order: 154
 parent: Modules
 ---
 
@@ -48,7 +48,7 @@ export declare class Window_DebugRange {
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### update (method)
@@ -56,7 +56,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### mode (method)
@@ -64,7 +64,7 @@ update(): void;
 **Signature**
 
 ```ts
-mode(index?: number): "switch" | "variable";
+mode(index?: number): "switch" | "variable"
 ```
 
 ### topId (method)
@@ -72,7 +72,7 @@ mode(index?: number): "switch" | "variable";
 **Signature**
 
 ```ts
-topId(index: number): number;
+topId(index: number): number
 ```
 
 ### isSwitchMode (method)
@@ -80,7 +80,7 @@ topId(index: number): number;
 **Signature**
 
 ```ts
-isSwitchMode(index?: number): boolean;
+isSwitchMode(index?: number): boolean
 ```
 
 ### drawItem (method)
@@ -88,7 +88,7 @@ isSwitchMode(index?: number): boolean;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### isCancelTriggered (method)
@@ -96,7 +96,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-isCancelTriggered(): boolean;
+isCancelTriggered(): boolean
 ```
 
 ### processCancel (method)
@@ -104,7 +104,7 @@ isCancelTriggered(): boolean;
 **Signature**
 
 ```ts
-processCancel(): void;
+processCancel(): void
 ```
 
 ### setEditWindow (method)
@@ -112,7 +112,7 @@ processCancel(): void;
 **Signature**
 
 ```ts
-setEditWindow(editWindow: Window_DebugEdit): void;
+setEditWindow(editWindow: Window_DebugEdit): void
 ```
 
 ### \_maxSwitches (property)

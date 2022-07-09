@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleEnemy.d.ts
-nav_order: 145
+nav_order: 146
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Window_BattleEnemy {
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### maxItems (method)
@@ -55,7 +55,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### enemy (method)
@@ -63,7 +63,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-enemy(): Game_Enemy;
+enemy(): Game_Enemy
 ```
 
 ### enemyIndex (method)
@@ -71,7 +71,7 @@ enemy(): Game_Enemy;
 **Signature**
 
 ```ts
-enemyIndex(): number;
+enemyIndex(): number
 ```
 
 ### drawItem (method)
@@ -79,7 +79,7 @@ enemyIndex(): number;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### show (method)
@@ -87,7 +87,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -95,7 +95,7 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### refresh (method)
@@ -103,7 +103,7 @@ hide(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### select (method)
@@ -111,7 +111,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-select(index: number): void;
+select(index: number): void
 ```
 
 ### processTouch (method)
@@ -119,7 +119,7 @@ select(index: number): void;
 **Signature**
 
 ```ts
-processTouch(): void;
+processTouch(): void
 ```
 
 ### \_enemies (property)

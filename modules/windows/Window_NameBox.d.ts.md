@@ -1,6 +1,6 @@
 ---
 title: windows/Window_NameBox.d.ts
-nav_order: 170
+nav_order: 171
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Window_NameBox {
 **Signature**
 
 ```ts
-setMessageWindow(messageWindow: Window_Message): void;
+setMessageWindow(messageWindow: Window_Message): void
 ```
 
 ### setName (method)
@@ -55,7 +55,7 @@ setMessageWindow(messageWindow: Window_Message): void;
 **Signature**
 
 ```ts
-setName(name: string): void;
+setName(name: string): void
 ```
 
 ### clear (method)
@@ -63,7 +63,7 @@ setName(name: string): void;
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### start (method)
@@ -71,7 +71,7 @@ clear(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### updatePlacement (method)
@@ -79,7 +79,7 @@ start(): void;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### updateBackground (method)
@@ -87,7 +87,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-updateBackground(): void;
+updateBackground(): void
 ```
 
 ### windowWidth (method)
@@ -95,7 +95,7 @@ updateBackground(): void;
 **Signature**
 
 ```ts
-windowWidth(): number;
+windowWidth(): number
 ```
 
 ### windowHeight (method)
@@ -103,7 +103,7 @@ windowWidth(): number;
 **Signature**
 
 ```ts
-windowHeight(): number;
+windowHeight(): number
 ```
 
 ### refresh (method)
@@ -111,7 +111,7 @@ windowHeight(): number;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_name (property)

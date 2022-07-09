@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Battler.d.ts
-nav_order: 123
+nav_order: 124
 parent: Modules
 ---
 
@@ -73,7 +73,7 @@ export declare class Sprite_Battler<T, T2> {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setBattler (method)
@@ -81,7 +81,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setBattler(battler: T): void;
+setBattler(battler: T): void
 ```
 
 ### checkBattler (method)
@@ -89,7 +89,7 @@ setBattler(battler: T): void;
 **Signature**
 
 ```ts
-checkBattler(battler: ActionTarget): boolean;
+checkBattler(battler: ActionTarget): boolean
 ```
 
 ### mainSprite (method)
@@ -97,7 +97,7 @@ checkBattler(battler: ActionTarget): boolean;
 **Signature**
 
 ```ts
-mainSprite(): Sprite<Bitmap | null>;
+mainSprite(): Sprite<Bitmap | null>
 ```
 
 ### setHome (method)
@@ -105,7 +105,7 @@ mainSprite(): Sprite<Bitmap | null>;
 **Signature**
 
 ```ts
-setHome(x: number, y: number): void;
+setHome(x: number, y: number): void
 ```
 
 ### update (method)
@@ -113,7 +113,7 @@ setHome(x: number, y: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateVisibility (method)
@@ -121,7 +121,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateVisibility(): void;
+updateVisibility(): void
 ```
 
 ### updateMain (method)
@@ -129,7 +129,7 @@ updateVisibility(): void;
 **Signature**
 
 ```ts
-updateMain(): void;
+updateMain(): void
 ```
 
 ### updateBitmap (method)
@@ -137,7 +137,7 @@ updateMain(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### updateFrame (method)
@@ -145,7 +145,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### updateMove (method)
@@ -153,7 +153,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-updateMove(): void;
+updateMove(): void
 ```
 
 ### updatePosition (method)
@@ -161,7 +161,7 @@ updateMove(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateDamagePopup (method)
@@ -169,7 +169,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateDamagePopup(): void;
+updateDamagePopup(): void
 ```
 
 ### updateSelectionEffect (method)
@@ -177,7 +177,7 @@ updateDamagePopup(): void;
 **Signature**
 
 ```ts
-updateSelectionEffect(): void;
+updateSelectionEffect(): void
 ```
 
 ### setupDamagePopup (method)
@@ -185,7 +185,7 @@ updateSelectionEffect(): void;
 **Signature**
 
 ```ts
-setupDamagePopup(): void;
+setupDamagePopup(): void
 ```
 
 ### createDamageSprite (method)
@@ -193,7 +193,7 @@ setupDamagePopup(): void;
 **Signature**
 
 ```ts
-createDamageSprite(): void;
+createDamageSprite(): void
 ```
 
 ### destroyDamageSprite (method)
@@ -201,7 +201,7 @@ createDamageSprite(): void;
 **Signature**
 
 ```ts
-destroyDamageSprite(sprite: Sprite_Damage): void;
+destroyDamageSprite(sprite: Sprite_Damage): void
 ```
 
 ### damageOffsetX (method)
@@ -209,7 +209,7 @@ destroyDamageSprite(sprite: Sprite_Damage): void;
 **Signature**
 
 ```ts
-damageOffsetX(): number;
+damageOffsetX(): number
 ```
 
 ### damageOffsetY (method)
@@ -217,7 +217,7 @@ damageOffsetX(): number;
 **Signature**
 
 ```ts
-damageOffsetY(): number;
+damageOffsetY(): number
 ```
 
 ### startMove (method)
@@ -225,7 +225,7 @@ damageOffsetY(): number;
 **Signature**
 
 ```ts
-startMove(x: number, y: number, duration: number): void;
+startMove(x: number, y: number, duration: number): void
 ```
 
 ### onMoveEnd (method)
@@ -233,7 +233,7 @@ startMove(x: number, y: number, duration: number): void;
 **Signature**
 
 ```ts
-onMoveEnd(): void;
+onMoveEnd(): void
 ```
 
 ### isEffecting (method)
@@ -241,7 +241,7 @@ onMoveEnd(): void;
 **Signature**
 
 ```ts
-isEffecting(): boolean;
+isEffecting(): boolean
 ```
 
 ### isMoving (method)
@@ -249,7 +249,7 @@ isEffecting(): boolean;
 **Signature**
 
 ```ts
-isMoving(): boolean;
+isMoving(): boolean
 ```
 
 ### inHomePosition (method)
@@ -257,7 +257,7 @@ isMoving(): boolean;
 **Signature**
 
 ```ts
-inHomePosition(): boolean;
+inHomePosition(): boolean
 ```
 
 ### onMouseEnter (method)
@@ -265,7 +265,7 @@ inHomePosition(): boolean;
 **Signature**
 
 ```ts
-onMouseEnter(): void;
+onMouseEnter(): void
 ```
 
 ### onPress (method)
@@ -273,7 +273,7 @@ onMouseEnter(): void;
 **Signature**
 
 ```ts
-onPress(): void;
+onPress(): void
 ```
 
 ### onClick (method)
@@ -281,7 +281,7 @@ onPress(): void;
 **Signature**
 
 ```ts
-onClick(): void;
+onClick(): void
 ```
 
 ### \_battler (property)

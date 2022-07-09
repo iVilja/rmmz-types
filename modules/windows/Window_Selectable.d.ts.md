@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Selectable.d.ts
-nav_order: 179
+nav_order: 180
 parent: Modules
 ---
 
@@ -129,7 +129,7 @@ export declare class Window_Selectable {
 **Signature**
 
 ```ts
-index(): number;
+index(): number
 ```
 
 ### cursorFixed (method)
@@ -137,7 +137,7 @@ index(): number;
 **Signature**
 
 ```ts
-cursorFixed(): boolean;
+cursorFixed(): boolean
 ```
 
 ### setCursorFixed (method)
@@ -145,7 +145,7 @@ cursorFixed(): boolean;
 **Signature**
 
 ```ts
-setCursorFixed(cursorFixed: boolean): void;
+setCursorFixed(cursorFixed: boolean): void
 ```
 
 ### cursorAll (method)
@@ -153,7 +153,7 @@ setCursorFixed(cursorFixed: boolean): void;
 **Signature**
 
 ```ts
-cursorAll(): boolean;
+cursorAll(): boolean
 ```
 
 ### setCursorAll (method)
@@ -161,7 +161,7 @@ cursorAll(): boolean;
 **Signature**
 
 ```ts
-setCursorAll(cursorAll: boolean): void;
+setCursorAll(cursorAll: boolean): void
 ```
 
 ### maxCols (method)
@@ -169,7 +169,7 @@ setCursorAll(cursorAll: boolean): void;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### maxItems (method)
@@ -177,7 +177,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### colSpacing (method)
@@ -185,7 +185,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### rowSpacing (method)
@@ -193,7 +193,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-rowSpacing(): number;
+rowSpacing(): number
 ```
 
 ### itemWidth (method)
@@ -201,7 +201,7 @@ rowSpacing(): number;
 **Signature**
 
 ```ts
-itemWidth(): number;
+itemWidth(): number
 ```
 
 ### itemHeight (method)
@@ -209,7 +209,7 @@ itemWidth(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### contentsHeight (method)
@@ -217,7 +217,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-contentsHeight(): number;
+contentsHeight(): number
 ```
 
 ### maxRows (method)
@@ -225,7 +225,7 @@ contentsHeight(): number;
 **Signature**
 
 ```ts
-maxRows(): number;
+maxRows(): number
 ```
 
 ### overallHeight (method)
@@ -233,7 +233,7 @@ maxRows(): number;
 **Signature**
 
 ```ts
-overallHeight(): number;
+overallHeight(): number
 ```
 
 ### activate (method)
@@ -241,7 +241,7 @@ overallHeight(): number;
 **Signature**
 
 ```ts
-activate(): void;
+activate(): void
 ```
 
 ### deactivate (method)
@@ -249,7 +249,7 @@ activate(): void;
 **Signature**
 
 ```ts
-deactivate(): void;
+deactivate(): void
 ```
 
 ### select (method)
@@ -257,7 +257,7 @@ deactivate(): void;
 **Signature**
 
 ```ts
-select(index: number): void;
+select(index: number): void
 ```
 
 ### forceSelect (method)
@@ -265,7 +265,7 @@ select(index: number): void;
 **Signature**
 
 ```ts
-forceSelect(index: number): void;
+forceSelect(index: number): void
 ```
 
 ### smoothSelect (method)
@@ -273,7 +273,7 @@ forceSelect(index: number): void;
 **Signature**
 
 ```ts
-smoothSelect(index: number): void;
+smoothSelect(index: number): void
 ```
 
 ### deselect (method)
@@ -281,7 +281,7 @@ smoothSelect(index: number): void;
 **Signature**
 
 ```ts
-deselect(): void;
+deselect(): void
 ```
 
 ### reselect (method)
@@ -289,7 +289,7 @@ deselect(): void;
 **Signature**
 
 ```ts
-reselect(): void;
+reselect(): void
 ```
 
 ### row (method)
@@ -297,7 +297,7 @@ reselect(): void;
 **Signature**
 
 ```ts
-row(): number;
+row(): number
 ```
 
 ### topRow (method)
@@ -305,7 +305,7 @@ row(): number;
 **Signature**
 
 ```ts
-topRow(): number;
+topRow(): number
 ```
 
 ### maxTopRow (method)
@@ -313,7 +313,7 @@ topRow(): number;
 **Signature**
 
 ```ts
-maxTopRow(): number;
+maxTopRow(): number
 ```
 
 ### setTopRow (method)
@@ -321,7 +321,7 @@ maxTopRow(): number;
 **Signature**
 
 ```ts
-setTopRow(row: number): void;
+setTopRow(row: number): void
 ```
 
 ### maxPageRows (method)
@@ -329,7 +329,7 @@ setTopRow(row: number): void;
 **Signature**
 
 ```ts
-maxPageRows(): number;
+maxPageRows(): number
 ```
 
 ### maxPageItems (method)
@@ -337,7 +337,7 @@ maxPageRows(): number;
 **Signature**
 
 ```ts
-maxPageItems(): number;
+maxPageItems(): number
 ```
 
 ### maxVisibleItems (method)
@@ -345,7 +345,7 @@ maxPageItems(): number;
 **Signature**
 
 ```ts
-maxVisibleItems(): number;
+maxVisibleItems(): number
 ```
 
 ### isHorizontal (method)
@@ -353,7 +353,7 @@ maxVisibleItems(): number;
 **Signature**
 
 ```ts
-isHorizontal(): boolean;
+isHorizontal(): boolean
 ```
 
 ### topIndex (method)
@@ -361,7 +361,7 @@ isHorizontal(): boolean;
 **Signature**
 
 ```ts
-topIndex(): number;
+topIndex(): number
 ```
 
 ### itemRect (method)
@@ -369,7 +369,7 @@ topIndex(): number;
 **Signature**
 
 ```ts
-itemRect(index: number): Rectangle;
+itemRect(index: number): Rectangle
 ```
 
 ### itemRectWithPadding (method)
@@ -377,7 +377,7 @@ itemRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-itemRectWithPadding(index: number): Rectangle;
+itemRectWithPadding(index: number): Rectangle
 ```
 
 ### itemLineRect (method)
@@ -385,7 +385,7 @@ itemRectWithPadding(index: number): Rectangle;
 **Signature**
 
 ```ts
-itemLineRect(index: number): Rectangle;
+itemLineRect(index: number): Rectangle
 ```
 
 ### setHelpWindow (method)
@@ -393,7 +393,7 @@ itemLineRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-setHelpWindow(helpWindow: Window_Help): void;
+setHelpWindow(helpWindow: Window_Help): void
 ```
 
 ### showHelpWindow (method)
@@ -401,7 +401,7 @@ setHelpWindow(helpWindow: Window_Help): void;
 **Signature**
 
 ```ts
-showHelpWindow(): void;
+showHelpWindow(): void
 ```
 
 ### hideHelpWindow (method)
@@ -409,7 +409,7 @@ showHelpWindow(): void;
 **Signature**
 
 ```ts
-hideHelpWindow(): void;
+hideHelpWindow(): void
 ```
 
 ### setHandler (method)
@@ -417,7 +417,7 @@ hideHelpWindow(): void;
 **Signature**
 
 ```ts
-setHandler(symbol: string, method: () => void): void;
+setHandler(symbol: string, method: () => void): void
 ```
 
 ### isHandled (method)
@@ -425,7 +425,7 @@ setHandler(symbol: string, method: () => void): void;
 **Signature**
 
 ```ts
-isHandled(symbol: string): boolean;
+isHandled(symbol: string): boolean
 ```
 
 ### callHandler (method)
@@ -433,7 +433,7 @@ isHandled(symbol: string): boolean;
 **Signature**
 
 ```ts
-callHandler(symbol: string): void;
+callHandler(symbol: string): void
 ```
 
 ### isOpenAndActive (method)
@@ -441,7 +441,7 @@ callHandler(symbol: string): void;
 **Signature**
 
 ```ts
-isOpenAndActive(): boolean;
+isOpenAndActive(): boolean
 ```
 
 ### isCursorMovable (method)
@@ -449,7 +449,7 @@ isOpenAndActive(): boolean;
 **Signature**
 
 ```ts
-isCursorMovable(): boolean;
+isCursorMovable(): boolean
 ```
 
 ### cursorDown (method)
@@ -457,7 +457,7 @@ isCursorMovable(): boolean;
 **Signature**
 
 ```ts
-cursorDown(wrap: boolean): void;
+cursorDown(wrap: boolean): void
 ```
 
 ### cursorUp (method)
@@ -465,7 +465,7 @@ cursorDown(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorUp(wrap: boolean): void;
+cursorUp(wrap: boolean): void
 ```
 
 ### cursorRight (method)
@@ -473,7 +473,7 @@ cursorUp(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorRight(wrap: boolean): void;
+cursorRight(wrap: boolean): void
 ```
 
 ### cursorLeft (method)
@@ -481,7 +481,7 @@ cursorRight(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorLeft(wrap: boolean): void;
+cursorLeft(wrap: boolean): void
 ```
 
 ### cursorPagedown (method)
@@ -489,7 +489,7 @@ cursorLeft(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorPagedown(): void;
+cursorPagedown(): void
 ```
 
 ### cursorPageup (method)
@@ -497,7 +497,7 @@ cursorPagedown(): void;
 **Signature**
 
 ```ts
-cursorPageup(): void;
+cursorPageup(): void
 ```
 
 ### isScrollEnabled (method)
@@ -505,7 +505,7 @@ cursorPageup(): void;
 **Signature**
 
 ```ts
-isScrollEnabled(): boolean;
+isScrollEnabled(): boolean
 ```
 
 ### update (method)
@@ -513,7 +513,7 @@ isScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### processCursorMove (method)
@@ -521,7 +521,7 @@ update(): void;
 **Signature**
 
 ```ts
-processCursorMove(): void;
+processCursorMove(): void
 ```
 
 ### processHandling (method)
@@ -529,7 +529,7 @@ processCursorMove(): void;
 **Signature**
 
 ```ts
-processHandling(): void;
+processHandling(): void
 ```
 
 ### processTouch (method)
@@ -537,7 +537,7 @@ processHandling(): void;
 **Signature**
 
 ```ts
-processTouch(): void;
+processTouch(): void
 ```
 
 ### isHoverEnabled (method)
@@ -545,7 +545,7 @@ processTouch(): void;
 **Signature**
 
 ```ts
-isHoverEnabled(): boolean;
+isHoverEnabled(): boolean
 ```
 
 ### onTouchSelect (method)
@@ -553,7 +553,7 @@ isHoverEnabled(): boolean;
 **Signature**
 
 ```ts
-onTouchSelect(trigger: boolean): void;
+onTouchSelect(trigger: boolean): void
 ```
 
 ### onTouchOk (method)
@@ -561,7 +561,7 @@ onTouchSelect(trigger: boolean): void;
 **Signature**
 
 ```ts
-onTouchOk(): void;
+onTouchOk(): void
 ```
 
 ### onTouchCancel (method)
@@ -569,7 +569,7 @@ onTouchOk(): void;
 **Signature**
 
 ```ts
-onTouchCancel(): void;
+onTouchCancel(): void
 ```
 
 ### hitIndex (method)
@@ -577,7 +577,7 @@ onTouchCancel(): void;
 **Signature**
 
 ```ts
-hitIndex(): number;
+hitIndex(): number
 ```
 
 ### hitTest (method)
@@ -585,7 +585,7 @@ hitIndex(): number;
 **Signature**
 
 ```ts
-hitTest(x: number, y: number): number;
+hitTest(x: number, y: number): number
 ```
 
 ### isTouchOkEnabled (method)
@@ -593,7 +593,7 @@ hitTest(x: number, y: number): number;
 **Signature**
 
 ```ts
-isTouchOkEnabled(): boolean;
+isTouchOkEnabled(): boolean
 ```
 
 ### isOkEnabled (method)
@@ -601,7 +601,7 @@ isTouchOkEnabled(): boolean;
 **Signature**
 
 ```ts
-isOkEnabled(): boolean;
+isOkEnabled(): boolean
 ```
 
 ### isCancelEnabled (method)
@@ -609,7 +609,7 @@ isOkEnabled(): boolean;
 **Signature**
 
 ```ts
-isCancelEnabled(): boolean;
+isCancelEnabled(): boolean
 ```
 
 ### isOkTriggered (method)
@@ -617,7 +617,7 @@ isCancelEnabled(): boolean;
 **Signature**
 
 ```ts
-isOkTriggered(): boolean;
+isOkTriggered(): boolean
 ```
 
 ### isCancelTriggered (method)
@@ -625,7 +625,7 @@ isOkTriggered(): boolean;
 **Signature**
 
 ```ts
-isCancelTriggered(): boolean;
+isCancelTriggered(): boolean
 ```
 
 ### processOk (method)
@@ -633,7 +633,7 @@ isCancelTriggered(): boolean;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### callOkHandler (method)
@@ -641,7 +641,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-callOkHandler(): void;
+callOkHandler(): void
 ```
 
 ### processCancel (method)
@@ -649,7 +649,7 @@ callOkHandler(): void;
 **Signature**
 
 ```ts
-processCancel(): void;
+processCancel(): void
 ```
 
 ### callCancelHandler (method)
@@ -657,7 +657,7 @@ processCancel(): void;
 **Signature**
 
 ```ts
-callCancelHandler(): void;
+callCancelHandler(): void
 ```
 
 ### processPageup (method)
@@ -665,7 +665,7 @@ callCancelHandler(): void;
 **Signature**
 
 ```ts
-processPageup(): void;
+processPageup(): void
 ```
 
 ### processPagedown (method)
@@ -673,7 +673,7 @@ processPageup(): void;
 **Signature**
 
 ```ts
-processPagedown(): void;
+processPagedown(): void
 ```
 
 ### updateInputData (method)
@@ -681,7 +681,7 @@ processPagedown(): void;
 **Signature**
 
 ```ts
-updateInputData(): void;
+updateInputData(): void
 ```
 
 ### ensureCursorVisible (method)
@@ -689,7 +689,7 @@ updateInputData(): void;
 **Signature**
 
 ```ts
-ensureCursorVisible(smooth: boolean): void;
+ensureCursorVisible(smooth: boolean): void
 ```
 
 ### callUpdateHelp (method)
@@ -697,7 +697,7 @@ ensureCursorVisible(smooth: boolean): void;
 **Signature**
 
 ```ts
-callUpdateHelp(): void;
+callUpdateHelp(): void
 ```
 
 ### updateHelp (method)
@@ -705,7 +705,7 @@ callUpdateHelp(): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### setHelpWindowItem (method)
@@ -713,7 +713,7 @@ updateHelp(): void;
 **Signature**
 
 ```ts
-setHelpWindowItem(item: DataItemBase | null): void;
+setHelpWindowItem(item: DataItemBase | null): void
 ```
 
 ### isCurrentItemEnabled (method)
@@ -721,7 +721,7 @@ setHelpWindowItem(item: DataItemBase | null): void;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### drawAllItems (method)
@@ -729,7 +729,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-drawAllItems(): void;
+drawAllItems(): void
 ```
 
 ### drawItem (method)
@@ -737,7 +737,7 @@ drawAllItems(): void;
 **Signature**
 
 ```ts
-drawItem(..._args: unknown[]): void;
+drawItem(..._args: unknown[]): void
 ```
 
 ### clearItem (method)
@@ -745,7 +745,7 @@ drawItem(..._args: unknown[]): void;
 **Signature**
 
 ```ts
-clearItem(index: number): void;
+clearItem(index: number): void
 ```
 
 ### drawItemBackground (method)
@@ -753,7 +753,7 @@ clearItem(index: number): void;
 **Signature**
 
 ```ts
-drawItemBackground(index: number): void;
+drawItemBackground(index: number): void
 ```
 
 ### drawBackgroundRect (method)
@@ -761,7 +761,7 @@ drawItemBackground(index: number): void;
 **Signature**
 
 ```ts
-drawBackgroundRect(rect: Rectangle): void;
+drawBackgroundRect(rect: Rectangle): void
 ```
 
 ### redrawItem (method)
@@ -769,7 +769,7 @@ drawBackgroundRect(rect: Rectangle): void;
 **Signature**
 
 ```ts
-redrawItem(index: number): void;
+redrawItem(index: number): void
 ```
 
 ### redrawCurrentItem (method)
@@ -777,7 +777,7 @@ redrawItem(index: number): void;
 **Signature**
 
 ```ts
-redrawCurrentItem(): void;
+redrawCurrentItem(): void
 ```
 
 ### refresh (method)
@@ -785,7 +785,7 @@ redrawCurrentItem(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### paint (method)
@@ -793,7 +793,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-paint(): void;
+paint(): void
 ```
 
 ### refreshCursor (method)
@@ -801,7 +801,7 @@ paint(): void;
 **Signature**
 
 ```ts
-refreshCursor(): void;
+refreshCursor(): void
 ```
 
 ### refreshCursorForAll (method)
@@ -809,7 +809,7 @@ refreshCursor(): void;
 **Signature**
 
 ```ts
-refreshCursorForAll(): void;
+refreshCursorForAll(): void
 ```
 
 ### \_index (property)

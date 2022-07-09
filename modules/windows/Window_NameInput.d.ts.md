@@ -1,6 +1,6 @@
 ---
 title: windows/Window_NameInput.d.ts
-nav_order: 172
+nav_order: 173
 parent: Modules
 ---
 
@@ -65,7 +65,7 @@ export declare class Window_NameInput
 **Signature**
 
 ```ts
-setEditWindow(editWindow: Window_NameEdit): void;
+setEditWindow(editWindow: Window_NameEdit): void
 ```
 
 ### table (method)
@@ -73,7 +73,7 @@ setEditWindow(editWindow: Window_NameEdit): void;
 **Signature**
 
 ```ts
-table(): string[][];
+table(): string[][]
 ```
 
 ### maxCols (method)
@@ -81,7 +81,7 @@ table(): string[][];
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### maxItems (method)
@@ -89,7 +89,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### itemWidth (method)
@@ -97,7 +97,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-itemWidth(): number;
+itemWidth(): number
 ```
 
 ### groupSpacing (method)
@@ -105,7 +105,7 @@ itemWidth(): number;
 **Signature**
 
 ```ts
-groupSpacing(): number;
+groupSpacing(): number
 ```
 
 ### character (method)
@@ -113,7 +113,7 @@ groupSpacing(): number;
 **Signature**
 
 ```ts
-character(): string;
+character(): string
 ```
 
 ### isPageChange (method)
@@ -121,7 +121,7 @@ character(): string;
 **Signature**
 
 ```ts
-isPageChange(): boolean;
+isPageChange(): boolean
 ```
 
 ### isOk (method)
@@ -129,7 +129,7 @@ isPageChange(): boolean;
 **Signature**
 
 ```ts
-isOk(): boolean;
+isOk(): boolean
 ```
 
 ### itemRect (method)
@@ -137,7 +137,7 @@ isOk(): boolean;
 **Signature**
 
 ```ts
-itemRect(index: number): Rectangle;
+itemRect(index: number): Rectangle
 ```
 
 ### drawItem (method)
@@ -145,7 +145,7 @@ itemRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### updateCursor (method)
@@ -153,7 +153,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-updateCursor(): void;
+updateCursor(): void
 ```
 
 ### isCursorMovable (method)
@@ -161,7 +161,7 @@ updateCursor(): void;
 **Signature**
 
 ```ts
-isCursorMovable(): boolean;
+isCursorMovable(): boolean
 ```
 
 ### cursorDown (method)
@@ -169,7 +169,7 @@ isCursorMovable(): boolean;
 **Signature**
 
 ```ts
-cursorDown(wrap: boolean): void;
+cursorDown(wrap: boolean): void
 ```
 
 ### cursorUp (method)
@@ -177,7 +177,7 @@ cursorDown(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorUp(wrap: boolean): void;
+cursorUp(wrap: boolean): void
 ```
 
 ### cursorRight (method)
@@ -185,7 +185,7 @@ cursorUp(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorRight(wrap: boolean): void;
+cursorRight(wrap: boolean): void
 ```
 
 ### cursorLeft (method)
@@ -193,7 +193,7 @@ cursorRight(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorLeft(wrap: boolean): void;
+cursorLeft(wrap: boolean): void
 ```
 
 ### cursorPagedown (method)
@@ -201,7 +201,7 @@ cursorLeft(wrap: boolean): void;
 **Signature**
 
 ```ts
-cursorPagedown(): void;
+cursorPagedown(): void
 ```
 
 ### cursorPageup (method)
@@ -209,7 +209,7 @@ cursorPagedown(): void;
 **Signature**
 
 ```ts
-cursorPageup(): void;
+cursorPageup(): void
 ```
 
 ### processCursorMove (method)
@@ -217,7 +217,7 @@ cursorPageup(): void;
 **Signature**
 
 ```ts
-processCursorMove(): void;
+processCursorMove(): void
 ```
 
 ### processHandling (method)
@@ -225,7 +225,7 @@ processCursorMove(): void;
 **Signature**
 
 ```ts
-processHandling(): void;
+processHandling(): void
 ```
 
 ### isCancelEnabled (method)
@@ -233,7 +233,7 @@ processHandling(): void;
 **Signature**
 
 ```ts
-isCancelEnabled(): boolean;
+isCancelEnabled(): boolean
 ```
 
 ### processCancel (method)
@@ -241,7 +241,7 @@ isCancelEnabled(): boolean;
 **Signature**
 
 ```ts
-processCancel(): void;
+processCancel(): void
 ```
 
 ### processJump (method)
@@ -249,7 +249,7 @@ processCancel(): void;
 **Signature**
 
 ```ts
-processJump(): void;
+processJump(): void
 ```
 
 ### processBack (method)
@@ -257,7 +257,7 @@ processJump(): void;
 **Signature**
 
 ```ts
-processBack(): void;
+processBack(): void
 ```
 
 ### processOk (method)
@@ -265,7 +265,7 @@ processBack(): void;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### onNameAdd (method)
@@ -273,7 +273,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-onNameAdd(): void;
+onNameAdd(): void
 ```
 
 ### onNameOk (method)
@@ -281,7 +281,7 @@ onNameAdd(): void;
 **Signature**
 
 ```ts
-onNameOk(): void;
+onNameOk(): void
 ```
 
 ### \_editWindow (property)

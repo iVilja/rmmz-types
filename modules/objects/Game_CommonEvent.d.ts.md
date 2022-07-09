@@ -1,6 +1,6 @@
 ---
 title: objects/Game_CommonEvent.d.ts
-nav_order: 71
+nav_order: 72
 parent: Modules
 ---
 
@@ -44,7 +44,7 @@ export declare class Game_CommonEvent {
 **Signature**
 
 ```ts
-event(): import("../data").DataCommonEvent;
+event(): import("../data").DataCommonEvent
 ```
 
 ### list (method)
@@ -52,7 +52,7 @@ event(): import("../data").DataCommonEvent;
 **Signature**
 
 ```ts
-list(): import("../data").DataCommand[];
+list(): import("../data").DataCommand[]
 ```
 
 ### refresh (method)
@@ -60,7 +60,7 @@ list(): import("../data").DataCommand[];
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### isActive (method)
@@ -68,7 +68,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-isActive(): boolean;
+isActive(): boolean
 ```
 
 ### update (method)
@@ -76,7 +76,7 @@ isActive(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### \_commonEventId (property)

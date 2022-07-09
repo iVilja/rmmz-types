@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Character.d.ts
-nav_order: 69
+nav_order: 70
 parent: Modules
 ---
 
@@ -75,7 +75,7 @@ export declare class Game_Character {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### memorizeMoveRoute (method)
@@ -83,7 +83,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-memorizeMoveRoute(): void;
+memorizeMoveRoute(): void
 ```
 
 ### restoreMoveRoute (method)
@@ -91,7 +91,7 @@ memorizeMoveRoute(): void;
 **Signature**
 
 ```ts
-restoreMoveRoute(): void;
+restoreMoveRoute(): void
 ```
 
 ### isMoveRouteForcing (method)
@@ -99,7 +99,7 @@ restoreMoveRoute(): void;
 **Signature**
 
 ```ts
-isMoveRouteForcing(): boolean;
+isMoveRouteForcing(): boolean
 ```
 
 ### setMoveRoute (method)
@@ -107,7 +107,7 @@ isMoveRouteForcing(): boolean;
 **Signature**
 
 ```ts
-setMoveRoute(moveRoute: MoveRoute): void;
+setMoveRoute(moveRoute: MoveRoute): void
 ```
 
 ### forceMoveRoute (method)
@@ -115,7 +115,7 @@ setMoveRoute(moveRoute: MoveRoute): void;
 **Signature**
 
 ```ts
-forceMoveRoute(moveRoute: MoveRoute): void;
+forceMoveRoute(moveRoute: MoveRoute): void
 ```
 
 ### updateStop (method)
@@ -123,7 +123,7 @@ forceMoveRoute(moveRoute: MoveRoute): void;
 **Signature**
 
 ```ts
-updateStop(): void;
+updateStop(): void
 ```
 
 ### updateRoutineMove (method)
@@ -131,7 +131,7 @@ updateStop(): void;
 **Signature**
 
 ```ts
-updateRoutineMove(): void;
+updateRoutineMove(): void
 ```
 
 ### processMoveCommand (method)
@@ -139,7 +139,7 @@ updateRoutineMove(): void;
 **Signature**
 
 ```ts
-processMoveCommand(command: DataCommand): void;
+processMoveCommand(command: DataCommand): void
 ```
 
 ### deltaXFrom (method)
@@ -147,7 +147,7 @@ processMoveCommand(command: DataCommand): void;
 **Signature**
 
 ```ts
-deltaXFrom(x: number): number;
+deltaXFrom(x: number): number
 ```
 
 ### deltaYFrom (method)
@@ -155,7 +155,7 @@ deltaXFrom(x: number): number;
 **Signature**
 
 ```ts
-deltaYFrom(y: number): number;
+deltaYFrom(y: number): number
 ```
 
 ### moveRandom (method)
@@ -163,7 +163,7 @@ deltaYFrom(y: number): number;
 **Signature**
 
 ```ts
-moveRandom(): void;
+moveRandom(): void
 ```
 
 ### moveTowardCharacter (method)
@@ -171,7 +171,7 @@ moveRandom(): void;
 **Signature**
 
 ```ts
-moveTowardCharacter(character: Game_Character): void;
+moveTowardCharacter(character: Game_Character): void
 ```
 
 ### moveAwayFromCharacter (method)
@@ -179,7 +179,7 @@ moveTowardCharacter(character: Game_Character): void;
 **Signature**
 
 ```ts
-moveAwayFromCharacter(character: Game_Character): void;
+moveAwayFromCharacter(character: Game_Character): void
 ```
 
 ### turnTowardCharacter (method)
@@ -187,7 +187,7 @@ moveAwayFromCharacter(character: Game_Character): void;
 **Signature**
 
 ```ts
-turnTowardCharacter(character: Game_Character): void;
+turnTowardCharacter(character: Game_Character): void
 ```
 
 ### turnAwayFromCharacter (method)
@@ -195,7 +195,7 @@ turnTowardCharacter(character: Game_Character): void;
 **Signature**
 
 ```ts
-turnAwayFromCharacter(character: Game_Character): void;
+turnAwayFromCharacter(character: Game_Character): void
 ```
 
 ### turnTowardPlayer (method)
@@ -203,7 +203,7 @@ turnAwayFromCharacter(character: Game_Character): void;
 **Signature**
 
 ```ts
-turnTowardPlayer(): void;
+turnTowardPlayer(): void
 ```
 
 ### turnAwayFromPlayer (method)
@@ -211,7 +211,7 @@ turnTowardPlayer(): void;
 **Signature**
 
 ```ts
-turnAwayFromPlayer(): void;
+turnAwayFromPlayer(): void
 ```
 
 ### moveTowardPlayer (method)
@@ -219,7 +219,7 @@ turnAwayFromPlayer(): void;
 **Signature**
 
 ```ts
-moveTowardPlayer(): void;
+moveTowardPlayer(): void
 ```
 
 ### moveAwayFromPlayer (method)
@@ -227,7 +227,7 @@ moveTowardPlayer(): void;
 **Signature**
 
 ```ts
-moveAwayFromPlayer(): void;
+moveAwayFromPlayer(): void
 ```
 
 ### moveForward (method)
@@ -235,7 +235,7 @@ moveAwayFromPlayer(): void;
 **Signature**
 
 ```ts
-moveForward(): void;
+moveForward(): void
 ```
 
 ### moveBackward (method)
@@ -243,7 +243,7 @@ moveForward(): void;
 **Signature**
 
 ```ts
-moveBackward(): void;
+moveBackward(): void
 ```
 
 ### processRouteEnd (method)
@@ -251,7 +251,7 @@ moveBackward(): void;
 **Signature**
 
 ```ts
-processRouteEnd(): void;
+processRouteEnd(): void
 ```
 
 ### advanceMoveRouteIndex (method)
@@ -259,7 +259,7 @@ processRouteEnd(): void;
 **Signature**
 
 ```ts
-advanceMoveRouteIndex(): void;
+advanceMoveRouteIndex(): void
 ```
 
 ### turnRight90 (method)
@@ -267,7 +267,7 @@ advanceMoveRouteIndex(): void;
 **Signature**
 
 ```ts
-turnRight90(): void;
+turnRight90(): void
 ```
 
 ### turnLeft90 (method)
@@ -275,7 +275,7 @@ turnRight90(): void;
 **Signature**
 
 ```ts
-turnLeft90(): void;
+turnLeft90(): void
 ```
 
 ### turn180 (method)
@@ -283,7 +283,7 @@ turnLeft90(): void;
 **Signature**
 
 ```ts
-turn180(): void;
+turn180(): void
 ```
 
 ### turnRightOrLeft90 (method)
@@ -291,7 +291,7 @@ turn180(): void;
 **Signature**
 
 ```ts
-turnRightOrLeft90(): void;
+turnRightOrLeft90(): void
 ```
 
 ### turnRandom (method)
@@ -299,7 +299,7 @@ turnRightOrLeft90(): void;
 **Signature**
 
 ```ts
-turnRandom(): void;
+turnRandom(): void
 ```
 
 ### swap (method)
@@ -307,7 +307,7 @@ turnRandom(): void;
 **Signature**
 
 ```ts
-swap(character: Game_Character): void;
+swap(character: Game_Character): void
 ```
 
 ### findDirectionTo (method)
@@ -315,7 +315,7 @@ swap(character: Game_Character): void;
 **Signature**
 
 ```ts
-findDirectionTo(goalX: number, goalY: number): 0 | 2 | 4 | 6 | 8;
+findDirectionTo(goalX: number, goalY: number): 0 | 2 | 4 | 8 | 6
 ```
 
 ### searchLimit (method)
@@ -323,7 +323,7 @@ findDirectionTo(goalX: number, goalY: number): 0 | 2 | 4 | 6 | 8;
 **Signature**
 
 ```ts
-searchLimit(): number;
+searchLimit(): number
 ```
 
 ### \_moveRouteForcing (property)

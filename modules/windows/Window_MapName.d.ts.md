@@ -1,6 +1,6 @@
 ---
 title: windows/Window_MapName.d.ts
-nav_order: 165
+nav_order: 166
 parent: Modules
 ---
 
@@ -44,7 +44,7 @@ export declare class Window_MapName {
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateFadeIn (method)
@@ -52,7 +52,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateFadeIn(): void;
+updateFadeIn(): void
 ```
 
 ### updateFadeOut (method)
@@ -60,7 +60,7 @@ updateFadeIn(): void;
 **Signature**
 
 ```ts
-updateFadeOut(): void;
+updateFadeOut(): void
 ```
 
 ### open (method)
@@ -68,7 +68,7 @@ updateFadeOut(): void;
 **Signature**
 
 ```ts
-open(): void;
+open(): void
 ```
 
 ### close (method)
@@ -76,7 +76,7 @@ open(): void;
 **Signature**
 
 ```ts
-close(): void;
+close(): void
 ```
 
 ### refresh (method)
@@ -84,7 +84,7 @@ close(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### drawBackground (method)
@@ -92,7 +92,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-drawBackground(x: number, y: number, width: number, height: number): void;
+drawBackground(x: number, y: number, width: number, height: number): void
 ```
 
 ### \_showCount (property)

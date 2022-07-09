@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Timer.d.ts
-nav_order: 135
+nav_order: 136
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Sprite_Timer {
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### createBitmap (method)
@@ -55,7 +55,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-createBitmap(): void;
+createBitmap(): void
 ```
 
 ### fontFace (method)
@@ -63,7 +63,7 @@ createBitmap(): void;
 **Signature**
 
 ```ts
-fontFace(): string;
+fontFace(): string
 ```
 
 ### fontSize (method)
@@ -71,7 +71,7 @@ fontFace(): string;
 **Signature**
 
 ```ts
-fontSize(): number;
+fontSize(): number
 ```
 
 ### update (method)
@@ -79,7 +79,7 @@ fontSize(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBitmap (method)
@@ -87,7 +87,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### redraw (method)
@@ -95,7 +95,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-redraw(): void;
+redraw(): void
 ```
 
 ### timerText (method)
@@ -103,7 +103,7 @@ redraw(): void;
 **Signature**
 
 ```ts
-timerText(): string;
+timerText(): string
 ```
 
 ### updatePosition (method)
@@ -111,7 +111,7 @@ timerText(): string;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateVisibility (method)
@@ -119,7 +119,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateVisibility(): void;
+updateVisibility(): void
 ```
 
 ### \_seconds (property)

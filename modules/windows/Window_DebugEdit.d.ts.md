@@ -1,6 +1,6 @@
 ---
 title: windows/Window_DebugEdit.d.ts
-nav_order: 152
+nav_order: 153
 parent: Modules
 ---
 
@@ -49,7 +49,7 @@ export declare class Window_DebugEdit {
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### drawItem (method)
@@ -57,7 +57,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### itemName (method)
@@ -65,7 +65,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-itemName(dataId: SwitchID | VariableID): string;
+itemName(dataId: SwitchID | VariableID): string
 ```
 
 ### itemStatus (method)
@@ -73,7 +73,7 @@ itemName(dataId: SwitchID | VariableID): string;
 **Signature**
 
 ```ts
-itemStatus(dataId: SwitchID | VariableID): string;
+itemStatus(dataId: SwitchID | VariableID): string
 ```
 
 ### setMode (method)
@@ -81,7 +81,7 @@ itemStatus(dataId: SwitchID | VariableID): string;
 **Signature**
 
 ```ts
-setMode(mode: "switch" | "variable"): void;
+setMode(mode: "switch" | "variable"): void
 ```
 
 ### setTopId (method)
@@ -89,7 +89,7 @@ setMode(mode: "switch" | "variable"): void;
 **Signature**
 
 ```ts
-setTopId(id: SwitchID | VariableID): void;
+setTopId(id: SwitchID | VariableID): void
 ```
 
 ### currentId (method)
@@ -97,7 +97,7 @@ setTopId(id: SwitchID | VariableID): void;
 **Signature**
 
 ```ts
-currentId(): number;
+currentId(): number
 ```
 
 ### update (method)
@@ -105,7 +105,7 @@ currentId(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateSwitch (method)
@@ -113,7 +113,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateSwitch(): void;
+updateSwitch(): void
 ```
 
 ### updateVariable (method)
@@ -121,7 +121,7 @@ updateSwitch(): void;
 **Signature**
 
 ```ts
-updateVariable(): void;
+updateVariable(): void
 ```
 
 ### deltaForVariable (method)
@@ -129,7 +129,7 @@ updateVariable(): void;
 **Signature**
 
 ```ts
-deltaForVariable(): 0 | 1 | -1 | 10 | -10;
+deltaForVariable(): 0 | 1 | 10 | -1 | -10
 ```
 
 ### \_mode (property)

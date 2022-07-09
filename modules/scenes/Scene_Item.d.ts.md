@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Item.d.ts
-nav_order: 103
+nav_order: 104
 parent: Modules
 ---
 
@@ -43,7 +43,7 @@ export declare class Scene_Item
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### createCategoryWindow (method)
@@ -51,7 +51,7 @@ create(): void;
 **Signature**
 
 ```ts
-createCategoryWindow(): void;
+createCategoryWindow(): void
 ```
 
 ### categoryWindowRect (method)
@@ -59,7 +59,7 @@ createCategoryWindow(): void;
 **Signature**
 
 ```ts
-categoryWindowRect(): Rectangle;
+categoryWindowRect(): Rectangle
 ```
 
 ### createItemWindow (method)
@@ -67,7 +67,7 @@ categoryWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createItemWindow(): void;
+createItemWindow(): void
 ```
 
 ### itemWindowRect (method)
@@ -75,7 +75,7 @@ createItemWindow(): void;
 **Signature**
 
 ```ts
-itemWindowRect(): Rectangle;
+itemWindowRect(): Rectangle
 ```
 
 ### user (method)
@@ -83,7 +83,7 @@ itemWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-user(): import("..").Game_Actor | undefined;
+user(): import("..").Game_Actor | undefined
 ```
 
 ### onCategoryOk (method)
@@ -91,7 +91,7 @@ user(): import("..").Game_Actor | undefined;
 **Signature**
 
 ```ts
-onCategoryOk(): void;
+onCategoryOk(): void
 ```
 
 ### onItemOk (method)
@@ -99,7 +99,7 @@ onCategoryOk(): void;
 **Signature**
 
 ```ts
-onItemOk(): void;
+onItemOk(): void
 ```
 
 ### onItemCancel (method)
@@ -107,7 +107,7 @@ onItemOk(): void;
 **Signature**
 
 ```ts
-onItemCancel(): void;
+onItemCancel(): void
 ```
 
 ### playSeForItem (method)
@@ -115,7 +115,7 @@ onItemCancel(): void;
 **Signature**
 
 ```ts
-playSeForItem(): void;
+playSeForItem(): void
 ```
 
 ### useItem (method)
@@ -123,7 +123,7 @@ playSeForItem(): void;
 **Signature**
 
 ```ts
-useItem(): void;
+useItem(): void
 ```
 
 ### \_categoryWindow (property)

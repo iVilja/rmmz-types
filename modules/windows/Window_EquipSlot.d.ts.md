@@ -1,6 +1,6 @@
 ---
 title: windows/Window_EquipSlot.d.ts
-nav_order: 156
+nav_order: 157
 parent: Modules
 ---
 
@@ -51,7 +51,7 @@ export declare class Window_EquipSlot {
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### update (method)
@@ -59,7 +59,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### maxItems (method)
@@ -67,7 +67,7 @@ update(): void;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### item (method)
@@ -75,7 +75,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-item(): import("..").DataEquipment | null;
+item(): import("..").DataEquipment | null
 ```
 
 ### itemAt (method)
@@ -83,7 +83,7 @@ item(): import("..").DataEquipment | null;
 **Signature**
 
 ```ts
-itemAt(index: number): import("..").DataEquipment | null;
+itemAt(index: number): import("..").DataEquipment | null
 ```
 
 ### drawItem (method)
@@ -91,7 +91,7 @@ itemAt(index: number): import("..").DataEquipment | null;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### slotNameWidth (method)
@@ -99,7 +99,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-slotNameWidth(): number;
+slotNameWidth(): number
 ```
 
 ### isEnabled (method)
@@ -107,7 +107,7 @@ slotNameWidth(): number;
 **Signature**
 
 ```ts
-isEnabled(index: number): boolean;
+isEnabled(index: number): boolean
 ```
 
 ### isCurrentItemEnabled (method)
@@ -115,7 +115,7 @@ isEnabled(index: number): boolean;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### setStatusWindow (method)
@@ -123,7 +123,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-setStatusWindow(statusWindow: Window_EquipStatus): void;
+setStatusWindow(statusWindow: Window_EquipStatus): void
 ```
 
 ### setItemWindow (method)
@@ -131,7 +131,7 @@ setStatusWindow(statusWindow: Window_EquipStatus): void;
 **Signature**
 
 ```ts
-setItemWindow(itemWindow: Window_EquipItem): void;
+setItemWindow(itemWindow: Window_EquipItem): void
 ```
 
 ### updateHelp (method)
@@ -139,7 +139,7 @@ setItemWindow(itemWindow: Window_EquipItem): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### \_actor (property)

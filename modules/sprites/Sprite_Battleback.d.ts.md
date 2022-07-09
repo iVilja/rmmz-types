@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Battleback.d.ts
-nav_order: 122
+nav_order: 123
 parent: Modules
 ---
 
@@ -52,7 +52,7 @@ export declare class Sprite_Battleback {
 **Signature**
 
 ```ts
-adjustPosition(): void;
+adjustPosition(): void
 ```
 
 ### battleback1Bitmap (method)
@@ -60,7 +60,7 @@ adjustPosition(): void;
 **Signature**
 
 ```ts
-battleback1Bitmap(): import("../core").Bitmap;
+battleback1Bitmap(): import("../core").Bitmap
 ```
 
 ### battleback2Bitmap (method)
@@ -68,7 +68,7 @@ battleback1Bitmap(): import("../core").Bitmap;
 **Signature**
 
 ```ts
-battleback2Bitmap(): import("../core").Bitmap;
+battleback2Bitmap(): import("../core").Bitmap
 ```
 
 ### battleback1Name (method)
@@ -76,7 +76,7 @@ battleback2Bitmap(): import("../core").Bitmap;
 **Signature**
 
 ```ts
-battleback1Name(): string;
+battleback1Name(): string
 ```
 
 ### battleback2Name (method)
@@ -84,7 +84,7 @@ battleback1Name(): string;
 **Signature**
 
 ```ts
-battleback2Name(): string;
+battleback2Name(): string
 ```
 
 ### overworldBattleback1Name (method)
@@ -92,7 +92,7 @@ battleback2Name(): string;
 **Signature**
 
 ```ts
-overworldBattleback1Name(): string;
+overworldBattleback1Name(): string
 ```
 
 ### overworldBattleback2Name (method)
@@ -100,7 +100,7 @@ overworldBattleback1Name(): string;
 **Signature**
 
 ```ts
-overworldBattleback2Name(): string;
+overworldBattleback2Name(): string
 ```
 
 ### normalBattleback1Name (method)
@@ -108,7 +108,7 @@ overworldBattleback2Name(): string;
 **Signature**
 
 ```ts
-normalBattleback1Name(): string;
+normalBattleback1Name(): string
 ```
 
 ### normalBattleback2Name (method)
@@ -116,7 +116,7 @@ normalBattleback1Name(): string;
 **Signature**
 
 ```ts
-normalBattleback2Name(): string;
+normalBattleback2Name(): string
 ```
 
 ### terrainBattleback1Name (method)
@@ -124,7 +124,9 @@ normalBattleback2Name(): string;
 **Signature**
 
 ```ts
-terrainBattleback1Name(type: TerrainBattlebackType): "Wasteland" | "DirtField" | "Desert" | "Lava1" | "Lava2" | "Snowfield" | "Clouds" | "PoisonSwamp" | null;
+terrainBattleback1Name(
+    type: TerrainBattlebackType
+  ): "Wasteland" | "DirtField" | "Desert" | "Lava1" | "Lava2" | "Snowfield" | "Clouds" | "PoisonSwamp" | null
 ```
 
 ### terrainBattleback2Name (method)
@@ -132,7 +134,9 @@ terrainBattleback1Name(type: TerrainBattlebackType): "Wasteland" | "DirtField" |
 **Signature**
 
 ```ts
-terrainBattleback2Name(type: TerrainBattlebackType): "Wasteland" | "Desert" | "Snowfield" | "Clouds" | "PoisonSwamp" | "Forest" | "Cliff" | "Lava" | undefined;
+terrainBattleback2Name(
+    type: TerrainBattlebackType
+  ): "Wasteland" | "Desert" | "Snowfield" | "Clouds" | "PoisonSwamp" | "Forest" | "Cliff" | "Lava" | undefined
 ```
 
 ### defaultBattleback1Name (method)
@@ -140,7 +144,7 @@ terrainBattleback2Name(type: TerrainBattlebackType): "Wasteland" | "Desert" | "S
 **Signature**
 
 ```ts
-defaultBattleback1Name(): string;
+defaultBattleback1Name(): string
 ```
 
 ### defaultBattleback2Name (method)
@@ -148,7 +152,7 @@ defaultBattleback1Name(): string;
 **Signature**
 
 ```ts
-defaultBattleback2Name(): string;
+defaultBattleback2Name(): string
 ```
 
 ### shipBattleback1Name (method)
@@ -156,7 +160,7 @@ defaultBattleback2Name(): string;
 **Signature**
 
 ```ts
-shipBattleback1Name(): string;
+shipBattleback1Name(): string
 ```
 
 ### shipBattleback2Name (method)
@@ -164,7 +168,7 @@ shipBattleback1Name(): string;
 **Signature**
 
 ```ts
-shipBattleback2Name(): string;
+shipBattleback2Name(): string
 ```
 
 ### autotileType (method)
@@ -172,5 +176,5 @@ shipBattleback2Name(): string;
 **Signature**
 
 ```ts
-autotileType(z: number): TerrainBattlebackType;
+autotileType(z: number): TerrainBattlebackType
 ```

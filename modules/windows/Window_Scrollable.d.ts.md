@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Scrollable.d.ts
-nav_order: 177
+nav_order: 178
 parent: Modules
 ---
 
@@ -83,7 +83,7 @@ export declare class Window_Scrollable {
 **Signature**
 
 ```ts
-clearScrollStatus(): void;
+clearScrollStatus(): void
 ```
 
 ### scrollX (method)
@@ -91,7 +91,7 @@ clearScrollStatus(): void;
 **Signature**
 
 ```ts
-scrollX(): number;
+scrollX(): number
 ```
 
 ### scrollY (method)
@@ -99,7 +99,7 @@ scrollX(): number;
 **Signature**
 
 ```ts
-scrollY(): number;
+scrollY(): number
 ```
 
 ### scrollBaseX (method)
@@ -107,7 +107,7 @@ scrollY(): number;
 **Signature**
 
 ```ts
-scrollBaseX(): number;
+scrollBaseX(): number
 ```
 
 ### scrollBaseY (method)
@@ -115,7 +115,7 @@ scrollBaseX(): number;
 **Signature**
 
 ```ts
-scrollBaseY(): number;
+scrollBaseY(): number
 ```
 
 ### scrollTo (method)
@@ -123,7 +123,7 @@ scrollBaseY(): number;
 **Signature**
 
 ```ts
-scrollTo(x: number, y: number): void;
+scrollTo(x: number, y: number): void
 ```
 
 ### scrollBy (method)
@@ -131,7 +131,7 @@ scrollTo(x: number, y: number): void;
 **Signature**
 
 ```ts
-scrollBy(x: number, y: number): void;
+scrollBy(x: number, y: number): void
 ```
 
 ### smoothScrollTo (method)
@@ -139,7 +139,7 @@ scrollBy(x: number, y: number): void;
 **Signature**
 
 ```ts
-smoothScrollTo(x: number, y: number): void;
+smoothScrollTo(x: number, y: number): void
 ```
 
 ### smoothScrollBy (method)
@@ -147,7 +147,7 @@ smoothScrollTo(x: number, y: number): void;
 **Signature**
 
 ```ts
-smoothScrollBy(x: number, y: number): void;
+smoothScrollBy(x: number, y: number): void
 ```
 
 ### setScrollAccel (method)
@@ -155,7 +155,7 @@ smoothScrollBy(x: number, y: number): void;
 **Signature**
 
 ```ts
-setScrollAccel(x: number, y: number): void;
+setScrollAccel(x: number, y: number): void
 ```
 
 ### overallWidth (method)
@@ -163,7 +163,7 @@ setScrollAccel(x: number, y: number): void;
 **Signature**
 
 ```ts
-overallWidth(): number;
+overallWidth(): number
 ```
 
 ### overallHeight (method)
@@ -171,7 +171,7 @@ overallWidth(): number;
 **Signature**
 
 ```ts
-overallHeight(): number;
+overallHeight(): number
 ```
 
 ### maxScrollX (method)
@@ -179,7 +179,7 @@ overallHeight(): number;
 **Signature**
 
 ```ts
-maxScrollX(): number;
+maxScrollX(): number
 ```
 
 ### maxScrollY (method)
@@ -187,7 +187,7 @@ maxScrollX(): number;
 **Signature**
 
 ```ts
-maxScrollY(): number;
+maxScrollY(): number
 ```
 
 ### scrollBlockWidth (method)
@@ -195,7 +195,7 @@ maxScrollY(): number;
 **Signature**
 
 ```ts
-scrollBlockWidth(): number;
+scrollBlockWidth(): number
 ```
 
 ### scrollBlockHeight (method)
@@ -203,7 +203,7 @@ scrollBlockWidth(): number;
 **Signature**
 
 ```ts
-scrollBlockHeight(): number;
+scrollBlockHeight(): number
 ```
 
 ### smoothScrollDown (method)
@@ -211,7 +211,7 @@ scrollBlockHeight(): number;
 **Signature**
 
 ```ts
-smoothScrollDown(n: number): void;
+smoothScrollDown(n: number): void
 ```
 
 ### smoothScrollUp (method)
@@ -219,7 +219,7 @@ smoothScrollDown(n: number): void;
 **Signature**
 
 ```ts
-smoothScrollUp(n: number): void;
+smoothScrollUp(n: number): void
 ```
 
 ### update (method)
@@ -227,7 +227,7 @@ smoothScrollUp(n: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### processWheelScroll (method)
@@ -235,7 +235,7 @@ update(): void;
 **Signature**
 
 ```ts
-processWheelScroll(): void;
+processWheelScroll(): void
 ```
 
 ### processTouchScroll (method)
@@ -243,7 +243,7 @@ processWheelScroll(): void;
 **Signature**
 
 ```ts
-processTouchScroll(): void;
+processTouchScroll(): void
 ```
 
 ### isWheelScrollEnabled (method)
@@ -251,7 +251,7 @@ processTouchScroll(): void;
 **Signature**
 
 ```ts
-isWheelScrollEnabled(): boolean;
+isWheelScrollEnabled(): boolean
 ```
 
 ### isTouchScrollEnabled (method)
@@ -259,7 +259,7 @@ isWheelScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-isTouchScrollEnabled(): boolean;
+isTouchScrollEnabled(): boolean
 ```
 
 ### isScrollEnabled (method)
@@ -267,7 +267,7 @@ isTouchScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-isScrollEnabled(): boolean;
+isScrollEnabled(): boolean
 ```
 
 ### isTouchedInsideFrame (method)
@@ -275,7 +275,7 @@ isScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-isTouchedInsideFrame(): boolean;
+isTouchedInsideFrame(): boolean
 ```
 
 ### onTouchScrollStart (method)
@@ -283,7 +283,7 @@ isTouchedInsideFrame(): boolean;
 **Signature**
 
 ```ts
-onTouchScrollStart(): void;
+onTouchScrollStart(): void
 ```
 
 ### onTouchScroll (method)
@@ -291,7 +291,7 @@ onTouchScrollStart(): void;
 **Signature**
 
 ```ts
-onTouchScroll(): void;
+onTouchScroll(): void
 ```
 
 ### onTouchScrollEnd (method)
@@ -299,7 +299,7 @@ onTouchScroll(): void;
 **Signature**
 
 ```ts
-onTouchScrollEnd(): void;
+onTouchScrollEnd(): void
 ```
 
 ### updateSmoothScroll (method)
@@ -307,7 +307,7 @@ onTouchScrollEnd(): void;
 **Signature**
 
 ```ts
-updateSmoothScroll(): void;
+updateSmoothScroll(): void
 ```
 
 ### updateScrollAccel (method)
@@ -315,7 +315,7 @@ updateSmoothScroll(): void;
 **Signature**
 
 ```ts
-updateScrollAccel(): void;
+updateScrollAccel(): void
 ```
 
 ### updateArrows (method)
@@ -323,7 +323,7 @@ updateScrollAccel(): void;
 **Signature**
 
 ```ts
-updateArrows(): void;
+updateArrows(): void
 ```
 
 ### updateOrigin (method)
@@ -331,7 +331,7 @@ updateArrows(): void;
 **Signature**
 
 ```ts
-updateOrigin(): void;
+updateOrigin(): void
 ```
 
 ### updateScrollBase (method)
@@ -339,7 +339,7 @@ updateOrigin(): void;
 **Signature**
 
 ```ts
-updateScrollBase(baseX: number, baseY: number): void;
+updateScrollBase(baseX: number, baseY: number): void
 ```
 
 ### paint (method)
@@ -347,7 +347,7 @@ updateScrollBase(baseX: number, baseY: number): void;
 **Signature**
 
 ```ts
-paint(): void;
+paint(): void
 ```
 
 ### \_scrollX (property)

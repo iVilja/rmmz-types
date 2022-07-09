@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Battler.d.ts
-nav_order: 67
+nav_order: 68
 parent: Modules
 ---
 
@@ -173,7 +173,7 @@ export declare class Game_Battler {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### clearDamagePopup (method)
@@ -181,7 +181,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-clearDamagePopup(): void;
+clearDamagePopup(): void
 ```
 
 ### clearWeaponAnimation (method)
@@ -189,7 +189,7 @@ clearDamagePopup(): void;
 **Signature**
 
 ```ts
-clearWeaponAnimation(): void;
+clearWeaponAnimation(): void
 ```
 
 ### clearEffect (method)
@@ -197,7 +197,7 @@ clearWeaponAnimation(): void;
 **Signature**
 
 ```ts
-clearEffect(): void;
+clearEffect(): void
 ```
 
 ### clearMotion (method)
@@ -205,7 +205,7 @@ clearEffect(): void;
 **Signature**
 
 ```ts
-clearMotion(): void;
+clearMotion(): void
 ```
 
 ### requestEffect (method)
@@ -213,7 +213,7 @@ clearMotion(): void;
 **Signature**
 
 ```ts
-requestEffect(effectType: BattlerEffectType): void;
+requestEffect(effectType: BattlerEffectType): void
 ```
 
 ### requestMotion (method)
@@ -221,7 +221,7 @@ requestEffect(effectType: BattlerEffectType): void;
 **Signature**
 
 ```ts
-requestMotion(motionType: BattlerMotionType): void;
+requestMotion(motionType: BattlerMotionType): void
 ```
 
 ### requestMotionRefresh (method)
@@ -229,7 +229,7 @@ requestMotion(motionType: BattlerMotionType): void;
 **Signature**
 
 ```ts
-requestMotionRefresh(): void;
+requestMotionRefresh(): void
 ```
 
 ### cancelMotionRefresh (method)
@@ -237,7 +237,7 @@ requestMotionRefresh(): void;
 **Signature**
 
 ```ts
-cancelMotionRefresh(): void;
+cancelMotionRefresh(): void
 ```
 
 ### select (method)
@@ -245,7 +245,7 @@ cancelMotionRefresh(): void;
 **Signature**
 
 ```ts
-select(): void;
+select(): void
 ```
 
 ### deselect (method)
@@ -253,7 +253,7 @@ select(): void;
 **Signature**
 
 ```ts
-deselect(): void;
+deselect(): void
 ```
 
 ### isDamagePopupRequested (method)
@@ -261,7 +261,7 @@ deselect(): void;
 **Signature**
 
 ```ts
-isDamagePopupRequested(): boolean;
+isDamagePopupRequested(): boolean
 ```
 
 ### isEffectRequested (method)
@@ -269,7 +269,7 @@ isDamagePopupRequested(): boolean;
 **Signature**
 
 ```ts
-isEffectRequested(): boolean;
+isEffectRequested(): boolean
 ```
 
 ### isMotionRequested (method)
@@ -277,7 +277,7 @@ isEffectRequested(): boolean;
 **Signature**
 
 ```ts
-isMotionRequested(): boolean;
+isMotionRequested(): boolean
 ```
 
 ### isWeaponAnimationRequested (method)
@@ -285,7 +285,7 @@ isMotionRequested(): boolean;
 **Signature**
 
 ```ts
-isWeaponAnimationRequested(): boolean;
+isWeaponAnimationRequested(): boolean
 ```
 
 ### isMotionRefreshRequested (method)
@@ -293,7 +293,7 @@ isWeaponAnimationRequested(): boolean;
 **Signature**
 
 ```ts
-isMotionRefreshRequested(): boolean;
+isMotionRefreshRequested(): boolean
 ```
 
 ### isSelected (method)
@@ -301,7 +301,7 @@ isMotionRefreshRequested(): boolean;
 **Signature**
 
 ```ts
-isSelected(): boolean;
+isSelected(): boolean
 ```
 
 ### effectType (method)
@@ -309,7 +309,7 @@ isSelected(): boolean;
 **Signature**
 
 ```ts
-effectType(): BattlerEffectType | null;
+effectType(): BattlerEffectType | null
 ```
 
 ### motionType (method)
@@ -317,7 +317,7 @@ effectType(): BattlerEffectType | null;
 **Signature**
 
 ```ts
-motionType(): BattlerMotionType | null;
+motionType(): BattlerMotionType | null
 ```
 
 ### weaponImageId (method)
@@ -325,7 +325,7 @@ motionType(): BattlerMotionType | null;
 **Signature**
 
 ```ts
-weaponImageId(): number;
+weaponImageId(): number
 ```
 
 ### startDamagePopup (method)
@@ -333,7 +333,7 @@ weaponImageId(): number;
 **Signature**
 
 ```ts
-startDamagePopup(): void;
+startDamagePopup(): void
 ```
 
 ### shouldPopupDamage (method)
@@ -341,7 +341,7 @@ startDamagePopup(): void;
 **Signature**
 
 ```ts
-shouldPopupDamage(): boolean;
+shouldPopupDamage(): boolean
 ```
 
 ### startWeaponAnimation (method)
@@ -349,7 +349,7 @@ shouldPopupDamage(): boolean;
 **Signature**
 
 ```ts
-startWeaponAnimation(weaponImageId: DataID): void;
+startWeaponAnimation(weaponImageId: DataID): void
 ```
 
 ### action (method)
@@ -357,7 +357,7 @@ startWeaponAnimation(weaponImageId: DataID): void;
 **Signature**
 
 ```ts
-action(index: number): Game_Action;
+action(index: number): Game_Action
 ```
 
 ### setAction (method)
@@ -365,7 +365,7 @@ action(index: number): Game_Action;
 **Signature**
 
 ```ts
-setAction(index: number, action: Game_Action): void;
+setAction(index: number, action: Game_Action): void
 ```
 
 ### numActions (method)
@@ -373,7 +373,7 @@ setAction(index: number, action: Game_Action): void;
 **Signature**
 
 ```ts
-numActions(): number;
+numActions(): number
 ```
 
 ### clearActions (method)
@@ -381,7 +381,7 @@ numActions(): number;
 **Signature**
 
 ```ts
-clearActions(): void;
+clearActions(): void
 ```
 
 ### result (method)
@@ -389,7 +389,7 @@ clearActions(): void;
 **Signature**
 
 ```ts
-result(): Game_ActionResult;
+result(): Game_ActionResult
 ```
 
 ### clearResult (method)
@@ -397,7 +397,7 @@ result(): Game_ActionResult;
 **Signature**
 
 ```ts
-clearResult(): void;
+clearResult(): void
 ```
 
 ### clearTpbChargeTime (method)
@@ -405,7 +405,7 @@ clearResult(): void;
 **Signature**
 
 ```ts
-clearTpbChargeTime(): void;
+clearTpbChargeTime(): void
 ```
 
 ### applyTpbPenalty (method)
@@ -413,7 +413,7 @@ clearTpbChargeTime(): void;
 **Signature**
 
 ```ts
-applyTpbPenalty(): void;
+applyTpbPenalty(): void
 ```
 
 ### initTpbChargeTime (method)
@@ -421,7 +421,7 @@ applyTpbPenalty(): void;
 **Signature**
 
 ```ts
-initTpbChargeTime(advantageous?: boolean): void;
+initTpbChargeTime(advantageous?: boolean): void
 ```
 
 ### tpbChargeTime (method)
@@ -429,7 +429,7 @@ initTpbChargeTime(advantageous?: boolean): void;
 **Signature**
 
 ```ts
-tpbChargeTime(): number;
+tpbChargeTime(): number
 ```
 
 ### startTpbCasting (method)
@@ -437,7 +437,7 @@ tpbChargeTime(): number;
 **Signature**
 
 ```ts
-startTpbCasting(): void;
+startTpbCasting(): void
 ```
 
 ### startTpbAction (method)
@@ -445,7 +445,7 @@ startTpbCasting(): void;
 **Signature**
 
 ```ts
-startTpbAction(): void;
+startTpbAction(): void
 ```
 
 ### isTpbCharged (method)
@@ -453,7 +453,7 @@ startTpbAction(): void;
 **Signature**
 
 ```ts
-isTpbCharged(): boolean;
+isTpbCharged(): boolean
 ```
 
 ### isTpbReady (method)
@@ -461,7 +461,7 @@ isTpbCharged(): boolean;
 **Signature**
 
 ```ts
-isTpbReady(): boolean;
+isTpbReady(): boolean
 ```
 
 ### isTpbTimeout (method)
@@ -469,7 +469,7 @@ isTpbReady(): boolean;
 **Signature**
 
 ```ts
-isTpbTimeout(): boolean;
+isTpbTimeout(): boolean
 ```
 
 ### updateTpb (method)
@@ -477,7 +477,7 @@ isTpbTimeout(): boolean;
 **Signature**
 
 ```ts
-updateTpb(): void;
+updateTpb(): void
 ```
 
 ### updateTpbChargeTime (method)
@@ -485,7 +485,7 @@ updateTpb(): void;
 **Signature**
 
 ```ts
-updateTpbChargeTime(): void;
+updateTpbChargeTime(): void
 ```
 
 ### updateTpbCastTime (method)
@@ -493,7 +493,7 @@ updateTpbChargeTime(): void;
 **Signature**
 
 ```ts
-updateTpbCastTime(): void;
+updateTpbCastTime(): void
 ```
 
 ### updateTpbAutoBattle (method)
@@ -501,7 +501,7 @@ updateTpbCastTime(): void;
 **Signature**
 
 ```ts
-updateTpbAutoBattle(): void;
+updateTpbAutoBattle(): void
 ```
 
 ### updateTpbIdleTime (method)
@@ -509,7 +509,7 @@ updateTpbAutoBattle(): void;
 **Signature**
 
 ```ts
-updateTpbIdleTime(): void;
+updateTpbIdleTime(): void
 ```
 
 ### tpbAcceleration (method)
@@ -517,7 +517,7 @@ updateTpbIdleTime(): void;
 **Signature**
 
 ```ts
-tpbAcceleration(): number;
+tpbAcceleration(): number
 ```
 
 ### tpbRelativeSpeed (method)
@@ -525,7 +525,7 @@ tpbAcceleration(): number;
 **Signature**
 
 ```ts
-tpbRelativeSpeed(): number;
+tpbRelativeSpeed(): number
 ```
 
 ### tpbSpeed (method)
@@ -533,7 +533,7 @@ tpbRelativeSpeed(): number;
 **Signature**
 
 ```ts
-tpbSpeed(): number;
+tpbSpeed(): number
 ```
 
 ### tpbBaseSpeed (method)
@@ -541,7 +541,7 @@ tpbSpeed(): number;
 **Signature**
 
 ```ts
-tpbBaseSpeed(): number;
+tpbBaseSpeed(): number
 ```
 
 ### tpbRequiredCastTime (method)
@@ -549,7 +549,7 @@ tpbBaseSpeed(): number;
 **Signature**
 
 ```ts
-tpbRequiredCastTime(): number;
+tpbRequiredCastTime(): number
 ```
 
 ### onTpbCharged (method)
@@ -557,7 +557,7 @@ tpbRequiredCastTime(): number;
 **Signature**
 
 ```ts
-onTpbCharged(): void;
+onTpbCharged(): void
 ```
 
 ### shouldDelayTpbCharge (method)
@@ -565,7 +565,7 @@ onTpbCharged(): void;
 **Signature**
 
 ```ts
-shouldDelayTpbCharge(): boolean;
+shouldDelayTpbCharge(): boolean
 ```
 
 ### finishTpbCharge (method)
@@ -573,7 +573,7 @@ shouldDelayTpbCharge(): boolean;
 **Signature**
 
 ```ts
-finishTpbCharge(): void;
+finishTpbCharge(): void
 ```
 
 ### isTpbTurnEnd (method)
@@ -581,7 +581,7 @@ finishTpbCharge(): void;
 **Signature**
 
 ```ts
-isTpbTurnEnd(): boolean;
+isTpbTurnEnd(): boolean
 ```
 
 ### initTpbTurn (method)
@@ -589,7 +589,7 @@ isTpbTurnEnd(): boolean;
 **Signature**
 
 ```ts
-initTpbTurn(): void;
+initTpbTurn(): void
 ```
 
 ### startTpbTurn (method)
@@ -597,7 +597,7 @@ initTpbTurn(): void;
 **Signature**
 
 ```ts
-startTpbTurn(): void;
+startTpbTurn(): void
 ```
 
 ### makeTpbActions (method)
@@ -605,7 +605,7 @@ startTpbTurn(): void;
 **Signature**
 
 ```ts
-makeTpbActions(): void;
+makeTpbActions(): void
 ```
 
 ### onTpbTimeout (method)
@@ -613,7 +613,7 @@ makeTpbActions(): void;
 **Signature**
 
 ```ts
-onTpbTimeout(): void;
+onTpbTimeout(): void
 ```
 
 ### turnCount (method)
@@ -621,7 +621,7 @@ onTpbTimeout(): void;
 **Signature**
 
 ```ts
-turnCount(): number;
+turnCount(): number
 ```
 
 ### canInput (method)
@@ -629,7 +629,7 @@ turnCount(): number;
 **Signature**
 
 ```ts
-canInput(): boolean;
+canInput(): boolean
 ```
 
 ### refresh (method)
@@ -637,7 +637,7 @@ canInput(): boolean;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### addState (method)
@@ -645,7 +645,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-addState(stateId: StateID): void;
+addState(stateId: StateID): void
 ```
 
 ### isStateAddable (method)
@@ -653,7 +653,7 @@ addState(stateId: StateID): void;
 **Signature**
 
 ```ts
-isStateAddable(stateId: StateID): boolean;
+isStateAddable(stateId: StateID): boolean
 ```
 
 ### isStateRestrict (method)
@@ -661,7 +661,7 @@ isStateAddable(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-isStateRestrict(stateId: StateID): boolean;
+isStateRestrict(stateId: StateID): boolean
 ```
 
 ### onRestrict (method)
@@ -669,7 +669,7 @@ isStateRestrict(stateId: StateID): boolean;
 **Signature**
 
 ```ts
-onRestrict(): void;
+onRestrict(): void
 ```
 
 ### removeState (method)
@@ -677,7 +677,7 @@ onRestrict(): void;
 **Signature**
 
 ```ts
-removeState(stateId: StateID): void;
+removeState(stateId: StateID): void
 ```
 
 ### escape (method)
@@ -685,7 +685,7 @@ removeState(stateId: StateID): void;
 **Signature**
 
 ```ts
-escape(): void;
+escape(): void
 ```
 
 ### addBuff (method)
@@ -693,7 +693,7 @@ escape(): void;
 **Signature**
 
 ```ts
-addBuff(paramId: ParamID, turns: number): void;
+addBuff(paramId: ParamID, turns: number): void
 ```
 
 ### addDebuff (method)
@@ -701,7 +701,7 @@ addBuff(paramId: ParamID, turns: number): void;
 **Signature**
 
 ```ts
-addDebuff(paramId: ParamID, turns: number): void;
+addDebuff(paramId: ParamID, turns: number): void
 ```
 
 ### removeBuff (method)
@@ -709,7 +709,7 @@ addDebuff(paramId: ParamID, turns: number): void;
 **Signature**
 
 ```ts
-removeBuff(paramId: ParamID): void;
+removeBuff(paramId: ParamID): void
 ```
 
 ### removeBattleStates (method)
@@ -717,7 +717,7 @@ removeBuff(paramId: ParamID): void;
 **Signature**
 
 ```ts
-removeBattleStates(): void;
+removeBattleStates(): void
 ```
 
 ### removeAllBuffs (method)
@@ -725,7 +725,7 @@ removeBattleStates(): void;
 **Signature**
 
 ```ts
-removeAllBuffs(): void;
+removeAllBuffs(): void
 ```
 
 ### removeStatesAuto (method)
@@ -733,7 +733,7 @@ removeAllBuffs(): void;
 **Signature**
 
 ```ts
-removeStatesAuto(timing: AutoRemovalTiming): void;
+removeStatesAuto(timing: AutoRemovalTiming): void
 ```
 
 ### removeBuffsAuto (method)
@@ -741,7 +741,7 @@ removeStatesAuto(timing: AutoRemovalTiming): void;
 **Signature**
 
 ```ts
-removeBuffsAuto(): void;
+removeBuffsAuto(): void
 ```
 
 ### removeStatesByDamage (method)
@@ -749,7 +749,7 @@ removeBuffsAuto(): void;
 **Signature**
 
 ```ts
-removeStatesByDamage(): void;
+removeStatesByDamage(): void
 ```
 
 ### makeActionTimes (method)
@@ -757,7 +757,7 @@ removeStatesByDamage(): void;
 **Signature**
 
 ```ts
-makeActionTimes(): number;
+makeActionTimes(): number
 ```
 
 ### makeActions (method)
@@ -765,7 +765,7 @@ makeActionTimes(): number;
 **Signature**
 
 ```ts
-makeActions(): void;
+makeActions(): void
 ```
 
 ### speed (method)
@@ -773,7 +773,7 @@ makeActions(): void;
 **Signature**
 
 ```ts
-speed(): number;
+speed(): number
 ```
 
 ### makeSpeed (method)
@@ -781,7 +781,7 @@ speed(): number;
 **Signature**
 
 ```ts
-makeSpeed(): void;
+makeSpeed(): void
 ```
 
 ### currentAction (method)
@@ -789,7 +789,7 @@ makeSpeed(): void;
 **Signature**
 
 ```ts
-currentAction(): Game_Action;
+currentAction(): Game_Action
 ```
 
 ### removeCurrentAction (method)
@@ -797,7 +797,7 @@ currentAction(): Game_Action;
 **Signature**
 
 ```ts
-removeCurrentAction(): void;
+removeCurrentAction(): void
 ```
 
 ### setLastTarget (method)
@@ -805,7 +805,7 @@ removeCurrentAction(): void;
 **Signature**
 
 ```ts
-setLastTarget(target: Game_Actor | Game_Enemy): void;
+setLastTarget(target: Game_Actor | Game_Enemy): void
 ```
 
 ### forceAction (method)
@@ -813,7 +813,7 @@ setLastTarget(target: Game_Actor | Game_Enemy): void;
 **Signature**
 
 ```ts
-forceAction(skillId: SkillID, targetIndex: ActorID | EnemyID): void;
+forceAction(skillId: SkillID, targetIndex: ActorID | EnemyID): void
 ```
 
 ### useItem (method)
@@ -821,7 +821,7 @@ forceAction(skillId: SkillID, targetIndex: ActorID | EnemyID): void;
 **Signature**
 
 ```ts
-useItem(item: ActionItem): void;
+useItem(item: ActionItem): void
 ```
 
 ### consumeItem (method)
@@ -829,7 +829,7 @@ useItem(item: ActionItem): void;
 **Signature**
 
 ```ts
-consumeItem(item: DataItem): void;
+consumeItem(item: DataItem): void
 ```
 
 ### gainHp (method)
@@ -837,7 +837,7 @@ consumeItem(item: DataItem): void;
 **Signature**
 
 ```ts
-gainHp(value: number): void;
+gainHp(value: number): void
 ```
 
 ### gainMp (method)
@@ -845,7 +845,7 @@ gainHp(value: number): void;
 **Signature**
 
 ```ts
-gainMp(value: number): void;
+gainMp(value: number): void
 ```
 
 ### gainTp (method)
@@ -853,7 +853,7 @@ gainMp(value: number): void;
 **Signature**
 
 ```ts
-gainTp(value: number): void;
+gainTp(value: number): void
 ```
 
 ### gainSilentTp (method)
@@ -861,7 +861,7 @@ gainTp(value: number): void;
 **Signature**
 
 ```ts
-gainSilentTp(value: number): void;
+gainSilentTp(value: number): void
 ```
 
 ### initTp (method)
@@ -869,7 +869,7 @@ gainSilentTp(value: number): void;
 **Signature**
 
 ```ts
-initTp(): void;
+initTp(): void
 ```
 
 ### clearTp (method)
@@ -877,7 +877,7 @@ initTp(): void;
 **Signature**
 
 ```ts
-clearTp(): void;
+clearTp(): void
 ```
 
 ### chargeTpByDamage (method)
@@ -885,7 +885,7 @@ clearTp(): void;
 **Signature**
 
 ```ts
-chargeTpByDamage(damageRate: number): void;
+chargeTpByDamage(damageRate: number): void
 ```
 
 ### regenerateHp (method)
@@ -893,7 +893,7 @@ chargeTpByDamage(damageRate: number): void;
 **Signature**
 
 ```ts
-regenerateHp(): void;
+regenerateHp(): void
 ```
 
 ### maxSlipDamage (method)
@@ -901,7 +901,7 @@ regenerateHp(): void;
 **Signature**
 
 ```ts
-maxSlipDamage(): number;
+maxSlipDamage(): number
 ```
 
 ### regenerateMp (method)
@@ -909,7 +909,7 @@ maxSlipDamage(): number;
 **Signature**
 
 ```ts
-regenerateMp(): void;
+regenerateMp(): void
 ```
 
 ### regenerateTp (method)
@@ -917,7 +917,7 @@ regenerateMp(): void;
 **Signature**
 
 ```ts
-regenerateTp(): void;
+regenerateTp(): void
 ```
 
 ### regenerateAll (method)
@@ -925,7 +925,7 @@ regenerateTp(): void;
 **Signature**
 
 ```ts
-regenerateAll(): void;
+regenerateAll(): void
 ```
 
 ### onBattleStart (method)
@@ -933,7 +933,7 @@ regenerateAll(): void;
 **Signature**
 
 ```ts
-onBattleStart(advantageous?: boolean): void;
+onBattleStart(advantageous?: boolean): void
 ```
 
 ### onAllActionsEnd (method)
@@ -941,7 +941,7 @@ onBattleStart(advantageous?: boolean): void;
 **Signature**
 
 ```ts
-onAllActionsEnd(): void;
+onAllActionsEnd(): void
 ```
 
 ### onTurnEnd (method)
@@ -949,7 +949,7 @@ onAllActionsEnd(): void;
 **Signature**
 
 ```ts
-onTurnEnd(): void;
+onTurnEnd(): void
 ```
 
 ### onBattleEnd (method)
@@ -957,7 +957,7 @@ onTurnEnd(): void;
 **Signature**
 
 ```ts
-onBattleEnd(): void;
+onBattleEnd(): void
 ```
 
 ### onDamage (method)
@@ -965,7 +965,7 @@ onBattleEnd(): void;
 **Signature**
 
 ```ts
-onDamage(value: number): void;
+onDamage(value: number): void
 ```
 
 ### setActionState (method)
@@ -973,7 +973,7 @@ onDamage(value: number): void;
 **Signature**
 
 ```ts
-setActionState(actionState: ActionState): void;
+setActionState(actionState: ActionState): void
 ```
 
 ### isUndecided (method)
@@ -981,7 +981,7 @@ setActionState(actionState: ActionState): void;
 **Signature**
 
 ```ts
-isUndecided(): boolean;
+isUndecided(): boolean
 ```
 
 ### isInputting (method)
@@ -989,7 +989,7 @@ isUndecided(): boolean;
 **Signature**
 
 ```ts
-isInputting(): boolean;
+isInputting(): boolean
 ```
 
 ### isWaiting (method)
@@ -997,7 +997,7 @@ isInputting(): boolean;
 **Signature**
 
 ```ts
-isWaiting(): boolean;
+isWaiting(): boolean
 ```
 
 ### isActing (method)
@@ -1005,7 +1005,7 @@ isWaiting(): boolean;
 **Signature**
 
 ```ts
-isActing(): boolean;
+isActing(): boolean
 ```
 
 ### isChanting (method)
@@ -1013,7 +1013,7 @@ isActing(): boolean;
 **Signature**
 
 ```ts
-isChanting(): boolean;
+isChanting(): boolean
 ```
 
 ### isGuardWaiting (method)
@@ -1021,7 +1021,7 @@ isChanting(): boolean;
 **Signature**
 
 ```ts
-isGuardWaiting(): boolean;
+isGuardWaiting(): boolean
 ```
 
 ### performActionStart (method)
@@ -1029,7 +1029,7 @@ isGuardWaiting(): boolean;
 **Signature**
 
 ```ts
-performActionStart(action: Game_Action): void;
+performActionStart(action: Game_Action): void
 ```
 
 ### performAction (method)
@@ -1037,7 +1037,7 @@ performActionStart(action: Game_Action): void;
 **Signature**
 
 ```ts
-performAction(_action: Game_Action): void;
+performAction(_action: Game_Action): void
 ```
 
 ### performActionEnd (method)
@@ -1045,7 +1045,7 @@ performAction(_action: Game_Action): void;
 **Signature**
 
 ```ts
-performActionEnd(): void;
+performActionEnd(): void
 ```
 
 ### performDamage (method)
@@ -1053,7 +1053,7 @@ performActionEnd(): void;
 **Signature**
 
 ```ts
-performDamage(): void;
+performDamage(): void
 ```
 
 ### performMiss (method)
@@ -1061,7 +1061,7 @@ performDamage(): void;
 **Signature**
 
 ```ts
-performMiss(): void;
+performMiss(): void
 ```
 
 ### performRecovery (method)
@@ -1069,7 +1069,7 @@ performMiss(): void;
 **Signature**
 
 ```ts
-performRecovery(): void;
+performRecovery(): void
 ```
 
 ### performEvasion (method)
@@ -1077,7 +1077,7 @@ performRecovery(): void;
 **Signature**
 
 ```ts
-performEvasion(): void;
+performEvasion(): void
 ```
 
 ### performMagicEvasion (method)
@@ -1085,7 +1085,7 @@ performEvasion(): void;
 **Signature**
 
 ```ts
-performMagicEvasion(): void;
+performMagicEvasion(): void
 ```
 
 ### performCounter (method)
@@ -1093,7 +1093,7 @@ performMagicEvasion(): void;
 **Signature**
 
 ```ts
-performCounter(): void;
+performCounter(): void
 ```
 
 ### performReflection (method)
@@ -1101,7 +1101,7 @@ performCounter(): void;
 **Signature**
 
 ```ts
-performReflection(): void;
+performReflection(): void
 ```
 
 ### performSubstitute (method)
@@ -1109,7 +1109,7 @@ performReflection(): void;
 **Signature**
 
 ```ts
-performSubstitute(_target: Game_Battler): void;
+performSubstitute(_target: Game_Battler): void
 ```
 
 ### performCollapse (method)
@@ -1117,7 +1117,7 @@ performSubstitute(_target: Game_Battler): void;
 **Signature**
 
 ```ts
-performCollapse(): void;
+performCollapse(): void
 ```
 
 ### \_actions (property)

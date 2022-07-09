@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Interpreter.d.ts
-nav_order: 76
+nav_order: 77
 parent: Modules
 ---
 
@@ -204,7 +204,7 @@ export declare class Game_Interpreter {
 **Signature**
 
 ```ts
-checkOverflow(): void;
+checkOverflow(): void
 ```
 
 ### clear (method)
@@ -212,7 +212,7 @@ checkOverflow(): void;
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### setup (method)
@@ -220,7 +220,7 @@ clear(): void;
 **Signature**
 
 ```ts
-setup(list: DataCommand[], eventId?: EventID): void;
+setup(list: DataCommand[], eventId?: EventID): void
 ```
 
 ### loadImages (method)
@@ -228,7 +228,7 @@ setup(list: DataCommand[], eventId?: EventID): void;
 **Signature**
 
 ```ts
-loadImages(): void;
+loadImages(): void
 ```
 
 ### eventId (method)
@@ -236,7 +236,7 @@ loadImages(): void;
 **Signature**
 
 ```ts
-eventId(): number;
+eventId(): number
 ```
 
 ### isOnCurrentMap (method)
@@ -244,7 +244,7 @@ eventId(): number;
 **Signature**
 
 ```ts
-isOnCurrentMap(): boolean;
+isOnCurrentMap(): boolean
 ```
 
 ### setupReservedCommonEvent (method)
@@ -252,7 +252,7 @@ isOnCurrentMap(): boolean;
 **Signature**
 
 ```ts
-setupReservedCommonEvent(): boolean;
+setupReservedCommonEvent(): boolean
 ```
 
 ### isRunning (method)
@@ -260,7 +260,7 @@ setupReservedCommonEvent(): boolean;
 **Signature**
 
 ```ts
-isRunning(): boolean;
+isRunning(): boolean
 ```
 
 ### update (method)
@@ -268,7 +268,7 @@ isRunning(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateChild (method)
@@ -276,7 +276,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateChild(): boolean;
+updateChild(): boolean
 ```
 
 ### updateWait (method)
@@ -284,7 +284,7 @@ updateChild(): boolean;
 **Signature**
 
 ```ts
-updateWait(): boolean | null;
+updateWait(): boolean | null
 ```
 
 ### updateWaitCount (method)
@@ -292,7 +292,7 @@ updateWait(): boolean | null;
 **Signature**
 
 ```ts
-updateWaitCount(): boolean;
+updateWaitCount(): boolean
 ```
 
 ### updateWaitMode (method)
@@ -300,7 +300,7 @@ updateWaitCount(): boolean;
 **Signature**
 
 ```ts
-updateWaitMode(): boolean | null;
+updateWaitMode(): boolean | null
 ```
 
 ### setWaitMode (method)
@@ -308,7 +308,7 @@ updateWaitMode(): boolean | null;
 **Signature**
 
 ```ts
-setWaitMode(waitMode: WaitMode): void;
+setWaitMode(waitMode: WaitMode): void
 ```
 
 ### wait (method)
@@ -316,7 +316,7 @@ setWaitMode(waitMode: WaitMode): void;
 **Signature**
 
 ```ts
-wait(duration: number): void;
+wait(duration: number): void
 ```
 
 ### fadeSpeed (method)
@@ -324,7 +324,7 @@ wait(duration: number): void;
 **Signature**
 
 ```ts
-fadeSpeed(): number;
+fadeSpeed(): number
 ```
 
 ### executeCommand (method)
@@ -332,7 +332,7 @@ fadeSpeed(): number;
 **Signature**
 
 ```ts
-executeCommand(): boolean;
+executeCommand(): boolean
 ```
 
 ### checkFreeze (method)
@@ -340,7 +340,7 @@ executeCommand(): boolean;
 **Signature**
 
 ```ts
-checkFreeze(): boolean;
+checkFreeze(): boolean
 ```
 
 ### terminate (method)
@@ -348,7 +348,7 @@ checkFreeze(): boolean;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### skipBranch (method)
@@ -356,7 +356,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-skipBranch(): void;
+skipBranch(): void
 ```
 
 ### currentCommand (method)
@@ -364,7 +364,7 @@ skipBranch(): void;
 **Signature**
 
 ```ts
-currentCommand<T extends CommandCode>(): ExtractDataCommand<T>;
+currentCommand<T extends CommandCode>(): ExtractDataCommand<T>
 ```
 
 ### nextEventCode (method)
@@ -372,7 +372,173 @@ currentCommand<T extends CommandCode>(): ExtractDataCommand<T>;
 **Signature**
 
 ```ts
-nextEventCode(): 0 | 1 | 16 | 2 | 3 | 4 | 5 | 113 | 115 | 12 | 15 | 22 | 6 | 7 | 8 | 9 | 10 | 11 | 13 | 14 | 17 | 18 | 19 | 20 | 30 | 128 | 24 | 40 | 32 | 26 | 27 | 33 | 34 | 37 | 38 | 39 | 45 | 102 | 104 | 36 | 21 | 23 | 31 | 35 | 41 | 42 | 43 | 44 | 25 | 28 | 29 | 101 | 401 | 402 | 403 | 103 | 105 | 405 | 108 | 408 | 109 | 111 | 411 | 112 | 413 | 117 | 118 | 119 | 121 | 122 | 123 | 124 | 125 | 126 | 127 | 129 | 132 | 133 | 134 | 135 | 136 | 137 | 138 | 139 | 140 | 201 | 202 | 203 | 204 | 205 | 505 | 206 | 211 | 212 | 213 | 214 | 216 | 217 | 221 | 222 | 223 | 224 | 225 | 230 | 231 | 232 | 233 | 234 | 235 | 236 | 241 | 242 | 243 | 244 | 245 | 246 | 249 | 250 | 251 | 261 | 281 | 282 | 283 | 284 | 285 | 301 | 601 | 602 | 603 | 302 | 605 | 303 | 311 | 312 | 326 | 313 | 314 | 315 | 316 | 317 | 318 | 319 | 320 | 321 | 322 | 323 | 324 | 325 | 331 | 332 | 342 | 333 | 334 | 335 | 336 | 337 | 339 | 340 | 351 | 352 | 353 | 354 | 355 | 655 | 356 | 357;
+nextEventCode():
+    | 0
+    | 1
+    | 16
+    | 2
+    | 3
+    | 4
+    | 5
+    | 113
+    | 115
+    | 12
+    | 15
+    | 20
+    | 30
+    | 128
+    | 8
+    | 7
+    | 6
+    | 10
+    | 9
+    | 24
+    | 40
+    | 32
+    | 26
+    | 13
+    | 17
+    | 18
+    | 27
+    | 33
+    | 34
+    | 37
+    | 38
+    | 39
+    | 45
+    | 102
+    | 104
+    | 14
+    | 36
+    | 11
+    | 21
+    | 22
+    | 23
+    | 31
+    | 35
+    | 41
+    | 42
+    | 43
+    | 44
+    | 19
+    | 25
+    | 28
+    | 29
+    | 101
+    | 401
+    | 402
+    | 403
+    | 103
+    | 105
+    | 405
+    | 108
+    | 408
+    | 109
+    | 111
+    | 411
+    | 112
+    | 413
+    | 117
+    | 118
+    | 119
+    | 121
+    | 122
+    | 123
+    | 124
+    | 125
+    | 126
+    | 127
+    | 129
+    | 132
+    | 133
+    | 134
+    | 135
+    | 136
+    | 137
+    | 138
+    | 139
+    | 140
+    | 201
+    | 202
+    | 203
+    | 204
+    | 205
+    | 505
+    | 206
+    | 211
+    | 212
+    | 213
+    | 214
+    | 216
+    | 217
+    | 221
+    | 222
+    | 223
+    | 224
+    | 225
+    | 230
+    | 231
+    | 232
+    | 233
+    | 234
+    | 235
+    | 236
+    | 241
+    | 242
+    | 243
+    | 244
+    | 245
+    | 246
+    | 249
+    | 250
+    | 251
+    | 261
+    | 281
+    | 282
+    | 283
+    | 284
+    | 285
+    | 301
+    | 601
+    | 602
+    | 603
+    | 302
+    | 605
+    | 303
+    | 311
+    | 312
+    | 326
+    | 313
+    | 314
+    | 315
+    | 316
+    | 317
+    | 318
+    | 319
+    | 320
+    | 321
+    | 322
+    | 323
+    | 324
+    | 325
+    | 331
+    | 332
+    | 342
+    | 333
+    | 334
+    | 335
+    | 336
+    | 337
+    | 339
+    | 340
+    | 351
+    | 352
+    | 353
+    | 354
+    | 355
+    | 655
+    | 356
+    | 357
 ```
 
 ### iterateActorId (method)
@@ -380,7 +546,7 @@ nextEventCode(): 0 | 1 | 16 | 2 | 3 | 4 | 5 | 113 | 115 | 12 | 15 | 22 | 6 | 7 |
 **Signature**
 
 ```ts
-iterateActorId(param: ActorID, callback: (actor: Game_Actor) => void): void;
+iterateActorId(param: ActorID, callback: (actor: Game_Actor) => void): void
 ```
 
 ### iterateActorEx (method)
@@ -388,7 +554,7 @@ iterateActorId(param: ActorID, callback: (actor: Game_Actor) => void): void;
 **Signature**
 
 ```ts
-iterateActorEx(param1: 0 | 1, param2: ActorID | VariableID, callback: (actor: Game_Actor) => void): void;
+iterateActorEx(param1: 0 | 1, param2: ActorID | VariableID, callback: (actor: Game_Actor) => void): void
 ```
 
 ### iterateActorIndex (method)
@@ -396,7 +562,7 @@ iterateActorEx(param1: 0 | 1, param2: ActorID | VariableID, callback: (actor: Ga
 **Signature**
 
 ```ts
-iterateActorIndex(param: number, callback: (actor: Game_Actor) => void): void;
+iterateActorIndex(param: number, callback: (actor: Game_Actor) => void): void
 ```
 
 ### iterateEnemyIndex (method)
@@ -404,7 +570,7 @@ iterateActorIndex(param: number, callback: (actor: Game_Actor) => void): void;
 **Signature**
 
 ```ts
-iterateEnemyIndex(param: number, callback: (enemy: Game_Enemy) => void): void;
+iterateEnemyIndex(param: number, callback: (enemy: Game_Enemy) => void): void
 ```
 
 ### iterateBattler (method)
@@ -412,7 +578,7 @@ iterateEnemyIndex(param: number, callback: (enemy: Game_Enemy) => void): void;
 **Signature**
 
 ```ts
-iterateBattler(param1: 0 | 1, param2: EnemyID | ActorID, callback: (battler: ActionTarget) => void): void;
+iterateBattler(param1: 0 | 1, param2: EnemyID | ActorID, callback: (battler: ActionTarget) => void): void
 ```
 
 ### character (method)
@@ -420,7 +586,7 @@ iterateBattler(param1: 0 | 1, param2: EnemyID | ActorID, callback: (battler: Act
 **Signature**
 
 ```ts
-character(param: CharacterID): Game_Character | null;
+character(param: CharacterID): Game_Character | null
 ```
 
 ### operateValue (method)
@@ -428,7 +594,7 @@ character(param: CharacterID): Game_Character | null;
 **Signature**
 
 ```ts
-operateValue(operation: ValueOperation, operandType: 0 | 1, operand: number | VariableID): number;
+operateValue(operation: ValueOperation, operandType: 0 | 1, operand: number | VariableID): number
 ```
 
 ### changeHp (method)
@@ -436,7 +602,7 @@ operateValue(operation: ValueOperation, operandType: 0 | 1, operand: number | Va
 **Signature**
 
 ```ts
-changeHp(target: ActionTarget, value: number, allowDeath: boolean): void;
+changeHp(target: ActionTarget, value: number, allowDeath: boolean): void
 ```
 
 ### command101 (method)
@@ -444,7 +610,7 @@ changeHp(target: ActionTarget, value: number, allowDeath: boolean): void;
 **Signature**
 
 ```ts
-command101(params: CommandParams<101>): boolean;
+command101(params: CommandParams<101>): boolean
 ```
 
 ### command102 (method)
@@ -452,7 +618,7 @@ command101(params: CommandParams<101>): boolean;
 **Signature**
 
 ```ts
-command102(params: CommandParams<102>): boolean;
+command102(params: CommandParams<102>): boolean
 ```
 
 ### setupChoices (method)
@@ -460,7 +626,7 @@ command102(params: CommandParams<102>): boolean;
 **Signature**
 
 ```ts
-setupChoices(params: CommandParams<102>): void;
+setupChoices(params: CommandParams<102>): void
 ```
 
 ### command402 (method)
@@ -468,7 +634,7 @@ setupChoices(params: CommandParams<102>): void;
 **Signature**
 
 ```ts
-command402(params: CommandParams<402>): boolean;
+command402(params: CommandParams<402>): boolean
 ```
 
 ### command403 (method)
@@ -476,7 +642,7 @@ command402(params: CommandParams<402>): boolean;
 **Signature**
 
 ```ts
-command403(): boolean;
+command403(): boolean
 ```
 
 ### command103 (method)
@@ -484,7 +650,7 @@ command403(): boolean;
 **Signature**
 
 ```ts
-command103(params: CommandParams<103>): boolean;
+command103(params: CommandParams<103>): boolean
 ```
 
 ### setupNumInput (method)
@@ -492,7 +658,7 @@ command103(params: CommandParams<103>): boolean;
 **Signature**
 
 ```ts
-setupNumInput(params: CommandParams<103>): void;
+setupNumInput(params: CommandParams<103>): void
 ```
 
 ### command104 (method)
@@ -500,7 +666,7 @@ setupNumInput(params: CommandParams<103>): void;
 **Signature**
 
 ```ts
-command104(params: CommandParams<104>): boolean;
+command104(params: CommandParams<104>): boolean
 ```
 
 ### setupItemChoice (method)
@@ -508,7 +674,7 @@ command104(params: CommandParams<104>): boolean;
 **Signature**
 
 ```ts
-setupItemChoice(params: CommandParams<104>): void;
+setupItemChoice(params: CommandParams<104>): void
 ```
 
 ### command105 (method)
@@ -516,7 +682,7 @@ setupItemChoice(params: CommandParams<104>): void;
 **Signature**
 
 ```ts
-command105(params: CommandParams<105>): boolean;
+command105(params: CommandParams<105>): boolean
 ```
 
 ### command108 (method)
@@ -524,7 +690,7 @@ command105(params: CommandParams<105>): boolean;
 **Signature**
 
 ```ts
-command108(params: CommandParams<108>): boolean;
+command108(params: CommandParams<108>): boolean
 ```
 
 ### command109 (method)
@@ -532,7 +698,7 @@ command108(params: CommandParams<108>): boolean;
 **Signature**
 
 ```ts
-command109(): boolean;
+command109(): boolean
 ```
 
 ### command111 (method)
@@ -540,7 +706,7 @@ command109(): boolean;
 **Signature**
 
 ```ts
-command111(params: CommandParams<111>): boolean;
+command111(params: CommandParams<111>): boolean
 ```
 
 ### command411 (method)
@@ -548,7 +714,7 @@ command111(params: CommandParams<111>): boolean;
 **Signature**
 
 ```ts
-command411(): boolean;
+command411(): boolean
 ```
 
 ### command112 (method)
@@ -556,7 +722,7 @@ command411(): boolean;
 **Signature**
 
 ```ts
-command112(): boolean;
+command112(): boolean
 ```
 
 ### command413 (method)
@@ -564,7 +730,7 @@ command112(): boolean;
 **Signature**
 
 ```ts
-command413(): boolean;
+command413(): boolean
 ```
 
 ### command113 (method)
@@ -572,7 +738,7 @@ command413(): boolean;
 **Signature**
 
 ```ts
-command113(): boolean;
+command113(): boolean
 ```
 
 ### command115 (method)
@@ -580,7 +746,7 @@ command113(): boolean;
 **Signature**
 
 ```ts
-command115(): boolean;
+command115(): boolean
 ```
 
 ### command117 (method)
@@ -588,7 +754,7 @@ command115(): boolean;
 **Signature**
 
 ```ts
-command117(params: CommandParams<117>): boolean;
+command117(params: CommandParams<117>): boolean
 ```
 
 ### setupChild (method)
@@ -596,7 +762,7 @@ command117(params: CommandParams<117>): boolean;
 **Signature**
 
 ```ts
-setupChild(list: DataCommand[], eventId: EventID): void;
+setupChild(list: DataCommand[], eventId: EventID): void
 ```
 
 ### command118 (method)
@@ -604,7 +770,7 @@ setupChild(list: DataCommand[], eventId: EventID): void;
 **Signature**
 
 ```ts
-command118(): boolean;
+command118(): boolean
 ```
 
 ### command119 (method)
@@ -612,7 +778,7 @@ command118(): boolean;
 **Signature**
 
 ```ts
-command119(params: CommandParams<119>): boolean;
+command119(params: CommandParams<119>): boolean
 ```
 
 ### jumpTo (method)
@@ -620,7 +786,7 @@ command119(params: CommandParams<119>): boolean;
 **Signature**
 
 ```ts
-jumpTo(index: number): void;
+jumpTo(index: number): void
 ```
 
 ### command121 (method)
@@ -628,7 +794,7 @@ jumpTo(index: number): void;
 **Signature**
 
 ```ts
-command121(params: CommandParams<121>): boolean;
+command121(params: CommandParams<121>): boolean
 ```
 
 ### command122 (method)
@@ -636,7 +802,7 @@ command121(params: CommandParams<121>): boolean;
 **Signature**
 
 ```ts
-command122(params: CommandParams<122>): boolean;
+command122(params: CommandParams<122>): boolean
 ```
 
 ### gameDataOperand (method)
@@ -644,7 +810,7 @@ command122(params: CommandParams<122>): boolean;
 **Signature**
 
 ```ts
-gameDataOperand(type: number, param1: number, param2?: number): number;
+gameDataOperand(type: number, param1: number, param2?: number): number
 ```
 
 ### operateVariable (method)
@@ -652,7 +818,7 @@ gameDataOperand(type: number, param1: number, param2?: number): number;
 **Signature**
 
 ```ts
-operateVariable(variableId: VariableID, operationType: VariableOperationType, value: number): void;
+operateVariable(variableId: VariableID, operationType: VariableOperationType, value: number): void
 ```
 
 ### command123 (method)
@@ -660,7 +826,7 @@ operateVariable(variableId: VariableID, operationType: VariableOperationType, va
 **Signature**
 
 ```ts
-command123(params: CommandParams<123>): boolean;
+command123(params: CommandParams<123>): boolean
 ```
 
 ### command124 (method)
@@ -668,7 +834,7 @@ command123(params: CommandParams<123>): boolean;
 **Signature**
 
 ```ts
-command124(params: CommandParams<124>): boolean;
+command124(params: CommandParams<124>): boolean
 ```
 
 ### command125 (method)
@@ -676,7 +842,7 @@ command124(params: CommandParams<124>): boolean;
 **Signature**
 
 ```ts
-command125(params: CommandParams<125>): boolean;
+command125(params: CommandParams<125>): boolean
 ```
 
 ### command126 (method)
@@ -684,7 +850,7 @@ command125(params: CommandParams<125>): boolean;
 **Signature**
 
 ```ts
-command126(params: CommandParams<126>): boolean;
+command126(params: CommandParams<126>): boolean
 ```
 
 ### command127 (method)
@@ -692,7 +858,7 @@ command126(params: CommandParams<126>): boolean;
 **Signature**
 
 ```ts
-command127(params: CommandParams<127>): boolean;
+command127(params: CommandParams<127>): boolean
 ```
 
 ### command128 (method)
@@ -700,7 +866,7 @@ command127(params: CommandParams<127>): boolean;
 **Signature**
 
 ```ts
-command128(params: CommandParams<128>): boolean;
+command128(params: CommandParams<128>): boolean
 ```
 
 ### command129 (method)
@@ -708,7 +874,7 @@ command128(params: CommandParams<128>): boolean;
 **Signature**
 
 ```ts
-command129(params: CommandParams<129>): boolean;
+command129(params: CommandParams<129>): boolean
 ```
 
 ### command132 (method)
@@ -716,7 +882,7 @@ command129(params: CommandParams<129>): boolean;
 **Signature**
 
 ```ts
-command132(params: CommandParams<132>): boolean;
+command132(params: CommandParams<132>): boolean
 ```
 
 ### command133 (method)
@@ -724,7 +890,7 @@ command132(params: CommandParams<132>): boolean;
 **Signature**
 
 ```ts
-command133(params: CommandParams<133>): boolean;
+command133(params: CommandParams<133>): boolean
 ```
 
 ### command134 (method)
@@ -732,7 +898,7 @@ command133(params: CommandParams<133>): boolean;
 **Signature**
 
 ```ts
-command134(params: CommandParams<134>): boolean;
+command134(params: CommandParams<134>): boolean
 ```
 
 ### command135 (method)
@@ -740,7 +906,7 @@ command134(params: CommandParams<134>): boolean;
 **Signature**
 
 ```ts
-command135(params: CommandParams<135>): boolean;
+command135(params: CommandParams<135>): boolean
 ```
 
 ### command136 (method)
@@ -748,7 +914,7 @@ command135(params: CommandParams<135>): boolean;
 **Signature**
 
 ```ts
-command136(params: CommandParams<136>): boolean;
+command136(params: CommandParams<136>): boolean
 ```
 
 ### command137 (method)
@@ -756,7 +922,7 @@ command136(params: CommandParams<136>): boolean;
 **Signature**
 
 ```ts
-command137(params: CommandParams<137>): boolean;
+command137(params: CommandParams<137>): boolean
 ```
 
 ### command138 (method)
@@ -764,7 +930,7 @@ command137(params: CommandParams<137>): boolean;
 **Signature**
 
 ```ts
-command138(params: CommandParams<138>): boolean;
+command138(params: CommandParams<138>): boolean
 ```
 
 ### command139 (method)
@@ -772,7 +938,7 @@ command138(params: CommandParams<138>): boolean;
 **Signature**
 
 ```ts
-command139(params: CommandParams<139>): boolean;
+command139(params: CommandParams<139>): boolean
 ```
 
 ### command140 (method)
@@ -780,7 +946,7 @@ command139(params: CommandParams<139>): boolean;
 **Signature**
 
 ```ts
-command140(params: CommandParams<140>): boolean;
+command140(params: CommandParams<140>): boolean
 ```
 
 ### command201 (method)
@@ -788,7 +954,7 @@ command140(params: CommandParams<140>): boolean;
 **Signature**
 
 ```ts
-command201(params: CommandParams<201>): boolean;
+command201(params: CommandParams<201>): boolean
 ```
 
 ### command202 (method)
@@ -796,7 +962,7 @@ command201(params: CommandParams<201>): boolean;
 **Signature**
 
 ```ts
-command202(params: CommandParams<202>): boolean;
+command202(params: CommandParams<202>): boolean
 ```
 
 ### command203 (method)
@@ -804,7 +970,7 @@ command202(params: CommandParams<202>): boolean;
 **Signature**
 
 ```ts
-command203(params: CommandParams<203>): boolean;
+command203(params: CommandParams<203>): boolean
 ```
 
 ### command204 (method)
@@ -812,7 +978,7 @@ command203(params: CommandParams<203>): boolean;
 **Signature**
 
 ```ts
-command204(params: CommandParams<204>): boolean;
+command204(params: CommandParams<204>): boolean
 ```
 
 ### command205 (method)
@@ -820,7 +986,7 @@ command204(params: CommandParams<204>): boolean;
 **Signature**
 
 ```ts
-command205(params: CommandParams<205>): boolean;
+command205(params: CommandParams<205>): boolean
 ```
 
 ### command206 (method)
@@ -828,7 +994,7 @@ command205(params: CommandParams<205>): boolean;
 **Signature**
 
 ```ts
-command206(): boolean;
+command206(): boolean
 ```
 
 ### command211 (method)
@@ -836,7 +1002,7 @@ command206(): boolean;
 **Signature**
 
 ```ts
-command211(params: CommandParams<211>): boolean;
+command211(params: CommandParams<211>): boolean
 ```
 
 ### command212 (method)
@@ -844,7 +1010,7 @@ command211(params: CommandParams<211>): boolean;
 **Signature**
 
 ```ts
-command212(params: CommandParams<212>): boolean;
+command212(params: CommandParams<212>): boolean
 ```
 
 ### command213 (method)
@@ -852,7 +1018,7 @@ command212(params: CommandParams<212>): boolean;
 **Signature**
 
 ```ts
-command213(params: CommandParams<213>): boolean;
+command213(params: CommandParams<213>): boolean
 ```
 
 ### command214 (method)
@@ -860,7 +1026,7 @@ command213(params: CommandParams<213>): boolean;
 **Signature**
 
 ```ts
-command214(): boolean;
+command214(): boolean
 ```
 
 ### command216 (method)
@@ -868,7 +1034,7 @@ command214(): boolean;
 **Signature**
 
 ```ts
-command216(params: CommandParams<216>): boolean;
+command216(params: CommandParams<216>): boolean
 ```
 
 ### command217 (method)
@@ -876,7 +1042,7 @@ command216(params: CommandParams<216>): boolean;
 **Signature**
 
 ```ts
-command217(): boolean;
+command217(): boolean
 ```
 
 ### command221 (method)
@@ -884,7 +1050,7 @@ command217(): boolean;
 **Signature**
 
 ```ts
-command221(): boolean;
+command221(): boolean
 ```
 
 ### command222 (method)
@@ -892,7 +1058,7 @@ command221(): boolean;
 **Signature**
 
 ```ts
-command222(): boolean;
+command222(): boolean
 ```
 
 ### command223 (method)
@@ -900,7 +1066,7 @@ command222(): boolean;
 **Signature**
 
 ```ts
-command223(params: CommandParams<223>): boolean;
+command223(params: CommandParams<223>): boolean
 ```
 
 ### command224 (method)
@@ -908,7 +1074,7 @@ command223(params: CommandParams<223>): boolean;
 **Signature**
 
 ```ts
-command224(params: CommandParams<224>): boolean;
+command224(params: CommandParams<224>): boolean
 ```
 
 ### command225 (method)
@@ -916,7 +1082,7 @@ command224(params: CommandParams<224>): boolean;
 **Signature**
 
 ```ts
-command225(params: CommandParams<225>): boolean;
+command225(params: CommandParams<225>): boolean
 ```
 
 ### command230 (method)
@@ -924,7 +1090,7 @@ command225(params: CommandParams<225>): boolean;
 **Signature**
 
 ```ts
-command230(params: CommandParams<230>): boolean;
+command230(params: CommandParams<230>): boolean
 ```
 
 ### command231 (method)
@@ -932,7 +1098,7 @@ command230(params: CommandParams<230>): boolean;
 **Signature**
 
 ```ts
-command231(params: CommandParams<231>): boolean;
+command231(params: CommandParams<231>): boolean
 ```
 
 ### command232 (method)
@@ -940,7 +1106,7 @@ command231(params: CommandParams<231>): boolean;
 **Signature**
 
 ```ts
-command232(params: CommandParams<232>): boolean;
+command232(params: CommandParams<232>): boolean
 ```
 
 ### picturePoint (method)
@@ -948,7 +1114,7 @@ command232(params: CommandParams<232>): boolean;
 **Signature**
 
 ```ts
-picturePoint(params: CommandParams<231 | 232>): Point;
+picturePoint(params: CommandParams<231 | 232>): Point
 ```
 
 ### command233 (method)
@@ -956,7 +1122,7 @@ picturePoint(params: CommandParams<231 | 232>): Point;
 **Signature**
 
 ```ts
-command233(params: CommandParams<233>): boolean;
+command233(params: CommandParams<233>): boolean
 ```
 
 ### command234 (method)
@@ -964,7 +1130,7 @@ command233(params: CommandParams<233>): boolean;
 **Signature**
 
 ```ts
-command234(params: CommandParams<234>): boolean;
+command234(params: CommandParams<234>): boolean
 ```
 
 ### command235 (method)
@@ -972,7 +1138,7 @@ command234(params: CommandParams<234>): boolean;
 **Signature**
 
 ```ts
-command235(params: CommandParams<235>): boolean;
+command235(params: CommandParams<235>): boolean
 ```
 
 ### command236 (method)
@@ -980,7 +1146,7 @@ command235(params: CommandParams<235>): boolean;
 **Signature**
 
 ```ts
-command236(params: CommandParams<236>): boolean;
+command236(params: CommandParams<236>): boolean
 ```
 
 ### command241 (method)
@@ -988,7 +1154,7 @@ command236(params: CommandParams<236>): boolean;
 **Signature**
 
 ```ts
-command241(params: CommandParams<241>): boolean;
+command241(params: CommandParams<241>): boolean
 ```
 
 ### command242 (method)
@@ -996,7 +1162,7 @@ command241(params: CommandParams<241>): boolean;
 **Signature**
 
 ```ts
-command242(params: CommandParams<242>): boolean;
+command242(params: CommandParams<242>): boolean
 ```
 
 ### command243 (method)
@@ -1004,7 +1170,7 @@ command242(params: CommandParams<242>): boolean;
 **Signature**
 
 ```ts
-command243(): boolean;
+command243(): boolean
 ```
 
 ### command244 (method)
@@ -1012,7 +1178,7 @@ command243(): boolean;
 **Signature**
 
 ```ts
-command244(): boolean;
+command244(): boolean
 ```
 
 ### command245 (method)
@@ -1020,7 +1186,7 @@ command244(): boolean;
 **Signature**
 
 ```ts
-command245(params: CommandParams<245>): boolean;
+command245(params: CommandParams<245>): boolean
 ```
 
 ### command246 (method)
@@ -1028,7 +1194,7 @@ command245(params: CommandParams<245>): boolean;
 **Signature**
 
 ```ts
-command246(params: CommandParams<246>): boolean;
+command246(params: CommandParams<246>): boolean
 ```
 
 ### command249 (method)
@@ -1036,7 +1202,7 @@ command246(params: CommandParams<246>): boolean;
 **Signature**
 
 ```ts
-command249(params: CommandParams<249>): boolean;
+command249(params: CommandParams<249>): boolean
 ```
 
 ### command250 (method)
@@ -1044,7 +1210,7 @@ command249(params: CommandParams<249>): boolean;
 **Signature**
 
 ```ts
-command250(params: CommandParams<250>): boolean;
+command250(params: CommandParams<250>): boolean
 ```
 
 ### command251 (method)
@@ -1052,7 +1218,7 @@ command250(params: CommandParams<250>): boolean;
 **Signature**
 
 ```ts
-command251(): boolean;
+command251(): boolean
 ```
 
 ### command261 (method)
@@ -1060,7 +1226,7 @@ command251(): boolean;
 **Signature**
 
 ```ts
-command261(params: CommandParams<261>): boolean;
+command261(params: CommandParams<261>): boolean
 ```
 
 ### videoFileExt (method)
@@ -1068,7 +1234,7 @@ command261(params: CommandParams<261>): boolean;
 **Signature**
 
 ```ts
-videoFileExt(): ".webm" | ".mp4";
+videoFileExt(): ".webm" | ".mp4"
 ```
 
 ### command281 (method)
@@ -1076,7 +1242,7 @@ videoFileExt(): ".webm" | ".mp4";
 **Signature**
 
 ```ts
-command281(params: CommandParams<281>): boolean;
+command281(params: CommandParams<281>): boolean
 ```
 
 ### command282 (method)
@@ -1084,7 +1250,7 @@ command281(params: CommandParams<281>): boolean;
 **Signature**
 
 ```ts
-command282(params: CommandParams<282>): boolean;
+command282(params: CommandParams<282>): boolean
 ```
 
 ### command283 (method)
@@ -1092,7 +1258,7 @@ command282(params: CommandParams<282>): boolean;
 **Signature**
 
 ```ts
-command283(params: CommandParams<283>): boolean;
+command283(params: CommandParams<283>): boolean
 ```
 
 ### command284 (method)
@@ -1100,7 +1266,7 @@ command283(params: CommandParams<283>): boolean;
 **Signature**
 
 ```ts
-command284(params: CommandParams<284>): boolean;
+command284(params: CommandParams<284>): boolean
 ```
 
 ### command285 (method)
@@ -1108,7 +1274,7 @@ command284(params: CommandParams<284>): boolean;
 **Signature**
 
 ```ts
-command285(params: CommandParams<285>): boolean;
+command285(params: CommandParams<285>): boolean
 ```
 
 ### command301 (method)
@@ -1116,7 +1282,7 @@ command285(params: CommandParams<285>): boolean;
 **Signature**
 
 ```ts
-command301(params: CommandParams<301>): boolean;
+command301(params: CommandParams<301>): boolean
 ```
 
 ### command601 (method)
@@ -1124,7 +1290,7 @@ command301(params: CommandParams<301>): boolean;
 **Signature**
 
 ```ts
-command601(): boolean;
+command601(): boolean
 ```
 
 ### command602 (method)
@@ -1132,7 +1298,7 @@ command601(): boolean;
 **Signature**
 
 ```ts
-command602(): boolean;
+command602(): boolean
 ```
 
 ### command603 (method)
@@ -1140,7 +1306,7 @@ command602(): boolean;
 **Signature**
 
 ```ts
-command603(): boolean;
+command603(): boolean
 ```
 
 ### command302 (method)
@@ -1148,7 +1314,7 @@ command603(): boolean;
 **Signature**
 
 ```ts
-command302(params: CommandParams<302>): boolean;
+command302(params: CommandParams<302>): boolean
 ```
 
 ### command303 (method)
@@ -1156,7 +1322,7 @@ command302(params: CommandParams<302>): boolean;
 **Signature**
 
 ```ts
-command303(params: CommandParams<303>): boolean;
+command303(params: CommandParams<303>): boolean
 ```
 
 ### command311 (method)
@@ -1164,7 +1330,7 @@ command303(params: CommandParams<303>): boolean;
 **Signature**
 
 ```ts
-command311(params: CommandParams<311>): boolean;
+command311(params: CommandParams<311>): boolean
 ```
 
 ### command312 (method)
@@ -1172,7 +1338,7 @@ command311(params: CommandParams<311>): boolean;
 **Signature**
 
 ```ts
-command312(params: CommandParams<312>): boolean;
+command312(params: CommandParams<312>): boolean
 ```
 
 ### command326 (method)
@@ -1180,7 +1346,7 @@ command312(params: CommandParams<312>): boolean;
 **Signature**
 
 ```ts
-command326(params: CommandParams<326>): boolean;
+command326(params: CommandParams<326>): boolean
 ```
 
 ### command313 (method)
@@ -1188,7 +1354,7 @@ command326(params: CommandParams<326>): boolean;
 **Signature**
 
 ```ts
-command313(params: CommandParams<313>): boolean;
+command313(params: CommandParams<313>): boolean
 ```
 
 ### command314 (method)
@@ -1196,7 +1362,7 @@ command313(params: CommandParams<313>): boolean;
 **Signature**
 
 ```ts
-command314(params: CommandParams<314>): boolean;
+command314(params: CommandParams<314>): boolean
 ```
 
 ### command315 (method)
@@ -1204,7 +1370,7 @@ command314(params: CommandParams<314>): boolean;
 **Signature**
 
 ```ts
-command315(params: CommandParams<315>): boolean;
+command315(params: CommandParams<315>): boolean
 ```
 
 ### command316 (method)
@@ -1212,7 +1378,7 @@ command315(params: CommandParams<315>): boolean;
 **Signature**
 
 ```ts
-command316(params: CommandParams<316>): boolean;
+command316(params: CommandParams<316>): boolean
 ```
 
 ### command317 (method)
@@ -1220,7 +1386,7 @@ command316(params: CommandParams<316>): boolean;
 **Signature**
 
 ```ts
-command317(params: CommandParams<317>): boolean;
+command317(params: CommandParams<317>): boolean
 ```
 
 ### command318 (method)
@@ -1228,7 +1394,7 @@ command317(params: CommandParams<317>): boolean;
 **Signature**
 
 ```ts
-command318(params: CommandParams<318>): boolean;
+command318(params: CommandParams<318>): boolean
 ```
 
 ### command319 (method)
@@ -1236,7 +1402,7 @@ command318(params: CommandParams<318>): boolean;
 **Signature**
 
 ```ts
-command319(params: CommandParams<319>): boolean;
+command319(params: CommandParams<319>): boolean
 ```
 
 ### command320 (method)
@@ -1244,7 +1410,7 @@ command319(params: CommandParams<319>): boolean;
 **Signature**
 
 ```ts
-command320(params: CommandParams<320>): boolean;
+command320(params: CommandParams<320>): boolean
 ```
 
 ### command321 (method)
@@ -1252,7 +1418,7 @@ command320(params: CommandParams<320>): boolean;
 **Signature**
 
 ```ts
-command321(params: CommandParams<321>): boolean;
+command321(params: CommandParams<321>): boolean
 ```
 
 ### command322 (method)
@@ -1260,7 +1426,7 @@ command321(params: CommandParams<321>): boolean;
 **Signature**
 
 ```ts
-command322(params: CommandParams<322>): boolean;
+command322(params: CommandParams<322>): boolean
 ```
 
 ### command323 (method)
@@ -1268,7 +1434,7 @@ command322(params: CommandParams<322>): boolean;
 **Signature**
 
 ```ts
-command323(params: CommandParams<323>): boolean;
+command323(params: CommandParams<323>): boolean
 ```
 
 ### command324 (method)
@@ -1276,7 +1442,7 @@ command323(params: CommandParams<323>): boolean;
 **Signature**
 
 ```ts
-command324(params: CommandParams<324>): boolean;
+command324(params: CommandParams<324>): boolean
 ```
 
 ### command325 (method)
@@ -1284,7 +1450,7 @@ command324(params: CommandParams<324>): boolean;
 **Signature**
 
 ```ts
-command325(params: CommandParams<325>): boolean;
+command325(params: CommandParams<325>): boolean
 ```
 
 ### command331 (method)
@@ -1292,7 +1458,7 @@ command325(params: CommandParams<325>): boolean;
 **Signature**
 
 ```ts
-command331(params: CommandParams<331>): boolean;
+command331(params: CommandParams<331>): boolean
 ```
 
 ### command332 (method)
@@ -1300,7 +1466,7 @@ command331(params: CommandParams<331>): boolean;
 **Signature**
 
 ```ts
-command332(params: CommandParams<332>): boolean;
+command332(params: CommandParams<332>): boolean
 ```
 
 ### command342 (method)
@@ -1308,7 +1474,7 @@ command332(params: CommandParams<332>): boolean;
 **Signature**
 
 ```ts
-command342(params: CommandParams<342>): boolean;
+command342(params: CommandParams<342>): boolean
 ```
 
 ### command333 (method)
@@ -1316,7 +1482,7 @@ command342(params: CommandParams<342>): boolean;
 **Signature**
 
 ```ts
-command333(params: CommandParams<333>): boolean;
+command333(params: CommandParams<333>): boolean
 ```
 
 ### command334 (method)
@@ -1324,7 +1490,7 @@ command333(params: CommandParams<333>): boolean;
 **Signature**
 
 ```ts
-command334(params: CommandParams<334>): boolean;
+command334(params: CommandParams<334>): boolean
 ```
 
 ### command335 (method)
@@ -1332,7 +1498,7 @@ command334(params: CommandParams<334>): boolean;
 **Signature**
 
 ```ts
-command335(params: CommandParams<335>): boolean;
+command335(params: CommandParams<335>): boolean
 ```
 
 ### command336 (method)
@@ -1340,7 +1506,7 @@ command335(params: CommandParams<335>): boolean;
 **Signature**
 
 ```ts
-command336(params: CommandParams<336>): boolean;
+command336(params: CommandParams<336>): boolean
 ```
 
 ### command337 (method)
@@ -1348,7 +1514,7 @@ command336(params: CommandParams<336>): boolean;
 **Signature**
 
 ```ts
-command337(params: CommandParams<337>): boolean;
+command337(params: CommandParams<337>): boolean
 ```
 
 ### command339 (method)
@@ -1356,7 +1522,7 @@ command337(params: CommandParams<337>): boolean;
 **Signature**
 
 ```ts
-command339(params: CommandParams<339>): boolean;
+command339(params: CommandParams<339>): boolean
 ```
 
 ### command340 (method)
@@ -1364,7 +1530,7 @@ command339(params: CommandParams<339>): boolean;
 **Signature**
 
 ```ts
-command340(): boolean;
+command340(): boolean
 ```
 
 ### command351 (method)
@@ -1372,7 +1538,7 @@ command340(): boolean;
 **Signature**
 
 ```ts
-command351(): boolean;
+command351(): boolean
 ```
 
 ### command352 (method)
@@ -1380,7 +1546,7 @@ command351(): boolean;
 **Signature**
 
 ```ts
-command352(): boolean;
+command352(): boolean
 ```
 
 ### command353 (method)
@@ -1388,7 +1554,7 @@ command352(): boolean;
 **Signature**
 
 ```ts
-command353(): boolean;
+command353(): boolean
 ```
 
 ### command354 (method)
@@ -1396,7 +1562,7 @@ command353(): boolean;
 **Signature**
 
 ```ts
-command354(): boolean;
+command354(): boolean
 ```
 
 ### command355 (method)
@@ -1404,7 +1570,7 @@ command354(): boolean;
 **Signature**
 
 ```ts
-command355(): boolean;
+command355(): boolean
 ```
 
 ### command356 (method)
@@ -1412,7 +1578,7 @@ command355(): boolean;
 **Signature**
 
 ```ts
-command356(params: CommandParams<356>): boolean;
+command356(params: CommandParams<356>): boolean
 ```
 
 ### pluginCommand (method)
@@ -1420,7 +1586,7 @@ command356(params: CommandParams<356>): boolean;
 **Signature**
 
 ```ts
-pluginCommand(_command: string, _args: string[]): void;
+pluginCommand(_command: string, _args: string[]): void
 ```
 
 ### command357 (method)
@@ -1428,7 +1594,7 @@ pluginCommand(_command: string, _args: string[]): void;
 **Signature**
 
 ```ts
-command357(params: CommandParams<357>): boolean;
+command357(params: CommandParams<357>): boolean
 ```
 
 ### \_depth (property)

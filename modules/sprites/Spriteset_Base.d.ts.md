@@ -1,6 +1,6 @@
 ---
 title: sprites/Spriteset_Base.d.ts
-nav_order: 137
+nav_order: 138
 parent: Modules
 ---
 
@@ -73,7 +73,7 @@ export declare class Spriteset_Base {
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### loadSystemImages (method)
@@ -81,7 +81,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-loadSystemImages(): void;
+loadSystemImages(): void
 ```
 
 ### createLowerLayer (method)
@@ -89,7 +89,7 @@ loadSystemImages(): void;
 **Signature**
 
 ```ts
-createLowerLayer(): void;
+createLowerLayer(): void
 ```
 
 ### createUpperLayer (method)
@@ -97,7 +97,7 @@ createLowerLayer(): void;
 **Signature**
 
 ```ts
-createUpperLayer(): void;
+createUpperLayer(): void
 ```
 
 ### update (method)
@@ -105,7 +105,7 @@ createUpperLayer(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### createBaseSprite (method)
@@ -113,7 +113,7 @@ update(): void;
 **Signature**
 
 ```ts
-createBaseSprite(): void;
+createBaseSprite(): void
 ```
 
 ### createBaseFilters (method)
@@ -121,7 +121,7 @@ createBaseSprite(): void;
 **Signature**
 
 ```ts
-createBaseFilters(): void;
+createBaseFilters(): void
 ```
 
 ### createPictures (method)
@@ -129,7 +129,7 @@ createBaseFilters(): void;
 **Signature**
 
 ```ts
-createPictures(): void;
+createPictures(): void
 ```
 
 ### pictureContainerRect (method)
@@ -137,7 +137,7 @@ createPictures(): void;
 **Signature**
 
 ```ts
-pictureContainerRect(): Rectangle;
+pictureContainerRect(): Rectangle
 ```
 
 ### createTimer (method)
@@ -145,7 +145,7 @@ pictureContainerRect(): Rectangle;
 **Signature**
 
 ```ts
-createTimer(): void;
+createTimer(): void
 ```
 
 ### createOverallFilters (method)
@@ -153,7 +153,7 @@ createTimer(): void;
 **Signature**
 
 ```ts
-createOverallFilters(): void;
+createOverallFilters(): void
 ```
 
 ### updateBaseFilters (method)
@@ -161,7 +161,7 @@ createOverallFilters(): void;
 **Signature**
 
 ```ts
-updateBaseFilters(): void;
+updateBaseFilters(): void
 ```
 
 ### updateOverallFilters (method)
@@ -169,7 +169,7 @@ updateBaseFilters(): void;
 **Signature**
 
 ```ts
-updateOverallFilters(): void;
+updateOverallFilters(): void
 ```
 
 ### updatePosition (method)
@@ -177,7 +177,7 @@ updateOverallFilters(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### findTargetSprite (method)
@@ -185,7 +185,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-findTargetSprite(_target: AnimationTarget): Sprite<import("../core").Bitmap> | null | undefined;
+findTargetSprite(_target: AnimationTarget): Sprite<import("../core").Bitmap> | null | undefined
 ```
 
 ### updateAnimations (method)
@@ -193,7 +193,7 @@ findTargetSprite(_target: AnimationTarget): Sprite<import("../core").Bitmap> | n
 **Signature**
 
 ```ts
-updateAnimations(): void;
+updateAnimations(): void
 ```
 
 ### processAnimationRequests (method)
@@ -201,7 +201,7 @@ updateAnimations(): void;
 **Signature**
 
 ```ts
-processAnimationRequests(): void;
+processAnimationRequests(): void
 ```
 
 ### createAnimation (method)
@@ -209,7 +209,7 @@ processAnimationRequests(): void;
 **Signature**
 
 ```ts
-createAnimation(request: AnimationRequest): void;
+createAnimation(request: AnimationRequest): void
 ```
 
 ### createAnimationSprite (method)
@@ -217,7 +217,12 @@ createAnimation(request: AnimationRequest): void;
 **Signature**
 
 ```ts
-createAnimationSprite(targets: AnimationTarget[], animation: DataAnimation | DataAnimationMV, mirror: boolean, delay: number): void;
+createAnimationSprite(
+    targets: AnimationTarget[],
+    animation: DataAnimation | DataAnimationMV,
+    mirror: boolean,
+    delay: number
+  ): void
 ```
 
 ### isMVAnimation (method)
@@ -225,7 +230,7 @@ createAnimationSprite(targets: AnimationTarget[], animation: DataAnimation | Dat
 **Signature**
 
 ```ts
-isMVAnimation(animation: DataAnimation | DataAnimationMV): animation is DataAnimationMV;
+isMVAnimation(animation: DataAnimation | DataAnimationMV): animation is DataAnimationMV
 ```
 
 ### makeTargetSprites (method)
@@ -233,7 +238,7 @@ isMVAnimation(animation: DataAnimation | DataAnimationMV): animation is DataAnim
 **Signature**
 
 ```ts
-makeTargetSprites(targets: AnimationTarget[]): Sprite<import("../core").Bitmap>[];
+makeTargetSprites(targets: AnimationTarget[]): Sprite<import("../core").Bitmap>[]
 ```
 
 ### lastAnimationSprite (method)
@@ -241,7 +246,7 @@ makeTargetSprites(targets: AnimationTarget[]): Sprite<import("../core").Bitmap>[
 **Signature**
 
 ```ts
-lastAnimationSprite(): Sprite_Animation | Sprite_AnimationMV;
+lastAnimationSprite(): Sprite_Animation | Sprite_AnimationMV
 ```
 
 ### isAnimationForEach (method)
@@ -249,7 +254,7 @@ lastAnimationSprite(): Sprite_Animation | Sprite_AnimationMV;
 **Signature**
 
 ```ts
-isAnimationForEach(animation: DataAnimation | DataAnimationMV): boolean;
+isAnimationForEach(animation: DataAnimation | DataAnimationMV): boolean
 ```
 
 ### animationBaseDelay (method)
@@ -257,7 +262,7 @@ isAnimationForEach(animation: DataAnimation | DataAnimationMV): boolean;
 **Signature**
 
 ```ts
-animationBaseDelay(): number;
+animationBaseDelay(): number
 ```
 
 ### animationNextDelay (method)
@@ -265,7 +270,7 @@ animationBaseDelay(): number;
 **Signature**
 
 ```ts
-animationNextDelay(): number;
+animationNextDelay(): number
 ```
 
 ### animationShouldMirror (method)
@@ -273,9 +278,11 @@ animationNextDelay(): number;
 **Signature**
 
 ```ts
-animationShouldMirror(target: AnimationTarget & {
-        isActor?: () => boolean;
-    }): boolean;
+animationShouldMirror(
+    target: AnimationTarget & {
+      isActor?: () => boolean
+    }
+  ): boolean
 ```
 
 ### removeAnimation (method)
@@ -283,7 +290,7 @@ animationShouldMirror(target: AnimationTarget & {
 **Signature**
 
 ```ts
-removeAnimation(sprite: Sprite_Animation | Sprite_AnimationMV): void;
+removeAnimation(sprite: Sprite_Animation | Sprite_AnimationMV): void
 ```
 
 ### removeAllAnimations (method)
@@ -291,7 +298,7 @@ removeAnimation(sprite: Sprite_Animation | Sprite_AnimationMV): void;
 **Signature**
 
 ```ts
-removeAllAnimations(): void;
+removeAllAnimations(): void
 ```
 
 ### isAnimationPlaying (method)
@@ -299,7 +306,7 @@ removeAllAnimations(): void;
 **Signature**
 
 ```ts
-isAnimationPlaying(): boolean;
+isAnimationPlaying(): boolean
 ```
 
 ### \_animationSprites (property)

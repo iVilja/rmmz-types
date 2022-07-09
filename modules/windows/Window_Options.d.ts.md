@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Options.d.ts
-nav_order: 174
+nav_order: 175
 parent: Modules
 ---
 
@@ -69,7 +69,7 @@ export declare class Window_Options
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### addGeneralOptions (method)
@@ -77,7 +77,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-addGeneralOptions(): void;
+addGeneralOptions(): void
 ```
 
 ### addVolumeOptions (method)
@@ -85,7 +85,7 @@ addGeneralOptions(): void;
 **Signature**
 
 ```ts
-addVolumeOptions(): void;
+addVolumeOptions(): void
 ```
 
 ### drawItem (method)
@@ -93,7 +93,7 @@ addVolumeOptions(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### statusWidth (method)
@@ -101,7 +101,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-statusWidth(): number;
+statusWidth(): number
 ```
 
 ### statusText (method)
@@ -109,7 +109,7 @@ statusWidth(): number;
 **Signature**
 
 ```ts
-statusText(index: number): string;
+statusText(index: number): string
 ```
 
 ### isVolumeSymbol (method)
@@ -117,7 +117,7 @@ statusText(index: number): string;
 **Signature**
 
 ```ts
-isVolumeSymbol(symbol: OptionSymbol): symbol is VolumeOptionSymbol;
+isVolumeSymbol(symbol: OptionSymbol): symbol is VolumeOptionSymbol
 ```
 
 ### booleanStatusText (method)
@@ -125,7 +125,7 @@ isVolumeSymbol(symbol: OptionSymbol): symbol is VolumeOptionSymbol;
 **Signature**
 
 ```ts
-booleanStatusText(value: boolean): "ON" | "OFF";
+booleanStatusText(value: boolean): "ON" | "OFF"
 ```
 
 ### volumeStatusText (method)
@@ -133,7 +133,7 @@ booleanStatusText(value: boolean): "ON" | "OFF";
 **Signature**
 
 ```ts
-volumeStatusText(value: number): string;
+volumeStatusText(value: number): string
 ```
 
 ### processOk (method)
@@ -141,7 +141,7 @@ volumeStatusText(value: number): string;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### cursorRight (method)
@@ -149,7 +149,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-cursorRight(): void;
+cursorRight(): void
 ```
 
 ### cursorLeft (method)
@@ -157,7 +157,7 @@ cursorRight(): void;
 **Signature**
 
 ```ts
-cursorLeft(): void;
+cursorLeft(): void
 ```
 
 ### changeVolume (method)
@@ -165,7 +165,7 @@ cursorLeft(): void;
 **Signature**
 
 ```ts
-changeVolume<T extends VolumeOptionSymbol>(symbol: T, forward: boolean, wrap: boolean): void;
+changeVolume<T extends VolumeOptionSymbol>(symbol: T, forward: boolean, wrap: boolean): void
 ```
 
 ### volumeOffset (method)
@@ -173,7 +173,7 @@ changeVolume<T extends VolumeOptionSymbol>(symbol: T, forward: boolean, wrap: bo
 **Signature**
 
 ```ts
-volumeOffset(): number;
+volumeOffset(): number
 ```
 
 ### changeValue (method)
@@ -181,7 +181,7 @@ volumeOffset(): number;
 **Signature**
 
 ```ts
-changeValue(symbol: OptionSymbol, value: boolean | number): void;
+changeValue(symbol: OptionSymbol, value: boolean | number): void
 ```
 
 ### getConfigValue (method)
@@ -189,7 +189,7 @@ changeValue(symbol: OptionSymbol, value: boolean | number): void;
 **Signature**
 
 ```ts
-getConfigValue<T extends OptionSymbol>(symbol: T): (typeof ConfigManager)[T];
+getConfigValue<T extends OptionSymbol>(symbol: T): typeof ConfigManager[T]
 ```
 
 ### setConfigValue (method)
@@ -197,5 +197,5 @@ getConfigValue<T extends OptionSymbol>(symbol: T): (typeof ConfigManager)[T];
 **Signature**
 
 ```ts
-setConfigValue<T extends OptionSymbol>(symbol: T, volume: typeof ConfigManager[T]): void;
+setConfigValue<T extends OptionSymbol>(symbol: T, volume: typeof ConfigManager[T]): void
 ```

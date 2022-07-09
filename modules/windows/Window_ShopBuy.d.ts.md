@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ShopBuy.d.ts
-nav_order: 180
+nav_order: 181
 parent: Modules
 ---
 
@@ -54,7 +54,7 @@ export declare class Window_ShopBuy
 **Signature**
 
 ```ts
-setupGoods(shopGoods: ShopGoods[]): void;
+setupGoods(shopGoods: ShopGoods[]): void
 ```
 
 ### maxItems (method)
@@ -62,7 +62,7 @@ setupGoods(shopGoods: ShopGoods[]): void;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### item (method)
@@ -70,7 +70,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-item(): DataPricedItemBase | null;
+item(): DataPricedItemBase | null
 ```
 
 ### itemAt (method)
@@ -78,7 +78,7 @@ item(): DataPricedItemBase | null;
 **Signature**
 
 ```ts
-itemAt(index: number): DataPricedItemBase | null;
+itemAt(index: number): DataPricedItemBase | null
 ```
 
 ### setMoney (method)
@@ -86,7 +86,7 @@ itemAt(index: number): DataPricedItemBase | null;
 **Signature**
 
 ```ts
-setMoney(money: number): void;
+setMoney(money: number): void
 ```
 
 ### isCurrentItemEnabled (method)
@@ -94,7 +94,7 @@ setMoney(money: number): void;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### price (method)
@@ -102,7 +102,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-price(item: DataPricedItemBase): number;
+price(item: DataPricedItemBase): number
 ```
 
 ### isEnabled (method)
@@ -110,7 +110,7 @@ price(item: DataPricedItemBase): number;
 **Signature**
 
 ```ts
-isEnabled(item: DataPricedItemBase | null): boolean;
+isEnabled(item: DataPricedItemBase | null): boolean
 ```
 
 ### refresh (method)
@@ -118,7 +118,7 @@ isEnabled(item: DataPricedItemBase | null): boolean;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### makeItemList (method)
@@ -126,7 +126,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-makeItemList(): void;
+makeItemList(): void
 ```
 
 ### goodsToItem (method)
@@ -134,7 +134,9 @@ makeItemList(): void;
 **Signature**
 
 ```ts
-goodsToItem(goods: ShopGoods): import("../data").DataItem | import("../data").DataWeapon | import("../data").DataArmor | null;
+goodsToItem(
+    goods: ShopGoods
+  ): import("../data").DataItem | import("../data").DataWeapon | import("../data").DataArmor | null
 ```
 
 ### drawItem (method)
@@ -142,7 +144,7 @@ goodsToItem(goods: ShopGoods): import("../data").DataItem | import("../data").Da
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### priceWidth (method)
@@ -150,7 +152,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-priceWidth(): number;
+priceWidth(): number
 ```
 
 ### setStatusWindow (method)
@@ -158,7 +160,7 @@ priceWidth(): number;
 **Signature**
 
 ```ts
-setStatusWindow(statusWindow: Window_ShopStatus): void;
+setStatusWindow(statusWindow: Window_ShopStatus): void
 ```
 
 ### updateHelp (method)
@@ -166,7 +168,7 @@ setStatusWindow(statusWindow: Window_ShopStatus): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### \_money (property)

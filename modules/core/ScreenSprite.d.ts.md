@@ -44,7 +44,7 @@ Destroys the screen sprite.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### setBlack (method)
@@ -54,7 +54,7 @@ Sets black to the color of the screen sprite.
 **Signature**
 
 ```ts
-setBlack(): void;
+setBlack(): void
 ```
 
 ### setWhite (method)
@@ -64,7 +64,7 @@ Sets white to the color of the screen sprite.
 **Signature**
 
 ```ts
-setWhite(): void;
+setWhite(): void
 ```
 
 ### setColor (method)
@@ -74,7 +74,7 @@ Sets the color of the screen sprite by values.
 **Signature**
 
 ```ts
-setColor(r: number, g: number, b: number): void;
+setColor(r: number, g: number, b: number): void
 ```
 
 ### \_graphics (property)

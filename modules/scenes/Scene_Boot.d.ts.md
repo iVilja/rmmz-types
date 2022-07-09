@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Boot.d.ts
-nav_order: 97
+nav_order: 98
 parent: Modules
 ---
 
@@ -46,7 +46,7 @@ export declare class Scene_Boot
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### isReady (method)
@@ -54,7 +54,7 @@ create(): void;
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### onDatabaseLoaded (method)
@@ -62,7 +62,7 @@ isReady(): boolean;
 **Signature**
 
 ```ts
-onDatabaseLoaded(): void;
+onDatabaseLoaded(): void
 ```
 
 ### setEncryptionInfo (method)
@@ -70,7 +70,7 @@ onDatabaseLoaded(): void;
 **Signature**
 
 ```ts
-setEncryptionInfo(): void;
+setEncryptionInfo(): void
 ```
 
 ### loadSystemImages (method)
@@ -78,7 +78,7 @@ setEncryptionInfo(): void;
 **Signature**
 
 ```ts
-loadSystemImages(): void;
+loadSystemImages(): void
 ```
 
 ### loadPlayerData (method)
@@ -86,7 +86,7 @@ loadSystemImages(): void;
 **Signature**
 
 ```ts
-loadPlayerData(): void;
+loadPlayerData(): void
 ```
 
 ### loadGameFonts (method)
@@ -94,7 +94,7 @@ loadPlayerData(): void;
 **Signature**
 
 ```ts
-loadGameFonts(): void;
+loadGameFonts(): void
 ```
 
 ### isPlayerDataLoaded (method)
@@ -102,7 +102,7 @@ loadGameFonts(): void;
 **Signature**
 
 ```ts
-isPlayerDataLoaded(): boolean;
+isPlayerDataLoaded(): boolean
 ```
 
 ### start (method)
@@ -110,7 +110,7 @@ isPlayerDataLoaded(): boolean;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### startNormalGame (method)
@@ -118,7 +118,7 @@ start(): void;
 **Signature**
 
 ```ts
-startNormalGame(): void;
+startNormalGame(): void
 ```
 
 ### resizeScreen (method)
@@ -126,7 +126,7 @@ startNormalGame(): void;
 **Signature**
 
 ```ts
-resizeScreen(): void;
+resizeScreen(): void
 ```
 
 ### adjustBoxSize (method)
@@ -134,7 +134,7 @@ resizeScreen(): void;
 **Signature**
 
 ```ts
-adjustBoxSize(): void;
+adjustBoxSize(): void
 ```
 
 ### adjustWindow (method)
@@ -142,7 +142,7 @@ adjustBoxSize(): void;
 **Signature**
 
 ```ts
-adjustWindow(): void;
+adjustWindow(): void
 ```
 
 ### updateDocumentTitle (method)
@@ -150,7 +150,7 @@ adjustWindow(): void;
 **Signature**
 
 ```ts
-updateDocumentTitle(): void;
+updateDocumentTitle(): void
 ```
 
 ### checkPlayerLocation (method)
@@ -158,7 +158,7 @@ updateDocumentTitle(): void;
 **Signature**
 
 ```ts
-checkPlayerLocation(): void;
+checkPlayerLocation(): void
 ```
 
 ### \_databaseLoaded (property)

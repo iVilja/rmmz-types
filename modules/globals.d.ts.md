@@ -1,6 +1,6 @@
 ---
 title: globals.d.ts
-nav_order: 46
+nav_order: 47
 parent: Modules
 ---
 

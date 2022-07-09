@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Save.d.ts
-nav_order: 112
+nav_order: 113
 parent: Modules
 ---
 
@@ -37,7 +37,7 @@ export declare class Scene_Save
 **Signature**
 
 ```ts
-mode(): "save";
+mode(): "save"
 ```
 
 ### helpWindowText (method)
@@ -45,7 +45,7 @@ mode(): "save";
 **Signature**
 
 ```ts
-helpWindowText(): string;
+helpWindowText(): string
 ```
 
 ### firstSavefileId (method)
@@ -53,7 +53,7 @@ helpWindowText(): string;
 **Signature**
 
 ```ts
-firstSavefileId(): number;
+firstSavefileId(): number
 ```
 
 ### onSavefileOk (method)
@@ -61,7 +61,7 @@ firstSavefileId(): number;
 **Signature**
 
 ```ts
-onSavefileOk(): void;
+onSavefileOk(): void
 ```
 
 ### executeSave (method)
@@ -69,7 +69,7 @@ onSavefileOk(): void;
 **Signature**
 
 ```ts
-executeSave(savefileId: number): void;
+executeSave(savefileId: number): void
 ```
 
 ### onSaveSuccess (method)
@@ -77,7 +77,7 @@ executeSave(savefileId: number): void;
 **Signature**
 
 ```ts
-onSaveSuccess(): void;
+onSaveSuccess(): void
 ```
 
 ### onSaveFailure (method)
@@ -85,5 +85,5 @@ onSaveSuccess(): void;
 **Signature**
 
 ```ts
-onSaveFailure(): void;
+onSaveFailure(): void
 ```

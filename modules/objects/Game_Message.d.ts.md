@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Message.d.ts
-nav_order: 79
+nav_order: 80
 parent: Modules
 ---
 
@@ -93,7 +93,7 @@ export declare class Game_Message
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### choices (method)
@@ -101,7 +101,7 @@ clear(): void;
 **Signature**
 
 ```ts
-choices(): string[];
+choices(): string[]
 ```
 
 ### speakerName (method)
@@ -109,7 +109,7 @@ choices(): string[];
 **Signature**
 
 ```ts
-speakerName(): string;
+speakerName(): string
 ```
 
 ### faceName (method)
@@ -117,7 +117,7 @@ speakerName(): string;
 **Signature**
 
 ```ts
-faceName(): string;
+faceName(): string
 ```
 
 ### faceIndex (method)
@@ -125,7 +125,7 @@ faceName(): string;
 **Signature**
 
 ```ts
-faceIndex(): number;
+faceIndex(): number
 ```
 
 ### background (method)
@@ -133,7 +133,7 @@ faceIndex(): number;
 **Signature**
 
 ```ts
-background(): TextWindowBackgroundType;
+background(): TextWindowBackgroundType
 ```
 
 ### positionType (method)
@@ -141,7 +141,7 @@ background(): TextWindowBackgroundType;
 **Signature**
 
 ```ts
-positionType(): TextWindowPositionType;
+positionType(): TextWindowPositionType
 ```
 
 ### choiceDefaultType (method)
@@ -149,7 +149,7 @@ positionType(): TextWindowPositionType;
 **Signature**
 
 ```ts
-choiceDefaultType(): number;
+choiceDefaultType(): number
 ```
 
 ### choiceCancelType (method)
@@ -157,7 +157,7 @@ choiceDefaultType(): number;
 **Signature**
 
 ```ts
-choiceCancelType(): number;
+choiceCancelType(): number
 ```
 
 ### choiceBackground (method)
@@ -165,7 +165,7 @@ choiceCancelType(): number;
 **Signature**
 
 ```ts
-choiceBackground(): TextWindowBackgroundType;
+choiceBackground(): TextWindowBackgroundType
 ```
 
 ### choicePositionType (method)
@@ -173,7 +173,7 @@ choiceBackground(): TextWindowBackgroundType;
 **Signature**
 
 ```ts
-choicePositionType(): TextWindowPositionType;
+choicePositionType(): TextWindowPositionType
 ```
 
 ### numInputVariableId (method)
@@ -181,7 +181,7 @@ choicePositionType(): TextWindowPositionType;
 **Signature**
 
 ```ts
-numInputVariableId(): number;
+numInputVariableId(): number
 ```
 
 ### numInputMaxDigits (method)
@@ -189,7 +189,7 @@ numInputVariableId(): number;
 **Signature**
 
 ```ts
-numInputMaxDigits(): number;
+numInputMaxDigits(): number
 ```
 
 ### itemChoiceVariableId (method)
@@ -197,7 +197,7 @@ numInputMaxDigits(): number;
 **Signature**
 
 ```ts
-itemChoiceVariableId(): number;
+itemChoiceVariableId(): number
 ```
 
 ### itemChoiceItypeId (method)
@@ -205,7 +205,7 @@ itemChoiceVariableId(): number;
 **Signature**
 
 ```ts
-itemChoiceItypeId(): number;
+itemChoiceItypeId(): number
 ```
 
 ### scrollMode (method)
@@ -213,7 +213,7 @@ itemChoiceItypeId(): number;
 **Signature**
 
 ```ts
-scrollMode(): boolean;
+scrollMode(): boolean
 ```
 
 ### scrollSpeed (method)
@@ -221,7 +221,7 @@ scrollMode(): boolean;
 **Signature**
 
 ```ts
-scrollSpeed(): number;
+scrollSpeed(): number
 ```
 
 ### scrollNoFast (method)
@@ -229,7 +229,7 @@ scrollSpeed(): number;
 **Signature**
 
 ```ts
-scrollNoFast(): boolean;
+scrollNoFast(): boolean
 ```
 
 ### add (method)
@@ -237,7 +237,7 @@ scrollNoFast(): boolean;
 **Signature**
 
 ```ts
-add(text: string): void;
+add(text: string): void
 ```
 
 ### setSpeakerName (method)
@@ -245,7 +245,7 @@ add(text: string): void;
 **Signature**
 
 ```ts
-setSpeakerName(speakerName: string): void;
+setSpeakerName(speakerName: string): void
 ```
 
 ### setFaceImage (method)
@@ -253,7 +253,7 @@ setSpeakerName(speakerName: string): void;
 **Signature**
 
 ```ts
-setFaceImage(faceName: string, faceIndex: number): void;
+setFaceImage(faceName: string, faceIndex: number): void
 ```
 
 ### setBackground (method)
@@ -261,7 +261,7 @@ setFaceImage(faceName: string, faceIndex: number): void;
 **Signature**
 
 ```ts
-setBackground(background: TextWindowBackgroundType): void;
+setBackground(background: TextWindowBackgroundType): void
 ```
 
 ### setPositionType (method)
@@ -269,7 +269,7 @@ setBackground(background: TextWindowBackgroundType): void;
 **Signature**
 
 ```ts
-setPositionType(positionType: TextWindowPositionType): void;
+setPositionType(positionType: TextWindowPositionType): void
 ```
 
 ### setChoices (method)
@@ -277,7 +277,7 @@ setPositionType(positionType: TextWindowPositionType): void;
 **Signature**
 
 ```ts
-setChoices(choices: string[], defaultType: number, cancelType: number): void;
+setChoices(choices: string[], defaultType: number, cancelType: number): void
 ```
 
 ### setChoiceBackground (method)
@@ -285,7 +285,7 @@ setChoices(choices: string[], defaultType: number, cancelType: number): void;
 **Signature**
 
 ```ts
-setChoiceBackground(background: TextWindowBackgroundType): void;
+setChoiceBackground(background: TextWindowBackgroundType): void
 ```
 
 ### setChoicePositionType (method)
@@ -293,7 +293,7 @@ setChoiceBackground(background: TextWindowBackgroundType): void;
 **Signature**
 
 ```ts
-setChoicePositionType(positionType: TextWindowPositionType): void;
+setChoicePositionType(positionType: TextWindowPositionType): void
 ```
 
 ### setNumberInput (method)
@@ -301,7 +301,7 @@ setChoicePositionType(positionType: TextWindowPositionType): void;
 **Signature**
 
 ```ts
-setNumberInput(variableId: number, maxDigits: number): void;
+setNumberInput(variableId: number, maxDigits: number): void
 ```
 
 ### setItemChoice (method)
@@ -309,7 +309,7 @@ setNumberInput(variableId: number, maxDigits: number): void;
 **Signature**
 
 ```ts
-setItemChoice(variableId: number, itemType: ItemType): void;
+setItemChoice(variableId: number, itemType: ItemType): void
 ```
 
 ### setScroll (method)
@@ -317,7 +317,7 @@ setItemChoice(variableId: number, itemType: ItemType): void;
 **Signature**
 
 ```ts
-setScroll(speed: number, noFast: boolean): void;
+setScroll(speed: number, noFast: boolean): void
 ```
 
 ### setChoiceCallback (method)
@@ -325,7 +325,7 @@ setScroll(speed: number, noFast: boolean): void;
 **Signature**
 
 ```ts
-setChoiceCallback(callback: (chosen: number) => void): void;
+setChoiceCallback(callback: (chosen: number) => void): void
 ```
 
 ### onChoice (method)
@@ -333,7 +333,7 @@ setChoiceCallback(callback: (chosen: number) => void): void;
 **Signature**
 
 ```ts
-onChoice(n: number): void;
+onChoice(n: number): void
 ```
 
 ### hasText (method)
@@ -341,7 +341,7 @@ onChoice(n: number): void;
 **Signature**
 
 ```ts
-hasText(): boolean;
+hasText(): boolean
 ```
 
 ### isChoice (method)
@@ -349,7 +349,7 @@ hasText(): boolean;
 **Signature**
 
 ```ts
-isChoice(): boolean;
+isChoice(): boolean
 ```
 
 ### isNumberInput (method)
@@ -357,7 +357,7 @@ isChoice(): boolean;
 **Signature**
 
 ```ts
-isNumberInput(): boolean;
+isNumberInput(): boolean
 ```
 
 ### isItemChoice (method)
@@ -365,7 +365,7 @@ isNumberInput(): boolean;
 **Signature**
 
 ```ts
-isItemChoice(): boolean;
+isItemChoice(): boolean
 ```
 
 ### isBusy (method)
@@ -373,7 +373,7 @@ isItemChoice(): boolean;
 **Signature**
 
 ```ts
-isBusy(): boolean;
+isBusy(): boolean
 ```
 
 ### newPage (method)
@@ -381,7 +381,7 @@ isBusy(): boolean;
 **Signature**
 
 ```ts
-newPage(): void;
+newPage(): void
 ```
 
 ### allText (method)
@@ -389,7 +389,7 @@ newPage(): void;
 **Signature**
 
 ```ts
-allText(): string;
+allText(): string
 ```
 
 ### isRTL (method)
@@ -397,7 +397,7 @@ allText(): string;
 **Signature**
 
 ```ts
-isRTL(): boolean;
+isRTL(): boolean
 ```
 
 ### \_texts (property)

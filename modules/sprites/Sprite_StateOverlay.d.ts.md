@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_StateOverlay.d.ts
-nav_order: 134
+nav_order: 135
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Sprite_StateOverlay {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### loadBitmap (method)
@@ -55,7 +55,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-loadBitmap(): void;
+loadBitmap(): void
 ```
 
 ### setup (method)
@@ -63,7 +63,7 @@ loadBitmap(): void;
 **Signature**
 
 ```ts
-setup(battler: ActionTarget): void;
+setup(battler: ActionTarget): void
 ```
 
 ### update (method)
@@ -71,7 +71,7 @@ setup(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### animationWait (method)
@@ -79,7 +79,7 @@ update(): void;
 **Signature**
 
 ```ts
-animationWait(): number;
+animationWait(): number
 ```
 
 ### updatePattern (method)
@@ -87,7 +87,7 @@ animationWait(): number;
 **Signature**
 
 ```ts
-updatePattern(): void;
+updatePattern(): void
 ```
 
 ### updateFrame (method)
@@ -95,7 +95,7 @@ updatePattern(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### \_battler (property)

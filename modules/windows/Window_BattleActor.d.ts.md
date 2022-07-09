@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleActor.d.ts
-nav_order: 144
+nav_order: 145
 parent: Modules
 ---
 
@@ -40,7 +40,7 @@ export declare class Window_BattleActor {
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -48,7 +48,7 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```
 
 ### select (method)
@@ -56,7 +56,7 @@ hide(): void;
 **Signature**
 
 ```ts
-select(index: number): void;
+select(index: number): void
 ```
 
 ### processTouch (method)
@@ -64,5 +64,5 @@ select(index: number): void;
 **Signature**
 
 ```ts
-processTouch(): void;
+processTouch(): void
 ```

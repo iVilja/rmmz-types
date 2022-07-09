@@ -1,6 +1,6 @@
 ---
 title: managers/DataManager.d.ts
-nav_order: 53
+nav_order: 54
 parent: Modules
 ---
 
@@ -81,7 +81,7 @@ export declare class DataManager {
 **Signature**
 
 ```ts
-static loadGlobalInfo(): Promise<0 | undefined>;
+static loadGlobalInfo(): Promise<0 | undefined>
 ```
 
 ### removeInvalidGlobalInfo (static method)
@@ -89,7 +89,7 @@ static loadGlobalInfo(): Promise<0 | undefined>;
 **Signature**
 
 ```ts
-static removeInvalidGlobalInfo(): void;
+static removeInvalidGlobalInfo(): void
 ```
 
 ### saveGlobalInfo (static method)
@@ -97,7 +97,7 @@ static removeInvalidGlobalInfo(): void;
 **Signature**
 
 ```ts
-static saveGlobalInfo(): void;
+static saveGlobalInfo(): void
 ```
 
 ### isGlobalInfoLoaded (static method)
@@ -105,7 +105,7 @@ static saveGlobalInfo(): void;
 **Signature**
 
 ```ts
-static isGlobalInfoLoaded(): boolean;
+static isGlobalInfoLoaded(): boolean
 ```
 
 ### loadDatabase (static method)
@@ -113,7 +113,7 @@ static isGlobalInfoLoaded(): boolean;
 **Signature**
 
 ```ts
-static loadDatabase(): void;
+static loadDatabase(): void
 ```
 
 ### loadDataFile (static method)
@@ -121,7 +121,7 @@ static loadDatabase(): void;
 **Signature**
 
 ```ts
-static loadDataFile(name: string, src: string): void;
+static loadDataFile(name: string, src: string): void
 ```
 
 ### onXhrLoad (static method)
@@ -129,7 +129,7 @@ static loadDataFile(name: string, src: string): void;
 **Signature**
 
 ```ts
-static onXhrLoad(xhr: XMLHttpRequest, name: string, src: string, url: string): void;
+static onXhrLoad(xhr: XMLHttpRequest, name: string, src: string, url: string): void
 ```
 
 ### onXhrError (static method)
@@ -137,7 +137,7 @@ static onXhrLoad(xhr: XMLHttpRequest, name: string, src: string, url: string): v
 **Signature**
 
 ```ts
-static onXhrError(name: string, src: string, url: string): void;
+static onXhrError(name: string, src: string, url: string): void
 ```
 
 ### isDatabaseLoaded (static method)
@@ -145,7 +145,7 @@ static onXhrError(name: string, src: string, url: string): void;
 **Signature**
 
 ```ts
-static isDatabaseLoaded(): boolean;
+static isDatabaseLoaded(): boolean
 ```
 
 ### loadMapData (static method)
@@ -153,7 +153,7 @@ static isDatabaseLoaded(): boolean;
 **Signature**
 
 ```ts
-static loadMapData(mapId: number): void;
+static loadMapData(mapId: number): void
 ```
 
 ### makeEmptyMap (static method)
@@ -161,7 +161,7 @@ static loadMapData(mapId: number): void;
 **Signature**
 
 ```ts
-static makeEmptyMap(): void;
+static makeEmptyMap(): void
 ```
 
 ### isMapLoaded (static method)
@@ -169,7 +169,7 @@ static makeEmptyMap(): void;
 **Signature**
 
 ```ts
-static isMapLoaded(): boolean;
+static isMapLoaded(): boolean
 ```
 
 ### onLoad (static method)
@@ -177,7 +177,7 @@ static isMapLoaded(): boolean;
 **Signature**
 
 ```ts
-static onLoad(object: unknown): void;
+static onLoad(object: unknown): void
 ```
 
 ### isMapObject (static method)
@@ -185,7 +185,7 @@ static onLoad(object: unknown): void;
 **Signature**
 
 ```ts
-static isMapObject(object: unknown): object is DataMap;
+static isMapObject(object: unknown): object is DataMap
 ```
 
 ### extractArrayMetadata (static method)
@@ -193,7 +193,7 @@ static isMapObject(object: unknown): object is DataMap;
 **Signature**
 
 ```ts
-static extractArrayMetadata(array: unknown): void;
+static extractArrayMetadata(array: unknown): void
 ```
 
 ### extractMetadata (static method)
@@ -201,10 +201,7 @@ static extractArrayMetadata(array: unknown): void;
 **Signature**
 
 ```ts
-static extractMetadata(data: {
-        note: string;
-        meta?: Meta;
-    }): void;
+static extractMetadata(data: { note: string; meta?: Meta }): void
 ```
 
 ### checkError (static method)
@@ -212,7 +209,7 @@ static extractMetadata(data: {
 **Signature**
 
 ```ts
-static checkError(): void;
+static checkError(): void
 ```
 
 ### isBattleTest (static method)
@@ -220,7 +217,7 @@ static checkError(): void;
 **Signature**
 
 ```ts
-static isBattleTest(): boolean;
+static isBattleTest(): boolean
 ```
 
 ### isEventTest (static method)
@@ -228,7 +225,7 @@ static isBattleTest(): boolean;
 **Signature**
 
 ```ts
-static isEventTest(): boolean;
+static isEventTest(): boolean
 ```
 
 ### isSkill (static method)
@@ -236,7 +233,7 @@ static isEventTest(): boolean;
 **Signature**
 
 ```ts
-static isSkill(item: unknown): item is DataSkill;
+static isSkill(item: unknown): item is DataSkill
 ```
 
 ### isItem (static method)
@@ -244,7 +241,7 @@ static isSkill(item: unknown): item is DataSkill;
 **Signature**
 
 ```ts
-static isItem(item: unknown): item is DataItem;
+static isItem(item: unknown): item is DataItem
 ```
 
 ### isWeapon (static method)
@@ -252,7 +249,7 @@ static isItem(item: unknown): item is DataItem;
 **Signature**
 
 ```ts
-static isWeapon(item: unknown): item is DataWeapon;
+static isWeapon(item: unknown): item is DataWeapon
 ```
 
 ### isArmor (static method)
@@ -260,7 +257,7 @@ static isWeapon(item: unknown): item is DataWeapon;
 **Signature**
 
 ```ts
-static isArmor(item: unknown): item is DataArmor;
+static isArmor(item: unknown): item is DataArmor
 ```
 
 ### createGameObjects (static method)
@@ -268,7 +265,7 @@ static isArmor(item: unknown): item is DataArmor;
 **Signature**
 
 ```ts
-static createGameObjects(): void;
+static createGameObjects(): void
 ```
 
 ### setupNewGame (static method)
@@ -276,7 +273,7 @@ static createGameObjects(): void;
 **Signature**
 
 ```ts
-static setupNewGame(): void;
+static setupNewGame(): void
 ```
 
 ### setupBattleTest (static method)
@@ -284,7 +281,7 @@ static setupNewGame(): void;
 **Signature**
 
 ```ts
-static setupBattleTest(): void;
+static setupBattleTest(): void
 ```
 
 ### setupEventTest (static method)
@@ -292,7 +289,7 @@ static setupBattleTest(): void;
 **Signature**
 
 ```ts
-static setupEventTest(): void;
+static setupEventTest(): void
 ```
 
 ### isAnySavefileExists (static method)
@@ -300,7 +297,7 @@ static setupEventTest(): void;
 **Signature**
 
 ```ts
-static isAnySavefileExists(): boolean;
+static isAnySavefileExists(): boolean
 ```
 
 ### latestSavefileId (static method)
@@ -308,7 +305,7 @@ static isAnySavefileExists(): boolean;
 **Signature**
 
 ```ts
-static latestSavefileId(): number;
+static latestSavefileId(): number
 ```
 
 ### earliestSavefileId (static method)
@@ -316,7 +313,7 @@ static latestSavefileId(): number;
 **Signature**
 
 ```ts
-static earliestSavefileId(): number;
+static earliestSavefileId(): number
 ```
 
 ### emptySavefileId (static method)
@@ -324,7 +321,7 @@ static earliestSavefileId(): number;
 **Signature**
 
 ```ts
-static emptySavefileId(): number;
+static emptySavefileId(): number
 ```
 
 ### loadAllSavefileImages (static method)
@@ -332,7 +329,7 @@ static emptySavefileId(): number;
 **Signature**
 
 ```ts
-static loadAllSavefileImages(): void;
+static loadAllSavefileImages(): void
 ```
 
 ### loadSavefileImages (static method)
@@ -340,7 +337,7 @@ static loadAllSavefileImages(): void;
 **Signature**
 
 ```ts
-static loadSavefileImages(info: DataSaveInfo): void;
+static loadSavefileImages(info: DataSaveInfo): void
 ```
 
 ### maxSavefiles (static method)
@@ -348,7 +345,7 @@ static loadSavefileImages(info: DataSaveInfo): void;
 **Signature**
 
 ```ts
-static maxSavefiles(): number;
+static maxSavefiles(): number
 ```
 
 ### savefileInfo (static method)
@@ -356,7 +353,7 @@ static maxSavefiles(): number;
 **Signature**
 
 ```ts
-static savefileInfo(savefileId: number): DataSaveInfo | null | undefined;
+static savefileInfo(savefileId: number): DataSaveInfo | null | undefined
 ```
 
 ### savefileExists (static method)
@@ -364,7 +361,7 @@ static savefileInfo(savefileId: number): DataSaveInfo | null | undefined;
 **Signature**
 
 ```ts
-static savefileExists(savefileId: number): any;
+static savefileExists(savefileId: number): any
 ```
 
 ### saveGame (static method)
@@ -372,7 +369,7 @@ static savefileExists(savefileId: number): any;
 **Signature**
 
 ```ts
-static saveGame(savefileId: number): Promise<number>;
+static saveGame(savefileId: number): Promise<number>
 ```
 
 ### loadGame (static method)
@@ -380,7 +377,7 @@ static saveGame(savefileId: number): Promise<number>;
 **Signature**
 
 ```ts
-static loadGame(savefileId: number): Promise<number>;
+static loadGame(savefileId: number): Promise<number>
 ```
 
 ### makeSavename (static method)
@@ -388,7 +385,7 @@ static loadGame(savefileId: number): Promise<number>;
 **Signature**
 
 ```ts
-static makeSavename(savefileId: number): string;
+static makeSavename(savefileId: number): string
 ```
 
 ### selectSavefileForNewGame (static method)
@@ -396,7 +393,7 @@ static makeSavename(savefileId: number): string;
 **Signature**
 
 ```ts
-static selectSavefileForNewGame(): void;
+static selectSavefileForNewGame(): void
 ```
 
 ### makeSavefileInfo (static method)
@@ -404,7 +401,7 @@ static selectSavefileForNewGame(): void;
 **Signature**
 
 ```ts
-static makeSavefileInfo(): DataSaveInfo;
+static makeSavefileInfo(): DataSaveInfo
 ```
 
 ### makeSaveContents (static method)
@@ -412,7 +409,7 @@ static makeSavefileInfo(): DataSaveInfo;
 **Signature**
 
 ```ts
-static makeSaveContents(): SaveContents;
+static makeSaveContents(): SaveContents
 ```
 
 ### extractSaveContents (static method)
@@ -420,7 +417,7 @@ static makeSaveContents(): SaveContents;
 **Signature**
 
 ```ts
-static extractSaveContents(contents: SaveContents): void;
+static extractSaveContents(contents: SaveContents): void
 ```
 
 ### correctDataErrors (static method)
@@ -428,7 +425,7 @@ static extractSaveContents(contents: SaveContents): void;
 **Signature**
 
 ```ts
-static correctDataErrors(): void;
+static correctDataErrors(): void
 ```
 
 ## RmmzError (interface)

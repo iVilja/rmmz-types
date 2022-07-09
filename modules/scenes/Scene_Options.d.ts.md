@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Options.d.ts
-nav_order: 111
+nav_order: 112
 parent: Modules
 ---
 
@@ -37,7 +37,7 @@ export declare class Scene_Options
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### terminate (method)
@@ -45,7 +45,7 @@ create(): void;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### createOptionsWindow (method)
@@ -53,7 +53,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-createOptionsWindow(): void;
+createOptionsWindow(): void
 ```
 
 ### optionsWindowRect (method)
@@ -61,7 +61,7 @@ createOptionsWindow(): void;
 **Signature**
 
 ```ts
-optionsWindowRect(): Rectangle;
+optionsWindowRect(): Rectangle
 ```
 
 ### maxCommands (method)
@@ -69,7 +69,7 @@ optionsWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-maxCommands(): number;
+maxCommands(): number
 ```
 
 ### maxVisibleCommands (method)
@@ -77,7 +77,7 @@ maxCommands(): number;
 **Signature**
 
 ```ts
-maxVisibleCommands(): number;
+maxVisibleCommands(): number
 ```
 
 ### \_optionsWindow (property)

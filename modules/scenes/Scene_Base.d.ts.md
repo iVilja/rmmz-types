@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Base.d.ts
-nav_order: 95
+nav_order: 96
 parent: Modules
 ---
 
@@ -79,7 +79,7 @@ export declare class Scene_Base {
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### isActive (method)
@@ -87,7 +87,7 @@ create(): void;
 **Signature**
 
 ```ts
-isActive(): boolean;
+isActive(): boolean
 ```
 
 ### isReady (method)
@@ -95,7 +95,7 @@ isActive(): boolean;
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### start (method)
@@ -103,7 +103,7 @@ isReady(): boolean;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -111,7 +111,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### stop (method)
@@ -119,7 +119,7 @@ update(): void;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### isStarted (method)
@@ -127,7 +127,7 @@ stop(): void;
 **Signature**
 
 ```ts
-isStarted(): boolean;
+isStarted(): boolean
 ```
 
 ### isBusy (method)
@@ -135,7 +135,7 @@ isStarted(): boolean;
 **Signature**
 
 ```ts
-isBusy(): boolean;
+isBusy(): boolean
 ```
 
 ### isFading (method)
@@ -143,7 +143,7 @@ isBusy(): boolean;
 **Signature**
 
 ```ts
-isFading(): boolean;
+isFading(): boolean
 ```
 
 ### terminate (method)
@@ -151,7 +151,7 @@ isFading(): boolean;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### createWindowLayer (method)
@@ -159,7 +159,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-createWindowLayer(): void;
+createWindowLayer(): void
 ```
 
 ### addWindow (method)
@@ -167,7 +167,7 @@ createWindowLayer(): void;
 **Signature**
 
 ```ts
-addWindow(window: PIXI.Container): void;
+addWindow(window: PIXI.Container): void
 ```
 
 ### startFadeIn (method)
@@ -175,7 +175,7 @@ addWindow(window: PIXI.Container): void;
 **Signature**
 
 ```ts
-startFadeIn(duration: number, white?: number | boolean): void;
+startFadeIn(duration: number, white?: number | boolean): void
 ```
 
 ### startFadeOut (method)
@@ -183,7 +183,7 @@ startFadeIn(duration: number, white?: number | boolean): void;
 **Signature**
 
 ```ts
-startFadeOut(duration: number, white?: number | boolean): void;
+startFadeOut(duration: number, white?: number | boolean): void
 ```
 
 ### createColorFilter (method)
@@ -191,7 +191,7 @@ startFadeOut(duration: number, white?: number | boolean): void;
 **Signature**
 
 ```ts
-createColorFilter(): void;
+createColorFilter(): void
 ```
 
 ### updateColorFilter (method)
@@ -199,7 +199,7 @@ createColorFilter(): void;
 **Signature**
 
 ```ts
-updateColorFilter(): void;
+updateColorFilter(): void
 ```
 
 ### updateFade (method)
@@ -207,7 +207,7 @@ updateColorFilter(): void;
 **Signature**
 
 ```ts
-updateFade(): void;
+updateFade(): void
 ```
 
 ### updateChildren (method)
@@ -215,7 +215,7 @@ updateFade(): void;
 **Signature**
 
 ```ts
-updateChildren(): void;
+updateChildren(): void
 ```
 
 ### popScene (method)
@@ -223,7 +223,7 @@ updateChildren(): void;
 **Signature**
 
 ```ts
-popScene(): void;
+popScene(): void
 ```
 
 ### checkGameover (method)
@@ -231,7 +231,7 @@ popScene(): void;
 **Signature**
 
 ```ts
-checkGameover(): void;
+checkGameover(): void
 ```
 
 ### fadeOutAll (method)
@@ -239,7 +239,7 @@ checkGameover(): void;
 **Signature**
 
 ```ts
-fadeOutAll(): void;
+fadeOutAll(): void
 ```
 
 ### fadeSpeed (method)
@@ -247,7 +247,7 @@ fadeOutAll(): void;
 **Signature**
 
 ```ts
-fadeSpeed(): number;
+fadeSpeed(): number
 ```
 
 ### slowFadeSpeed (method)
@@ -255,7 +255,7 @@ fadeSpeed(): number;
 **Signature**
 
 ```ts
-slowFadeSpeed(): number;
+slowFadeSpeed(): number
 ```
 
 ### scaleSprite (method)
@@ -263,7 +263,7 @@ slowFadeSpeed(): number;
 **Signature**
 
 ```ts
-scaleSprite(sprite: Sprite): void;
+scaleSprite(sprite: Sprite): void
 ```
 
 ### centerSprite (method)
@@ -271,7 +271,7 @@ scaleSprite(sprite: Sprite): void;
 **Signature**
 
 ```ts
-centerSprite(sprite: Sprite): void;
+centerSprite(sprite: Sprite): void
 ```
 
 ### isBottomHelpMode (method)
@@ -279,7 +279,7 @@ centerSprite(sprite: Sprite): void;
 **Signature**
 
 ```ts
-isBottomHelpMode(): boolean;
+isBottomHelpMode(): boolean
 ```
 
 ### isBottomButtonMode (method)
@@ -287,7 +287,7 @@ isBottomHelpMode(): boolean;
 **Signature**
 
 ```ts
-isBottomButtonMode(): boolean;
+isBottomButtonMode(): boolean
 ```
 
 ### isRightInputMode (method)
@@ -295,7 +295,7 @@ isBottomButtonMode(): boolean;
 **Signature**
 
 ```ts
-isRightInputMode(): boolean;
+isRightInputMode(): boolean
 ```
 
 ### mainCommandWidth (method)
@@ -303,7 +303,7 @@ isRightInputMode(): boolean;
 **Signature**
 
 ```ts
-mainCommandWidth(): number;
+mainCommandWidth(): number
 ```
 
 ### buttonAreaTop (method)
@@ -311,7 +311,7 @@ mainCommandWidth(): number;
 **Signature**
 
 ```ts
-buttonAreaTop(): number;
+buttonAreaTop(): number
 ```
 
 ### buttonAreaBottom (method)
@@ -319,7 +319,7 @@ buttonAreaTop(): number;
 **Signature**
 
 ```ts
-buttonAreaBottom(): number;
+buttonAreaBottom(): number
 ```
 
 ### buttonAreaHeight (method)
@@ -327,7 +327,7 @@ buttonAreaBottom(): number;
 **Signature**
 
 ```ts
-buttonAreaHeight(): number;
+buttonAreaHeight(): number
 ```
 
 ### buttonY (method)
@@ -335,7 +335,7 @@ buttonAreaHeight(): number;
 **Signature**
 
 ```ts
-buttonY(): number;
+buttonY(): number
 ```
 
 ### calcWindowHeight (method)
@@ -343,7 +343,7 @@ buttonY(): number;
 **Signature**
 
 ```ts
-calcWindowHeight(numLines: number, selectable: boolean): number;
+calcWindowHeight(numLines: number, selectable: boolean): number
 ```
 
 ### requestAutosave (method)
@@ -351,7 +351,7 @@ calcWindowHeight(numLines: number, selectable: boolean): number;
 **Signature**
 
 ```ts
-requestAutosave(): void;
+requestAutosave(): void
 ```
 
 ### isAutosaveEnabled (method)
@@ -359,7 +359,7 @@ requestAutosave(): void;
 **Signature**
 
 ```ts
-isAutosaveEnabled(): boolean;
+isAutosaveEnabled(): boolean
 ```
 
 ### executeAutosave (method)
@@ -367,7 +367,7 @@ isAutosaveEnabled(): boolean;
 **Signature**
 
 ```ts
-executeAutosave(): void;
+executeAutosave(): void
 ```
 
 ### onAutosaveSuccess (method)
@@ -375,7 +375,7 @@ executeAutosave(): void;
 **Signature**
 
 ```ts
-onAutosaveSuccess(): void;
+onAutosaveSuccess(): void
 ```
 
 ### onAutosaveFailure (method)
@@ -383,7 +383,7 @@ onAutosaveSuccess(): void;
 **Signature**
 
 ```ts
-onAutosaveFailure(): void;
+onAutosaveFailure(): void
 ```
 
 ### \_started (property)

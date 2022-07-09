@@ -104,7 +104,7 @@ Destroys the window.
 **Signature**
 
 ```ts
-destroy(_options?: PIXI.IDestroyOptions | boolean): void;
+destroy(_options?: PIXIDestroyOptions): void
 ```
 
 ### update (method)
@@ -114,7 +114,7 @@ Updates the window for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### move (method)
@@ -124,7 +124,7 @@ Sets the x, y, width, and height all at once.
 **Signature**
 
 ```ts
-move(x: number, y: number, width: number, height: number): void;
+move(x: number, y: number, width: number, height: number): void
 ```
 
 ### isOpen (method)
@@ -134,7 +134,7 @@ Checks whether the window is completely open (openness == 255).
 **Signature**
 
 ```ts
-isOpen(): boolean;
+isOpen(): boolean
 ```
 
 ### isClosed (method)
@@ -144,7 +144,7 @@ Checks whether the window is completely closed (openness == 0).
 **Signature**
 
 ```ts
-isClosed(): boolean;
+isClosed(): boolean
 ```
 
 ### setCursorRect (method)
@@ -154,7 +154,7 @@ Sets the position of the command cursor.
 **Signature**
 
 ```ts
-setCursorRect(x: number, y: number, width: number, height: number): void;
+setCursorRect(x: number, y: number, width: number, height: number): void
 ```
 
 ### moveCursorBy (method)
@@ -164,7 +164,7 @@ Moves the cursor position by the given amount.
 **Signature**
 
 ```ts
-moveCursorBy(x: number, y: number): void;
+moveCursorBy(x: number, y: number): void
 ```
 
 ### moveInnerChildrenBy (method)
@@ -174,7 +174,7 @@ Moves the inner children by the given amount.
 **Signature**
 
 ```ts
-moveInnerChildrenBy(x: number, y: number): void;
+moveInnerChildrenBy(x: number, y: number): void
 ```
 
 ### setTone (method)
@@ -184,7 +184,7 @@ Changes the color of the background.
 **Signature**
 
 ```ts
-setTone(r: number, g: number, b: number): void;
+setTone(r: number, g: number, b: number): void
 ```
 
 ### addChildToBack (method)
@@ -194,7 +194,7 @@ Adds a child between the background and contents.
 **Signature**
 
 ```ts
-addChildToBack(child: PIXI.DisplayObject): PIXI.DisplayObject;
+addChildToBack(child: PIXI.DisplayObject): PIXI.DisplayObject
 ```
 
 ### addInnerChild (method)
@@ -204,7 +204,7 @@ Adds a child to the client area.
 **Signature**
 
 ```ts
-addInnerChild(child: PIXI.DisplayObject): PIXI.DisplayObject;
+addInnerChild(child: PIXI.DisplayObject): PIXI.DisplayObject
 ```
 
 ### updateTransform (method)
@@ -214,7 +214,7 @@ Updates the transform on all children of this container for rendering.
 **Signature**
 
 ```ts
-updateTransform(): void;
+updateTransform(): void
 ```
 
 ### drawShape (method)
@@ -224,7 +224,7 @@ Draws the window shape into PIXI.Graphics object. Used by WindowLayer.
 **Signature**
 
 ```ts
-drawShape(graphics: PIXI.Graphics): void;
+drawShape(graphics: PIXI.Graphics): void
 ```
 
 ### \_createAllParts (method)
@@ -232,7 +232,7 @@ drawShape(graphics: PIXI.Graphics): void;
 **Signature**
 
 ```ts
-_createAllParts(): void;
+_createAllParts(): void
 ```
 
 ### \_createContainer (method)
@@ -240,7 +240,7 @@ _createAllParts(): void;
 **Signature**
 
 ```ts
-_createContainer(): void;
+_createContainer(): void
 ```
 
 ### \_createBackSprite (method)
@@ -248,7 +248,7 @@ _createContainer(): void;
 **Signature**
 
 ```ts
-_createBackSprite(): void;
+_createBackSprite(): void
 ```
 
 ### \_createFrameSprite (method)
@@ -256,7 +256,7 @@ _createBackSprite(): void;
 **Signature**
 
 ```ts
-_createFrameSprite(): void;
+_createFrameSprite(): void
 ```
 
 ### \_createClientArea (method)
@@ -264,7 +264,7 @@ _createFrameSprite(): void;
 **Signature**
 
 ```ts
-_createClientArea(): void;
+_createClientArea(): void
 ```
 
 ### \_createContentsBackSprite (method)
@@ -272,7 +272,7 @@ _createClientArea(): void;
 **Signature**
 
 ```ts
-_createContentsBackSprite(): void;
+_createContentsBackSprite(): void
 ```
 
 ### \_createCursorSprite (method)
@@ -280,7 +280,7 @@ _createContentsBackSprite(): void;
 **Signature**
 
 ```ts
-_createCursorSprite(): void;
+_createCursorSprite(): void
 ```
 
 ### \_createContentsSprite (method)
@@ -288,7 +288,7 @@ _createCursorSprite(): void;
 **Signature**
 
 ```ts
-_createContentsSprite(): void;
+_createContentsSprite(): void
 ```
 
 ### \_createArrowSprites (method)
@@ -296,7 +296,7 @@ _createContentsSprite(): void;
 **Signature**
 
 ```ts
-_createArrowSprites(): void;
+_createArrowSprites(): void
 ```
 
 ### \_createPauseSignSprites (method)
@@ -304,7 +304,7 @@ _createArrowSprites(): void;
 **Signature**
 
 ```ts
-_createPauseSignSprites(): void;
+_createPauseSignSprites(): void
 ```
 
 ### \_onWindowskinLoad (method)
@@ -312,7 +312,7 @@ _createPauseSignSprites(): void;
 **Signature**
 
 ```ts
-_onWindowskinLoad(): void;
+_onWindowskinLoad(): void
 ```
 
 ### \_refreshAllParts (method)
@@ -320,7 +320,7 @@ _onWindowskinLoad(): void;
 **Signature**
 
 ```ts
-_refreshAllParts(): void;
+_refreshAllParts(): void
 ```
 
 ### \_refreshBack (method)
@@ -328,7 +328,7 @@ _refreshAllParts(): void;
 **Signature**
 
 ```ts
-_refreshBack(): void;
+_refreshBack(): void
 ```
 
 ### \_refreshFrame (method)
@@ -336,7 +336,7 @@ _refreshBack(): void;
 **Signature**
 
 ```ts
-_refreshFrame(): void;
+_refreshFrame(): void
 ```
 
 ### \_refreshCursor (method)
@@ -344,7 +344,7 @@ _refreshFrame(): void;
 **Signature**
 
 ```ts
-_refreshCursor(): void;
+_refreshCursor(): void
 ```
 
 ### \_setRectPartsGeometry (method)
@@ -352,7 +352,7 @@ _refreshCursor(): void;
 **Signature**
 
 ```ts
-_setRectPartsGeometry(sprite: Sprite<null>, srect: Rectangle, drect: Rectangle, m: number): void;
+_setRectPartsGeometry(sprite: Sprite<null>, srect: Rectangle, drect: Rectangle, m: number): void
 ```
 
 ### \_refreshArrows (method)
@@ -360,7 +360,7 @@ _setRectPartsGeometry(sprite: Sprite<null>, srect: Rectangle, drect: Rectangle, 
 **Signature**
 
 ```ts
-_refreshArrows(): void;
+_refreshArrows(): void
 ```
 
 ### \_refreshPauseSign (method)
@@ -368,7 +368,7 @@ _refreshArrows(): void;
 **Signature**
 
 ```ts
-_refreshPauseSign(): void;
+_refreshPauseSign(): void
 ```
 
 ### \_updateClientArea (method)
@@ -376,7 +376,7 @@ _refreshPauseSign(): void;
 **Signature**
 
 ```ts
-_updateClientArea(): void;
+_updateClientArea(): void
 ```
 
 ### \_updateFrame (method)
@@ -384,7 +384,7 @@ _updateClientArea(): void;
 **Signature**
 
 ```ts
-_updateFrame(): void;
+_updateFrame(): void
 ```
 
 ### \_updateContentsBack (method)
@@ -392,7 +392,7 @@ _updateFrame(): void;
 **Signature**
 
 ```ts
-_updateContentsBack(): void;
+_updateContentsBack(): void
 ```
 
 ### \_updateCursor (method)
@@ -400,7 +400,7 @@ _updateContentsBack(): void;
 **Signature**
 
 ```ts
-_updateCursor(): void;
+_updateCursor(): void
 ```
 
 ### \_makeCursorAlpha (method)
@@ -408,7 +408,7 @@ _updateCursor(): void;
 **Signature**
 
 ```ts
-_makeCursorAlpha(): number;
+_makeCursorAlpha(): number
 ```
 
 ### \_updateContents (method)
@@ -416,7 +416,7 @@ _makeCursorAlpha(): number;
 **Signature**
 
 ```ts
-_updateContents(): void;
+_updateContents(): void
 ```
 
 ### \_updateArrows (method)
@@ -424,7 +424,7 @@ _updateContents(): void;
 **Signature**
 
 ```ts
-_updateArrows(): void;
+_updateArrows(): void
 ```
 
 ### \_updatePauseSign (method)
@@ -432,7 +432,7 @@ _updateArrows(): void;
 **Signature**
 
 ```ts
-_updatePauseSign(): void;
+_updatePauseSign(): void
 ```
 
 ### \_updateFilterArea (method)
@@ -440,7 +440,7 @@ _updatePauseSign(): void;
 **Signature**
 
 ```ts
-_updateFilterArea(): void;
+_updateFilterArea(): void
 ```
 
 ### \_isWindow (property)

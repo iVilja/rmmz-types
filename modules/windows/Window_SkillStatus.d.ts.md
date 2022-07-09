@@ -1,6 +1,6 @@
 ---
 title: windows/Window_SkillStatus.d.ts
-nav_order: 186
+nav_order: 187
 parent: Modules
 ---
 
@@ -37,7 +37,7 @@ export declare class Window_SkillStatus
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### refresh (method)
@@ -45,7 +45,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_actor (property)

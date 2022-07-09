@@ -37,7 +37,7 @@ export declare class WindowLayer {
 **Signature**
 
 ```ts
-initialize(): void;
+initialize(): void
 ```
 
 ### update (method)
@@ -47,7 +47,7 @@ Updates the window layer for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### render (method)
@@ -57,5 +57,5 @@ Renders the object using the WebGL renderer.
 **Signature**
 
 ```ts
-render(renderer: PIXI.Renderer): void;
+render(renderer: PIXI.Renderer): void
 ```

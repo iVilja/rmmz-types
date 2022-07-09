@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_StateIcon.d.ts
-nav_order: 133
+nav_order: 134
 parent: Modules
 ---
 
@@ -48,7 +48,7 @@ export declare class Sprite_StateIcon {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### loadBitmap (method)
@@ -56,7 +56,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-loadBitmap(): void;
+loadBitmap(): void
 ```
 
 ### setup (method)
@@ -64,7 +64,7 @@ loadBitmap(): void;
 **Signature**
 
 ```ts
-setup(battler: ActionTarget): void;
+setup(battler: ActionTarget): void
 ```
 
 ### update (method)
@@ -72,7 +72,7 @@ setup(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### animationWait (method)
@@ -80,7 +80,7 @@ update(): void;
 **Signature**
 
 ```ts
-animationWait(): number;
+animationWait(): number
 ```
 
 ### updateIcon (method)
@@ -88,7 +88,7 @@ animationWait(): number;
 **Signature**
 
 ```ts
-updateIcon(): void;
+updateIcon(): void
 ```
 
 ### shouldDisplay (method)
@@ -97,8 +97,8 @@ updateIcon(): void;
 
 ```ts
 shouldDisplay(): this is {
-        _battler: ActionTarget;
-    };
+    _battler: ActionTarget
+  }
 ```
 
 ### updateFrame (method)
@@ -106,7 +106,7 @@ shouldDisplay(): this is {
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### \_battler (property)

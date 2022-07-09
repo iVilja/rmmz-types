@@ -6,8 +6,6 @@ parent: Modules
 
 ## Tilemap.d overview
 
-/// <reference types="@pixi/core" />
-
 ---
 
 <h2 class="text-delta">Table of contents</h2>
@@ -103,7 +101,7 @@ export declare class Tilemap {
 **Signature**
 
 ```ts
-static isVisibleTile(tileId: TileID): boolean;
+static isVisibleTile(tileId: TileID): boolean
 ```
 
 ### isAutotile (static method)
@@ -111,7 +109,7 @@ static isVisibleTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isAutotile(tileId: TileID): boolean;
+static isAutotile(tileId: TileID): boolean
 ```
 
 ### getAutotileKind (static method)
@@ -119,7 +117,7 @@ static isAutotile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static getAutotileKind(tileId: TileID): number;
+static getAutotileKind(tileId: TileID): number
 ```
 
 ### getAutotileShape (static method)
@@ -127,7 +125,7 @@ static getAutotileKind(tileId: TileID): number;
 **Signature**
 
 ```ts
-static getAutotileShape(tileId: TileID): number;
+static getAutotileShape(tileId: TileID): number
 ```
 
 ### makeAutotileId (static method)
@@ -135,7 +133,7 @@ static getAutotileShape(tileId: TileID): number;
 **Signature**
 
 ```ts
-static makeAutotileId(kind: number, shape: number): number;
+static makeAutotileId(kind: number, shape: number): number
 ```
 
 ### isSameKindTile (static method)
@@ -143,7 +141,7 @@ static makeAutotileId(kind: number, shape: number): number;
 **Signature**
 
 ```ts
-static isSameKindTile(tileID1: number, tileID2: number): boolean;
+static isSameKindTile(tileID1: number, tileID2: number): boolean
 ```
 
 ### isTileA1 (static method)
@@ -151,7 +149,7 @@ static isSameKindTile(tileID1: number, tileID2: number): boolean;
 **Signature**
 
 ```ts
-static isTileA1(tileId: TileID): boolean;
+static isTileA1(tileId: TileID): boolean
 ```
 
 ### isTileA2 (static method)
@@ -159,7 +157,7 @@ static isTileA1(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isTileA2(tileId: TileID): boolean;
+static isTileA2(tileId: TileID): boolean
 ```
 
 ### isTileA3 (static method)
@@ -167,7 +165,7 @@ static isTileA2(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isTileA3(tileId: TileID): boolean;
+static isTileA3(tileId: TileID): boolean
 ```
 
 ### isTileA4 (static method)
@@ -175,7 +173,7 @@ static isTileA3(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isTileA4(tileId: TileID): boolean;
+static isTileA4(tileId: TileID): boolean
 ```
 
 ### isTileA5 (static method)
@@ -183,7 +181,7 @@ static isTileA4(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isTileA5(tileId: TileID): boolean;
+static isTileA5(tileId: TileID): boolean
 ```
 
 ### isWaterTile (static method)
@@ -191,7 +189,7 @@ static isTileA5(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWaterTile(tileId: TileID): boolean;
+static isWaterTile(tileId: TileID): boolean
 ```
 
 ### isWaterfallTile (static method)
@@ -199,7 +197,7 @@ static isWaterTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWaterfallTile(tileId: TileID): boolean;
+static isWaterfallTile(tileId: TileID): boolean
 ```
 
 ### isGroundTile (static method)
@@ -207,7 +205,7 @@ static isWaterfallTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isGroundTile(tileId: TileID): boolean;
+static isGroundTile(tileId: TileID): boolean
 ```
 
 ### isShadowingTile (static method)
@@ -215,7 +213,7 @@ static isGroundTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isShadowingTile(tileId: TileID): boolean;
+static isShadowingTile(tileId: TileID): boolean
 ```
 
 ### isRoofTile (static method)
@@ -223,7 +221,7 @@ static isShadowingTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isRoofTile(tileId: TileID): boolean;
+static isRoofTile(tileId: TileID): boolean
 ```
 
 ### isWallTopTile (static method)
@@ -231,7 +229,7 @@ static isRoofTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWallTopTile(tileId: TileID): boolean;
+static isWallTopTile(tileId: TileID): boolean
 ```
 
 ### isWallSideTile (static method)
@@ -239,7 +237,7 @@ static isWallTopTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWallSideTile(tileId: TileID): boolean;
+static isWallSideTile(tileId: TileID): boolean
 ```
 
 ### isWallTile (static method)
@@ -247,7 +245,7 @@ static isWallSideTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWallTile(tileId: TileID): boolean;
+static isWallTile(tileId: TileID): boolean
 ```
 
 ### isFloorTypeAutotile (static method)
@@ -255,7 +253,7 @@ static isWallTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isFloorTypeAutotile(tileId: TileID): boolean;
+static isFloorTypeAutotile(tileId: TileID): boolean
 ```
 
 ### isWallTypeAutotile (static method)
@@ -263,7 +261,7 @@ static isFloorTypeAutotile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWallTypeAutotile(tileId: TileID): boolean;
+static isWallTypeAutotile(tileId: TileID): boolean
 ```
 
 ### isWaterfallTypeAutotile (static method)
@@ -271,7 +269,7 @@ static isWallTypeAutotile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-static isWaterfallTypeAutotile(tileId: TileID): boolean;
+static isWaterfallTypeAutotile(tileId: TileID): boolean
 ```
 
 ### destroy (method)
@@ -281,7 +279,7 @@ Destroys the tilemap.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### setData (method)
@@ -291,7 +289,7 @@ Sets the tilemap data.
 **Signature**
 
 ```ts
-setData(width: number, height: number, data: number[]): void;
+setData(width: number, height: number, data: number[]): void
 ```
 
 ### isReady (method)
@@ -301,7 +299,7 @@ Checks whether the tileset is ready to render.
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### update (method)
@@ -311,7 +309,7 @@ Updates the tilemap for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### setBitmaps (method)
@@ -321,7 +319,7 @@ Sets the bitmaps used as a tileset.
 **Signature**
 
 ```ts
-setBitmaps(bitmaps: Bitmap[]): void;
+setBitmaps(bitmaps: Bitmap[]): void
 ```
 
 ### refresh (method)
@@ -331,7 +329,7 @@ Forces to repaint the entire tilemap.
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### updateTransform (method)
@@ -341,7 +339,7 @@ Updates the transform on all children of this container for rendering.
 **Signature**
 
 ```ts
-updateTransform(): void;
+updateTransform(): void
 ```
 
 ### \_createLayers (method)
@@ -349,7 +347,7 @@ updateTransform(): void;
 **Signature**
 
 ```ts
-_createLayers(): void;
+_createLayers(): void
 ```
 
 ### \_updateBitmaps (method)
@@ -357,7 +355,7 @@ _createLayers(): void;
 **Signature**
 
 ```ts
-_updateBitmaps(): void;
+_updateBitmaps(): void
 ```
 
 ### \_addAllSpots (method)
@@ -365,7 +363,7 @@ _updateBitmaps(): void;
 **Signature**
 
 ```ts
-_addAllSpots(startX: number, startY: number): void;
+_addAllSpots(startX: number, startY: number): void
 ```
 
 ### \_addSpot (method)
@@ -373,7 +371,7 @@ _addAllSpots(startX: number, startY: number): void;
 **Signature**
 
 ```ts
-_addSpot(startX: number, startY: number, x: number, y: number): void;
+_addSpot(startX: number, startY: number, x: number, y: number): void
 ```
 
 ### \_addSpotTile (method)
@@ -381,7 +379,7 @@ _addSpot(startX: number, startY: number, x: number, y: number): void;
 **Signature**
 
 ```ts
-_addSpotTile(tileId: TileID, dx: number, dy: number): void;
+_addSpotTile(tileId: TileID, dx: number, dy: number): void
 ```
 
 ### \_addTile (method)
@@ -389,7 +387,7 @@ _addSpotTile(tileId: TileID, dx: number, dy: number): void;
 **Signature**
 
 ```ts
-_addTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void;
+_addTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void
 ```
 
 ### \_addNormalTile (method)
@@ -397,7 +395,7 @@ _addTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void;
 **Signature**
 
 ```ts
-_addNormalTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void;
+_addNormalTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void
 ```
 
 ### \_addAutotile (method)
@@ -405,7 +403,7 @@ _addNormalTile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): vo
 **Signature**
 
 ```ts
-_addAutotile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void;
+_addAutotile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void
 ```
 
 ### \_addTableEdge (method)
@@ -413,7 +411,7 @@ _addAutotile(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void
 **Signature**
 
 ```ts
-_addTableEdge(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void;
+_addTableEdge(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): void
 ```
 
 ### \_addShadow (method)
@@ -421,7 +419,7 @@ _addTableEdge(layer: Tilemap.Layer, tileId: TileID, dx: number, dy: number): voi
 **Signature**
 
 ```ts
-_addShadow(layer: Tilemap.Layer, shadowBits: number, dx: number, dy: number): void;
+_addShadow(layer: Tilemap.Layer, shadowBits: number, dx: number, dy: number): void
 ```
 
 ### \_readMapData (method)
@@ -429,7 +427,7 @@ _addShadow(layer: Tilemap.Layer, shadowBits: number, dx: number, dy: number): vo
 **Signature**
 
 ```ts
-_readMapData(x: number, y: number, z: number): number;
+_readMapData(x: number, y: number, z: number): number
 ```
 
 ### \_isHigherTile (method)
@@ -437,7 +435,7 @@ _readMapData(x: number, y: number, z: number): number;
 **Signature**
 
 ```ts
-_isHigherTile(tileId: TileID): boolean;
+_isHigherTile(tileId: TileID): boolean
 ```
 
 ### \_isTableTile (method)
@@ -445,7 +443,7 @@ _isHigherTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-_isTableTile(tileId: TileID): boolean;
+_isTableTile(tileId: TileID): boolean
 ```
 
 ### \_isOverpassPosition (method)
@@ -453,7 +451,7 @@ _isTableTile(tileId: TileID): boolean;
 **Signature**
 
 ```ts
-_isOverpassPosition(_mx?: number, _my?: number): boolean;
+_isOverpassPosition(_mx?: number, _my?: number): boolean
 ```
 
 ### \_sortChildren (method)
@@ -461,7 +459,7 @@ _isOverpassPosition(_mx?: number, _my?: number): boolean;
 **Signature**
 
 ```ts
-_sortChildren(): void;
+_sortChildren(): void
 ```
 
 ### \_compareChildOrder (method)
@@ -469,7 +467,7 @@ _sortChildren(): void;
 **Signature**
 
 ```ts
-_compareChildOrder(a: Sprite, b: Sprite): number;
+_compareChildOrder(a: Sprite, b: Sprite): number
 ```
 
 ### \_width (property)

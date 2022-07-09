@@ -41,7 +41,7 @@ Sets the hue rotation value.
 **Signature**
 
 ```ts
-setHue(hue: number): void;
+setHue(hue: number): void
 ```
 
 ### setColorTone (method)
@@ -51,7 +51,7 @@ Sets the color tone.
 **Signature**
 
 ```ts
-setColorTone(tone: Color): void;
+setColorTone(tone: Color): void
 ```
 
 ### setBlendColor (method)
@@ -61,7 +61,7 @@ Sets the blend color.
 **Signature**
 
 ```ts
-setBlendColor(color: Color): void;
+setBlendColor(color: Color): void
 ```
 
 ### setBrightness (method)
@@ -71,7 +71,7 @@ Sets the brightness.
 **Signature**
 
 ```ts
-setBrightness(brightness: number): void;
+setBrightness(brightness: number): void
 ```
 
 ### \_fragmentSrc (method)
@@ -79,5 +79,5 @@ setBrightness(brightness: number): void;
 **Signature**
 
 ```ts
-_fragmentSrc(): string;
+_fragmentSrc(): string
 ```

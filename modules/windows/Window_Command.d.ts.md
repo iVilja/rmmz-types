@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Command.d.ts
-nav_order: 151
+nav_order: 152
 parent: Modules
 ---
 
@@ -71,7 +71,7 @@ export declare class Window_Command {
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### clearCommandList (method)
@@ -79,7 +79,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-clearCommandList(): void;
+clearCommandList(): void
 ```
 
 ### makeCommandList (method)
@@ -87,7 +87,7 @@ clearCommandList(): void;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### addCommand (method)
@@ -95,7 +95,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-addCommand(name: string, symbol: string, enabled?: boolean, ext?: number | null): void;
+addCommand(name: string, symbol: string, enabled?: boolean, ext?: number | null): void
 ```
 
 ### commandName (method)
@@ -103,7 +103,7 @@ addCommand(name: string, symbol: string, enabled?: boolean, ext?: number | null)
 **Signature**
 
 ```ts
-commandName(index: number): string;
+commandName(index: number): string
 ```
 
 ### commandSymbol (method)
@@ -111,7 +111,7 @@ commandName(index: number): string;
 **Signature**
 
 ```ts
-commandSymbol(index: number): string;
+commandSymbol(index: number): string
 ```
 
 ### isCommandEnabled (method)
@@ -119,7 +119,7 @@ commandSymbol(index: number): string;
 **Signature**
 
 ```ts
-isCommandEnabled(index: number): boolean;
+isCommandEnabled(index: number): boolean
 ```
 
 ### currentData (method)
@@ -127,7 +127,7 @@ isCommandEnabled(index: number): boolean;
 **Signature**
 
 ```ts
-currentData(): WindowCommand | null;
+currentData(): WindowCommand | null
 ```
 
 ### isCurrentItemEnabled (method)
@@ -135,7 +135,7 @@ currentData(): WindowCommand | null;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### currentSymbol (method)
@@ -143,7 +143,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-currentSymbol(): string | null;
+currentSymbol(): string | null
 ```
 
 ### currentExt (method)
@@ -151,7 +151,7 @@ currentSymbol(): string | null;
 **Signature**
 
 ```ts
-currentExt(): number | null;
+currentExt(): number | null
 ```
 
 ### findSymbol (method)
@@ -159,7 +159,7 @@ currentExt(): number | null;
 **Signature**
 
 ```ts
-findSymbol(symbol: string | null): number;
+findSymbol(symbol: string | null): number
 ```
 
 ### selectSymbol (method)
@@ -167,7 +167,7 @@ findSymbol(symbol: string | null): number;
 **Signature**
 
 ```ts
-selectSymbol(symbol: string | null): void;
+selectSymbol(symbol: string | null): void
 ```
 
 ### findExt (method)
@@ -175,7 +175,7 @@ selectSymbol(symbol: string | null): void;
 **Signature**
 
 ```ts
-findExt(ext: number): number;
+findExt(ext: number): number
 ```
 
 ### selectExt (method)
@@ -183,7 +183,7 @@ findExt(ext: number): number;
 **Signature**
 
 ```ts
-selectExt(ext: number): void;
+selectExt(ext: number): void
 ```
 
 ### drawItem (method)
@@ -191,7 +191,7 @@ selectExt(ext: number): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### itemTextAlign (method)
@@ -199,7 +199,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-itemTextAlign(): CanvasTextAlign;
+itemTextAlign(): CanvasTextAlign
 ```
 
 ### isOkEnabled (method)
@@ -207,7 +207,7 @@ itemTextAlign(): CanvasTextAlign;
 **Signature**
 
 ```ts
-isOkEnabled(): boolean;
+isOkEnabled(): boolean
 ```
 
 ### callOkHandler (method)
@@ -215,7 +215,7 @@ isOkEnabled(): boolean;
 **Signature**
 
 ```ts
-callOkHandler(): void;
+callOkHandler(): void
 ```
 
 ### refresh (method)
@@ -223,7 +223,7 @@ callOkHandler(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_list (property)

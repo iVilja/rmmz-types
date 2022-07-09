@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Balloon.d.ts
-nav_order: 121
+nav_order: 122
 parent: Modules
 ---
 
@@ -50,7 +50,7 @@ export declare class Sprite_Balloon {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### loadBitmap (method)
@@ -58,7 +58,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-loadBitmap(): void;
+loadBitmap(): void
 ```
 
 ### setup (method)
@@ -66,7 +66,7 @@ loadBitmap(): void;
 **Signature**
 
 ```ts
-setup(targetSprite: Sprite, balloonId: BalloonIconID): void;
+setup(targetSprite: Sprite, balloonId: BalloonIconID): void
 ```
 
 ### update (method)
@@ -74,7 +74,7 @@ setup(targetSprite: Sprite, balloonId: BalloonIconID): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updatePosition (method)
@@ -82,7 +82,7 @@ update(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateFrame (method)
@@ -90,7 +90,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### speed (method)
@@ -98,7 +98,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-speed(): number;
+speed(): number
 ```
 
 ### waitTime (method)
@@ -106,7 +106,7 @@ speed(): number;
 **Signature**
 
 ```ts
-waitTime(): number;
+waitTime(): number
 ```
 
 ### frameIndex (method)
@@ -114,7 +114,7 @@ waitTime(): number;
 **Signature**
 
 ```ts
-frameIndex(): number;
+frameIndex(): number
 ```
 
 ### isPlaying (method)
@@ -122,7 +122,7 @@ frameIndex(): number;
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### \_target (property)

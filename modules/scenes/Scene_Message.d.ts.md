@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Message.d.ts
-nav_order: 109
+nav_order: 110
 parent: Modules
 ---
 
@@ -51,7 +51,7 @@ export declare class Scene_Message
 **Signature**
 
 ```ts
-isMessageWindowClosing(): boolean;
+isMessageWindowClosing(): boolean
 ```
 
 ### createAllWindows (method)
@@ -59,7 +59,7 @@ isMessageWindowClosing(): boolean;
 **Signature**
 
 ```ts
-createAllWindows(): void;
+createAllWindows(): void
 ```
 
 ### createMessageWindow (method)
@@ -67,7 +67,7 @@ createAllWindows(): void;
 **Signature**
 
 ```ts
-createMessageWindow(): void;
+createMessageWindow(): void
 ```
 
 ### messageWindowRect (method)
@@ -75,7 +75,7 @@ createMessageWindow(): void;
 **Signature**
 
 ```ts
-messageWindowRect(): Rectangle;
+messageWindowRect(): Rectangle
 ```
 
 ### createScrollTextWindow (method)
@@ -83,7 +83,7 @@ messageWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createScrollTextWindow(): void;
+createScrollTextWindow(): void
 ```
 
 ### scrollTextWindowRect (method)
@@ -91,7 +91,7 @@ createScrollTextWindow(): void;
 **Signature**
 
 ```ts
-scrollTextWindowRect(): Rectangle;
+scrollTextWindowRect(): Rectangle
 ```
 
 ### createGoldWindow (method)
@@ -99,7 +99,7 @@ scrollTextWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createGoldWindow(): void;
+createGoldWindow(): void
 ```
 
 ### goldWindowRect (method)
@@ -107,7 +107,7 @@ createGoldWindow(): void;
 **Signature**
 
 ```ts
-goldWindowRect(): Rectangle;
+goldWindowRect(): Rectangle
 ```
 
 ### createNameBoxWindow (method)
@@ -115,7 +115,7 @@ goldWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createNameBoxWindow(): void;
+createNameBoxWindow(): void
 ```
 
 ### createChoiceListWindow (method)
@@ -123,7 +123,7 @@ createNameBoxWindow(): void;
 **Signature**
 
 ```ts
-createChoiceListWindow(): void;
+createChoiceListWindow(): void
 ```
 
 ### createNumberInputWindow (method)
@@ -131,7 +131,7 @@ createChoiceListWindow(): void;
 **Signature**
 
 ```ts
-createNumberInputWindow(): void;
+createNumberInputWindow(): void
 ```
 
 ### createEventItemWindow (method)
@@ -139,7 +139,7 @@ createNumberInputWindow(): void;
 **Signature**
 
 ```ts
-createEventItemWindow(): void;
+createEventItemWindow(): void
 ```
 
 ### eventItemWindowRect (method)
@@ -147,7 +147,7 @@ createEventItemWindow(): void;
 **Signature**
 
 ```ts
-eventItemWindowRect(): Rectangle;
+eventItemWindowRect(): Rectangle
 ```
 
 ### associateWindows (method)
@@ -155,7 +155,7 @@ eventItemWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-associateWindows(): void;
+associateWindows(): void
 ```
 
 ### \_messageWindow (property)

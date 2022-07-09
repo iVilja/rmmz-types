@@ -1,6 +1,6 @@
 ---
 title: windows/Window_SavefileList.d.ts
-nav_order: 176
+nav_order: 177
 parent: Modules
 ---
 
@@ -62,7 +62,7 @@ export declare class Window_SavefileList {
 **Signature**
 
 ```ts
-setMode(mode: SavefileMode, autosave: boolean): void;
+setMode(mode: SavefileMode, autosave: boolean): void
 ```
 
 ### maxItems (method)
@@ -70,7 +70,7 @@ setMode(mode: SavefileMode, autosave: boolean): void;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### numVisibleRows (method)
@@ -78,7 +78,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-numVisibleRows(): number;
+numVisibleRows(): number
 ```
 
 ### itemHeight (method)
@@ -86,7 +86,7 @@ numVisibleRows(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### drawItem (method)
@@ -94,7 +94,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### indexToSavefileId (method)
@@ -102,7 +102,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-indexToSavefileId(index: number): number;
+indexToSavefileId(index: number): number
 ```
 
 ### savefileIdToIndex (method)
@@ -110,7 +110,7 @@ indexToSavefileId(index: number): number;
 **Signature**
 
 ```ts
-savefileIdToIndex(savefileId: number): number;
+savefileIdToIndex(savefileId: number): number
 ```
 
 ### isEnabled (method)
@@ -118,7 +118,7 @@ savefileIdToIndex(savefileId: number): number;
 **Signature**
 
 ```ts
-isEnabled(savefileId: number): boolean;
+isEnabled(savefileId: number): boolean
 ```
 
 ### savefileId (method)
@@ -126,7 +126,7 @@ isEnabled(savefileId: number): boolean;
 **Signature**
 
 ```ts
-savefileId(): number;
+savefileId(): number
 ```
 
 ### selectSavefile (method)
@@ -134,7 +134,7 @@ savefileId(): number;
 **Signature**
 
 ```ts
-selectSavefile(savefileId: number): void;
+selectSavefile(savefileId: number): void
 ```
 
 ### drawTitle (method)
@@ -142,7 +142,7 @@ selectSavefile(savefileId: number): void;
 **Signature**
 
 ```ts
-drawTitle(savefileId: number, x: number, y: number): void;
+drawTitle(savefileId: number, x: number, y: number): void
 ```
 
 ### drawContents (method)
@@ -150,7 +150,7 @@ drawTitle(savefileId: number, x: number, y: number): void;
 **Signature**
 
 ```ts
-drawContents(info: DataSaveInfo, rect: Rectangle): void;
+drawContents(info: DataSaveInfo, rect: Rectangle): void
 ```
 
 ### drawPartyCharacters (method)
@@ -158,7 +158,7 @@ drawContents(info: DataSaveInfo, rect: Rectangle): void;
 **Signature**
 
 ```ts
-drawPartyCharacters(info: DataSaveInfo, x: number, y: number): void;
+drawPartyCharacters(info: DataSaveInfo, x: number, y: number): void
 ```
 
 ### drawPlaytime (method)
@@ -166,7 +166,7 @@ drawPartyCharacters(info: DataSaveInfo, x: number, y: number): void;
 **Signature**
 
 ```ts
-drawPlaytime(info: DataSaveInfo, x: number, y: number, width: number): void;
+drawPlaytime(info: DataSaveInfo, x: number, y: number, width: number): void
 ```
 
 ### playOkSound (method)
@@ -174,7 +174,7 @@ drawPlaytime(info: DataSaveInfo, x: number, y: number, width: number): void;
 **Signature**
 
 ```ts
-playOkSound(): void;
+playOkSound(): void
 ```
 
 ### \_mode (property)

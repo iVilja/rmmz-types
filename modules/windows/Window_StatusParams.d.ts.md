@@ -1,6 +1,6 @@
 ---
 title: windows/Window_StatusParams.d.ts
-nav_order: 191
+nav_order: 192
 parent: Modules
 ---
 
@@ -40,7 +40,7 @@ export declare class Window_StatusParams
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### maxItems (method)
@@ -48,7 +48,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### itemHeight (method)
@@ -56,7 +56,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### drawItem (method)
@@ -64,7 +64,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### drawItemBackground (method)
@@ -72,7 +72,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-drawItemBackground(_index: number): void;
+drawItemBackground(_index: number): void
 ```
 
 ### \_actor (property)

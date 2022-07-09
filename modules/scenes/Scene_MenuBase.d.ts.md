@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_MenuBase.d.ts
-nav_order: 108
+nav_order: 109
 parent: Modules
 ---
 
@@ -61,7 +61,7 @@ export declare class Scene_MenuBase
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### update (method)
@@ -69,7 +69,7 @@ create(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### helpAreaTop (method)
@@ -77,7 +77,7 @@ update(): void;
 **Signature**
 
 ```ts
-helpAreaTop(): number;
+helpAreaTop(): number
 ```
 
 ### helpAreaBottom (method)
@@ -85,7 +85,7 @@ helpAreaTop(): number;
 **Signature**
 
 ```ts
-helpAreaBottom(): number;
+helpAreaBottom(): number
 ```
 
 ### helpAreaHeight (method)
@@ -93,7 +93,7 @@ helpAreaBottom(): number;
 **Signature**
 
 ```ts
-helpAreaHeight(): number;
+helpAreaHeight(): number
 ```
 
 ### mainAreaTop (method)
@@ -101,7 +101,7 @@ helpAreaHeight(): number;
 **Signature**
 
 ```ts
-mainAreaTop(): number;
+mainAreaTop(): number
 ```
 
 ### mainAreaBottom (method)
@@ -109,7 +109,7 @@ mainAreaTop(): number;
 **Signature**
 
 ```ts
-mainAreaBottom(): number;
+mainAreaBottom(): number
 ```
 
 ### mainAreaHeight (method)
@@ -117,7 +117,7 @@ mainAreaBottom(): number;
 **Signature**
 
 ```ts
-mainAreaHeight(): number;
+mainAreaHeight(): number
 ```
 
 ### actor (method)
@@ -125,7 +125,7 @@ mainAreaHeight(): number;
 **Signature**
 
 ```ts
-actor(): Game_Actor;
+actor(): Game_Actor
 ```
 
 ### updateActor (method)
@@ -133,7 +133,7 @@ actor(): Game_Actor;
 **Signature**
 
 ```ts
-updateActor(): void;
+updateActor(): void
 ```
 
 ### createBackground (method)
@@ -141,7 +141,7 @@ updateActor(): void;
 **Signature**
 
 ```ts
-createBackground(): void;
+createBackground(): void
 ```
 
 ### setBackgroundOpacity (method)
@@ -149,7 +149,7 @@ createBackground(): void;
 **Signature**
 
 ```ts
-setBackgroundOpacity(opacity: number): void;
+setBackgroundOpacity(opacity: number): void
 ```
 
 ### createHelpWindow (method)
@@ -157,7 +157,7 @@ setBackgroundOpacity(opacity: number): void;
 **Signature**
 
 ```ts
-createHelpWindow(): void;
+createHelpWindow(): void
 ```
 
 ### helpWindowRect (method)
@@ -165,7 +165,7 @@ createHelpWindow(): void;
 **Signature**
 
 ```ts
-helpWindowRect(): Rectangle;
+helpWindowRect(): Rectangle
 ```
 
 ### createButtons (method)
@@ -173,7 +173,7 @@ helpWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createButtons(): void;
+createButtons(): void
 ```
 
 ### needsCancelButton (method)
@@ -181,7 +181,7 @@ createButtons(): void;
 **Signature**
 
 ```ts
-needsCancelButton(): boolean;
+needsCancelButton(): boolean
 ```
 
 ### createCancelButton (method)
@@ -189,7 +189,7 @@ needsCancelButton(): boolean;
 **Signature**
 
 ```ts
-createCancelButton(): void;
+createCancelButton(): void
 ```
 
 ### needsPageButtons (method)
@@ -197,7 +197,7 @@ createCancelButton(): void;
 **Signature**
 
 ```ts
-needsPageButtons(): boolean;
+needsPageButtons(): boolean
 ```
 
 ### createPageButtons (method)
@@ -205,7 +205,7 @@ needsPageButtons(): boolean;
 **Signature**
 
 ```ts
-createPageButtons(): void;
+createPageButtons(): void
 ```
 
 ### updatePageButtons (method)
@@ -213,7 +213,7 @@ createPageButtons(): void;
 **Signature**
 
 ```ts
-updatePageButtons(): void;
+updatePageButtons(): void
 ```
 
 ### arePageButtonsEnabled (method)
@@ -221,7 +221,7 @@ updatePageButtons(): void;
 **Signature**
 
 ```ts
-arePageButtonsEnabled(): boolean;
+arePageButtonsEnabled(): boolean
 ```
 
 ### nextActor (method)
@@ -229,7 +229,7 @@ arePageButtonsEnabled(): boolean;
 **Signature**
 
 ```ts
-nextActor(): void;
+nextActor(): void
 ```
 
 ### previousActor (method)
@@ -237,7 +237,7 @@ nextActor(): void;
 **Signature**
 
 ```ts
-previousActor(): void;
+previousActor(): void
 ```
 
 ### onActorChange (method)
@@ -245,7 +245,7 @@ previousActor(): void;
 **Signature**
 
 ```ts
-onActorChange(): void;
+onActorChange(): void
 ```
 
 ### \_backgroundFilter (property)

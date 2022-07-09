@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Animation.d.ts
-nav_order: 119
+nav_order: 120
 parent: Modules
 ---
 
@@ -74,7 +74,7 @@ export declare class Sprite_Animation {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### destroy (method)
@@ -82,7 +82,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### setup (method)
@@ -90,7 +90,13 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-setup(targets: Sprite[], animation: DataAnimation, mirror: boolean, delay: number, previous: Sprite_Animation | null): void;
+setup(
+    targets: Sprite[],
+    animation: DataAnimation,
+    mirror: boolean,
+    delay: number,
+    previous: Sprite_Animation | null
+  ): void
 ```
 
 ### update (method)
@@ -98,7 +104,7 @@ setup(targets: Sprite[], animation: DataAnimation, mirror: boolean, delay: numbe
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### canStart (method)
@@ -106,7 +112,7 @@ update(): void;
 **Signature**
 
 ```ts
-canStart(): boolean;
+canStart(): boolean
 ```
 
 ### shouldWaitForPrevious (method)
@@ -114,7 +120,7 @@ canStart(): boolean;
 **Signature**
 
 ```ts
-shouldWaitForPrevious(): boolean;
+shouldWaitForPrevious(): boolean
 ```
 
 ### updateEffectGeometry (method)
@@ -122,7 +128,7 @@ shouldWaitForPrevious(): boolean;
 **Signature**
 
 ```ts
-updateEffectGeometry(): void;
+updateEffectGeometry(): void
 ```
 
 ### updateMain (method)
@@ -130,7 +136,7 @@ updateEffectGeometry(): void;
 **Signature**
 
 ```ts
-updateMain(): void;
+updateMain(): void
 ```
 
 ### processSoundTimings (method)
@@ -138,7 +144,7 @@ updateMain(): void;
 **Signature**
 
 ```ts
-processSoundTimings(): void;
+processSoundTimings(): void
 ```
 
 ### processFlashTimings (method)
@@ -146,7 +152,7 @@ processSoundTimings(): void;
 **Signature**
 
 ```ts
-processFlashTimings(): void;
+processFlashTimings(): void
 ```
 
 ### checkEnd (method)
@@ -154,7 +160,7 @@ processFlashTimings(): void;
 **Signature**
 
 ```ts
-checkEnd(): void;
+checkEnd(): void
 ```
 
 ### updateFlash (method)
@@ -162,7 +168,7 @@ checkEnd(): void;
 **Signature**
 
 ```ts
-updateFlash(): void;
+updateFlash(): void
 ```
 
 ### isPlaying (method)
@@ -170,7 +176,7 @@ updateFlash(): void;
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### setRotation (method)
@@ -178,7 +184,7 @@ isPlaying(): boolean;
 **Signature**
 
 ```ts
-setRotation(x: number, y: number, z: number): void;
+setRotation(x: number, y: number, z: number): void
 ```
 
 ### \_render (method)
@@ -186,7 +192,7 @@ setRotation(x: number, y: number, z: number): void;
 **Signature**
 
 ```ts
-_render(renderer: PIXI.Renderer): void;
+_render(renderer: PIXI.Renderer): void
 ```
 
 ### setProjectionMatrix (method)
@@ -194,7 +200,7 @@ _render(renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-setProjectionMatrix(renderer: PIXI.Renderer): void;
+setProjectionMatrix(renderer: PIXI.Renderer): void
 ```
 
 ### setCameraMatrix (method)
@@ -202,7 +208,7 @@ setProjectionMatrix(renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-setCameraMatrix(_renderer: PIXI.Renderer): void;
+setCameraMatrix(_renderer: PIXI.Renderer): void
 ```
 
 ### setViewport (method)
@@ -210,7 +216,7 @@ setCameraMatrix(_renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-setViewport(renderer: PIXI.Renderer): void;
+setViewport(renderer: PIXI.Renderer): void
 ```
 
 ### targetPosition (method)
@@ -218,7 +224,7 @@ setViewport(renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-targetPosition(renderer: PIXI.Renderer): Point;
+targetPosition(renderer: PIXI.Renderer): Point
 ```
 
 ### targetSpritePosition (method)
@@ -226,7 +232,7 @@ targetPosition(renderer: PIXI.Renderer): Point;
 **Signature**
 
 ```ts
-targetSpritePosition(sprite: Sprite): PIXI.Point;
+targetSpritePosition(sprite: Sprite): PIXI.Point
 ```
 
 ### resetViewport (method)
@@ -234,7 +240,7 @@ targetSpritePosition(sprite: Sprite): PIXI.Point;
 **Signature**
 
 ```ts
-resetViewport(renderer: PIXI.Renderer): void;
+resetViewport(renderer: PIXI.Renderer): void
 ```
 
 ### onBeforeRender (method)
@@ -242,7 +248,7 @@ resetViewport(renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-onBeforeRender(renderer: PIXI.Renderer): void;
+onBeforeRender(renderer: PIXI.Renderer): void
 ```
 
 ### onAfterRender (method)
@@ -250,7 +256,7 @@ onBeforeRender(renderer: PIXI.Renderer): void;
 **Signature**
 
 ```ts
-onAfterRender(renderer: PIXI.Renderer): void;
+onAfterRender(renderer: PIXI.Renderer): void
 ```
 
 ### \_targets (property)

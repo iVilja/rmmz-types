@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Title.d.ts
-nav_order: 116
+nav_order: 117
 parent: Modules
 ---
 
@@ -50,7 +50,7 @@ export declare class Scene_Title
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -58,7 +58,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -66,7 +66,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### isBusy (method)
@@ -74,7 +74,7 @@ update(): void;
 **Signature**
 
 ```ts
-isBusy(): boolean;
+isBusy(): boolean
 ```
 
 ### terminate (method)
@@ -82,7 +82,7 @@ isBusy(): boolean;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### createBackground (method)
@@ -90,7 +90,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-createBackground(): void;
+createBackground(): void
 ```
 
 ### createForeground (method)
@@ -98,7 +98,7 @@ createBackground(): void;
 **Signature**
 
 ```ts
-createForeground(): void;
+createForeground(): void
 ```
 
 ### drawGameTitle (method)
@@ -106,7 +106,7 @@ createForeground(): void;
 **Signature**
 
 ```ts
-drawGameTitle(): void;
+drawGameTitle(): void
 ```
 
 ### adjustBackground (method)
@@ -114,7 +114,7 @@ drawGameTitle(): void;
 **Signature**
 
 ```ts
-adjustBackground(): void;
+adjustBackground(): void
 ```
 
 ### createCommandWindow (method)
@@ -122,7 +122,7 @@ adjustBackground(): void;
 **Signature**
 
 ```ts
-createCommandWindow(): void;
+createCommandWindow(): void
 ```
 
 ### commandWindowRect (method)
@@ -130,7 +130,7 @@ createCommandWindow(): void;
 **Signature**
 
 ```ts
-commandWindowRect(): Rectangle;
+commandWindowRect(): Rectangle
 ```
 
 ### commandNewGame (method)
@@ -138,7 +138,7 @@ commandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-commandNewGame(): void;
+commandNewGame(): void
 ```
 
 ### commandContinue (method)
@@ -146,7 +146,7 @@ commandNewGame(): void;
 **Signature**
 
 ```ts
-commandContinue(): void;
+commandContinue(): void
 ```
 
 ### commandOptions (method)
@@ -154,7 +154,7 @@ commandContinue(): void;
 **Signature**
 
 ```ts
-commandOptions(): void;
+commandOptions(): void
 ```
 
 ### playTitleMusic (method)
@@ -162,7 +162,7 @@ commandOptions(): void;
 **Signature**
 
 ```ts
-playTitleMusic(): void;
+playTitleMusic(): void
 ```
 
 ### \_backSprite1 (property)

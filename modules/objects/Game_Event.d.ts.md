@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Event.d.ts
-nav_order: 73
+nav_order: 74
 parent: Modules
 ---
 
@@ -85,7 +85,7 @@ export declare class Game_Event {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### eventId (method)
@@ -93,7 +93,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-eventId(): number;
+eventId(): number
 ```
 
 ### event (method)
@@ -101,7 +101,7 @@ eventId(): number;
 **Signature**
 
 ```ts
-event(): import("../data").DataEvent;
+event(): import("../data").DataEvent
 ```
 
 ### page (method)
@@ -109,7 +109,7 @@ event(): import("../data").DataEvent;
 **Signature**
 
 ```ts
-page(): DataEventPage;
+page(): DataEventPage
 ```
 
 ### list (method)
@@ -117,7 +117,7 @@ page(): DataEventPage;
 **Signature**
 
 ```ts
-list(): import("../data").DataCommand[];
+list(): import("../data").DataCommand[]
 ```
 
 ### isCollidedWithCharacters (method)
@@ -125,7 +125,7 @@ list(): import("../data").DataCommand[];
 **Signature**
 
 ```ts
-isCollidedWithCharacters(x: number, y: number): boolean;
+isCollidedWithCharacters(x: number, y: number): boolean
 ```
 
 ### isCollidedWithEvents (method)
@@ -133,7 +133,7 @@ isCollidedWithCharacters(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isCollidedWithEvents(x: number, y: number): boolean;
+isCollidedWithEvents(x: number, y: number): boolean
 ```
 
 ### isCollidedWithPlayerCharacters (method)
@@ -141,7 +141,7 @@ isCollidedWithEvents(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-isCollidedWithPlayerCharacters(x: number, y: number): boolean;
+isCollidedWithPlayerCharacters(x: number, y: number): boolean
 ```
 
 ### lock (method)
@@ -149,7 +149,7 @@ isCollidedWithPlayerCharacters(x: number, y: number): boolean;
 **Signature**
 
 ```ts
-lock(): void;
+lock(): void
 ```
 
 ### unlock (method)
@@ -157,7 +157,7 @@ lock(): void;
 **Signature**
 
 ```ts
-unlock(): void;
+unlock(): void
 ```
 
 ### updateStop (method)
@@ -165,7 +165,7 @@ unlock(): void;
 **Signature**
 
 ```ts
-updateStop(): void;
+updateStop(): void
 ```
 
 ### updateSelfMovement (method)
@@ -173,7 +173,7 @@ updateStop(): void;
 **Signature**
 
 ```ts
-updateSelfMovement(): void;
+updateSelfMovement(): void
 ```
 
 ### stopCountThreshold (method)
@@ -181,7 +181,7 @@ updateSelfMovement(): void;
 **Signature**
 
 ```ts
-stopCountThreshold(): number;
+stopCountThreshold(): number
 ```
 
 ### moveTypeRandom (method)
@@ -189,7 +189,7 @@ stopCountThreshold(): number;
 **Signature**
 
 ```ts
-moveTypeRandom(): void;
+moveTypeRandom(): void
 ```
 
 ### moveTypeTowardPlayer (method)
@@ -197,7 +197,7 @@ moveTypeRandom(): void;
 **Signature**
 
 ```ts
-moveTypeTowardPlayer(): void;
+moveTypeTowardPlayer(): void
 ```
 
 ### isNearThePlayer (method)
@@ -205,7 +205,7 @@ moveTypeTowardPlayer(): void;
 **Signature**
 
 ```ts
-isNearThePlayer(): boolean;
+isNearThePlayer(): boolean
 ```
 
 ### moveTypeCustom (method)
@@ -213,7 +213,7 @@ isNearThePlayer(): boolean;
 **Signature**
 
 ```ts
-moveTypeCustom(): void;
+moveTypeCustom(): void
 ```
 
 ### isStarting (method)
@@ -221,7 +221,7 @@ moveTypeCustom(): void;
 **Signature**
 
 ```ts
-isStarting(): boolean;
+isStarting(): boolean
 ```
 
 ### clearStartingFlag (method)
@@ -229,7 +229,7 @@ isStarting(): boolean;
 **Signature**
 
 ```ts
-clearStartingFlag(): void;
+clearStartingFlag(): void
 ```
 
 ### isTriggerIn (method)
@@ -237,7 +237,7 @@ clearStartingFlag(): void;
 **Signature**
 
 ```ts
-isTriggerIn(triggers: number[]): boolean;
+isTriggerIn(triggers: number[]): boolean
 ```
 
 ### start (method)
@@ -245,7 +245,7 @@ isTriggerIn(triggers: number[]): boolean;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### erase (method)
@@ -253,7 +253,7 @@ start(): void;
 **Signature**
 
 ```ts
-erase(): void;
+erase(): void
 ```
 
 ### refresh (method)
@@ -261,7 +261,7 @@ erase(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### findProperPageIndex (method)
@@ -269,7 +269,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-findProperPageIndex(): number;
+findProperPageIndex(): number
 ```
 
 ### meetsConditions (method)
@@ -277,7 +277,7 @@ findProperPageIndex(): number;
 **Signature**
 
 ```ts
-meetsConditions(page: DataEventPage): boolean;
+meetsConditions(page: DataEventPage): boolean
 ```
 
 ### setupPage (method)
@@ -285,7 +285,7 @@ meetsConditions(page: DataEventPage): boolean;
 **Signature**
 
 ```ts
-setupPage(): void;
+setupPage(): void
 ```
 
 ### clearPageSettings (method)
@@ -293,7 +293,7 @@ setupPage(): void;
 **Signature**
 
 ```ts
-clearPageSettings(): void;
+clearPageSettings(): void
 ```
 
 ### setupPageSettings (method)
@@ -301,7 +301,7 @@ clearPageSettings(): void;
 **Signature**
 
 ```ts
-setupPageSettings(): void;
+setupPageSettings(): void
 ```
 
 ### isOriginalPattern (method)
@@ -309,7 +309,7 @@ setupPageSettings(): void;
 **Signature**
 
 ```ts
-isOriginalPattern(): boolean;
+isOriginalPattern(): boolean
 ```
 
 ### resetPattern (method)
@@ -317,7 +317,7 @@ isOriginalPattern(): boolean;
 **Signature**
 
 ```ts
-resetPattern(): void;
+resetPattern(): void
 ```
 
 ### checkEventTriggerTouch (method)
@@ -325,7 +325,7 @@ resetPattern(): void;
 **Signature**
 
 ```ts
-checkEventTriggerTouch(x: number, y: number): void;
+checkEventTriggerTouch(x: number, y: number): void
 ```
 
 ### checkEventTriggerAuto (method)
@@ -333,7 +333,7 @@ checkEventTriggerTouch(x: number, y: number): void;
 **Signature**
 
 ```ts
-checkEventTriggerAuto(): void;
+checkEventTriggerAuto(): void
 ```
 
 ### update (method)
@@ -341,7 +341,7 @@ checkEventTriggerAuto(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateParallel (method)
@@ -349,7 +349,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateParallel(): void;
+updateParallel(): void
 ```
 
 ### locate (method)
@@ -357,7 +357,7 @@ updateParallel(): void;
 **Signature**
 
 ```ts
-locate(x: number, y: number): void;
+locate(x: number, y: number): void
 ```
 
 ### forceMoveRoute (method)
@@ -365,7 +365,7 @@ locate(x: number, y: number): void;
 **Signature**
 
 ```ts
-forceMoveRoute(moveRoute: MoveRoute): void;
+forceMoveRoute(moveRoute: MoveRoute): void
 ```
 
 ### \_moveType (property)

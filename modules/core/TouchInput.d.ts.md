@@ -69,7 +69,7 @@ Initializes the touch system.
 **Signature**
 
 ```ts
-static initialize(): void;
+static initialize(): void
 ```
 
 ### clear (static method)
@@ -79,7 +79,7 @@ Clears all the touch data.
 **Signature**
 
 ```ts
-static clear(): void;
+static clear(): void
 ```
 
 ### update (static method)
@@ -89,7 +89,7 @@ Updates the touch data.
 **Signature**
 
 ```ts
-static update(): void;
+static update(): void
 ```
 
 ### isClicked (static method)
@@ -100,7 +100,7 @@ released at the same position.
 **Signature**
 
 ```ts
-static isClicked(): boolean;
+static isClicked(): boolean
 ```
 
 ### isPressed (static method)
@@ -110,7 +110,7 @@ Checks whether the mouse button or touchscreen is currently pressed down.
 **Signature**
 
 ```ts
-static isPressed(): boolean;
+static isPressed(): boolean
 ```
 
 ### isTriggered (static method)
@@ -120,7 +120,7 @@ Checks whether the left mouse button or touchscreen is just pressed.
 **Signature**
 
 ```ts
-static isTriggered(): boolean;
+static isTriggered(): boolean
 ```
 
 ### isRepeated (static method)
@@ -131,7 +131,7 @@ or a pseudo key repeat occurred.
 **Signature**
 
 ```ts
-static isRepeated(): boolean;
+static isRepeated(): boolean
 ```
 
 ### isLongPressed (static method)
@@ -141,7 +141,7 @@ Checks whether the left mouse button or touchscreen is kept depressed.
 **Signature**
 
 ```ts
-static isLongPressed(): boolean;
+static isLongPressed(): boolean
 ```
 
 ### isCancelled (static method)
@@ -151,7 +151,7 @@ Checks whether the right mouse button is just pressed.
 **Signature**
 
 ```ts
-static isCancelled(): boolean;
+static isCancelled(): boolean
 ```
 
 ### isMoved (static method)
@@ -161,7 +161,7 @@ Checks whether the mouse or a finger on the touchscreen is moved.
 **Signature**
 
 ```ts
-static isMoved(): boolean;
+static isMoved(): boolean
 ```
 
 ### isHovered (static method)
@@ -171,7 +171,7 @@ Checks whether the mouse is moved without pressing a button.
 **Signature**
 
 ```ts
-static isHovered(): boolean;
+static isHovered(): boolean
 ```
 
 ### isReleased (static method)
@@ -181,7 +181,7 @@ Checks whether the left mouse button or touchscreen is released.
 **Signature**
 
 ```ts
-static isReleased(): boolean;
+static isReleased(): boolean
 ```
 
 ### \_createNewState (static method)
@@ -190,14 +190,14 @@ static isReleased(): boolean;
 
 ```ts
 static _createNewState(): {
-        triggered: boolean;
-        cancelled: boolean;
-        moved: boolean;
-        hovered: boolean;
-        released: boolean;
-        wheelX: number;
-        wheelY: number;
-    };
+    triggered: boolean
+    cancelled: boolean
+    moved: boolean
+    hovered: boolean
+    released: boolean
+    wheelX: number
+    wheelY: number
+  }
 ```
 
 ### \_setupEventHandlers (static method)
@@ -205,7 +205,7 @@ static _createNewState(): {
 **Signature**
 
 ```ts
-static _setupEventHandlers(): void;
+static _setupEventHandlers(): void
 ```
 
 ### \_onMouseDown (static method)
@@ -213,7 +213,7 @@ static _setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static _onMouseDown(event: MouseEvent): void;
+static _onMouseDown(event: MouseEvent): void
 ```
 
 ### \_onLeftButtonDown (static method)
@@ -221,7 +221,7 @@ static _onMouseDown(event: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onLeftButtonDown(event: MouseEvent): void;
+static _onLeftButtonDown(event: MouseEvent): void
 ```
 
 ### \_onMiddleButtonDown (static method)
@@ -229,7 +229,7 @@ static _onLeftButtonDown(event: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onMiddleButtonDown(_event?: MouseEvent): void;
+static _onMiddleButtonDown(_event?: MouseEvent): void
 ```
 
 ### \_onRightButtonDown (static method)
@@ -237,7 +237,7 @@ static _onMiddleButtonDown(_event?: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onRightButtonDown(event: MouseEvent): void;
+static _onRightButtonDown(event: MouseEvent): void
 ```
 
 ### \_onMouseMove (static method)
@@ -245,7 +245,7 @@ static _onRightButtonDown(event: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onMouseMove(event: MouseEvent): void;
+static _onMouseMove(event: MouseEvent): void
 ```
 
 ### \_onMouseUp (static method)
@@ -253,7 +253,7 @@ static _onMouseMove(event: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onMouseUp(event: MouseEvent): void;
+static _onMouseUp(event: MouseEvent): void
 ```
 
 ### \_onWheel (static method)
@@ -261,7 +261,7 @@ static _onMouseUp(event: MouseEvent): void;
 **Signature**
 
 ```ts
-static _onWheel(event: WheelEvent): void;
+static _onWheel(event: WheelEvent): void
 ```
 
 ### \_onTouchStart (static method)
@@ -269,7 +269,7 @@ static _onWheel(event: WheelEvent): void;
 **Signature**
 
 ```ts
-static _onTouchStart(event: TouchEvent): void;
+static _onTouchStart(event: TouchEvent): void
 ```
 
 ### \_onTouchMove (static method)
@@ -277,7 +277,7 @@ static _onTouchStart(event: TouchEvent): void;
 **Signature**
 
 ```ts
-static _onTouchMove(event: TouchEvent): void;
+static _onTouchMove(event: TouchEvent): void
 ```
 
 ### \_onTouchEnd (static method)
@@ -285,7 +285,7 @@ static _onTouchMove(event: TouchEvent): void;
 **Signature**
 
 ```ts
-static _onTouchEnd(event: TouchEvent): void;
+static _onTouchEnd(event: TouchEvent): void
 ```
 
 ### \_onTouchCancel (static method)
@@ -293,7 +293,7 @@ static _onTouchEnd(event: TouchEvent): void;
 **Signature**
 
 ```ts
-static _onTouchCancel(_event?: TouchEvent): void;
+static _onTouchCancel(_event?: TouchEvent): void
 ```
 
 ### \_onLostFocus (static method)
@@ -301,7 +301,7 @@ static _onTouchCancel(_event?: TouchEvent): void;
 **Signature**
 
 ```ts
-static _onLostFocus(): void;
+static _onLostFocus(): void
 ```
 
 ### \_onTrigger (static method)
@@ -309,7 +309,7 @@ static _onLostFocus(): void;
 **Signature**
 
 ```ts
-static _onTrigger(x: number, y: number): void;
+static _onTrigger(x: number, y: number): void
 ```
 
 ### \_onCancel (static method)
@@ -317,7 +317,7 @@ static _onTrigger(x: number, y: number): void;
 **Signature**
 
 ```ts
-static _onCancel(x: number, y: number): void;
+static _onCancel(x: number, y: number): void
 ```
 
 ### \_onMove (static method)
@@ -325,7 +325,7 @@ static _onCancel(x: number, y: number): void;
 **Signature**
 
 ```ts
-static _onMove(x: number, y: number): void;
+static _onMove(x: number, y: number): void
 ```
 
 ### \_onHover (static method)
@@ -333,7 +333,7 @@ static _onMove(x: number, y: number): void;
 **Signature**
 
 ```ts
-static _onHover(x: number, y: number): void;
+static _onHover(x: number, y: number): void
 ```
 
 ### \_onRelease (static method)
@@ -341,5 +341,5 @@ static _onHover(x: number, y: number): void;
 **Signature**
 
 ```ts
-static _onRelease(x: number, y: number): void;
+static _onRelease(x: number, y: number): void
 ```

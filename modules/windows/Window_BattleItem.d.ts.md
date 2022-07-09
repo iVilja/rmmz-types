@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleItem.d.ts
-nav_order: 146
+nav_order: 147
 parent: Modules
 ---
 
@@ -39,7 +39,7 @@ export declare class Window_BattleItem {
 **Signature**
 
 ```ts
-includes(item: DataItemBase): boolean;
+includes(item: DataItemBase): boolean
 ```
 
 ### show (method)
@@ -47,7 +47,7 @@ includes(item: DataItemBase): boolean;
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -55,5 +55,5 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```

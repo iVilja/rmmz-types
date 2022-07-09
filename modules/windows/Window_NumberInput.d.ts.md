@@ -1,6 +1,6 @@
 ---
 title: windows/Window_NumberInput.d.ts
-nav_order: 173
+nav_order: 174
 parent: Modules
 ---
 
@@ -68,7 +68,7 @@ export declare class Window_NumberInput {
 **Signature**
 
 ```ts
-setMessageWindow(messageWindow: Window_Message): void;
+setMessageWindow(messageWindow: Window_Message): void
 ```
 
 ### start (method)
@@ -76,7 +76,7 @@ setMessageWindow(messageWindow: Window_Message): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### updatePlacement (method)
@@ -84,7 +84,7 @@ start(): void;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### windowWidth (method)
@@ -92,7 +92,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-windowWidth(): number;
+windowWidth(): number
 ```
 
 ### windowHeight (method)
@@ -100,7 +100,7 @@ windowWidth(): number;
 **Signature**
 
 ```ts
-windowHeight(): number;
+windowHeight(): number
 ```
 
 ### maxCols (method)
@@ -108,7 +108,7 @@ windowHeight(): number;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### maxItems (method)
@@ -116,7 +116,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### itemWidth (method)
@@ -124,7 +124,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-itemWidth(): number;
+itemWidth(): number
 ```
 
 ### itemRect (method)
@@ -132,7 +132,7 @@ itemWidth(): number;
 **Signature**
 
 ```ts
-itemRect(index: number): Rectangle;
+itemRect(index: number): Rectangle
 ```
 
 ### isScrollEnabled (method)
@@ -140,7 +140,7 @@ itemRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-isScrollEnabled(): boolean;
+isScrollEnabled(): boolean
 ```
 
 ### isHoverEnabled (method)
@@ -148,7 +148,7 @@ isScrollEnabled(): boolean;
 **Signature**
 
 ```ts
-isHoverEnabled(): boolean;
+isHoverEnabled(): boolean
 ```
 
 ### createButtons (method)
@@ -156,7 +156,7 @@ isHoverEnabled(): boolean;
 **Signature**
 
 ```ts
-createButtons(): void;
+createButtons(): void
 ```
 
 ### placeButtons (method)
@@ -164,7 +164,7 @@ createButtons(): void;
 **Signature**
 
 ```ts
-placeButtons(): void;
+placeButtons(): void
 ```
 
 ### totalButtonWidth (method)
@@ -172,7 +172,7 @@ placeButtons(): void;
 **Signature**
 
 ```ts
-totalButtonWidth(): number;
+totalButtonWidth(): number
 ```
 
 ### buttonSpacing (method)
@@ -180,7 +180,7 @@ totalButtonWidth(): number;
 **Signature**
 
 ```ts
-buttonSpacing(): number;
+buttonSpacing(): number
 ```
 
 ### buttonY (method)
@@ -188,7 +188,7 @@ buttonSpacing(): number;
 **Signature**
 
 ```ts
-buttonY(): number;
+buttonY(): number
 ```
 
 ### update (method)
@@ -196,7 +196,7 @@ buttonY(): number;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### processDigitChange (method)
@@ -204,7 +204,7 @@ update(): void;
 **Signature**
 
 ```ts
-processDigitChange(): void;
+processDigitChange(): void
 ```
 
 ### changeDigit (method)
@@ -212,7 +212,7 @@ processDigitChange(): void;
 **Signature**
 
 ```ts
-changeDigit(up: boolean): void;
+changeDigit(up: boolean): void
 ```
 
 ### isTouchOkEnabled (method)
@@ -220,7 +220,7 @@ changeDigit(up: boolean): void;
 **Signature**
 
 ```ts
-isTouchOkEnabled(): boolean;
+isTouchOkEnabled(): boolean
 ```
 
 ### isOkEnabled (method)
@@ -228,7 +228,7 @@ isTouchOkEnabled(): boolean;
 **Signature**
 
 ```ts
-isOkEnabled(): boolean;
+isOkEnabled(): boolean
 ```
 
 ### isCancelEnabled (method)
@@ -236,7 +236,7 @@ isOkEnabled(): boolean;
 **Signature**
 
 ```ts
-isCancelEnabled(): boolean;
+isCancelEnabled(): boolean
 ```
 
 ### processOk (method)
@@ -244,7 +244,7 @@ isCancelEnabled(): boolean;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### drawItem (method)
@@ -252,7 +252,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### onButtonUp (method)
@@ -260,7 +260,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-onButtonUp(): void;
+onButtonUp(): void
 ```
 
 ### onButtonDown (method)
@@ -268,7 +268,7 @@ onButtonUp(): void;
 **Signature**
 
 ```ts
-onButtonDown(): void;
+onButtonDown(): void
 ```
 
 ### onButtonOk (method)
@@ -276,7 +276,7 @@ onButtonDown(): void;
 **Signature**
 
 ```ts
-onButtonOk(): void;
+onButtonOk(): void
 ```
 
 ### \_number (property)

@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Status.d.ts
-nav_order: 188
+nav_order: 189
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Window_Status {
 **Signature**
 
 ```ts
-setActor(actor: Game_Actor): void;
+setActor(actor: Game_Actor): void
 ```
 
 ### refresh (method)
@@ -55,7 +55,7 @@ setActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### drawBlock1 (method)
@@ -63,7 +63,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-drawBlock1(): void;
+drawBlock1(): void
 ```
 
 ### block1Y (method)
@@ -71,7 +71,7 @@ drawBlock1(): void;
 **Signature**
 
 ```ts
-block1Y(): number;
+block1Y(): number
 ```
 
 ### drawBlock2 (method)
@@ -79,7 +79,7 @@ block1Y(): number;
 **Signature**
 
 ```ts
-drawBlock2(): void;
+drawBlock2(): void
 ```
 
 ### block2Y (method)
@@ -87,7 +87,7 @@ drawBlock2(): void;
 **Signature**
 
 ```ts
-block2Y(): number;
+block2Y(): number
 ```
 
 ### drawBasicInfo (method)
@@ -95,7 +95,7 @@ block2Y(): number;
 **Signature**
 
 ```ts
-drawBasicInfo(x: number, y: number): void;
+drawBasicInfo(x: number, y: number): void
 ```
 
 ### drawExpInfo (method)
@@ -103,7 +103,7 @@ drawBasicInfo(x: number, y: number): void;
 **Signature**
 
 ```ts
-drawExpInfo(x: number, y: number): void;
+drawExpInfo(x: number, y: number): void
 ```
 
 ### expTotalValue (method)
@@ -111,7 +111,7 @@ drawExpInfo(x: number, y: number): void;
 **Signature**
 
 ```ts
-expTotalValue(): number | "-------";
+expTotalValue(): number | "-------"
 ```
 
 ### expNextValue (method)
@@ -119,7 +119,7 @@ expTotalValue(): number | "-------";
 **Signature**
 
 ```ts
-expNextValue(): number | "-------";
+expNextValue(): number | "-------"
 ```
 
 ### \_actor (property)

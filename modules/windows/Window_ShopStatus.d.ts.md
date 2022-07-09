@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ShopStatus.d.ts
-nav_order: 184
+nav_order: 185
 parent: Modules
 ---
 
@@ -56,7 +56,7 @@ export declare class Window_ShopStatus {
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### setItem (method)
@@ -64,7 +64,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-setItem(item: DataPricedItemBase | null): void;
+setItem(item: DataPricedItemBase | null): void
 ```
 
 ### isEquipItem (method)
@@ -72,7 +72,7 @@ setItem(item: DataPricedItemBase | null): void;
 **Signature**
 
 ```ts
-isEquipItem(): boolean;
+isEquipItem(): boolean
 ```
 
 ### drawPossession (method)
@@ -80,7 +80,7 @@ isEquipItem(): boolean;
 **Signature**
 
 ```ts
-drawPossession(x: number, y: number): void;
+drawPossession(x: number, y: number): void
 ```
 
 ### drawEquipInfo (method)
@@ -88,7 +88,7 @@ drawPossession(x: number, y: number): void;
 **Signature**
 
 ```ts
-drawEquipInfo(x: number, y: number): void;
+drawEquipInfo(x: number, y: number): void
 ```
 
 ### statusMembers (method)
@@ -96,7 +96,7 @@ drawEquipInfo(x: number, y: number): void;
 **Signature**
 
 ```ts
-statusMembers(): Game_Actor[];
+statusMembers(): Game_Actor[]
 ```
 
 ### pageSize (method)
@@ -104,7 +104,7 @@ statusMembers(): Game_Actor[];
 **Signature**
 
 ```ts
-pageSize(): number;
+pageSize(): number
 ```
 
 ### maxPages (method)
@@ -112,7 +112,7 @@ pageSize(): number;
 **Signature**
 
 ```ts
-maxPages(): number;
+maxPages(): number
 ```
 
 ### drawActorEquipInfo (method)
@@ -120,7 +120,7 @@ maxPages(): number;
 **Signature**
 
 ```ts
-drawActorEquipInfo(x: number, y: number, actor: Game_Actor): void;
+drawActorEquipInfo(x: number, y: number, actor: Game_Actor): void
 ```
 
 ### drawActorParamChange (method)
@@ -128,7 +128,7 @@ drawActorEquipInfo(x: number, y: number, actor: Game_Actor): void;
 **Signature**
 
 ```ts
-drawActorParamChange(x: number, y: number, actor: Game_Actor, item1: DataEquipment | null): void;
+drawActorParamChange(x: number, y: number, actor: Game_Actor, item1: DataEquipment | null): void
 ```
 
 ### paramId (method)
@@ -136,7 +136,7 @@ drawActorParamChange(x: number, y: number, actor: Game_Actor, item1: DataEquipme
 **Signature**
 
 ```ts
-paramId(): ParamID;
+paramId(): ParamID
 ```
 
 ### currentEquippedItem (method)
@@ -144,7 +144,7 @@ paramId(): ParamID;
 **Signature**
 
 ```ts
-currentEquippedItem(actor: Game_Actor, etypeId: EquipmentType): DataEquipment | null;
+currentEquippedItem(actor: Game_Actor, etypeId: EquipmentType): DataEquipment | null
 ```
 
 ### update (method)
@@ -152,7 +152,7 @@ currentEquippedItem(actor: Game_Actor, etypeId: EquipmentType): DataEquipment | 
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updatePage (method)
@@ -160,7 +160,7 @@ update(): void;
 **Signature**
 
 ```ts
-updatePage(): void;
+updatePage(): void
 ```
 
 ### isPageChangeEnabled (method)
@@ -168,7 +168,7 @@ updatePage(): void;
 **Signature**
 
 ```ts
-isPageChangeEnabled(): boolean;
+isPageChangeEnabled(): boolean
 ```
 
 ### isPageChangeRequested (method)
@@ -176,7 +176,7 @@ isPageChangeEnabled(): boolean;
 **Signature**
 
 ```ts
-isPageChangeRequested(): boolean;
+isPageChangeRequested(): boolean
 ```
 
 ### changePage (method)
@@ -184,7 +184,7 @@ isPageChangeRequested(): boolean;
 **Signature**
 
 ```ts
-changePage(): void;
+changePage(): void
 ```
 
 ### \_item (property)

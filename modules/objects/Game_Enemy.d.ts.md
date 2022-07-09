@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Enemy.d.ts
-nav_order: 72
+nav_order: 73
 parent: Modules
 ---
 
@@ -84,7 +84,7 @@ export declare class Game_Enemy {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setup (method)
@@ -92,7 +92,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setup(enemyId: EnemyID, x: number, y: number): void;
+setup(enemyId: EnemyID, x: number, y: number): void
 ```
 
 ### isEnemy (method)
@@ -100,7 +100,7 @@ setup(enemyId: EnemyID, x: number, y: number): void;
 **Signature**
 
 ```ts
-isEnemy(): boolean;
+isEnemy(): boolean
 ```
 
 ### friendsUnit (method)
@@ -108,7 +108,7 @@ isEnemy(): boolean;
 **Signature**
 
 ```ts
-friendsUnit(): import("./Game_Troop").Game_Troop;
+friendsUnit(): import("./Game_Troop").Game_Troop
 ```
 
 ### opponentsUnit (method)
@@ -116,7 +116,7 @@ friendsUnit(): import("./Game_Troop").Game_Troop;
 **Signature**
 
 ```ts
-opponentsUnit(): import("./Game_Party").Game_Party;
+opponentsUnit(): import("./Game_Party").Game_Party
 ```
 
 ### index (method)
@@ -124,7 +124,7 @@ opponentsUnit(): import("./Game_Party").Game_Party;
 **Signature**
 
 ```ts
-index(): number;
+index(): number
 ```
 
 ### isBattleMember (method)
@@ -132,7 +132,7 @@ index(): number;
 **Signature**
 
 ```ts
-isBattleMember(): boolean;
+isBattleMember(): boolean
 ```
 
 ### enemyId (method)
@@ -140,7 +140,7 @@ isBattleMember(): boolean;
 **Signature**
 
 ```ts
-enemyId(): number;
+enemyId(): number
 ```
 
 ### enemy (method)
@@ -148,7 +148,7 @@ enemyId(): number;
 **Signature**
 
 ```ts
-enemy(): import("../data").DataEnemy;
+enemy(): import("../data").DataEnemy
 ```
 
 ### traitObjects (method)
@@ -157,8 +157,8 @@ enemy(): import("../data").DataEnemy;
 
 ```ts
 traitObjects(): {
-        traits: import("../data").Trait[];
-    }[];
+    traits: import("../data").Trait[]
+  }[]
 ```
 
 ### paramBase (method)
@@ -166,7 +166,7 @@ traitObjects(): {
 **Signature**
 
 ```ts
-paramBase(paramId: ParamID): number;
+paramBase(paramId: ParamID): number
 ```
 
 ### exp (method)
@@ -174,7 +174,7 @@ paramBase(paramId: ParamID): number;
 **Signature**
 
 ```ts
-exp(): number;
+exp(): number
 ```
 
 ### gold (method)
@@ -182,7 +182,7 @@ exp(): number;
 **Signature**
 
 ```ts
-gold(): number;
+gold(): number
 ```
 
 ### makeDropItems (method)
@@ -190,7 +190,7 @@ gold(): number;
 **Signature**
 
 ```ts
-makeDropItems(): DataItemBase[];
+makeDropItems(): DataItemBase[]
 ```
 
 ### dropItemRate (method)
@@ -198,7 +198,7 @@ makeDropItems(): DataItemBase[];
 **Signature**
 
 ```ts
-dropItemRate(): 1 | 2;
+dropItemRate(): 1 | 2
 ```
 
 ### itemObject (method)
@@ -206,7 +206,10 @@ dropItemRate(): 1 | 2;
 **Signature**
 
 ```ts
-itemObject(kind: DropItemType, dataId: DataID): import("../data").DataItem | import("../data").DataWeapon | import("../data").DataArmor | null;
+itemObject(
+    kind: DropItemType,
+    dataId: DataID
+  ): import("../data").DataItem | import("../data").DataWeapon | import("../data").DataArmor | null
 ```
 
 ### isSpriteVisible (method)
@@ -214,7 +217,7 @@ itemObject(kind: DropItemType, dataId: DataID): import("../data").DataItem | imp
 **Signature**
 
 ```ts
-isSpriteVisible(): boolean;
+isSpriteVisible(): boolean
 ```
 
 ### screenX (method)
@@ -222,7 +225,7 @@ isSpriteVisible(): boolean;
 **Signature**
 
 ```ts
-screenX(): number;
+screenX(): number
 ```
 
 ### screenY (method)
@@ -230,7 +233,7 @@ screenX(): number;
 **Signature**
 
 ```ts
-screenY(): number;
+screenY(): number
 ```
 
 ### battlerName (method)
@@ -238,7 +241,7 @@ screenY(): number;
 **Signature**
 
 ```ts
-battlerName(): string;
+battlerName(): string
 ```
 
 ### battlerHue (method)
@@ -246,7 +249,7 @@ battlerName(): string;
 **Signature**
 
 ```ts
-battlerHue(): number;
+battlerHue(): number
 ```
 
 ### originalName (method)
@@ -254,7 +257,7 @@ battlerHue(): number;
 **Signature**
 
 ```ts
-originalName(): string;
+originalName(): string
 ```
 
 ### name (method)
@@ -262,7 +265,7 @@ originalName(): string;
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### isLetterEmpty (method)
@@ -270,7 +273,7 @@ name(): string;
 **Signature**
 
 ```ts
-isLetterEmpty(): boolean;
+isLetterEmpty(): boolean
 ```
 
 ### setLetter (method)
@@ -278,7 +281,7 @@ isLetterEmpty(): boolean;
 **Signature**
 
 ```ts
-setLetter(letter: string): void;
+setLetter(letter: string): void
 ```
 
 ### setPlural (method)
@@ -286,7 +289,7 @@ setLetter(letter: string): void;
 **Signature**
 
 ```ts
-setPlural(plural: boolean): void;
+setPlural(plural: boolean): void
 ```
 
 ### performActionStart (method)
@@ -294,7 +297,7 @@ setPlural(plural: boolean): void;
 **Signature**
 
 ```ts
-performActionStart(action: Game_Action): void;
+performActionStart(action: Game_Action): void
 ```
 
 ### performAction (method)
@@ -302,7 +305,7 @@ performActionStart(action: Game_Action): void;
 **Signature**
 
 ```ts
-performAction(action: Game_Action): void;
+performAction(action: Game_Action): void
 ```
 
 ### performActionEnd (method)
@@ -310,7 +313,7 @@ performAction(action: Game_Action): void;
 **Signature**
 
 ```ts
-performActionEnd(): void;
+performActionEnd(): void
 ```
 
 ### performDamage (method)
@@ -318,7 +321,7 @@ performActionEnd(): void;
 **Signature**
 
 ```ts
-performDamage(): void;
+performDamage(): void
 ```
 
 ### performCollapse (method)
@@ -326,7 +329,7 @@ performDamage(): void;
 **Signature**
 
 ```ts
-performCollapse(): void;
+performCollapse(): void
 ```
 
 ### transform (method)
@@ -334,7 +337,7 @@ performCollapse(): void;
 **Signature**
 
 ```ts
-transform(enemyId: EnemyID): void;
+transform(enemyId: EnemyID): void
 ```
 
 ### meetsCondition (method)
@@ -342,7 +345,7 @@ transform(enemyId: EnemyID): void;
 **Signature**
 
 ```ts
-meetsCondition(action: EnemyAction): boolean;
+meetsCondition(action: EnemyAction): boolean
 ```
 
 ### meetsTurnCondition (method)
@@ -350,7 +353,7 @@ meetsCondition(action: EnemyAction): boolean;
 **Signature**
 
 ```ts
-meetsTurnCondition(param1: number, param2: number): boolean;
+meetsTurnCondition(param1: number, param2: number): boolean
 ```
 
 ### meetsHpCondition (method)
@@ -358,7 +361,7 @@ meetsTurnCondition(param1: number, param2: number): boolean;
 **Signature**
 
 ```ts
-meetsHpCondition(param1: number, param2: number): boolean;
+meetsHpCondition(param1: number, param2: number): boolean
 ```
 
 ### meetsMpCondition (method)
@@ -366,7 +369,7 @@ meetsHpCondition(param1: number, param2: number): boolean;
 **Signature**
 
 ```ts
-meetsMpCondition(param1: number, param2: number): boolean;
+meetsMpCondition(param1: number, param2: number): boolean
 ```
 
 ### meetsStateCondition (method)
@@ -374,7 +377,7 @@ meetsMpCondition(param1: number, param2: number): boolean;
 **Signature**
 
 ```ts
-meetsStateCondition(param: StateID): boolean;
+meetsStateCondition(param: StateID): boolean
 ```
 
 ### meetsPartyLevelCondition (method)
@@ -382,7 +385,7 @@ meetsStateCondition(param: StateID): boolean;
 **Signature**
 
 ```ts
-meetsPartyLevelCondition(param: number): boolean;
+meetsPartyLevelCondition(param: number): boolean
 ```
 
 ### meetsSwitchCondition (method)
@@ -390,7 +393,7 @@ meetsPartyLevelCondition(param: number): boolean;
 **Signature**
 
 ```ts
-meetsSwitchCondition(param: SwitchID): boolean;
+meetsSwitchCondition(param: SwitchID): boolean
 ```
 
 ### isActionValid (method)
@@ -398,7 +401,7 @@ meetsSwitchCondition(param: SwitchID): boolean;
 **Signature**
 
 ```ts
-isActionValid(action: EnemyAction): boolean;
+isActionValid(action: EnemyAction): boolean
 ```
 
 ### selectAction (method)
@@ -406,7 +409,7 @@ isActionValid(action: EnemyAction): boolean;
 **Signature**
 
 ```ts
-selectAction(actionList: EnemyAction[], ratingZero: number): EnemyAction | null | undefined;
+selectAction(actionList: EnemyAction[], ratingZero: number): EnemyAction | null | undefined
 ```
 
 ### selectAllActions (method)
@@ -414,7 +417,7 @@ selectAction(actionList: EnemyAction[], ratingZero: number): EnemyAction | null 
 **Signature**
 
 ```ts
-selectAllActions(actionList: EnemyAction[]): void;
+selectAllActions(actionList: EnemyAction[]): void
 ```
 
 ### makeActions (method)
@@ -422,7 +425,7 @@ selectAllActions(actionList: EnemyAction[]): void;
 **Signature**
 
 ```ts
-makeActions(): void;
+makeActions(): void
 ```
 
 ### \_enemyId (property)

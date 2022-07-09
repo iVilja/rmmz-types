@@ -128,7 +128,7 @@ Initializes the audio system.
 **Signature**
 
 ```ts
-static initialize(): boolean;
+static initialize(): boolean
 ```
 
 ### setMasterVolume (static method)
@@ -138,7 +138,7 @@ Sets the master volume for all audio.
 **Signature**
 
 ```ts
-static setMasterVolume(value: number): void;
+static setMasterVolume(value: number): void
 ```
 
 ### \_createContext (static method)
@@ -146,7 +146,7 @@ static setMasterVolume(value: number): void;
 **Signature**
 
 ```ts
-static _createContext(): void;
+static _createContext(): void
 ```
 
 ### \_currentTime (static method)
@@ -154,7 +154,7 @@ static _createContext(): void;
 **Signature**
 
 ```ts
-static _currentTime(): number;
+static _currentTime(): number
 ```
 
 ### \_createMasterGainNode (static method)
@@ -162,7 +162,7 @@ static _currentTime(): number;
 **Signature**
 
 ```ts
-static _createMasterGainNode(): void;
+static _createMasterGainNode(): void
 ```
 
 ### \_setupEventHandlers (static method)
@@ -170,7 +170,7 @@ static _createMasterGainNode(): void;
 **Signature**
 
 ```ts
-static _setupEventHandlers(): void;
+static _setupEventHandlers(): void
 ```
 
 ### \_onUserGesture (static method)
@@ -178,7 +178,7 @@ static _setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static _onUserGesture(): void;
+static _onUserGesture(): void
 ```
 
 ### \_onVisibilityChange (static method)
@@ -186,7 +186,7 @@ static _onUserGesture(): void;
 **Signature**
 
 ```ts
-static _onVisibilityChange(): void;
+static _onVisibilityChange(): void
 ```
 
 ### \_onHide (static method)
@@ -194,7 +194,7 @@ static _onVisibilityChange(): void;
 **Signature**
 
 ```ts
-static _onHide(): void;
+static _onHide(): void
 ```
 
 ### \_onShow (static method)
@@ -202,7 +202,7 @@ static _onHide(): void;
 **Signature**
 
 ```ts
-static _onShow(): void;
+static _onShow(): void
 ```
 
 ### \_shouldMuteOnHide (static method)
@@ -210,7 +210,7 @@ static _onShow(): void;
 **Signature**
 
 ```ts
-static _shouldMuteOnHide(): boolean;
+static _shouldMuteOnHide(): boolean
 ```
 
 ### \_resetVolume (static method)
@@ -218,7 +218,7 @@ static _shouldMuteOnHide(): boolean;
 **Signature**
 
 ```ts
-static _resetVolume(): void;
+static _resetVolume(): void
 ```
 
 ### \_fadeIn (static method)
@@ -226,7 +226,7 @@ static _resetVolume(): void;
 **Signature**
 
 ```ts
-static _fadeIn(duration: number): void;
+static _fadeIn(duration: number): void
 ```
 
 ### \_fadeOut (static method)
@@ -234,7 +234,7 @@ static _fadeIn(duration: number): void;
 **Signature**
 
 ```ts
-static _fadeOut(duration: number): void;
+static _fadeOut(duration: number): void
 ```
 
 ### clear (method)
@@ -244,7 +244,7 @@ Clears the audio data.
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### isReady (method)
@@ -254,7 +254,7 @@ Checks whether the audio data is ready to play.
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### isError (method)
@@ -264,7 +264,7 @@ Checks whether a loading error has occurred.
 **Signature**
 
 ```ts
-isError(): boolean;
+isError(): boolean
 ```
 
 ### isPlaying (method)
@@ -274,7 +274,7 @@ Checks whether the audio is playing.
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### play (method)
@@ -284,7 +284,7 @@ Plays the audio.
 **Signature**
 
 ```ts
-play(loop: boolean, offset?: number): void;
+play(loop: boolean, offset?: number): void
 ```
 
 ### stop (method)
@@ -294,7 +294,7 @@ Stops the audio.
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### destroy (method)
@@ -304,7 +304,7 @@ Destroys the audio.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### fadeIn (method)
@@ -314,7 +314,7 @@ Performs the audio fade-in.
 **Signature**
 
 ```ts
-fadeIn(duration: number): void;
+fadeIn(duration: number): void
 ```
 
 ### fadeOut (method)
@@ -324,7 +324,7 @@ Performs the audio fade-out.
 **Signature**
 
 ```ts
-fadeOut(duration: number): void;
+fadeOut(duration: number): void
 ```
 
 ### seek (method)
@@ -334,7 +334,7 @@ Gets the seek position of the audio.
 **Signature**
 
 ```ts
-seek(): number;
+seek(): number
 ```
 
 ### addLoadListener (method)
@@ -344,7 +344,7 @@ Adds a callback function that will be called when the audio data is loaded.
 **Signature**
 
 ```ts
-addLoadListener(listner: () => void): void;
+addLoadListener(listner: () => void): void
 ```
 
 ### addStopListener (method)
@@ -354,7 +354,7 @@ Adds a callback function that will be called when the playback is stopped.
 **Signature**
 
 ```ts
-addStopListener(listner: () => void): void;
+addStopListener(listner: () => void): void
 ```
 
 ### retry (method)
@@ -364,7 +364,7 @@ Tries to load the audio again.
 **Signature**
 
 ```ts
-retry(): void;
+retry(): void
 ```
 
 ### \_startLoading (method)
@@ -372,7 +372,7 @@ retry(): void;
 **Signature**
 
 ```ts
-_startLoading(): void;
+_startLoading(): void
 ```
 
 ### \_shouldUseDecoder (method)
@@ -380,7 +380,7 @@ _startLoading(): void;
 **Signature**
 
 ```ts
-_shouldUseDecoder(): boolean;
+_shouldUseDecoder(): boolean
 ```
 
 ### \_createDecoder (method)
@@ -388,7 +388,7 @@ _shouldUseDecoder(): boolean;
 **Signature**
 
 ```ts
-_createDecoder(): void;
+_createDecoder(): void
 ```
 
 ### \_destroyDecoder (method)
@@ -396,7 +396,7 @@ _createDecoder(): void;
 **Signature**
 
 ```ts
-_destroyDecoder(): void;
+_destroyDecoder(): void
 ```
 
 ### \_realUrl (method)
@@ -404,7 +404,7 @@ _destroyDecoder(): void;
 **Signature**
 
 ```ts
-_realUrl(): string;
+_realUrl(): string
 ```
 
 ### \_startXhrLoading (method)
@@ -412,7 +412,7 @@ _realUrl(): string;
 **Signature**
 
 ```ts
-_startXhrLoading(url: string): void;
+_startXhrLoading(url: string): void
 ```
 
 ### \_startFetching (method)
@@ -420,7 +420,7 @@ _startXhrLoading(url: string): void;
 **Signature**
 
 ```ts
-_startFetching(url: string): void;
+_startFetching(url: string): void
 ```
 
 ### \_onXhrLoad (method)
@@ -428,7 +428,7 @@ _startFetching(url: string): void;
 **Signature**
 
 ```ts
-_onXhrLoad(xhr: XMLHttpRequest): void;
+_onXhrLoad(xhr: XMLHttpRequest): void
 ```
 
 ### \_onFetch (method)
@@ -436,7 +436,7 @@ _onXhrLoad(xhr: XMLHttpRequest): void;
 **Signature**
 
 ```ts
-_onFetch(response: Response): void;
+_onFetch(response: Response): void
 ```
 
 ### \_onError (method)
@@ -444,7 +444,7 @@ _onFetch(response: Response): void;
 **Signature**
 
 ```ts
-_onError(): void;
+_onError(): void
 ```
 
 ### \_onFetchProcess (method)
@@ -452,7 +452,7 @@ _onError(): void;
 **Signature**
 
 ```ts
-_onFetchProcess(value: Uint8Array): void;
+_onFetchProcess(value: Uint8Array): void
 ```
 
 ### \_updateBufferOnFetch (method)
@@ -460,7 +460,7 @@ _onFetchProcess(value: Uint8Array): void;
 **Signature**
 
 ```ts
-_updateBufferOnFetch(): void;
+_updateBufferOnFetch(): void
 ```
 
 ### \_concatenateFetchedData (method)
@@ -468,7 +468,7 @@ _updateBufferOnFetch(): void;
 **Signature**
 
 ```ts
-_concatenateFetchedData(): void;
+_concatenateFetchedData(): void
 ```
 
 ### \_updateBuffer (method)
@@ -476,7 +476,7 @@ _concatenateFetchedData(): void;
 **Signature**
 
 ```ts
-_updateBuffer(): void;
+_updateBuffer(): void
 ```
 
 ### \_readableBuffer (method)
@@ -484,7 +484,7 @@ _updateBuffer(): void;
 **Signature**
 
 ```ts
-_readableBuffer(): ArrayBufferLike;
+_readableBuffer(): ArrayBufferLike
 ```
 
 ### \_decodeAudioData (method)
@@ -492,7 +492,7 @@ _readableBuffer(): ArrayBufferLike;
 **Signature**
 
 ```ts
-_decodeAudioData(arrayBuffer: ArrayBuffer): void;
+_decodeAudioData(arrayBuffer: ArrayBuffer): void
 ```
 
 ### \_onDecode (method)
@@ -500,7 +500,7 @@ _decodeAudioData(arrayBuffer: ArrayBuffer): void;
 **Signature**
 
 ```ts
-_onDecode(buffer: AudioBuffer): void;
+_onDecode(buffer: AudioBuffer): void
 ```
 
 ### \_refreshSourceNode (method)
@@ -508,7 +508,7 @@ _onDecode(buffer: AudioBuffer): void;
 **Signature**
 
 ```ts
-_refreshSourceNode(): void;
+_refreshSourceNode(): void
 ```
 
 ### \_startPlaying (method)
@@ -516,7 +516,7 @@ _refreshSourceNode(): void;
 **Signature**
 
 ```ts
-_startPlaying(offset: number): void;
+_startPlaying(offset: number): void
 ```
 
 ### \_startAllSourceNodes (method)
@@ -524,7 +524,7 @@ _startPlaying(offset: number): void;
 **Signature**
 
 ```ts
-_startAllSourceNodes(): void;
+_startAllSourceNodes(): void
 ```
 
 ### \_startSourceNode (method)
@@ -532,7 +532,7 @@ _startAllSourceNodes(): void;
 **Signature**
 
 ```ts
-_startSourceNode(index: number): void;
+_startSourceNode(index: number): void
 ```
 
 ### \_stopSourceNode (method)
@@ -540,7 +540,7 @@ _startSourceNode(index: number): void;
 **Signature**
 
 ```ts
-_stopSourceNode(): void;
+_stopSourceNode(): void
 ```
 
 ### \_createPannerNode (method)
@@ -548,7 +548,7 @@ _stopSourceNode(): void;
 **Signature**
 
 ```ts
-_createPannerNode(): void;
+_createPannerNode(): void
 ```
 
 ### \_createGainNode (method)
@@ -556,7 +556,7 @@ _createPannerNode(): void;
 **Signature**
 
 ```ts
-_createGainNode(): void;
+_createGainNode(): void
 ```
 
 ### \_createAllSourceNodes (method)
@@ -564,7 +564,7 @@ _createGainNode(): void;
 **Signature**
 
 ```ts
-_createAllSourceNodes(): void;
+_createAllSourceNodes(): void
 ```
 
 ### \_createSourceNode (method)
@@ -572,7 +572,7 @@ _createAllSourceNodes(): void;
 **Signature**
 
 ```ts
-_createSourceNode(index: number): void;
+_createSourceNode(index: number): void
 ```
 
 ### \_removeNodes (method)
@@ -580,7 +580,7 @@ _createSourceNode(index: number): void;
 **Signature**
 
 ```ts
-_removeNodes(): void;
+_removeNodes(): void
 ```
 
 ### \_createEndTimer (method)
@@ -588,7 +588,7 @@ _removeNodes(): void;
 **Signature**
 
 ```ts
-_createEndTimer(): void;
+_createEndTimer(): void
 ```
 
 ### \_removeEndTimer (method)
@@ -596,7 +596,7 @@ _createEndTimer(): void;
 **Signature**
 
 ```ts
-_removeEndTimer(): void;
+_removeEndTimer(): void
 ```
 
 ### \_updatePanner (method)
@@ -604,7 +604,7 @@ _removeEndTimer(): void;
 **Signature**
 
 ```ts
-_updatePanner(): void;
+_updatePanner(): void
 ```
 
 ### \_onLoad (method)
@@ -612,7 +612,7 @@ _updatePanner(): void;
 **Signature**
 
 ```ts
-_onLoad(): void;
+_onLoad(): void
 ```
 
 ### \_readLoopComments (method)
@@ -620,7 +620,7 @@ _onLoad(): void;
 **Signature**
 
 ```ts
-_readLoopComments(arrayBuffer: ArrayBuffer): void;
+_readLoopComments(arrayBuffer: ArrayBuffer): void
 ```
 
 ### \_readMetaData (method)
@@ -628,7 +628,7 @@ _readLoopComments(arrayBuffer: ArrayBuffer): void;
 **Signature**
 
 ```ts
-_readMetaData(view: DataView, index: number, size: number): void;
+_readMetaData(view: DataView, index: number, size: number): void
 ```
 
 ### \_readFourCharacters (method)
@@ -636,7 +636,7 @@ _readMetaData(view: DataView, index: number, size: number): void;
 **Signature**
 
 ```ts
-_readFourCharacters(view: DataView, index: number): string;
+_readFourCharacters(view: DataView, index: number): string
 ```
 
 ### name (property)

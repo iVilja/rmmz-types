@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Switches.d.ts
-nav_order: 85
+nav_order: 86
 parent: Modules
 ---
 
@@ -39,7 +39,7 @@ export declare class Game_Switches
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### value (method)
@@ -47,7 +47,7 @@ clear(): void;
 **Signature**
 
 ```ts
-value(switchId?: SwitchID): boolean;
+value(switchId?: SwitchID): boolean
 ```
 
 ### setValue (method)
@@ -55,7 +55,7 @@ value(switchId?: SwitchID): boolean;
 **Signature**
 
 ```ts
-setValue(switchId: number, value: boolean): void;
+setValue(switchId: number, value: boolean): void
 ```
 
 ### onChange (method)
@@ -63,7 +63,7 @@ setValue(switchId: number, value: boolean): void;
 **Signature**
 
 ```ts
-onChange(): void;
+onChange(): void
 ```
 
 ### \_data (property)

@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleSkill.d.ts
-nav_order: 148
+nav_order: 149
 parent: Modules
 ---
 
@@ -38,7 +38,7 @@ export declare class Window_BattleSkill {
 **Signature**
 
 ```ts
-show(): void;
+show(): void
 ```
 
 ### hide (method)
@@ -46,5 +46,5 @@ show(): void;
 **Signature**
 
 ```ts
-hide(): void;
+hide(): void
 ```

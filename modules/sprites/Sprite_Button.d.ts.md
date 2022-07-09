@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Button.d.ts
-nav_order: 124
+nav_order: 125
 parent: Modules
 ---
 
@@ -71,7 +71,7 @@ export declare class Sprite_Button {
 **Signature**
 
 ```ts
-setupFrames(): void;
+setupFrames(): void
 ```
 
 ### blockWidth (method)
@@ -79,7 +79,7 @@ setupFrames(): void;
 **Signature**
 
 ```ts
-blockWidth(): number;
+blockWidth(): number
 ```
 
 ### blockHeight (method)
@@ -87,7 +87,7 @@ blockWidth(): number;
 **Signature**
 
 ```ts
-blockHeight(): number;
+blockHeight(): number
 ```
 
 ### loadButtonImage (method)
@@ -95,7 +95,7 @@ blockHeight(): number;
 **Signature**
 
 ```ts
-loadButtonImage(): void;
+loadButtonImage(): void
 ```
 
 ### buttonData (method)
@@ -103,34 +103,43 @@ loadButtonImage(): void;
 **Signature**
 
 ```ts
-buttonData(): {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    } | {
-        x: number;
-        w: number;
-    };
+buttonData():
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
+    | {
+        x: number
+        w: number
+      }
 ```
 
 ### update (method)
@@ -138,7 +147,7 @@ buttonData(): {
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### checkBitmap (method)
@@ -146,7 +155,7 @@ update(): void;
 **Signature**
 
 ```ts
-checkBitmap(): void;
+checkBitmap(): void
 ```
 
 ### updateFrame (method)
@@ -154,7 +163,7 @@ checkBitmap(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### updateOpacity (method)
@@ -162,7 +171,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-updateOpacity(): void;
+updateOpacity(): void
 ```
 
 ### setColdFrame (method)
@@ -170,7 +179,7 @@ updateOpacity(): void;
 **Signature**
 
 ```ts
-setColdFrame(x: number, y: number, width: number, height: number): void;
+setColdFrame(x: number, y: number, width: number, height: number): void
 ```
 
 ### setHotFrame (method)
@@ -178,7 +187,7 @@ setColdFrame(x: number, y: number, width: number, height: number): void;
 **Signature**
 
 ```ts
-setHotFrame(x: number, y: number, width: number, height: number): void;
+setHotFrame(x: number, y: number, width: number, height: number): void
 ```
 
 ### setClickHandler (method)
@@ -186,7 +195,7 @@ setHotFrame(x: number, y: number, width: number, height: number): void;
 **Signature**
 
 ```ts
-setClickHandler(method: () => void): void;
+setClickHandler(method: () => void): void
 ```
 
 ### onClick (method)
@@ -194,7 +203,7 @@ setClickHandler(method: () => void): void;
 **Signature**
 
 ```ts
-onClick(): void;
+onClick(): void
 ```
 
 ### \_buttonType (property)

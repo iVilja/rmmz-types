@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ActorCommand.d.ts
-nav_order: 142
+nav_order: 143
 parent: Modules
 ---
 
@@ -46,7 +46,7 @@ export declare class Window_ActorCommand {
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### addAttackCommand (method)
@@ -54,7 +54,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-addAttackCommand(): void;
+addAttackCommand(): void
 ```
 
 ### addSkillCommands (method)
@@ -62,7 +62,7 @@ addAttackCommand(): void;
 **Signature**
 
 ```ts
-addSkillCommands(): void;
+addSkillCommands(): void
 ```
 
 ### addGuardCommand (method)
@@ -70,7 +70,7 @@ addSkillCommands(): void;
 **Signature**
 
 ```ts
-addGuardCommand(): void;
+addGuardCommand(): void
 ```
 
 ### addItemCommand (method)
@@ -78,7 +78,7 @@ addGuardCommand(): void;
 **Signature**
 
 ```ts
-addItemCommand(): void;
+addItemCommand(): void
 ```
 
 ### setup (method)
@@ -86,7 +86,7 @@ addItemCommand(): void;
 **Signature**
 
 ```ts
-setup(actor: Game_Actor | null): void;
+setup(actor: Game_Actor | null): void
 ```
 
 ### actor (method)
@@ -94,7 +94,7 @@ setup(actor: Game_Actor | null): void;
 **Signature**
 
 ```ts
-actor(): Game_Actor | null;
+actor(): Game_Actor | null
 ```
 
 ### processOk (method)
@@ -102,7 +102,7 @@ actor(): Game_Actor | null;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### selectLast (method)
@@ -110,7 +110,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### \_actor (property)

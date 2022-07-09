@@ -1,6 +1,6 @@
 ---
 title: sprites/Spriteset_Map.d.ts
-nav_order: 139
+nav_order: 140
 parent: Modules
 ---
 
@@ -67,7 +67,7 @@ export declare class Spriteset_Map
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### loadSystemImages (method)
@@ -75,7 +75,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-loadSystemImages(): void;
+loadSystemImages(): void
 ```
 
 ### createLowerLayer (method)
@@ -83,7 +83,7 @@ loadSystemImages(): void;
 **Signature**
 
 ```ts
-createLowerLayer(): void;
+createLowerLayer(): void
 ```
 
 ### update (method)
@@ -91,7 +91,7 @@ createLowerLayer(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### hideCharacters (method)
@@ -99,7 +99,7 @@ update(): void;
 **Signature**
 
 ```ts
-hideCharacters(): void;
+hideCharacters(): void
 ```
 
 ### createParallax (method)
@@ -107,7 +107,7 @@ hideCharacters(): void;
 **Signature**
 
 ```ts
-createParallax(): void;
+createParallax(): void
 ```
 
 ### createTilemap (method)
@@ -115,7 +115,7 @@ createParallax(): void;
 **Signature**
 
 ```ts
-createTilemap(): void;
+createTilemap(): void
 ```
 
 ### loadTileset (method)
@@ -123,7 +123,7 @@ createTilemap(): void;
 **Signature**
 
 ```ts
-loadTileset(): void;
+loadTileset(): void
 ```
 
 ### createCharacters (method)
@@ -131,7 +131,7 @@ loadTileset(): void;
 **Signature**
 
 ```ts
-createCharacters(): void;
+createCharacters(): void
 ```
 
 ### createShadow (method)
@@ -139,7 +139,7 @@ createCharacters(): void;
 **Signature**
 
 ```ts
-createShadow(): void;
+createShadow(): void
 ```
 
 ### createDestination (method)
@@ -147,7 +147,7 @@ createShadow(): void;
 **Signature**
 
 ```ts
-createDestination(): void;
+createDestination(): void
 ```
 
 ### createWeather (method)
@@ -155,7 +155,7 @@ createDestination(): void;
 **Signature**
 
 ```ts
-createWeather(): void;
+createWeather(): void
 ```
 
 ### updateTileset (method)
@@ -163,7 +163,7 @@ createWeather(): void;
 **Signature**
 
 ```ts
-updateTileset(): void;
+updateTileset(): void
 ```
 
 ### updateParallax (method)
@@ -171,7 +171,7 @@ updateTileset(): void;
 **Signature**
 
 ```ts
-updateParallax(): void;
+updateParallax(): void
 ```
 
 ### updateTilemap (method)
@@ -179,7 +179,7 @@ updateParallax(): void;
 **Signature**
 
 ```ts
-updateTilemap(): void;
+updateTilemap(): void
 ```
 
 ### updateShadow (method)
@@ -187,7 +187,7 @@ updateTilemap(): void;
 **Signature**
 
 ```ts
-updateShadow(): void;
+updateShadow(): void
 ```
 
 ### updateWeather (method)
@@ -195,7 +195,7 @@ updateShadow(): void;
 **Signature**
 
 ```ts
-updateWeather(): void;
+updateWeather(): void
 ```
 
 ### updateBalloons (method)
@@ -203,7 +203,7 @@ updateWeather(): void;
 **Signature**
 
 ```ts
-updateBalloons(): void;
+updateBalloons(): void
 ```
 
 ### processBalloonRequests (method)
@@ -211,7 +211,7 @@ updateBalloons(): void;
 **Signature**
 
 ```ts
-processBalloonRequests(): void;
+processBalloonRequests(): void
 ```
 
 ### createBalloon (method)
@@ -219,7 +219,7 @@ processBalloonRequests(): void;
 **Signature**
 
 ```ts
-createBalloon(request: BalloonRequest): void;
+createBalloon(request: BalloonRequest): void
 ```
 
 ### removeBalloon (method)
@@ -227,7 +227,7 @@ createBalloon(request: BalloonRequest): void;
 **Signature**
 
 ```ts
-removeBalloon(sprite: Sprite_Balloon): void;
+removeBalloon(sprite: Sprite_Balloon): void
 ```
 
 ### removeAllBalloons (method)
@@ -235,7 +235,7 @@ removeBalloon(sprite: Sprite_Balloon): void;
 **Signature**
 
 ```ts
-removeAllBalloons(): void;
+removeAllBalloons(): void
 ```
 
 ### findTargetSprite (method)
@@ -243,7 +243,7 @@ removeAllBalloons(): void;
 **Signature**
 
 ```ts
-findTargetSprite(target: Game_Character): Sprite_Character | undefined;
+findTargetSprite(target: Game_Character): Sprite_Character | undefined
 ```
 
 ### animationBaseDelay (method)
@@ -251,7 +251,7 @@ findTargetSprite(target: Game_Character): Sprite_Character | undefined;
 **Signature**
 
 ```ts
-animationBaseDelay(): number;
+animationBaseDelay(): number
 ```
 
 ### \_balloonSprites (property)

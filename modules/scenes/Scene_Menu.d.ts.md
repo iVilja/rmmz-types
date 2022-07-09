@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Menu.d.ts
-nav_order: 107
+nav_order: 108
 parent: Modules
 ---
 
@@ -52,7 +52,7 @@ export declare class Scene_Menu
 **Signature**
 
 ```ts
-helpAreaHeight(): number;
+helpAreaHeight(): number
 ```
 
 ### create (method)
@@ -60,7 +60,7 @@ helpAreaHeight(): number;
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -68,7 +68,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### createCommandWindow (method)
@@ -76,7 +76,7 @@ start(): void;
 **Signature**
 
 ```ts
-createCommandWindow(): void;
+createCommandWindow(): void
 ```
 
 ### commandWindowRect (method)
@@ -84,7 +84,7 @@ createCommandWindow(): void;
 **Signature**
 
 ```ts
-commandWindowRect(): Rectangle;
+commandWindowRect(): Rectangle
 ```
 
 ### createGoldWindow (method)
@@ -92,7 +92,7 @@ commandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createGoldWindow(): void;
+createGoldWindow(): void
 ```
 
 ### goldWindowRect (method)
@@ -100,7 +100,7 @@ createGoldWindow(): void;
 **Signature**
 
 ```ts
-goldWindowRect(): Rectangle;
+goldWindowRect(): Rectangle
 ```
 
 ### createStatusWindow (method)
@@ -108,7 +108,7 @@ goldWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -116,7 +116,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### commandItem (method)
@@ -124,7 +124,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-commandItem(): void;
+commandItem(): void
 ```
 
 ### commandPersonal (method)
@@ -132,7 +132,7 @@ commandItem(): void;
 **Signature**
 
 ```ts
-commandPersonal(): void;
+commandPersonal(): void
 ```
 
 ### commandFormation (method)
@@ -140,7 +140,7 @@ commandPersonal(): void;
 **Signature**
 
 ```ts
-commandFormation(): void;
+commandFormation(): void
 ```
 
 ### commandOptions (method)
@@ -148,7 +148,7 @@ commandFormation(): void;
 **Signature**
 
 ```ts
-commandOptions(): void;
+commandOptions(): void
 ```
 
 ### commandSave (method)
@@ -156,7 +156,7 @@ commandOptions(): void;
 **Signature**
 
 ```ts
-commandSave(): void;
+commandSave(): void
 ```
 
 ### commandGameEnd (method)
@@ -164,7 +164,7 @@ commandSave(): void;
 **Signature**
 
 ```ts
-commandGameEnd(): void;
+commandGameEnd(): void
 ```
 
 ### onPersonalOk (method)
@@ -172,7 +172,7 @@ commandGameEnd(): void;
 **Signature**
 
 ```ts
-onPersonalOk(): void;
+onPersonalOk(): void
 ```
 
 ### onPersonalCancel (method)
@@ -180,7 +180,7 @@ onPersonalOk(): void;
 **Signature**
 
 ```ts
-onPersonalCancel(): void;
+onPersonalCancel(): void
 ```
 
 ### onFormationOk (method)
@@ -188,7 +188,7 @@ onPersonalCancel(): void;
 **Signature**
 
 ```ts
-onFormationOk(): void;
+onFormationOk(): void
 ```
 
 ### onFormationCancel (method)
@@ -196,7 +196,7 @@ onFormationOk(): void;
 **Signature**
 
 ```ts
-onFormationCancel(): void;
+onFormationCancel(): void
 ```
 
 ### \_statusWindow (property)

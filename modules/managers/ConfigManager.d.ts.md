@@ -1,6 +1,6 @@
 ---
 title: managers/ConfigManager.d.ts
-nav_order: 52
+nav_order: 53
 parent: Modules
 ---
 
@@ -43,7 +43,7 @@ export declare class ConfigManager {
 **Signature**
 
 ```ts
-static load(): Promise<number>;
+static load(): Promise<number>
 ```
 
 ### save (static method)
@@ -51,7 +51,7 @@ static load(): Promise<number>;
 **Signature**
 
 ```ts
-static save(): void;
+static save(): void
 ```
 
 ### isLoaded (static method)
@@ -59,7 +59,7 @@ static save(): void;
 **Signature**
 
 ```ts
-static isLoaded(): boolean;
+static isLoaded(): boolean
 ```
 
 ### makeData (static method)
@@ -67,7 +67,7 @@ static isLoaded(): boolean;
 **Signature**
 
 ```ts
-static makeData(): DataConfig;
+static makeData(): DataConfig
 ```
 
 ### applyData (static method)
@@ -75,7 +75,7 @@ static makeData(): DataConfig;
 **Signature**
 
 ```ts
-static applyData(config: Partial<DataConfig>): void;
+static applyData(config: Partial<DataConfig>): void
 ```
 
 ### readFlag (static method)
@@ -83,7 +83,7 @@ static applyData(config: Partial<DataConfig>): void;
 **Signature**
 
 ```ts
-static readFlag(config: Partial<DataConfig>, name: keyof DataConfig, defaultValue: boolean): boolean;
+static readFlag(config: Partial<DataConfig>, name: keyof DataConfig, defaultValue: boolean): boolean
 ```
 
 ### readVolume (static method)
@@ -91,5 +91,5 @@ static readFlag(config: Partial<DataConfig>, name: keyof DataConfig, defaultValu
 **Signature**
 
 ```ts
-static readVolume(config: Partial<DataConfig>, name: keyof DataConfig): number;
+static readVolume(config: Partial<DataConfig>, name: keyof DataConfig): number
 ```

@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Gauge.d.ts
-nav_order: 130
+nav_order: 131
 parent: Modules
 ---
 
@@ -98,7 +98,7 @@ export declare class Sprite_Gauge {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### destroy (method)
@@ -106,7 +106,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-destroy(options?: PIXI.IDestroyOptions | boolean): void;
+destroy(options?: PIXIDestroyOptions): void
 ```
 
 ### createBitmap (method)
@@ -114,7 +114,7 @@ destroy(options?: PIXI.IDestroyOptions | boolean): void;
 **Signature**
 
 ```ts
-createBitmap(): void;
+createBitmap(): void
 ```
 
 ### bitmapWidth (method)
@@ -122,7 +122,7 @@ createBitmap(): void;
 **Signature**
 
 ```ts
-bitmapWidth(): number;
+bitmapWidth(): number
 ```
 
 ### bitmapHeight (method)
@@ -130,7 +130,7 @@ bitmapWidth(): number;
 **Signature**
 
 ```ts
-bitmapHeight(): number;
+bitmapHeight(): number
 ```
 
 ### textHeight (method)
@@ -138,7 +138,7 @@ bitmapHeight(): number;
 **Signature**
 
 ```ts
-textHeight(): number;
+textHeight(): number
 ```
 
 ### gaugeHeight (method)
@@ -146,7 +146,7 @@ textHeight(): number;
 **Signature**
 
 ```ts
-gaugeHeight(): number;
+gaugeHeight(): number
 ```
 
 ### gaugeX (method)
@@ -154,7 +154,7 @@ gaugeHeight(): number;
 **Signature**
 
 ```ts
-gaugeX(): number;
+gaugeX(): number
 ```
 
 ### labelY (method)
@@ -162,7 +162,7 @@ gaugeX(): number;
 **Signature**
 
 ```ts
-labelY(): number;
+labelY(): number
 ```
 
 ### labelFontFace (method)
@@ -170,7 +170,7 @@ labelY(): number;
 **Signature**
 
 ```ts
-labelFontFace(): string;
+labelFontFace(): string
 ```
 
 ### labelFontSize (method)
@@ -178,7 +178,7 @@ labelFontFace(): string;
 **Signature**
 
 ```ts
-labelFontSize(): number;
+labelFontSize(): number
 ```
 
 ### valueFontFace (method)
@@ -186,7 +186,7 @@ labelFontSize(): number;
 **Signature**
 
 ```ts
-valueFontFace(): string;
+valueFontFace(): string
 ```
 
 ### valueFontSize (method)
@@ -194,7 +194,7 @@ valueFontFace(): string;
 **Signature**
 
 ```ts
-valueFontSize(): number;
+valueFontSize(): number
 ```
 
 ### setup (method)
@@ -202,7 +202,7 @@ valueFontSize(): number;
 **Signature**
 
 ```ts
-setup(battler: ActionTarget, statusType: GaugeStatusType): void;
+setup(battler: ActionTarget, statusType: GaugeStatusType): void
 ```
 
 ### update (method)
@@ -210,7 +210,7 @@ setup(battler: ActionTarget, statusType: GaugeStatusType): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBitmap (method)
@@ -218,7 +218,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### updateTargetValue (method)
@@ -226,7 +226,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-updateTargetValue(value: number, maxValue: number): void;
+updateTargetValue(value: number, maxValue: number): void
 ```
 
 ### smoothness (method)
@@ -234,7 +234,7 @@ updateTargetValue(value: number, maxValue: number): void;
 **Signature**
 
 ```ts
-smoothness(): 5 | 20;
+smoothness(): 20 | 5
 ```
 
 ### updateGaugeAnimation (method)
@@ -242,7 +242,7 @@ smoothness(): 5 | 20;
 **Signature**
 
 ```ts
-updateGaugeAnimation(): void;
+updateGaugeAnimation(): void
 ```
 
 ### updateFlashing (method)
@@ -250,7 +250,7 @@ updateGaugeAnimation(): void;
 **Signature**
 
 ```ts
-updateFlashing(): void;
+updateFlashing(): void
 ```
 
 ### flashingColor1 (method)
@@ -258,7 +258,7 @@ updateFlashing(): void;
 **Signature**
 
 ```ts
-flashingColor1(): Color;
+flashingColor1(): Color
 ```
 
 ### flashingColor2 (method)
@@ -266,7 +266,7 @@ flashingColor1(): Color;
 **Signature**
 
 ```ts
-flashingColor2(): Color;
+flashingColor2(): Color
 ```
 
 ### isValid (method)
@@ -274,7 +274,7 @@ flashingColor2(): Color;
 **Signature**
 
 ```ts
-isValid(): boolean;
+isValid(): boolean
 ```
 
 ### currentValue (method)
@@ -282,7 +282,7 @@ isValid(): boolean;
 **Signature**
 
 ```ts
-currentValue(): number;
+currentValue(): number
 ```
 
 ### currentMaxValue (method)
@@ -290,7 +290,7 @@ currentValue(): number;
 **Signature**
 
 ```ts
-currentMaxValue(): number;
+currentMaxValue(): number
 ```
 
 ### label (method)
@@ -298,7 +298,7 @@ currentMaxValue(): number;
 **Signature**
 
 ```ts
-label(): string;
+label(): string
 ```
 
 ### gaugeBackColor (method)
@@ -306,7 +306,7 @@ label(): string;
 **Signature**
 
 ```ts
-gaugeBackColor(): string;
+gaugeBackColor(): string
 ```
 
 ### gaugeColor1 (method)
@@ -314,7 +314,7 @@ gaugeBackColor(): string;
 **Signature**
 
 ```ts
-gaugeColor1(): string;
+gaugeColor1(): string
 ```
 
 ### gaugeColor2 (method)
@@ -322,7 +322,7 @@ gaugeColor1(): string;
 **Signature**
 
 ```ts
-gaugeColor2(): string;
+gaugeColor2(): string
 ```
 
 ### labelColor (method)
@@ -330,7 +330,7 @@ gaugeColor2(): string;
 **Signature**
 
 ```ts
-labelColor(): string;
+labelColor(): string
 ```
 
 ### labelOutlineColor (method)
@@ -338,7 +338,7 @@ labelColor(): string;
 **Signature**
 
 ```ts
-labelOutlineColor(): string;
+labelOutlineColor(): string
 ```
 
 ### labelOutlineWidth (method)
@@ -346,7 +346,7 @@ labelOutlineColor(): string;
 **Signature**
 
 ```ts
-labelOutlineWidth(): number;
+labelOutlineWidth(): number
 ```
 
 ### valueColor (method)
@@ -354,7 +354,7 @@ labelOutlineWidth(): number;
 **Signature**
 
 ```ts
-valueColor(): string;
+valueColor(): string
 ```
 
 ### valueOutlineColor (method)
@@ -362,7 +362,7 @@ valueColor(): string;
 **Signature**
 
 ```ts
-valueOutlineColor(): string;
+valueOutlineColor(): string
 ```
 
 ### valueOutlineWidth (method)
@@ -370,7 +370,7 @@ valueOutlineColor(): string;
 **Signature**
 
 ```ts
-valueOutlineWidth(): number;
+valueOutlineWidth(): number
 ```
 
 ### redraw (method)
@@ -378,7 +378,7 @@ valueOutlineWidth(): number;
 **Signature**
 
 ```ts
-redraw(): void;
+redraw(): void
 ```
 
 ### drawGauge (method)
@@ -386,7 +386,7 @@ redraw(): void;
 **Signature**
 
 ```ts
-drawGauge(): void;
+drawGauge(): void
 ```
 
 ### drawGaugeRect (method)
@@ -394,7 +394,7 @@ drawGauge(): void;
 **Signature**
 
 ```ts
-drawGaugeRect(x: number, y: number, width: number, height: number): void;
+drawGaugeRect(x: number, y: number, width: number, height: number): void
 ```
 
 ### gaugeRate (method)
@@ -402,7 +402,7 @@ drawGaugeRect(x: number, y: number, width: number, height: number): void;
 **Signature**
 
 ```ts
-gaugeRate(): number;
+gaugeRate(): number
 ```
 
 ### drawLabel (method)
@@ -410,7 +410,7 @@ gaugeRate(): number;
 **Signature**
 
 ```ts
-drawLabel(): void;
+drawLabel(): void
 ```
 
 ### setupLabelFont (method)
@@ -418,7 +418,7 @@ drawLabel(): void;
 **Signature**
 
 ```ts
-setupLabelFont(): void;
+setupLabelFont(): void
 ```
 
 ### measureLabelWidth (method)
@@ -426,7 +426,7 @@ setupLabelFont(): void;
 **Signature**
 
 ```ts
-measureLabelWidth(): number;
+measureLabelWidth(): number
 ```
 
 ### labelOpacity (method)
@@ -434,7 +434,7 @@ measureLabelWidth(): number;
 **Signature**
 
 ```ts
-labelOpacity(): 255 | 160;
+labelOpacity(): 255 | 160
 ```
 
 ### drawValue (method)
@@ -442,7 +442,7 @@ labelOpacity(): 255 | 160;
 **Signature**
 
 ```ts
-drawValue(): void;
+drawValue(): void
 ```
 
 ### setupValueFont (method)
@@ -450,7 +450,7 @@ drawValue(): void;
 **Signature**
 
 ```ts
-setupValueFont(): void;
+setupValueFont(): void
 ```
 
 ### \_battler (property)

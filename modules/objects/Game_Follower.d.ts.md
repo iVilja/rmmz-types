@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Follower.d.ts
-nav_order: 74
+nav_order: 75
 parent: Modules
 ---
 
@@ -44,7 +44,7 @@ export declare class Game_Follower {
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### actor (method)
@@ -52,7 +52,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-actor(): import("./Game_Actor").Game_Actor;
+actor(): import("./Game_Actor").Game_Actor
 ```
 
 ### isVisible (method)
@@ -60,7 +60,7 @@ actor(): import("./Game_Actor").Game_Actor;
 **Signature**
 
 ```ts
-isVisible(): boolean;
+isVisible(): boolean
 ```
 
 ### isGathered (method)
@@ -68,7 +68,7 @@ isVisible(): boolean;
 **Signature**
 
 ```ts
-isGathered(): boolean;
+isGathered(): boolean
 ```
 
 ### update (method)
@@ -76,7 +76,7 @@ isGathered(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### chaseCharacter (method)
@@ -84,7 +84,7 @@ update(): void;
 **Signature**
 
 ```ts
-chaseCharacter(character: Game_Character): void;
+chaseCharacter(character: Game_Character): void
 ```
 
 ### \_memberIndex (property)

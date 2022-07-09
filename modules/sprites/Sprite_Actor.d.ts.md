@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Actor.d.ts
-nav_order: 118
+nav_order: 119
 parent: Modules
 ---
 
@@ -76,7 +76,7 @@ export declare class Sprite_Actor {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### mainSprite (method)
@@ -84,7 +84,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-mainSprite(): Sprite<Bitmap | null>;
+mainSprite(): Sprite<Bitmap | null>
 ```
 
 ### createMainSprite (method)
@@ -92,7 +92,7 @@ mainSprite(): Sprite<Bitmap | null>;
 **Signature**
 
 ```ts
-createMainSprite(): void;
+createMainSprite(): void
 ```
 
 ### createShadowSprite (method)
@@ -100,7 +100,7 @@ createMainSprite(): void;
 **Signature**
 
 ```ts
-createShadowSprite(): void;
+createShadowSprite(): void
 ```
 
 ### createWeaponSprite (method)
@@ -108,7 +108,7 @@ createShadowSprite(): void;
 **Signature**
 
 ```ts
-createWeaponSprite(): void;
+createWeaponSprite(): void
 ```
 
 ### createStateSprite (method)
@@ -116,7 +116,7 @@ createWeaponSprite(): void;
 **Signature**
 
 ```ts
-createStateSprite(): void;
+createStateSprite(): void
 ```
 
 ### setBattler (method)
@@ -124,7 +124,7 @@ createStateSprite(): void;
 **Signature**
 
 ```ts
-setBattler(battler: Game_Actor): void;
+setBattler(battler: Game_Actor): void
 ```
 
 ### moveToStartPosition (method)
@@ -132,7 +132,7 @@ setBattler(battler: Game_Actor): void;
 **Signature**
 
 ```ts
-moveToStartPosition(): void;
+moveToStartPosition(): void
 ```
 
 ### setActorHome (method)
@@ -140,7 +140,7 @@ moveToStartPosition(): void;
 **Signature**
 
 ```ts
-setActorHome(index: number): void;
+setActorHome(index: number): void
 ```
 
 ### update (method)
@@ -148,7 +148,7 @@ setActorHome(index: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateShadow (method)
@@ -156,7 +156,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateShadow(): void;
+updateShadow(): void
 ```
 
 ### updateMain (method)
@@ -164,7 +164,7 @@ updateShadow(): void;
 **Signature**
 
 ```ts
-updateMain(): void;
+updateMain(): void
 ```
 
 ### setupMotion (method)
@@ -172,7 +172,7 @@ updateMain(): void;
 **Signature**
 
 ```ts
-setupMotion(): void;
+setupMotion(): void
 ```
 
 ### setupWeaponAnimation (method)
@@ -180,7 +180,7 @@ setupMotion(): void;
 **Signature**
 
 ```ts
-setupWeaponAnimation(): void;
+setupWeaponAnimation(): void
 ```
 
 ### startMotion (method)
@@ -188,7 +188,7 @@ setupWeaponAnimation(): void;
 **Signature**
 
 ```ts
-startMotion(motionType: BattlerMotionType): void;
+startMotion(motionType: BattlerMotionType): void
 ```
 
 ### updateTargetPosition (method)
@@ -196,7 +196,7 @@ startMotion(motionType: BattlerMotionType): void;
 **Signature**
 
 ```ts
-updateTargetPosition(): void;
+updateTargetPosition(): void
 ```
 
 ### shouldStepForward (method)
@@ -204,7 +204,7 @@ updateTargetPosition(): void;
 **Signature**
 
 ```ts
-shouldStepForward(): boolean;
+shouldStepForward(): boolean
 ```
 
 ### updateBitmap (method)
@@ -212,7 +212,7 @@ shouldStepForward(): boolean;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### updateFrame (method)
@@ -220,7 +220,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### updateMove (method)
@@ -228,7 +228,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-updateMove(): void;
+updateMove(): void
 ```
 
 ### updateMotion (method)
@@ -236,7 +236,7 @@ updateMove(): void;
 **Signature**
 
 ```ts
-updateMotion(): void;
+updateMotion(): void
 ```
 
 ### updateMotionCount (method)
@@ -244,7 +244,7 @@ updateMotion(): void;
 **Signature**
 
 ```ts
-updateMotionCount(): void;
+updateMotionCount(): void
 ```
 
 ### motionSpeed (method)
@@ -252,7 +252,7 @@ updateMotionCount(): void;
 **Signature**
 
 ```ts
-motionSpeed(): number;
+motionSpeed(): number
 ```
 
 ### refreshMotion (method)
@@ -260,7 +260,7 @@ motionSpeed(): number;
 **Signature**
 
 ```ts
-refreshMotion(): void;
+refreshMotion(): void
 ```
 
 ### startEntryMotion (method)
@@ -268,7 +268,7 @@ refreshMotion(): void;
 **Signature**
 
 ```ts
-startEntryMotion(): void;
+startEntryMotion(): void
 ```
 
 ### stepForward (method)
@@ -276,7 +276,7 @@ startEntryMotion(): void;
 **Signature**
 
 ```ts
-stepForward(): void;
+stepForward(): void
 ```
 
 ### stepBack (method)
@@ -284,7 +284,7 @@ stepForward(): void;
 **Signature**
 
 ```ts
-stepBack(): void;
+stepBack(): void
 ```
 
 ### retreat (method)
@@ -292,7 +292,7 @@ stepBack(): void;
 **Signature**
 
 ```ts
-retreat(): void;
+retreat(): void
 ```
 
 ### onMoveEnd (method)
@@ -300,7 +300,7 @@ retreat(): void;
 **Signature**
 
 ```ts
-onMoveEnd(): void;
+onMoveEnd(): void
 ```
 
 ### damageOffsetX (method)
@@ -308,7 +308,7 @@ onMoveEnd(): void;
 **Signature**
 
 ```ts
-damageOffsetX(): number;
+damageOffsetX(): number
 ```
 
 ### damageOffsetY (method)
@@ -316,7 +316,7 @@ damageOffsetX(): number;
 **Signature**
 
 ```ts
-damageOffsetY(): number;
+damageOffsetY(): number
 ```
 
 ### \_battlerName (property)

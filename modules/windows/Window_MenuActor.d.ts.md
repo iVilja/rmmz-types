@@ -1,6 +1,6 @@
 ---
 title: windows/Window_MenuActor.d.ts
-nav_order: 166
+nav_order: 167
 parent: Modules
 ---
 
@@ -39,7 +39,7 @@ export declare class Window_MenuActor {
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### selectLast (method)
@@ -47,7 +47,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### selectForItem (method)
@@ -55,5 +55,5 @@ selectLast(): void;
 **Signature**
 
 ```ts
-selectForItem(item: ActionItem): void;
+selectForItem(item: ActionItem): void
 ```

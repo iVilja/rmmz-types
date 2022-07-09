@@ -1,6 +1,6 @@
 ---
 title: windows/Window_MenuCommand.d.ts
-nav_order: 167
+nav_order: 168
 parent: Modules
 ---
 
@@ -53,7 +53,7 @@ export declare class Window_MenuCommand {
 **Signature**
 
 ```ts
-static initCommandPosition(): void;
+static initCommandPosition(): void
 ```
 
 ### makeCommandList (method)
@@ -61,7 +61,7 @@ static initCommandPosition(): void;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### addMainCommands (method)
@@ -69,7 +69,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-addMainCommands(): void;
+addMainCommands(): void
 ```
 
 ### addFormationCommand (method)
@@ -77,7 +77,7 @@ addMainCommands(): void;
 **Signature**
 
 ```ts
-addFormationCommand(): void;
+addFormationCommand(): void
 ```
 
 ### addOriginalCommands (method)
@@ -85,7 +85,7 @@ addFormationCommand(): void;
 **Signature**
 
 ```ts
-addOriginalCommands(): void;
+addOriginalCommands(): void
 ```
 
 ### addOptionsCommand (method)
@@ -93,7 +93,7 @@ addOriginalCommands(): void;
 **Signature**
 
 ```ts
-addOptionsCommand(): void;
+addOptionsCommand(): void
 ```
 
 ### addSaveCommand (method)
@@ -101,7 +101,7 @@ addOptionsCommand(): void;
 **Signature**
 
 ```ts
-addSaveCommand(): void;
+addSaveCommand(): void
 ```
 
 ### addGameEndCommand (method)
@@ -109,7 +109,7 @@ addSaveCommand(): void;
 **Signature**
 
 ```ts
-addGameEndCommand(): void;
+addGameEndCommand(): void
 ```
 
 ### needsCommand (method)
@@ -117,7 +117,7 @@ addGameEndCommand(): void;
 **Signature**
 
 ```ts
-needsCommand(name: string): boolean;
+needsCommand(name: string): boolean
 ```
 
 ### areMainCommandsEnabled (method)
@@ -125,7 +125,7 @@ needsCommand(name: string): boolean;
 **Signature**
 
 ```ts
-areMainCommandsEnabled(): boolean;
+areMainCommandsEnabled(): boolean
 ```
 
 ### isFormationEnabled (method)
@@ -133,7 +133,7 @@ areMainCommandsEnabled(): boolean;
 **Signature**
 
 ```ts
-isFormationEnabled(): boolean;
+isFormationEnabled(): boolean
 ```
 
 ### isOptionsEnabled (method)
@@ -141,7 +141,7 @@ isFormationEnabled(): boolean;
 **Signature**
 
 ```ts
-isOptionsEnabled(): boolean;
+isOptionsEnabled(): boolean
 ```
 
 ### isSaveEnabled (method)
@@ -149,7 +149,7 @@ isOptionsEnabled(): boolean;
 **Signature**
 
 ```ts
-isSaveEnabled(): boolean;
+isSaveEnabled(): boolean
 ```
 
 ### isGameEndEnabled (method)
@@ -157,7 +157,7 @@ isSaveEnabled(): boolean;
 **Signature**
 
 ```ts
-isGameEndEnabled(): boolean;
+isGameEndEnabled(): boolean
 ```
 
 ### processOk (method)
@@ -165,7 +165,7 @@ isGameEndEnabled(): boolean;
 **Signature**
 
 ```ts
-processOk(): void;
+processOk(): void
 ```
 
 ### selectLast (method)
@@ -173,7 +173,7 @@ processOk(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### \_canRepeat (property)

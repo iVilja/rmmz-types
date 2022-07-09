@@ -67,7 +67,7 @@ Initializes the input system.
 **Signature**
 
 ```ts
-static initialize(): void;
+static initialize(): void
 ```
 
 ### clear (static method)
@@ -77,7 +77,7 @@ Clears all the input data.
 **Signature**
 
 ```ts
-static clear(): void;
+static clear(): void
 ```
 
 ### update (static method)
@@ -87,7 +87,7 @@ Updates the input data.
 **Signature**
 
 ```ts
-static update(): void;
+static update(): void
 ```
 
 ### isPressed (static method)
@@ -97,7 +97,7 @@ Checks whether a key is currently pressed down.
 **Signature**
 
 ```ts
-static isPressed(keyName: string): boolean;
+static isPressed(keyName: string): boolean
 ```
 
 ### isTriggered (static method)
@@ -107,7 +107,7 @@ Checks whether a key is just pressed.
 **Signature**
 
 ```ts
-static isTriggered(keyName: string): boolean;
+static isTriggered(keyName: string): boolean
 ```
 
 ### isRepeated (static method)
@@ -117,7 +117,7 @@ Checks whether a key is just pressed or a key repeat occurred.
 **Signature**
 
 ```ts
-static isRepeated(keyName: string): boolean;
+static isRepeated(keyName: string): boolean
 ```
 
 ### isLongPressed (static method)
@@ -127,7 +127,7 @@ Checks whether a key is kept depressed.
 **Signature**
 
 ```ts
-static isLongPressed(keyName: string): boolean;
+static isLongPressed(keyName: string): boolean
 ```
 
 ### date (static method)
@@ -137,7 +137,7 @@ The time of the last input in milliseconds.
 **Signature**
 
 ```ts
-static date(): number;
+static date(): number
 ```
 
 ### virtualClick (static method)
@@ -145,7 +145,7 @@ static date(): number;
 **Signature**
 
 ```ts
-static virtualClick(buttonName: string): void;
+static virtualClick(buttonName: string): void
 ```
 
 ### \_setupEventHandlers (static method)
@@ -153,7 +153,7 @@ static virtualClick(buttonName: string): void;
 **Signature**
 
 ```ts
-static _setupEventHandlers(): void;
+static _setupEventHandlers(): void
 ```
 
 ### \_onKeyDown (static method)
@@ -161,7 +161,7 @@ static _setupEventHandlers(): void;
 **Signature**
 
 ```ts
-static _onKeyDown(event: KeyboardEvent): void;
+static _onKeyDown(event: KeyboardEvent): void
 ```
 
 ### \_shouldPreventDefault (static method)
@@ -169,7 +169,7 @@ static _onKeyDown(event: KeyboardEvent): void;
 **Signature**
 
 ```ts
-static _shouldPreventDefault(keyCode: number): boolean;
+static _shouldPreventDefault(keyCode: number): boolean
 ```
 
 ### \_onKeyUp (static method)
@@ -177,7 +177,7 @@ static _shouldPreventDefault(keyCode: number): boolean;
 **Signature**
 
 ```ts
-static _onKeyUp(event: KeyboardEvent): void;
+static _onKeyUp(event: KeyboardEvent): void
 ```
 
 ### \_onLostFocus (static method)
@@ -185,7 +185,7 @@ static _onKeyUp(event: KeyboardEvent): void;
 **Signature**
 
 ```ts
-static _onLostFocus(): void;
+static _onLostFocus(): void
 ```
 
 ### \_pollGamepads (static method)
@@ -193,7 +193,7 @@ static _onLostFocus(): void;
 **Signature**
 
 ```ts
-static _pollGamepads(): void;
+static _pollGamepads(): void
 ```
 
 ### \_updateGamepadState (static method)
@@ -201,7 +201,7 @@ static _pollGamepads(): void;
 **Signature**
 
 ```ts
-static _updateGamepadState(gamepad: Gamepad): void;
+static _updateGamepadState(gamepad: Gamepad): void
 ```
 
 ### \_updateDirection (static method)
@@ -209,7 +209,7 @@ static _updateGamepadState(gamepad: Gamepad): void;
 **Signature**
 
 ```ts
-static _updateDirection(): void;
+static _updateDirection(): void
 ```
 
 ### \_signX (static method)
@@ -217,7 +217,7 @@ static _updateDirection(): void;
 **Signature**
 
 ```ts
-static _signX(): number;
+static _signX(): number
 ```
 
 ### \_signY (static method)
@@ -225,7 +225,7 @@ static _signX(): number;
 **Signature**
 
 ```ts
-static _signY(): number;
+static _signY(): number
 ```
 
 ### \_makeNumpadDirection (static method)
@@ -233,7 +233,7 @@ static _signY(): number;
 **Signature**
 
 ```ts
-static _makeNumpadDirection(x: number, y: number): number;
+static _makeNumpadDirection(x: number, y: number): number
 ```
 
 ### \_isEscapeCompatible (static method)
@@ -241,7 +241,7 @@ static _makeNumpadDirection(x: number, y: number): number;
 **Signature**
 
 ```ts
-static _isEscapeCompatible(keyName: string): boolean;
+static _isEscapeCompatible(keyName: string): boolean
 ```
 
 ## KeyboardButtonIndex (type alias)

@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleStatus.d.ts
-nav_order: 149
+nav_order: 150
 parent: Modules
 ---
 
@@ -58,7 +58,7 @@ export declare class Window_BattleStatus {
 **Signature**
 
 ```ts
-extraHeight(): number;
+extraHeight(): number
 ```
 
 ### maxCols (method)
@@ -66,7 +66,7 @@ extraHeight(): number;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### itemHeight (method)
@@ -74,7 +74,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-itemHeight(): number;
+itemHeight(): number
 ```
 
 ### maxItems (method)
@@ -82,7 +82,7 @@ itemHeight(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### rowSpacing (method)
@@ -90,7 +90,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-rowSpacing(): number;
+rowSpacing(): number
 ```
 
 ### updatePadding (method)
@@ -98,7 +98,7 @@ rowSpacing(): number;
 **Signature**
 
 ```ts
-updatePadding(): void;
+updatePadding(): void
 ```
 
 ### actor (method)
@@ -106,7 +106,7 @@ updatePadding(): void;
 **Signature**
 
 ```ts
-actor(index: number): Game_Actor;
+actor(index: number): Game_Actor
 ```
 
 ### selectActor (method)
@@ -114,7 +114,7 @@ actor(index: number): Game_Actor;
 **Signature**
 
 ```ts
-selectActor(actor: Game_Actor | null): void;
+selectActor(actor: Game_Actor | null): void
 ```
 
 ### update (method)
@@ -122,7 +122,7 @@ selectActor(actor: Game_Actor | null): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### preparePartyRefresh (method)
@@ -130,7 +130,7 @@ update(): void;
 **Signature**
 
 ```ts
-preparePartyRefresh(): void;
+preparePartyRefresh(): void
 ```
 
 ### performPartyRefresh (method)
@@ -138,7 +138,7 @@ preparePartyRefresh(): void;
 **Signature**
 
 ```ts
-performPartyRefresh(): void;
+performPartyRefresh(): void
 ```
 
 ### drawItem (method)
@@ -146,7 +146,7 @@ performPartyRefresh(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### drawItemImage (method)
@@ -154,7 +154,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-drawItemImage(index: number): void;
+drawItemImage(index: number): void
 ```
 
 ### drawItemStatus (method)
@@ -162,7 +162,7 @@ drawItemImage(index: number): void;
 **Signature**
 
 ```ts
-drawItemStatus(index: number): void;
+drawItemStatus(index: number): void
 ```
 
 ### faceRect (method)
@@ -170,7 +170,7 @@ drawItemStatus(index: number): void;
 **Signature**
 
 ```ts
-faceRect(index: number): Rectangle;
+faceRect(index: number): Rectangle
 ```
 
 ### nameX (method)
@@ -178,7 +178,7 @@ faceRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-nameX(rect: Rectangle): number;
+nameX(rect: Rectangle): number
 ```
 
 ### nameY (method)
@@ -186,7 +186,7 @@ nameX(rect: Rectangle): number;
 **Signature**
 
 ```ts
-nameY(rect: Rectangle): number;
+nameY(rect: Rectangle): number
 ```
 
 ### stateIconX (method)
@@ -194,7 +194,7 @@ nameY(rect: Rectangle): number;
 **Signature**
 
 ```ts
-stateIconX(rect: Rectangle): number;
+stateIconX(rect: Rectangle): number
 ```
 
 ### stateIconY (method)
@@ -202,7 +202,7 @@ stateIconX(rect: Rectangle): number;
 **Signature**
 
 ```ts
-stateIconY(rect: Rectangle): number;
+stateIconY(rect: Rectangle): number
 ```
 
 ### basicGaugesX (method)
@@ -210,7 +210,7 @@ stateIconY(rect: Rectangle): number;
 **Signature**
 
 ```ts
-basicGaugesX(rect: Rectangle): number;
+basicGaugesX(rect: Rectangle): number
 ```
 
 ### basicGaugesY (method)
@@ -218,7 +218,7 @@ basicGaugesX(rect: Rectangle): number;
 **Signature**
 
 ```ts
-basicGaugesY(rect: Rectangle): number;
+basicGaugesY(rect: Rectangle): number
 ```
 
 ### \_bitmapsReady (property)

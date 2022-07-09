@@ -1,6 +1,6 @@
 ---
 title: objects/Game_System.d.ts
-nav_order: 86
+nav_order: 87
 parent: Modules
 ---
 
@@ -104,7 +104,7 @@ export declare class Game_System
 **Signature**
 
 ```ts
-isJapanese(): RegExpMatchArray | null;
+isJapanese(): RegExpMatchArray | null
 ```
 
 ### isChinese (method)
@@ -112,7 +112,7 @@ isJapanese(): RegExpMatchArray | null;
 **Signature**
 
 ```ts
-isChinese(): RegExpMatchArray | null;
+isChinese(): RegExpMatchArray | null
 ```
 
 ### isKorean (method)
@@ -120,7 +120,7 @@ isChinese(): RegExpMatchArray | null;
 **Signature**
 
 ```ts
-isKorean(): RegExpMatchArray | null;
+isKorean(): RegExpMatchArray | null
 ```
 
 ### isCJK (method)
@@ -128,7 +128,7 @@ isKorean(): RegExpMatchArray | null;
 **Signature**
 
 ```ts
-isCJK(): RegExpMatchArray | null;
+isCJK(): RegExpMatchArray | null
 ```
 
 ### isRussian (method)
@@ -136,7 +136,7 @@ isCJK(): RegExpMatchArray | null;
 **Signature**
 
 ```ts
-isRussian(): RegExpMatchArray | null;
+isRussian(): RegExpMatchArray | null
 ```
 
 ### isSideView (method)
@@ -144,7 +144,7 @@ isRussian(): RegExpMatchArray | null;
 **Signature**
 
 ```ts
-isSideView(): boolean;
+isSideView(): boolean
 ```
 
 ### isAutosaveEnabled (method)
@@ -152,7 +152,7 @@ isSideView(): boolean;
 **Signature**
 
 ```ts
-isAutosaveEnabled(): boolean;
+isAutosaveEnabled(): boolean
 ```
 
 ### isSaveEnabled (method)
@@ -160,7 +160,7 @@ isAutosaveEnabled(): boolean;
 **Signature**
 
 ```ts
-isSaveEnabled(): boolean;
+isSaveEnabled(): boolean
 ```
 
 ### disableSave (method)
@@ -168,7 +168,7 @@ isSaveEnabled(): boolean;
 **Signature**
 
 ```ts
-disableSave(): void;
+disableSave(): void
 ```
 
 ### enableSave (method)
@@ -176,7 +176,7 @@ disableSave(): void;
 **Signature**
 
 ```ts
-enableSave(): void;
+enableSave(): void
 ```
 
 ### isMenuEnabled (method)
@@ -184,7 +184,7 @@ enableSave(): void;
 **Signature**
 
 ```ts
-isMenuEnabled(): boolean;
+isMenuEnabled(): boolean
 ```
 
 ### disableMenu (method)
@@ -192,7 +192,7 @@ isMenuEnabled(): boolean;
 **Signature**
 
 ```ts
-disableMenu(): void;
+disableMenu(): void
 ```
 
 ### enableMenu (method)
@@ -200,7 +200,7 @@ disableMenu(): void;
 **Signature**
 
 ```ts
-enableMenu(): void;
+enableMenu(): void
 ```
 
 ### isEncounterEnabled (method)
@@ -208,7 +208,7 @@ enableMenu(): void;
 **Signature**
 
 ```ts
-isEncounterEnabled(): boolean;
+isEncounterEnabled(): boolean
 ```
 
 ### disableEncounter (method)
@@ -216,7 +216,7 @@ isEncounterEnabled(): boolean;
 **Signature**
 
 ```ts
-disableEncounter(): void;
+disableEncounter(): void
 ```
 
 ### enableEncounter (method)
@@ -224,7 +224,7 @@ disableEncounter(): void;
 **Signature**
 
 ```ts
-enableEncounter(): void;
+enableEncounter(): void
 ```
 
 ### isFormationEnabled (method)
@@ -232,7 +232,7 @@ enableEncounter(): void;
 **Signature**
 
 ```ts
-isFormationEnabled(): boolean;
+isFormationEnabled(): boolean
 ```
 
 ### disableFormation (method)
@@ -240,7 +240,7 @@ isFormationEnabled(): boolean;
 **Signature**
 
 ```ts
-disableFormation(): void;
+disableFormation(): void
 ```
 
 ### enableFormation (method)
@@ -248,7 +248,7 @@ disableFormation(): void;
 **Signature**
 
 ```ts
-enableFormation(): void;
+enableFormation(): void
 ```
 
 ### battleCount (method)
@@ -256,7 +256,7 @@ enableFormation(): void;
 **Signature**
 
 ```ts
-battleCount(): number;
+battleCount(): number
 ```
 
 ### winCount (method)
@@ -264,7 +264,7 @@ battleCount(): number;
 **Signature**
 
 ```ts
-winCount(): number;
+winCount(): number
 ```
 
 ### escapeCount (method)
@@ -272,7 +272,7 @@ winCount(): number;
 **Signature**
 
 ```ts
-escapeCount(): number;
+escapeCount(): number
 ```
 
 ### saveCount (method)
@@ -280,7 +280,7 @@ escapeCount(): number;
 **Signature**
 
 ```ts
-saveCount(): number;
+saveCount(): number
 ```
 
 ### versionId (method)
@@ -288,7 +288,7 @@ saveCount(): number;
 **Signature**
 
 ```ts
-versionId(): number;
+versionId(): number
 ```
 
 ### savefileId (method)
@@ -296,7 +296,7 @@ versionId(): number;
 **Signature**
 
 ```ts
-savefileId(): number;
+savefileId(): number
 ```
 
 ### setSavefileId (method)
@@ -304,7 +304,7 @@ savefileId(): number;
 **Signature**
 
 ```ts
-setSavefileId(savefileId: number): void;
+setSavefileId(savefileId: number): void
 ```
 
 ### windowTone (method)
@@ -312,7 +312,7 @@ setSavefileId(savefileId: number): void;
 **Signature**
 
 ```ts
-windowTone(): Color;
+windowTone(): Color
 ```
 
 ### setWindowTone (method)
@@ -320,7 +320,7 @@ windowTone(): Color;
 **Signature**
 
 ```ts
-setWindowTone(value: Color): void;
+setWindowTone(value: Color): void
 ```
 
 ### battleBgm (method)
@@ -328,7 +328,7 @@ setWindowTone(value: Color): void;
 **Signature**
 
 ```ts
-battleBgm(): DataAudio;
+battleBgm(): DataAudio
 ```
 
 ### setBattleBgm (method)
@@ -336,7 +336,7 @@ battleBgm(): DataAudio;
 **Signature**
 
 ```ts
-setBattleBgm(value: DataAudio): void;
+setBattleBgm(value: DataAudio): void
 ```
 
 ### victoryMe (method)
@@ -344,7 +344,7 @@ setBattleBgm(value: DataAudio): void;
 **Signature**
 
 ```ts
-victoryMe(): DataAudio;
+victoryMe(): DataAudio
 ```
 
 ### setVictoryMe (method)
@@ -352,7 +352,7 @@ victoryMe(): DataAudio;
 **Signature**
 
 ```ts
-setVictoryMe(value: DataAudio): void;
+setVictoryMe(value: DataAudio): void
 ```
 
 ### defeatMe (method)
@@ -360,7 +360,7 @@ setVictoryMe(value: DataAudio): void;
 **Signature**
 
 ```ts
-defeatMe(): DataAudio;
+defeatMe(): DataAudio
 ```
 
 ### setDefeatMe (method)
@@ -368,7 +368,7 @@ defeatMe(): DataAudio;
 **Signature**
 
 ```ts
-setDefeatMe(value: DataAudio): void;
+setDefeatMe(value: DataAudio): void
 ```
 
 ### onBattleStart (method)
@@ -376,7 +376,7 @@ setDefeatMe(value: DataAudio): void;
 **Signature**
 
 ```ts
-onBattleStart(): void;
+onBattleStart(): void
 ```
 
 ### onBattleWin (method)
@@ -384,7 +384,7 @@ onBattleStart(): void;
 **Signature**
 
 ```ts
-onBattleWin(): void;
+onBattleWin(): void
 ```
 
 ### onBattleEscape (method)
@@ -392,7 +392,7 @@ onBattleWin(): void;
 **Signature**
 
 ```ts
-onBattleEscape(): void;
+onBattleEscape(): void
 ```
 
 ### onBeforeSave (method)
@@ -400,7 +400,7 @@ onBattleEscape(): void;
 **Signature**
 
 ```ts
-onBeforeSave(): void;
+onBeforeSave(): void
 ```
 
 ### onAfterLoad (method)
@@ -408,7 +408,7 @@ onBeforeSave(): void;
 **Signature**
 
 ```ts
-onAfterLoad(): void;
+onAfterLoad(): void
 ```
 
 ### playtime (method)
@@ -416,7 +416,7 @@ onAfterLoad(): void;
 **Signature**
 
 ```ts
-playtime(): number;
+playtime(): number
 ```
 
 ### playtimeText (method)
@@ -424,7 +424,7 @@ playtime(): number;
 **Signature**
 
 ```ts
-playtimeText(): string;
+playtimeText(): string
 ```
 
 ### saveBgm (method)
@@ -432,7 +432,7 @@ playtimeText(): string;
 **Signature**
 
 ```ts
-saveBgm(): void;
+saveBgm(): void
 ```
 
 ### replayBgm (method)
@@ -440,7 +440,7 @@ saveBgm(): void;
 **Signature**
 
 ```ts
-replayBgm(): void;
+replayBgm(): void
 ```
 
 ### saveWalkingBgm (method)
@@ -448,7 +448,7 @@ replayBgm(): void;
 **Signature**
 
 ```ts
-saveWalkingBgm(): void;
+saveWalkingBgm(): void
 ```
 
 ### replayWalkingBgm (method)
@@ -456,7 +456,7 @@ saveWalkingBgm(): void;
 **Signature**
 
 ```ts
-replayWalkingBgm(): void;
+replayWalkingBgm(): void
 ```
 
 ### saveWalkingBgm2 (method)
@@ -464,7 +464,7 @@ replayWalkingBgm(): void;
 **Signature**
 
 ```ts
-saveWalkingBgm2(): void;
+saveWalkingBgm2(): void
 ```
 
 ### mainFontFace (method)
@@ -472,7 +472,7 @@ saveWalkingBgm2(): void;
 **Signature**
 
 ```ts
-mainFontFace(): string;
+mainFontFace(): string
 ```
 
 ### numberFontFace (method)
@@ -480,7 +480,7 @@ mainFontFace(): string;
 **Signature**
 
 ```ts
-numberFontFace(): string;
+numberFontFace(): string
 ```
 
 ### mainFontSize (method)
@@ -488,7 +488,7 @@ numberFontFace(): string;
 **Signature**
 
 ```ts
-mainFontSize(): number;
+mainFontSize(): number
 ```
 
 ### windowPadding (method)
@@ -496,7 +496,7 @@ mainFontSize(): number;
 **Signature**
 
 ```ts
-windowPadding(): number;
+windowPadding(): number
 ```
 
 ### windowOpacity (method)
@@ -504,7 +504,7 @@ windowPadding(): number;
 **Signature**
 
 ```ts
-windowOpacity(): number;
+windowOpacity(): number
 ```
 
 ### \_saveEnabled (property)

@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Debug.d.ts
-nav_order: 98
+nav_order: 99
 parent: Modules
 ---
 
@@ -45,7 +45,7 @@ export declare class Scene_Debug
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### needsCancelButton (method)
@@ -53,7 +53,7 @@ create(): void;
 **Signature**
 
 ```ts
-needsCancelButton(): boolean;
+needsCancelButton(): boolean
 ```
 
 ### createRangeWindow (method)
@@ -61,7 +61,7 @@ needsCancelButton(): boolean;
 **Signature**
 
 ```ts
-createRangeWindow(): void;
+createRangeWindow(): void
 ```
 
 ### rangeWindowRect (method)
@@ -69,7 +69,7 @@ createRangeWindow(): void;
 **Signature**
 
 ```ts
-rangeWindowRect(): Rectangle;
+rangeWindowRect(): Rectangle
 ```
 
 ### createEditWindow (method)
@@ -77,7 +77,7 @@ rangeWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createEditWindow(): void;
+createEditWindow(): void
 ```
 
 ### editWindowRect (method)
@@ -85,7 +85,7 @@ createEditWindow(): void;
 **Signature**
 
 ```ts
-editWindowRect(): Rectangle;
+editWindowRect(): Rectangle
 ```
 
 ### createDebugHelpWindow (method)
@@ -93,7 +93,7 @@ editWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createDebugHelpWindow(): void;
+createDebugHelpWindow(): void
 ```
 
 ### debugHelpWindowRect (method)
@@ -101,7 +101,7 @@ createDebugHelpWindow(): void;
 **Signature**
 
 ```ts
-debugHelpWindowRect(): Rectangle;
+debugHelpWindowRect(): Rectangle
 ```
 
 ### onRangeOk (method)
@@ -109,7 +109,7 @@ debugHelpWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-onRangeOk(): void;
+onRangeOk(): void
 ```
 
 ### onEditCancel (method)
@@ -117,7 +117,7 @@ onRangeOk(): void;
 **Signature**
 
 ```ts
-onEditCancel(): void;
+onEditCancel(): void
 ```
 
 ### refreshHelpWindow (method)
@@ -125,7 +125,7 @@ onEditCancel(): void;
 **Signature**
 
 ```ts
-refreshHelpWindow(): void;
+refreshHelpWindow(): void
 ```
 
 ### helpText (method)
@@ -133,7 +133,7 @@ refreshHelpWindow(): void;
 **Signature**
 
 ```ts
-helpText(): string;
+helpText(): string
 ```
 
 ### \_rangeWindow (property)

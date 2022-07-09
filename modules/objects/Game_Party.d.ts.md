@@ -1,6 +1,6 @@
 ---
 title: objects/Game_Party.d.ts
-nav_order: 80
+nav_order: 81
 parent: Modules
 ---
 
@@ -118,7 +118,7 @@ export declare class Game_Party {
 **Signature**
 
 ```ts
-initAllItems(): void;
+initAllItems(): void
 ```
 
 ### exists (method)
@@ -126,7 +126,7 @@ initAllItems(): void;
 **Signature**
 
 ```ts
-exists(): boolean;
+exists(): boolean
 ```
 
 ### size (method)
@@ -134,7 +134,7 @@ exists(): boolean;
 **Signature**
 
 ```ts
-size(): number;
+size(): number
 ```
 
 ### isEmpty (method)
@@ -142,7 +142,7 @@ size(): number;
 **Signature**
 
 ```ts
-isEmpty(): boolean;
+isEmpty(): boolean
 ```
 
 ### members (method)
@@ -150,7 +150,7 @@ isEmpty(): boolean;
 **Signature**
 
 ```ts
-members(): Game_Actor[];
+members(): Game_Actor[]
 ```
 
 ### allMembers (method)
@@ -158,7 +158,7 @@ members(): Game_Actor[];
 **Signature**
 
 ```ts
-allMembers(): Game_Actor[];
+allMembers(): Game_Actor[]
 ```
 
 ### battleMembers (method)
@@ -166,7 +166,7 @@ allMembers(): Game_Actor[];
 **Signature**
 
 ```ts
-battleMembers(): Game_Actor[];
+battleMembers(): Game_Actor[]
 ```
 
 ### hiddenBattleMembers (method)
@@ -174,7 +174,7 @@ battleMembers(): Game_Actor[];
 **Signature**
 
 ```ts
-hiddenBattleMembers(): Game_Actor[];
+hiddenBattleMembers(): Game_Actor[]
 ```
 
 ### allBattleMembers (method)
@@ -182,7 +182,7 @@ hiddenBattleMembers(): Game_Actor[];
 **Signature**
 
 ```ts
-allBattleMembers(): Game_Actor[];
+allBattleMembers(): Game_Actor[]
 ```
 
 ### maxBattleMembers (method)
@@ -190,7 +190,7 @@ allBattleMembers(): Game_Actor[];
 **Signature**
 
 ```ts
-maxBattleMembers(): number;
+maxBattleMembers(): number
 ```
 
 ### leader (method)
@@ -198,7 +198,7 @@ maxBattleMembers(): number;
 **Signature**
 
 ```ts
-leader(): Game_Actor;
+leader(): Game_Actor
 ```
 
 ### removeInvalidMembers (method)
@@ -206,7 +206,7 @@ leader(): Game_Actor;
 **Signature**
 
 ```ts
-removeInvalidMembers(): void;
+removeInvalidMembers(): void
 ```
 
 ### reviveBattleMembers (method)
@@ -214,7 +214,7 @@ removeInvalidMembers(): void;
 **Signature**
 
 ```ts
-reviveBattleMembers(): void;
+reviveBattleMembers(): void
 ```
 
 ### items (method)
@@ -222,7 +222,7 @@ reviveBattleMembers(): void;
 **Signature**
 
 ```ts
-items(): import("../data").DataItem[];
+items(): import("../data").DataItem[]
 ```
 
 ### weapons (method)
@@ -230,7 +230,7 @@ items(): import("../data").DataItem[];
 **Signature**
 
 ```ts
-weapons(): import("../data").DataWeapon[];
+weapons(): import("../data").DataWeapon[]
 ```
 
 ### armors (method)
@@ -238,7 +238,7 @@ weapons(): import("../data").DataWeapon[];
 **Signature**
 
 ```ts
-armors(): import("../data").DataArmor[];
+armors(): import("../data").DataArmor[]
 ```
 
 ### equipItems (method)
@@ -246,7 +246,7 @@ armors(): import("../data").DataArmor[];
 **Signature**
 
 ```ts
-equipItems(): DataEquipment[];
+equipItems(): DataEquipment[]
 ```
 
 ### allItems (method)
@@ -254,7 +254,7 @@ equipItems(): DataEquipment[];
 **Signature**
 
 ```ts
-allItems(): DataItemBase[];
+allItems(): DataItemBase[]
 ```
 
 ### itemContainer (method)
@@ -262,7 +262,7 @@ allItems(): DataItemBase[];
 **Signature**
 
 ```ts
-itemContainer(item: DataItemBase | null): Record<number, number> | null;
+itemContainer(item: DataItemBase | null): Record<number, number> | null
 ```
 
 ### setupStartingMembers (method)
@@ -270,7 +270,7 @@ itemContainer(item: DataItemBase | null): Record<number, number> | null;
 **Signature**
 
 ```ts
-setupStartingMembers(): void;
+setupStartingMembers(): void
 ```
 
 ### name (method)
@@ -278,7 +278,7 @@ setupStartingMembers(): void;
 **Signature**
 
 ```ts
-name(): string;
+name(): string
 ```
 
 ### setupBattleTest (method)
@@ -286,7 +286,7 @@ name(): string;
 **Signature**
 
 ```ts
-setupBattleTest(): void;
+setupBattleTest(): void
 ```
 
 ### setupBattleTestMembers (method)
@@ -294,7 +294,7 @@ setupBattleTest(): void;
 **Signature**
 
 ```ts
-setupBattleTestMembers(): void;
+setupBattleTestMembers(): void
 ```
 
 ### setupBattleTestItems (method)
@@ -302,7 +302,7 @@ setupBattleTestMembers(): void;
 **Signature**
 
 ```ts
-setupBattleTestItems(): void;
+setupBattleTestItems(): void
 ```
 
 ### highestLevel (method)
@@ -310,7 +310,7 @@ setupBattleTestItems(): void;
 **Signature**
 
 ```ts
-highestLevel(): number;
+highestLevel(): number
 ```
 
 ### addActor (method)
@@ -318,7 +318,7 @@ highestLevel(): number;
 **Signature**
 
 ```ts
-addActor(actorId: ActorID): void;
+addActor(actorId: ActorID): void
 ```
 
 ### removeActor (method)
@@ -326,7 +326,7 @@ addActor(actorId: ActorID): void;
 **Signature**
 
 ```ts
-removeActor(actorId: ActorID): void;
+removeActor(actorId: ActorID): void
 ```
 
 ### gold (method)
@@ -334,7 +334,7 @@ removeActor(actorId: ActorID): void;
 **Signature**
 
 ```ts
-gold(): number;
+gold(): number
 ```
 
 ### gainGold (method)
@@ -342,7 +342,7 @@ gold(): number;
 **Signature**
 
 ```ts
-gainGold(amount: number): void;
+gainGold(amount: number): void
 ```
 
 ### loseGold (method)
@@ -350,7 +350,7 @@ gainGold(amount: number): void;
 **Signature**
 
 ```ts
-loseGold(amount: number): void;
+loseGold(amount: number): void
 ```
 
 ### maxGold (method)
@@ -358,7 +358,7 @@ loseGold(amount: number): void;
 **Signature**
 
 ```ts
-maxGold(): number;
+maxGold(): number
 ```
 
 ### steps (method)
@@ -366,7 +366,7 @@ maxGold(): number;
 **Signature**
 
 ```ts
-steps(): number;
+steps(): number
 ```
 
 ### increaseSteps (method)
@@ -374,7 +374,7 @@ steps(): number;
 **Signature**
 
 ```ts
-increaseSteps(): void;
+increaseSteps(): void
 ```
 
 ### numItems (method)
@@ -382,7 +382,7 @@ increaseSteps(): void;
 **Signature**
 
 ```ts
-numItems(item: DataItemBase | null): number;
+numItems(item: DataItemBase | null): number
 ```
 
 ### maxItems (method)
@@ -390,7 +390,7 @@ numItems(item: DataItemBase | null): number;
 **Signature**
 
 ```ts
-maxItems(_item: DataItemBase | null): number;
+maxItems(_item: DataItemBase | null): number
 ```
 
 ### hasMaxItems (method)
@@ -398,7 +398,7 @@ maxItems(_item: DataItemBase | null): number;
 **Signature**
 
 ```ts
-hasMaxItems(item: DataItemBase): boolean;
+hasMaxItems(item: DataItemBase): boolean
 ```
 
 ### hasItem (method)
@@ -406,7 +406,7 @@ hasMaxItems(item: DataItemBase): boolean;
 **Signature**
 
 ```ts
-hasItem(item: DataItemBase, includeEquip?: boolean): boolean;
+hasItem(item: DataItemBase, includeEquip?: boolean): boolean
 ```
 
 ### isAnyMemberEquipped (method)
@@ -414,7 +414,7 @@ hasItem(item: DataItemBase, includeEquip?: boolean): boolean;
 **Signature**
 
 ```ts
-isAnyMemberEquipped(item: DataEquipment): boolean;
+isAnyMemberEquipped(item: DataEquipment): boolean
 ```
 
 ### gainItem (method)
@@ -422,7 +422,7 @@ isAnyMemberEquipped(item: DataEquipment): boolean;
 **Signature**
 
 ```ts
-gainItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): void;
+gainItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): void
 ```
 
 ### discardMembersEquip (method)
@@ -430,7 +430,7 @@ gainItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): voi
 **Signature**
 
 ```ts
-discardMembersEquip(item: DataEquipment, amount: number): void;
+discardMembersEquip(item: DataEquipment, amount: number): void
 ```
 
 ### loseItem (method)
@@ -438,7 +438,7 @@ discardMembersEquip(item: DataEquipment, amount: number): void;
 **Signature**
 
 ```ts
-loseItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): void;
+loseItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): void
 ```
 
 ### consumeItem (method)
@@ -446,7 +446,7 @@ loseItem(item: DataItemBase | null, amount: number, includeEquip?: boolean): voi
 **Signature**
 
 ```ts
-consumeItem(item: DataItemBase): void;
+consumeItem(item: DataItemBase): void
 ```
 
 ### canUse (method)
@@ -454,7 +454,7 @@ consumeItem(item: DataItemBase): void;
 **Signature**
 
 ```ts
-canUse(item: DataItemBase | null): boolean;
+canUse(item: DataItemBase | null): boolean
 ```
 
 ### canInput (method)
@@ -462,7 +462,7 @@ canUse(item: DataItemBase | null): boolean;
 **Signature**
 
 ```ts
-canInput(): boolean;
+canInput(): boolean
 ```
 
 ### isAllDead (method)
@@ -470,7 +470,7 @@ canInput(): boolean;
 **Signature**
 
 ```ts
-isAllDead(): boolean;
+isAllDead(): boolean
 ```
 
 ### isEscaped (method)
@@ -478,7 +478,7 @@ isAllDead(): boolean;
 **Signature**
 
 ```ts
-isEscaped(): boolean;
+isEscaped(): boolean
 ```
 
 ### onPlayerWalk (method)
@@ -486,7 +486,7 @@ isEscaped(): boolean;
 **Signature**
 
 ```ts
-onPlayerWalk(): void;
+onPlayerWalk(): void
 ```
 
 ### menuActor (method)
@@ -494,7 +494,7 @@ onPlayerWalk(): void;
 **Signature**
 
 ```ts
-menuActor(): Game_Actor;
+menuActor(): Game_Actor
 ```
 
 ### setMenuActor (method)
@@ -502,7 +502,7 @@ menuActor(): Game_Actor;
 **Signature**
 
 ```ts
-setMenuActor(actor: Game_Actor): void;
+setMenuActor(actor: Game_Actor): void
 ```
 
 ### makeMenuActorNext (method)
@@ -510,7 +510,7 @@ setMenuActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-makeMenuActorNext(): void;
+makeMenuActorNext(): void
 ```
 
 ### makeMenuActorPrevious (method)
@@ -518,7 +518,7 @@ makeMenuActorNext(): void;
 **Signature**
 
 ```ts
-makeMenuActorPrevious(): void;
+makeMenuActorPrevious(): void
 ```
 
 ### targetActor (method)
@@ -526,7 +526,7 @@ makeMenuActorPrevious(): void;
 **Signature**
 
 ```ts
-targetActor(): Game_Actor;
+targetActor(): Game_Actor
 ```
 
 ### setTargetActor (method)
@@ -534,7 +534,7 @@ targetActor(): Game_Actor;
 **Signature**
 
 ```ts
-setTargetActor(actor: Game_Actor): void;
+setTargetActor(actor: Game_Actor): void
 ```
 
 ### lastItem (method)
@@ -542,7 +542,7 @@ setTargetActor(actor: Game_Actor): void;
 **Signature**
 
 ```ts
-lastItem(): DataItemBase;
+lastItem(): DataItemBase
 ```
 
 ### setLastItem (method)
@@ -550,7 +550,7 @@ lastItem(): DataItemBase;
 **Signature**
 
 ```ts
-setLastItem(item: DataItemBase | null): void;
+setLastItem(item: DataItemBase | null): void
 ```
 
 ### swapOrder (method)
@@ -558,7 +558,7 @@ setLastItem(item: DataItemBase | null): void;
 **Signature**
 
 ```ts
-swapOrder(index1: ActorID, index2: ActorID): void;
+swapOrder(index1: ActorID, index2: ActorID): void
 ```
 
 ### charactersForSavefile (method)
@@ -566,7 +566,7 @@ swapOrder(index1: ActorID, index2: ActorID): void;
 **Signature**
 
 ```ts
-charactersForSavefile(): [string, number][];
+charactersForSavefile(): [string, number][]
 ```
 
 ### facesForSavefile (method)
@@ -574,7 +574,7 @@ charactersForSavefile(): [string, number][];
 **Signature**
 
 ```ts
-facesForSavefile(): [string, number][];
+facesForSavefile(): [string, number][]
 ```
 
 ### partyAbility (method)
@@ -582,7 +582,7 @@ facesForSavefile(): [string, number][];
 **Signature**
 
 ```ts
-partyAbility(abilityId: DataID): boolean;
+partyAbility(abilityId: DataID): boolean
 ```
 
 ### hasEncounterHalf (method)
@@ -590,7 +590,7 @@ partyAbility(abilityId: DataID): boolean;
 **Signature**
 
 ```ts
-hasEncounterHalf(): boolean;
+hasEncounterHalf(): boolean
 ```
 
 ### hasEncounterNone (method)
@@ -598,7 +598,7 @@ hasEncounterHalf(): boolean;
 **Signature**
 
 ```ts
-hasEncounterNone(): boolean;
+hasEncounterNone(): boolean
 ```
 
 ### hasCancelSurprise (method)
@@ -606,7 +606,7 @@ hasEncounterNone(): boolean;
 **Signature**
 
 ```ts
-hasCancelSurprise(): boolean;
+hasCancelSurprise(): boolean
 ```
 
 ### hasRaisePreemptive (method)
@@ -614,7 +614,7 @@ hasCancelSurprise(): boolean;
 **Signature**
 
 ```ts
-hasRaisePreemptive(): boolean;
+hasRaisePreemptive(): boolean
 ```
 
 ### hasGoldDouble (method)
@@ -622,7 +622,7 @@ hasRaisePreemptive(): boolean;
 **Signature**
 
 ```ts
-hasGoldDouble(): boolean;
+hasGoldDouble(): boolean
 ```
 
 ### hasDropItemDouble (method)
@@ -630,7 +630,7 @@ hasGoldDouble(): boolean;
 **Signature**
 
 ```ts
-hasDropItemDouble(): boolean;
+hasDropItemDouble(): boolean
 ```
 
 ### ratePreemptive (method)
@@ -638,7 +638,7 @@ hasDropItemDouble(): boolean;
 **Signature**
 
 ```ts
-ratePreemptive(troopAgi: number): number;
+ratePreemptive(troopAgi: number): number
 ```
 
 ### rateSurprise (method)
@@ -646,7 +646,7 @@ ratePreemptive(troopAgi: number): number;
 **Signature**
 
 ```ts
-rateSurprise(troopAgi: number): number;
+rateSurprise(troopAgi: number): number
 ```
 
 ### performVictory (method)
@@ -654,7 +654,7 @@ rateSurprise(troopAgi: number): number;
 **Signature**
 
 ```ts
-performVictory(): void;
+performVictory(): void
 ```
 
 ### performEscape (method)
@@ -662,7 +662,7 @@ performVictory(): void;
 **Signature**
 
 ```ts
-performEscape(): void;
+performEscape(): void
 ```
 
 ### removeBattleStates (method)
@@ -670,7 +670,7 @@ performEscape(): void;
 **Signature**
 
 ```ts
-removeBattleStates(): void;
+removeBattleStates(): void
 ```
 
 ### requestMotionRefresh (method)
@@ -678,7 +678,7 @@ removeBattleStates(): void;
 **Signature**
 
 ```ts
-requestMotionRefresh(): void;
+requestMotionRefresh(): void
 ```
 
 ### onEscapeFailure (method)
@@ -686,7 +686,7 @@ requestMotionRefresh(): void;
 **Signature**
 
 ```ts
-onEscapeFailure(): void;
+onEscapeFailure(): void
 ```
 
 ### \_gold (property)

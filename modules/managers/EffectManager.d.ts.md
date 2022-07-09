@@ -1,6 +1,6 @@
 ---
 title: managers/EffectManager.d.ts
-nav_order: 54
+nav_order: 55
 parent: Modules
 ---
 
@@ -45,7 +45,7 @@ export declare class EffectManager {
 **Signature**
 
 ```ts
-static load(filename?: string): effekseer.EffekseerEffect | null;
+static load(filename?: string): effekseer.EffekseerEffect | null
 ```
 
 ### startLoading (static method)
@@ -53,7 +53,7 @@ static load(filename?: string): effekseer.EffekseerEffect | null;
 **Signature**
 
 ```ts
-static startLoading(url: string): effekseer.EffekseerEffect;
+static startLoading(url: string): effekseer.EffekseerEffect
 ```
 
 ### clear (static method)
@@ -61,7 +61,7 @@ static startLoading(url: string): effekseer.EffekseerEffect;
 **Signature**
 
 ```ts
-static clear(): void;
+static clear(): void
 ```
 
 ### onLoad (static method)
@@ -69,7 +69,7 @@ static clear(): void;
 **Signature**
 
 ```ts
-static onLoad(_url?: string): void;
+static onLoad(_url?: string): void
 ```
 
 ### onError (static method)
@@ -77,7 +77,7 @@ static onLoad(_url?: string): void;
 **Signature**
 
 ```ts
-static onError(url: string): void;
+static onError(url: string): void
 ```
 
 ### makeUrl (static method)
@@ -85,7 +85,7 @@ static onError(url: string): void;
 **Signature**
 
 ```ts
-static makeUrl(filename: string): string;
+static makeUrl(filename: string): string
 ```
 
 ### checkErrors (static method)
@@ -93,7 +93,7 @@ static makeUrl(filename: string): string;
 **Signature**
 
 ```ts
-static checkErrors(): void;
+static checkErrors(): void
 ```
 
 ### throwLoadError (static method)
@@ -101,7 +101,7 @@ static checkErrors(): void;
 **Signature**
 
 ```ts
-static throwLoadError(url: string): void;
+static throwLoadError(url: string): void
 ```
 
 ### isReady (static method)
@@ -109,5 +109,5 @@ static throwLoadError(url: string): void;
 **Signature**
 
 ```ts
-static isReady(): boolean;
+static isReady(): boolean
 ```

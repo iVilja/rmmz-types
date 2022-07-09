@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Weapon.d.ts
-nav_order: 136
+nav_order: 137
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Sprite_Weapon {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setup (method)
@@ -55,7 +55,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setup(weaponImageId: number): void;
+setup(weaponImageId: number): void
 ```
 
 ### update (method)
@@ -63,7 +63,7 @@ setup(weaponImageId: number): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### animationWait (method)
@@ -71,7 +71,7 @@ update(): void;
 **Signature**
 
 ```ts
-animationWait(): number;
+animationWait(): number
 ```
 
 ### updatePattern (method)
@@ -79,7 +79,7 @@ animationWait(): number;
 **Signature**
 
 ```ts
-updatePattern(): void;
+updatePattern(): void
 ```
 
 ### loadBitmap (method)
@@ -87,7 +87,7 @@ updatePattern(): void;
 **Signature**
 
 ```ts
-loadBitmap(): void;
+loadBitmap(): void
 ```
 
 ### updateFrame (method)
@@ -95,7 +95,7 @@ loadBitmap(): void;
 **Signature**
 
 ```ts
-updateFrame(): void;
+updateFrame(): void
 ```
 
 ### isPlaying (method)
@@ -103,7 +103,7 @@ updateFrame(): void;
 **Signature**
 
 ```ts
-isPlaying(): boolean;
+isPlaying(): boolean
 ```
 
 ### \_weaponImageId (property)

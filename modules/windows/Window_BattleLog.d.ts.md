@@ -1,6 +1,6 @@
 ---
 title: windows/Window_BattleLog.d.ts
-nav_order: 147
+nav_order: 148
 parent: Modules
 ---
 
@@ -149,7 +149,7 @@ export declare class Window_BattleLog {
 **Signature**
 
 ```ts
-setSpriteset(spriteset: Spriteset_Battle): void;
+setSpriteset(spriteset: Spriteset_Battle): void
 ```
 
 ### maxLines (method)
@@ -157,7 +157,7 @@ setSpriteset(spriteset: Spriteset_Battle): void;
 **Signature**
 
 ```ts
-maxLines(): number;
+maxLines(): number
 ```
 
 ### numLines (method)
@@ -165,7 +165,7 @@ maxLines(): number;
 **Signature**
 
 ```ts
-numLines(): number;
+numLines(): number
 ```
 
 ### messageSpeed (method)
@@ -173,7 +173,7 @@ numLines(): number;
 **Signature**
 
 ```ts
-messageSpeed(): number;
+messageSpeed(): number
 ```
 
 ### isBusy (method)
@@ -181,7 +181,20 @@ messageSpeed(): number;
 **Signature**
 
 ```ts
-isBusy(): boolean | "video" | "scroll" | "image" | "message" | "transfer" | "route" | "animation" | "balloon" | "gather" | "action" | "effect" | "movement";
+isBusy():
+    | boolean
+    | "video"
+    | "scroll"
+    | "image"
+    | "message"
+    | "transfer"
+    | "route"
+    | "animation"
+    | "balloon"
+    | "gather"
+    | "action"
+    | "effect"
+    | "movement"
 ```
 
 ### update (method)
@@ -189,7 +202,7 @@ isBusy(): boolean | "video" | "scroll" | "image" | "message" | "transfer" | "rou
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateWait (method)
@@ -197,7 +210,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateWait(): boolean;
+updateWait(): boolean
 ```
 
 ### updateWaitCount (method)
@@ -205,7 +218,7 @@ updateWait(): boolean;
 **Signature**
 
 ```ts
-updateWaitCount(): boolean;
+updateWaitCount(): boolean
 ```
 
 ### updateWaitMode (method)
@@ -213,7 +226,7 @@ updateWaitCount(): boolean;
 **Signature**
 
 ```ts
-updateWaitMode(): boolean;
+updateWaitMode(): boolean
 ```
 
 ### setWaitMode (method)
@@ -221,7 +234,7 @@ updateWaitMode(): boolean;
 **Signature**
 
 ```ts
-setWaitMode(waitMode: WaitMode): void;
+setWaitMode(waitMode: WaitMode): void
 ```
 
 ### callNextMethod (method)
@@ -229,7 +242,7 @@ setWaitMode(waitMode: WaitMode): void;
 **Signature**
 
 ```ts
-callNextMethod(): void;
+callNextMethod(): void
 ```
 
 ### isFastForward (method)
@@ -237,7 +250,7 @@ callNextMethod(): void;
 **Signature**
 
 ```ts
-isFastForward(): boolean;
+isFastForward(): boolean
 ```
 
 ### push (method)
@@ -245,9 +258,15 @@ isFastForward(): boolean;
 **Signature**
 
 ```ts
-push<T>(methodName: T, ...methodArgs: Extract<BattleLogMethod, {
-        name: T;
-    }>["params"]): void;
+push<T>(
+    methodName: T,
+    ...methodArgs: Extract<
+      BattleLogMethod,
+      {
+        name: T
+      }
+    >["params"]
+  ): void
 ```
 
 ### clear (method)
@@ -255,7 +274,7 @@ push<T>(methodName: T, ...methodArgs: Extract<BattleLogMethod, {
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### wait (method)
@@ -263,7 +282,7 @@ clear(): void;
 **Signature**
 
 ```ts
-wait(): void;
+wait(): void
 ```
 
 ### waitForEffect (method)
@@ -271,7 +290,7 @@ wait(): void;
 **Signature**
 
 ```ts
-waitForEffect(): void;
+waitForEffect(): void
 ```
 
 ### waitForMovement (method)
@@ -279,7 +298,7 @@ waitForEffect(): void;
 **Signature**
 
 ```ts
-waitForMovement(): void;
+waitForMovement(): void
 ```
 
 ### addText (method)
@@ -287,7 +306,7 @@ waitForMovement(): void;
 **Signature**
 
 ```ts
-addText(text: string): void;
+addText(text: string): void
 ```
 
 ### pushBaseLine (method)
@@ -295,7 +314,7 @@ addText(text: string): void;
 **Signature**
 
 ```ts
-pushBaseLine(): void;
+pushBaseLine(): void
 ```
 
 ### popBaseLine (method)
@@ -303,7 +322,7 @@ pushBaseLine(): void;
 **Signature**
 
 ```ts
-popBaseLine(): void;
+popBaseLine(): void
 ```
 
 ### waitForNewLine (method)
@@ -311,7 +330,7 @@ popBaseLine(): void;
 **Signature**
 
 ```ts
-waitForNewLine(): void;
+waitForNewLine(): void
 ```
 
 ### popupDamage (method)
@@ -319,7 +338,7 @@ waitForNewLine(): void;
 **Signature**
 
 ```ts
-popupDamage(target: ActionTarget): void;
+popupDamage(target: ActionTarget): void
 ```
 
 ### performActionStart (method)
@@ -327,7 +346,7 @@ popupDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performActionStart(subject: ActionTarget, action: Game_Action): void;
+performActionStart(subject: ActionTarget, action: Game_Action): void
 ```
 
 ### performAction (method)
@@ -335,7 +354,7 @@ performActionStart(subject: ActionTarget, action: Game_Action): void;
 **Signature**
 
 ```ts
-performAction(subject: ActionTarget, action: Game_Action): void;
+performAction(subject: ActionTarget, action: Game_Action): void
 ```
 
 ### performActionEnd (method)
@@ -343,7 +362,7 @@ performAction(subject: ActionTarget, action: Game_Action): void;
 **Signature**
 
 ```ts
-performActionEnd(subject: ActionTarget): void;
+performActionEnd(subject: ActionTarget): void
 ```
 
 ### performDamage (method)
@@ -351,7 +370,7 @@ performActionEnd(subject: ActionTarget): void;
 **Signature**
 
 ```ts
-performDamage(target: ActionTarget): void;
+performDamage(target: ActionTarget): void
 ```
 
 ### performMiss (method)
@@ -359,7 +378,7 @@ performDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performMiss(target: ActionTarget): void;
+performMiss(target: ActionTarget): void
 ```
 
 ### performRecovery (method)
@@ -367,7 +386,7 @@ performMiss(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performRecovery(target: ActionTarget): void;
+performRecovery(target: ActionTarget): void
 ```
 
 ### performEvasion (method)
@@ -375,7 +394,7 @@ performRecovery(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performEvasion(target: ActionTarget): void;
+performEvasion(target: ActionTarget): void
 ```
 
 ### performMagicEvasion (method)
@@ -383,7 +402,7 @@ performEvasion(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performMagicEvasion(target: ActionTarget): void;
+performMagicEvasion(target: ActionTarget): void
 ```
 
 ### performCounter (method)
@@ -391,7 +410,7 @@ performMagicEvasion(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performCounter(target: ActionTarget): void;
+performCounter(target: ActionTarget): void
 ```
 
 ### performReflection (method)
@@ -399,7 +418,7 @@ performCounter(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performReflection(target: ActionTarget): void;
+performReflection(target: ActionTarget): void
 ```
 
 ### performSubstitute (method)
@@ -407,7 +426,7 @@ performReflection(target: ActionTarget): void;
 **Signature**
 
 ```ts
-performSubstitute(substitute: ActionTarget, target: ActionTarget): void;
+performSubstitute(substitute: ActionTarget, target: ActionTarget): void
 ```
 
 ### performCollapse (method)
@@ -415,7 +434,7 @@ performSubstitute(substitute: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-performCollapse(target: ActionTarget): void;
+performCollapse(target: ActionTarget): void
 ```
 
 ### showAnimation (method)
@@ -423,7 +442,7 @@ performCollapse(target: ActionTarget): void;
 **Signature**
 
 ```ts
-showAnimation(subject: ActionTarget, targets: ActionTarget[], animationId: AnimationID): void;
+showAnimation(subject: ActionTarget, targets: ActionTarget[], animationId: AnimationID): void
 ```
 
 ### showAttackAnimation (method)
@@ -431,7 +450,7 @@ showAnimation(subject: ActionTarget, targets: ActionTarget[], animationId: Anima
 **Signature**
 
 ```ts
-showAttackAnimation(subject: ActionTarget, targets: ActionTarget[]): void;
+showAttackAnimation(subject: ActionTarget, targets: ActionTarget[]): void
 ```
 
 ### showActorAttackAnimation (method)
@@ -439,7 +458,7 @@ showAttackAnimation(subject: ActionTarget, targets: ActionTarget[]): void;
 **Signature**
 
 ```ts
-showActorAttackAnimation(subject: Game_Actor, targets: ActionTarget[]): void;
+showActorAttackAnimation(subject: Game_Actor, targets: ActionTarget[]): void
 ```
 
 ### showEnemyAttackAnimation (method)
@@ -447,7 +466,7 @@ showActorAttackAnimation(subject: Game_Actor, targets: ActionTarget[]): void;
 **Signature**
 
 ```ts
-showEnemyAttackAnimation(_subject: Game_Enemy, _targets: ActionTarget[]): void;
+showEnemyAttackAnimation(_subject: Game_Enemy, _targets: ActionTarget[]): void
 ```
 
 ### showNormalAnimation (method)
@@ -455,7 +474,7 @@ showEnemyAttackAnimation(_subject: Game_Enemy, _targets: ActionTarget[]): void;
 **Signature**
 
 ```ts
-showNormalAnimation(targets: ActionTarget[], animationId: AnimationID, mirror?: boolean): void;
+showNormalAnimation(targets: ActionTarget[], animationId: AnimationID, mirror?: boolean): void
 ```
 
 ### refresh (method)
@@ -463,7 +482,7 @@ showNormalAnimation(targets: ActionTarget[], animationId: AnimationID, mirror?: 
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### drawBackground (method)
@@ -471,7 +490,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-drawBackground(): void;
+drawBackground(): void
 ```
 
 ### backRect (method)
@@ -479,7 +498,7 @@ drawBackground(): void;
 **Signature**
 
 ```ts
-backRect(): Rectangle;
+backRect(): Rectangle
 ```
 
 ### lineRect (method)
@@ -487,7 +506,7 @@ backRect(): Rectangle;
 **Signature**
 
 ```ts
-lineRect(index: number): Rectangle;
+lineRect(index: number): Rectangle
 ```
 
 ### backColor (method)
@@ -495,7 +514,7 @@ lineRect(index: number): Rectangle;
 **Signature**
 
 ```ts
-backColor(): string;
+backColor(): string
 ```
 
 ### backPaintOpacity (method)
@@ -503,7 +522,7 @@ backColor(): string;
 **Signature**
 
 ```ts
-backPaintOpacity(): number;
+backPaintOpacity(): number
 ```
 
 ### drawLineText (method)
@@ -511,7 +530,7 @@ backPaintOpacity(): number;
 **Signature**
 
 ```ts
-drawLineText(index: number): void;
+drawLineText(index: number): void
 ```
 
 ### startTurn (method)
@@ -519,7 +538,7 @@ drawLineText(index: number): void;
 **Signature**
 
 ```ts
-startTurn(): void;
+startTurn(): void
 ```
 
 ### startAction (method)
@@ -527,7 +546,7 @@ startTurn(): void;
 **Signature**
 
 ```ts
-startAction(subject: ActionTarget, action: Game_Action, targets: ActionTarget[]): void;
+startAction(subject: ActionTarget, action: Game_Action, targets: ActionTarget[]): void
 ```
 
 ### endAction (method)
@@ -535,7 +554,7 @@ startAction(subject: ActionTarget, action: Game_Action, targets: ActionTarget[])
 **Signature**
 
 ```ts
-endAction(subject: ActionTarget): void;
+endAction(subject: ActionTarget): void
 ```
 
 ### displayCurrentState (method)
@@ -543,7 +562,7 @@ endAction(subject: ActionTarget): void;
 **Signature**
 
 ```ts
-displayCurrentState(subject: ActionTarget): void;
+displayCurrentState(subject: ActionTarget): void
 ```
 
 ### displayRegeneration (method)
@@ -551,7 +570,7 @@ displayCurrentState(subject: ActionTarget): void;
 **Signature**
 
 ```ts
-displayRegeneration(subject: ActionTarget): void;
+displayRegeneration(subject: ActionTarget): void
 ```
 
 ### displayAction (method)
@@ -559,7 +578,7 @@ displayRegeneration(subject: ActionTarget): void;
 **Signature**
 
 ```ts
-displayAction(subject: ActionTarget, item: DataItemBase): void;
+displayAction(subject: ActionTarget, item: DataItemBase): void
 ```
 
 ### displayItemMessage (method)
@@ -567,7 +586,7 @@ displayAction(subject: ActionTarget, item: DataItemBase): void;
 **Signature**
 
 ```ts
-displayItemMessage(fmt: string, subject: ActionTarget, item: DataItemBase): void;
+displayItemMessage(fmt: string, subject: ActionTarget, item: DataItemBase): void
 ```
 
 ### displayCounter (method)
@@ -575,7 +594,7 @@ displayItemMessage(fmt: string, subject: ActionTarget, item: DataItemBase): void
 **Signature**
 
 ```ts
-displayCounter(target: ActionTarget): void;
+displayCounter(target: ActionTarget): void
 ```
 
 ### displayReflection (method)
@@ -583,7 +602,7 @@ displayCounter(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayReflection(target: ActionTarget): void;
+displayReflection(target: ActionTarget): void
 ```
 
 ### displaySubstitute (method)
@@ -591,7 +610,7 @@ displayReflection(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displaySubstitute(substitute: ActionTarget, target: ActionTarget): void;
+displaySubstitute(substitute: ActionTarget, target: ActionTarget): void
 ```
 
 ### displayActionResults (method)
@@ -599,7 +618,7 @@ displaySubstitute(substitute: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayActionResults(subject: ActionTarget, target: ActionTarget): void;
+displayActionResults(subject: ActionTarget, target: ActionTarget): void
 ```
 
 ### displayFailure (method)
@@ -607,7 +626,7 @@ displayActionResults(subject: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayFailure(target: ActionTarget): void;
+displayFailure(target: ActionTarget): void
 ```
 
 ### displayCritical (method)
@@ -615,7 +634,7 @@ displayFailure(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayCritical(target: ActionTarget): void;
+displayCritical(target: ActionTarget): void
 ```
 
 ### displayDamage (method)
@@ -623,7 +642,7 @@ displayCritical(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayDamage(target: ActionTarget): void;
+displayDamage(target: ActionTarget): void
 ```
 
 ### displayMiss (method)
@@ -631,7 +650,7 @@ displayDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayMiss(target: ActionTarget): void;
+displayMiss(target: ActionTarget): void
 ```
 
 ### displayEvasion (method)
@@ -639,7 +658,7 @@ displayMiss(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayEvasion(target: ActionTarget): void;
+displayEvasion(target: ActionTarget): void
 ```
 
 ### displayHpDamage (method)
@@ -647,7 +666,7 @@ displayEvasion(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayHpDamage(target: ActionTarget): void;
+displayHpDamage(target: ActionTarget): void
 ```
 
 ### displayMpDamage (method)
@@ -655,7 +674,7 @@ displayHpDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayMpDamage(target: ActionTarget): void;
+displayMpDamage(target: ActionTarget): void
 ```
 
 ### displayTpDamage (method)
@@ -663,7 +682,7 @@ displayMpDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayTpDamage(target: ActionTarget): void;
+displayTpDamage(target: ActionTarget): void
 ```
 
 ### displayAffectedStatus (method)
@@ -671,7 +690,7 @@ displayTpDamage(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayAffectedStatus(target: ActionTarget, _?: null): void;
+displayAffectedStatus(target: ActionTarget, _?: null): void
 ```
 
 ### displayAutoAffectedStatus (method)
@@ -679,7 +698,7 @@ displayAffectedStatus(target: ActionTarget, _?: null): void;
 **Signature**
 
 ```ts
-displayAutoAffectedStatus(target: ActionTarget): void;
+displayAutoAffectedStatus(target: ActionTarget): void
 ```
 
 ### displayChangedStates (method)
@@ -687,7 +706,7 @@ displayAutoAffectedStatus(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayChangedStates(target: ActionTarget): void;
+displayChangedStates(target: ActionTarget): void
 ```
 
 ### displayAddedStates (method)
@@ -695,7 +714,7 @@ displayChangedStates(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayAddedStates(target: ActionTarget): void;
+displayAddedStates(target: ActionTarget): void
 ```
 
 ### displayRemovedStates (method)
@@ -703,7 +722,7 @@ displayAddedStates(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayRemovedStates(target: ActionTarget): void;
+displayRemovedStates(target: ActionTarget): void
 ```
 
 ### displayChangedBuffs (method)
@@ -711,7 +730,7 @@ displayRemovedStates(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayChangedBuffs(target: ActionTarget): void;
+displayChangedBuffs(target: ActionTarget): void
 ```
 
 ### displayBuffs (method)
@@ -719,7 +738,7 @@ displayChangedBuffs(target: ActionTarget): void;
 **Signature**
 
 ```ts
-displayBuffs(target: ActionTarget, buffs: ParamID[], fmt: string): void;
+displayBuffs(target: ActionTarget, buffs: ParamID[], fmt: string): void
 ```
 
 ### makeHpDamageText (method)
@@ -727,7 +746,7 @@ displayBuffs(target: ActionTarget, buffs: ParamID[], fmt: string): void;
 **Signature**
 
 ```ts
-makeHpDamageText(target: ActionTarget): string;
+makeHpDamageText(target: ActionTarget): string
 ```
 
 ### makeMpDamageText (method)
@@ -735,7 +754,7 @@ makeHpDamageText(target: ActionTarget): string;
 **Signature**
 
 ```ts
-makeMpDamageText(target: ActionTarget): string;
+makeMpDamageText(target: ActionTarget): string
 ```
 
 ### makeTpDamageText (method)
@@ -743,7 +762,7 @@ makeMpDamageText(target: ActionTarget): string;
 **Signature**
 
 ```ts
-makeTpDamageText(target: ActionTarget): string;
+makeTpDamageText(target: ActionTarget): string
 ```
 
 ### \_lines (property)

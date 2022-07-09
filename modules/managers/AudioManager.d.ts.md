@@ -1,6 +1,6 @@
 ---
 title: managers/AudioManager.d.ts
-nav_order: 49
+nav_order: 50
 parent: Modules
 ---
 
@@ -72,7 +72,7 @@ export declare class AudioManager {
 **Signature**
 
 ```ts
-static playBgm(bgm: DataAudio, pos?: number): void;
+static playBgm(bgm: DataAudio, pos?: number): void
 ```
 
 ### replayBgm (static method)
@@ -80,7 +80,7 @@ static playBgm(bgm: DataAudio, pos?: number): void;
 **Signature**
 
 ```ts
-static replayBgm(bgm: DataAudio): void;
+static replayBgm(bgm: DataAudio): void
 ```
 
 ### isCurrentBgm (static method)
@@ -88,7 +88,7 @@ static replayBgm(bgm: DataAudio): void;
 **Signature**
 
 ```ts
-static isCurrentBgm(bgm: DataAudio): boolean | null;
+static isCurrentBgm(bgm: DataAudio): boolean | null
 ```
 
 ### updateBgmParameters (static method)
@@ -96,7 +96,7 @@ static isCurrentBgm(bgm: DataAudio): boolean | null;
 **Signature**
 
 ```ts
-static updateBgmParameters(bgm: DataAudio | null): void;
+static updateBgmParameters(bgm: DataAudio | null): void
 ```
 
 ### updateCurrentBgm (static method)
@@ -104,7 +104,7 @@ static updateBgmParameters(bgm: DataAudio | null): void;
 **Signature**
 
 ```ts
-static updateCurrentBgm(bgm: DataAudio, pos?: number): void;
+static updateCurrentBgm(bgm: DataAudio, pos?: number): void
 ```
 
 ### stopBgm (static method)
@@ -112,7 +112,7 @@ static updateCurrentBgm(bgm: DataAudio, pos?: number): void;
 **Signature**
 
 ```ts
-static stopBgm(): void;
+static stopBgm(): void
 ```
 
 ### fadeOutBgm (static method)
@@ -120,7 +120,7 @@ static stopBgm(): void;
 **Signature**
 
 ```ts
-static fadeOutBgm(duration: number): void;
+static fadeOutBgm(duration: number): void
 ```
 
 ### fadeInBgm (static method)
@@ -128,7 +128,7 @@ static fadeOutBgm(duration: number): void;
 **Signature**
 
 ```ts
-static fadeInBgm(duration: number): void;
+static fadeInBgm(duration: number): void
 ```
 
 ### playBgs (static method)
@@ -136,7 +136,7 @@ static fadeInBgm(duration: number): void;
 **Signature**
 
 ```ts
-static playBgs(bgs: DataAudio, pos?: number): void;
+static playBgs(bgs: DataAudio, pos?: number): void
 ```
 
 ### replayBgs (static method)
@@ -144,7 +144,7 @@ static playBgs(bgs: DataAudio, pos?: number): void;
 **Signature**
 
 ```ts
-static replayBgs(bgs: DataAudio): void;
+static replayBgs(bgs: DataAudio): void
 ```
 
 ### isCurrentBgs (static method)
@@ -152,7 +152,7 @@ static replayBgs(bgs: DataAudio): void;
 **Signature**
 
 ```ts
-static isCurrentBgs(bgs: DataAudio): boolean | null;
+static isCurrentBgs(bgs: DataAudio): boolean | null
 ```
 
 ### updateBgsParameters (static method)
@@ -160,7 +160,7 @@ static isCurrentBgs(bgs: DataAudio): boolean | null;
 **Signature**
 
 ```ts
-static updateBgsParameters(bgs: DataAudio | null): void;
+static updateBgsParameters(bgs: DataAudio | null): void
 ```
 
 ### updateCurrentBgs (static method)
@@ -168,7 +168,7 @@ static updateBgsParameters(bgs: DataAudio | null): void;
 **Signature**
 
 ```ts
-static updateCurrentBgs(bgs: DataAudio, pos?: number): void;
+static updateCurrentBgs(bgs: DataAudio, pos?: number): void
 ```
 
 ### stopBgs (static method)
@@ -176,7 +176,7 @@ static updateCurrentBgs(bgs: DataAudio, pos?: number): void;
 **Signature**
 
 ```ts
-static stopBgs(): void;
+static stopBgs(): void
 ```
 
 ### fadeOutBgs (static method)
@@ -184,7 +184,7 @@ static stopBgs(): void;
 **Signature**
 
 ```ts
-static fadeOutBgs(duration: number): void;
+static fadeOutBgs(duration: number): void
 ```
 
 ### fadeInBgs (static method)
@@ -192,7 +192,7 @@ static fadeOutBgs(duration: number): void;
 **Signature**
 
 ```ts
-static fadeInBgs(duration: number): void;
+static fadeInBgs(duration: number): void
 ```
 
 ### playMe (static method)
@@ -200,7 +200,7 @@ static fadeInBgs(duration: number): void;
 **Signature**
 
 ```ts
-static playMe(me: DataAudio): void;
+static playMe(me: DataAudio): void
 ```
 
 ### updateMeParameters (static method)
@@ -208,7 +208,7 @@ static playMe(me: DataAudio): void;
 **Signature**
 
 ```ts
-static updateMeParameters(me: DataAudio | null): void;
+static updateMeParameters(me: DataAudio | null): void
 ```
 
 ### fadeOutMe (static method)
@@ -216,7 +216,7 @@ static updateMeParameters(me: DataAudio | null): void;
 **Signature**
 
 ```ts
-static fadeOutMe(duration: number): void;
+static fadeOutMe(duration: number): void
 ```
 
 ### stopMe (static method)
@@ -224,7 +224,7 @@ static fadeOutMe(duration: number): void;
 **Signature**
 
 ```ts
-static stopMe(): void;
+static stopMe(): void
 ```
 
 ### playSe (static method)
@@ -232,7 +232,7 @@ static stopMe(): void;
 **Signature**
 
 ```ts
-static playSe(se: DataAudio): void;
+static playSe(se: DataAudio): void
 ```
 
 ### updateSeParameters (static method)
@@ -240,7 +240,7 @@ static playSe(se: DataAudio): void;
 **Signature**
 
 ```ts
-static updateSeParameters(buffer: WebAudio, se: DataAudio | null): void;
+static updateSeParameters(buffer: WebAudio, se: DataAudio | null): void
 ```
 
 ### cleanupSe (static method)
@@ -248,7 +248,7 @@ static updateSeParameters(buffer: WebAudio, se: DataAudio | null): void;
 **Signature**
 
 ```ts
-static cleanupSe(): void;
+static cleanupSe(): void
 ```
 
 ### stopSe (static method)
@@ -256,7 +256,7 @@ static cleanupSe(): void;
 **Signature**
 
 ```ts
-static stopSe(): void;
+static stopSe(): void
 ```
 
 ### playStaticSe (static method)
@@ -264,7 +264,7 @@ static stopSe(): void;
 **Signature**
 
 ```ts
-static playStaticSe(se: DataAudio): void;
+static playStaticSe(se: DataAudio): void
 ```
 
 ### loadStaticSe (static method)
@@ -272,7 +272,7 @@ static playStaticSe(se: DataAudio): void;
 **Signature**
 
 ```ts
-static loadStaticSe(se: DataAudio): void;
+static loadStaticSe(se: DataAudio): void
 ```
 
 ### isStaticSe (static method)
@@ -280,7 +280,7 @@ static loadStaticSe(se: DataAudio): void;
 **Signature**
 
 ```ts
-static isStaticSe(se: DataAudio): boolean;
+static isStaticSe(se: DataAudio): boolean
 ```
 
 ### stopAll (static method)
@@ -288,7 +288,7 @@ static isStaticSe(se: DataAudio): boolean;
 **Signature**
 
 ```ts
-static stopAll(): void;
+static stopAll(): void
 ```
 
 ### saveBgm (static method)
@@ -296,7 +296,7 @@ static stopAll(): void;
 **Signature**
 
 ```ts
-static saveBgm(): DataAudio;
+static saveBgm(): DataAudio
 ```
 
 ### saveBgs (static method)
@@ -304,7 +304,7 @@ static saveBgm(): DataAudio;
 **Signature**
 
 ```ts
-static saveBgs(): DataAudio;
+static saveBgs(): DataAudio
 ```
 
 ### makeEmptyAudioObject (static method)
@@ -312,7 +312,7 @@ static saveBgs(): DataAudio;
 **Signature**
 
 ```ts
-static makeEmptyAudioObject(): DataAudio;
+static makeEmptyAudioObject(): DataAudio
 ```
 
 ### createBuffer (static method)
@@ -320,7 +320,7 @@ static makeEmptyAudioObject(): DataAudio;
 **Signature**
 
 ```ts
-static createBuffer(folder: string, name: string): WebAudio;
+static createBuffer(folder: string, name: string): WebAudio
 ```
 
 ### updateBufferParameters (static method)
@@ -328,7 +328,7 @@ static createBuffer(folder: string, name: string): WebAudio;
 **Signature**
 
 ```ts
-static updateBufferParameters(buffer: WebAudio | null, configVolume: number, audio: DataAudio | null): void;
+static updateBufferParameters(buffer: WebAudio | null, configVolume: number, audio: DataAudio | null): void
 ```
 
 ### audioFileExt (static method)
@@ -336,7 +336,7 @@ static updateBufferParameters(buffer: WebAudio | null, configVolume: number, aud
 **Signature**
 
 ```ts
-static audioFileExt(): string;
+static audioFileExt(): string
 ```
 
 ### checkErrors (static method)
@@ -344,7 +344,7 @@ static audioFileExt(): string;
 **Signature**
 
 ```ts
-static checkErrors(): void;
+static checkErrors(): void
 ```
 
 ### throwLoadError (static method)
@@ -352,5 +352,5 @@ static checkErrors(): void;
 **Signature**
 
 ```ts
-static throwLoadError(webAudio: WebAudio): void;
+static throwLoadError(webAudio: WebAudio): void
 ```

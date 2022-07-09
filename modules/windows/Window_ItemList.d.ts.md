@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ItemList.d.ts
-nav_order: 164
+nav_order: 165
 parent: Modules
 ---
 
@@ -53,7 +53,7 @@ export declare class Window_ItemList<T>
 **Signature**
 
 ```ts
-setCategory(category: string | null): void;
+setCategory(category: string | null): void
 ```
 
 ### maxCols (method)
@@ -61,7 +61,7 @@ setCategory(category: string | null): void;
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### colSpacing (method)
@@ -69,7 +69,7 @@ maxCols(): number;
 **Signature**
 
 ```ts
-colSpacing(): number;
+colSpacing(): number
 ```
 
 ### maxItems (method)
@@ -77,7 +77,7 @@ colSpacing(): number;
 **Signature**
 
 ```ts
-maxItems(): number;
+maxItems(): number
 ```
 
 ### item (method)
@@ -85,7 +85,7 @@ maxItems(): number;
 **Signature**
 
 ```ts
-item(): T | null;
+item(): T | null
 ```
 
 ### itemAt (method)
@@ -93,7 +93,7 @@ item(): T | null;
 **Signature**
 
 ```ts
-itemAt(index: number): T | null;
+itemAt(index: number): T | null
 ```
 
 ### isCurrentItemEnabled (method)
@@ -101,7 +101,7 @@ itemAt(index: number): T | null;
 **Signature**
 
 ```ts
-isCurrentItemEnabled(): boolean;
+isCurrentItemEnabled(): boolean
 ```
 
 ### includes (method)
@@ -109,7 +109,7 @@ isCurrentItemEnabled(): boolean;
 **Signature**
 
 ```ts
-includes(item: DataItemBase | null): boolean;
+includes(item: DataItemBase | null): boolean
 ```
 
 ### needsNumber (method)
@@ -117,7 +117,7 @@ includes(item: DataItemBase | null): boolean;
 **Signature**
 
 ```ts
-needsNumber(): boolean;
+needsNumber(): boolean
 ```
 
 ### isEnabled (method)
@@ -125,7 +125,7 @@ needsNumber(): boolean;
 **Signature**
 
 ```ts
-isEnabled(item: DataItemBase | null): boolean;
+isEnabled(item: DataItemBase | null): boolean
 ```
 
 ### makeItemList (method)
@@ -133,7 +133,7 @@ isEnabled(item: DataItemBase | null): boolean;
 **Signature**
 
 ```ts
-makeItemList(): void;
+makeItemList(): void
 ```
 
 ### selectLast (method)
@@ -141,7 +141,7 @@ makeItemList(): void;
 **Signature**
 
 ```ts
-selectLast(): void;
+selectLast(): void
 ```
 
 ### drawItem (method)
@@ -149,7 +149,7 @@ selectLast(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### numberWidth (method)
@@ -157,7 +157,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-numberWidth(): number;
+numberWidth(): number
 ```
 
 ### drawItemNumber (method)
@@ -165,7 +165,7 @@ numberWidth(): number;
 **Signature**
 
 ```ts
-drawItemNumber(item: T, x: number, y: number, width: number): void;
+drawItemNumber(item: T, x: number, y: number, width: number): void
 ```
 
 ### updateHelp (method)
@@ -173,7 +173,7 @@ drawItemNumber(item: T, x: number, y: number, width: number): void;
 **Signature**
 
 ```ts
-updateHelp(): void;
+updateHelp(): void
 ```
 
 ### refresh (method)
@@ -181,7 +181,7 @@ updateHelp(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### \_category (property)

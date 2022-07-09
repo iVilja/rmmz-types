@@ -1,6 +1,6 @@
 ---
 title: managers/ColorManager.d.ts
-nav_order: 51
+nav_order: 52
 parent: Modules
 ---
 
@@ -66,7 +66,7 @@ export declare class ColorManager {
 **Signature**
 
 ```ts
-static loadWindowskin(): void;
+static loadWindowskin(): void
 ```
 
 ### textColor (static method)
@@ -74,7 +74,7 @@ static loadWindowskin(): void;
 **Signature**
 
 ```ts
-static textColor(n: number): string;
+static textColor(n: number): string
 ```
 
 ### normalColor (static method)
@@ -82,7 +82,7 @@ static textColor(n: number): string;
 **Signature**
 
 ```ts
-static normalColor(): string;
+static normalColor(): string
 ```
 
 ### systemColor (static method)
@@ -90,7 +90,7 @@ static normalColor(): string;
 **Signature**
 
 ```ts
-static systemColor(): string;
+static systemColor(): string
 ```
 
 ### crisisColor (static method)
@@ -98,7 +98,7 @@ static systemColor(): string;
 **Signature**
 
 ```ts
-static crisisColor(): string;
+static crisisColor(): string
 ```
 
 ### deathColor (static method)
@@ -106,7 +106,7 @@ static crisisColor(): string;
 **Signature**
 
 ```ts
-static deathColor(): string;
+static deathColor(): string
 ```
 
 ### gaugeBackColor (static method)
@@ -114,7 +114,7 @@ static deathColor(): string;
 **Signature**
 
 ```ts
-static gaugeBackColor(): string;
+static gaugeBackColor(): string
 ```
 
 ### hpGaugeColor1 (static method)
@@ -122,7 +122,7 @@ static gaugeBackColor(): string;
 **Signature**
 
 ```ts
-static hpGaugeColor1(): string;
+static hpGaugeColor1(): string
 ```
 
 ### hpGaugeColor2 (static method)
@@ -130,7 +130,7 @@ static hpGaugeColor1(): string;
 **Signature**
 
 ```ts
-static hpGaugeColor2(): string;
+static hpGaugeColor2(): string
 ```
 
 ### mpGaugeColor1 (static method)
@@ -138,7 +138,7 @@ static hpGaugeColor2(): string;
 **Signature**
 
 ```ts
-static mpGaugeColor1(): string;
+static mpGaugeColor1(): string
 ```
 
 ### mpGaugeColor2 (static method)
@@ -146,7 +146,7 @@ static mpGaugeColor1(): string;
 **Signature**
 
 ```ts
-static mpGaugeColor2(): string;
+static mpGaugeColor2(): string
 ```
 
 ### mpCostColor (static method)
@@ -154,7 +154,7 @@ static mpGaugeColor2(): string;
 **Signature**
 
 ```ts
-static mpCostColor(): string;
+static mpCostColor(): string
 ```
 
 ### powerUpColor (static method)
@@ -162,7 +162,7 @@ static mpCostColor(): string;
 **Signature**
 
 ```ts
-static powerUpColor(): string;
+static powerUpColor(): string
 ```
 
 ### powerDownColor (static method)
@@ -170,7 +170,7 @@ static powerUpColor(): string;
 **Signature**
 
 ```ts
-static powerDownColor(): string;
+static powerDownColor(): string
 ```
 
 ### ctGaugeColor1 (static method)
@@ -178,7 +178,7 @@ static powerDownColor(): string;
 **Signature**
 
 ```ts
-static ctGaugeColor1(): string;
+static ctGaugeColor1(): string
 ```
 
 ### ctGaugeColor2 (static method)
@@ -186,7 +186,7 @@ static ctGaugeColor1(): string;
 **Signature**
 
 ```ts
-static ctGaugeColor2(): string;
+static ctGaugeColor2(): string
 ```
 
 ### tpGaugeColor1 (static method)
@@ -194,7 +194,7 @@ static ctGaugeColor2(): string;
 **Signature**
 
 ```ts
-static tpGaugeColor1(): string;
+static tpGaugeColor1(): string
 ```
 
 ### tpGaugeColor2 (static method)
@@ -202,7 +202,7 @@ static tpGaugeColor1(): string;
 **Signature**
 
 ```ts
-static tpGaugeColor2(): string;
+static tpGaugeColor2(): string
 ```
 
 ### tpCostColor (static method)
@@ -210,7 +210,7 @@ static tpGaugeColor2(): string;
 **Signature**
 
 ```ts
-static tpCostColor(): string;
+static tpCostColor(): string
 ```
 
 ### pendingColor (static method)
@@ -218,7 +218,7 @@ static tpCostColor(): string;
 **Signature**
 
 ```ts
-static pendingColor(): string;
+static pendingColor(): string
 ```
 
 ### hpColor (static method)
@@ -226,7 +226,7 @@ static pendingColor(): string;
 **Signature**
 
 ```ts
-static hpColor(actor: Game_BattlerBase | null): string;
+static hpColor(actor: Game_BattlerBase | null): string
 ```
 
 ### mpColor (static method)
@@ -234,7 +234,7 @@ static hpColor(actor: Game_BattlerBase | null): string;
 **Signature**
 
 ```ts
-static mpColor(_actor?: Game_BattlerBase | null): string;
+static mpColor(_actor?: Game_BattlerBase | null): string
 ```
 
 ### tpColor (static method)
@@ -242,7 +242,7 @@ static mpColor(_actor?: Game_BattlerBase | null): string;
 **Signature**
 
 ```ts
-static tpColor(_actor?: Game_BattlerBase | null): string;
+static tpColor(_actor?: Game_BattlerBase | null): string
 ```
 
 ### paramchangeTextColor (static method)
@@ -250,7 +250,7 @@ static tpColor(_actor?: Game_BattlerBase | null): string;
 **Signature**
 
 ```ts
-static paramchangeTextColor(change: number): string;
+static paramchangeTextColor(change: number): string
 ```
 
 ### damageColor (static method)
@@ -258,7 +258,7 @@ static paramchangeTextColor(change: number): string;
 **Signature**
 
 ```ts
-static damageColor(colorType: number): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b0ff" | "#808080";
+static damageColor(colorType: number): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b0ff" | "#808080"
 ```
 
 ### outlineColor (static method)
@@ -266,7 +266,7 @@ static damageColor(colorType: number): "#ffffff" | "#b9ffb5" | "#ffff90" | "#80b
 **Signature**
 
 ```ts
-static outlineColor(): string;
+static outlineColor(): string
 ```
 
 ### dimColor1 (static method)
@@ -274,7 +274,7 @@ static outlineColor(): string;
 **Signature**
 
 ```ts
-static dimColor1(): string;
+static dimColor1(): string
 ```
 
 ### dimColor2 (static method)
@@ -282,7 +282,7 @@ static dimColor1(): string;
 **Signature**
 
 ```ts
-static dimColor2(): string;
+static dimColor2(): string
 ```
 
 ### itemBackColor1 (static method)
@@ -290,7 +290,7 @@ static dimColor2(): string;
 **Signature**
 
 ```ts
-static itemBackColor1(): string;
+static itemBackColor1(): string
 ```
 
 ### itemBackColor2 (static method)
@@ -298,5 +298,5 @@ static itemBackColor1(): string;
 **Signature**
 
 ```ts
-static itemBackColor2(): string;
+static itemBackColor2(): string
 ```

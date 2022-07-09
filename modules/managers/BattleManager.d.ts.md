@@ -1,6 +1,6 @@
 ---
 title: managers/BattleManager.d.ts
-nav_order: 50
+nav_order: 51
 parent: Modules
 ---
 
@@ -139,7 +139,7 @@ export declare class BattleManager {
 **Signature**
 
 ```ts
-static setup(troopId: number, canEscape: boolean, canLose: boolean): void;
+static setup(troopId: number, canEscape: boolean, canLose: boolean): void
 ```
 
 ### initMembers (static method)
@@ -147,7 +147,7 @@ static setup(troopId: number, canEscape: boolean, canLose: boolean): void;
 **Signature**
 
 ```ts
-static initMembers(): void;
+static initMembers(): void
 ```
 
 ### isTpb (static method)
@@ -155,7 +155,7 @@ static initMembers(): void;
 **Signature**
 
 ```ts
-static isTpb(): boolean;
+static isTpb(): boolean
 ```
 
 ### isActiveTpb (static method)
@@ -163,7 +163,7 @@ static isTpb(): boolean;
 **Signature**
 
 ```ts
-static isActiveTpb(): boolean;
+static isActiveTpb(): boolean
 ```
 
 ### isBattleTest (static method)
@@ -171,7 +171,7 @@ static isActiveTpb(): boolean;
 **Signature**
 
 ```ts
-static isBattleTest(): boolean;
+static isBattleTest(): boolean
 ```
 
 ### setBattleTest (static method)
@@ -179,7 +179,7 @@ static isBattleTest(): boolean;
 **Signature**
 
 ```ts
-static setBattleTest(battleTest: boolean): void;
+static setBattleTest(battleTest: boolean): void
 ```
 
 ### setEventCallback (static method)
@@ -187,7 +187,7 @@ static setBattleTest(battleTest: boolean): void;
 **Signature**
 
 ```ts
-static setEventCallback(callback: (result: number) => void): void;
+static setEventCallback(callback: (result: number) => void): void
 ```
 
 ### setLogWindow (static method)
@@ -195,7 +195,7 @@ static setEventCallback(callback: (result: number) => void): void;
 **Signature**
 
 ```ts
-static setLogWindow(logWindow: Window_BattleLog): void;
+static setLogWindow(logWindow: Window_BattleLog): void
 ```
 
 ### setSpriteset (static method)
@@ -203,7 +203,7 @@ static setLogWindow(logWindow: Window_BattleLog): void;
 **Signature**
 
 ```ts
-static setSpriteset(spriteset: Spriteset_Battle): void;
+static setSpriteset(spriteset: Spriteset_Battle): void
 ```
 
 ### onEncounter (static method)
@@ -211,7 +211,7 @@ static setSpriteset(spriteset: Spriteset_Battle): void;
 **Signature**
 
 ```ts
-static onEncounter(): void;
+static onEncounter(): void
 ```
 
 ### ratePreemptive (static method)
@@ -219,7 +219,7 @@ static onEncounter(): void;
 **Signature**
 
 ```ts
-static ratePreemptive(): number;
+static ratePreemptive(): number
 ```
 
 ### rateSurprise (static method)
@@ -227,7 +227,7 @@ static ratePreemptive(): number;
 **Signature**
 
 ```ts
-static rateSurprise(): number;
+static rateSurprise(): number
 ```
 
 ### saveBgmAndBgs (static method)
@@ -235,7 +235,7 @@ static rateSurprise(): number;
 **Signature**
 
 ```ts
-static saveBgmAndBgs(): void;
+static saveBgmAndBgs(): void
 ```
 
 ### playBattleBgm (static method)
@@ -243,7 +243,7 @@ static saveBgmAndBgs(): void;
 **Signature**
 
 ```ts
-static playBattleBgm(): void;
+static playBattleBgm(): void
 ```
 
 ### playVictoryMe (static method)
@@ -251,7 +251,7 @@ static playBattleBgm(): void;
 **Signature**
 
 ```ts
-static playVictoryMe(): void;
+static playVictoryMe(): void
 ```
 
 ### playDefeatMe (static method)
@@ -259,7 +259,7 @@ static playVictoryMe(): void;
 **Signature**
 
 ```ts
-static playDefeatMe(): void;
+static playDefeatMe(): void
 ```
 
 ### replayBgmAndBgs (static method)
@@ -267,7 +267,7 @@ static playDefeatMe(): void;
 **Signature**
 
 ```ts
-static replayBgmAndBgs(): void;
+static replayBgmAndBgs(): void
 ```
 
 ### makeEscapeRatio (static method)
@@ -275,7 +275,7 @@ static replayBgmAndBgs(): void;
 **Signature**
 
 ```ts
-static makeEscapeRatio(): void;
+static makeEscapeRatio(): void
 ```
 
 ### update (static method)
@@ -283,7 +283,7 @@ static makeEscapeRatio(): void;
 **Signature**
 
 ```ts
-static update(timeActive: boolean): void;
+static update(timeActive: boolean): void
 ```
 
 ### updatePhase (static method)
@@ -291,7 +291,7 @@ static update(timeActive: boolean): void;
 **Signature**
 
 ```ts
-static updatePhase(timeActive: boolean): void;
+static updatePhase(timeActive: boolean): void
 ```
 
 ### updateEvent (static method)
@@ -299,7 +299,7 @@ static updatePhase(timeActive: boolean): void;
 **Signature**
 
 ```ts
-static updateEvent(): boolean;
+static updateEvent(): boolean
 ```
 
 ### updateEventMain (static method)
@@ -307,7 +307,7 @@ static updateEvent(): boolean;
 **Signature**
 
 ```ts
-static updateEventMain(): boolean;
+static updateEventMain(): boolean
 ```
 
 ### isBusy (static method)
@@ -315,7 +315,20 @@ static updateEventMain(): boolean;
 **Signature**
 
 ```ts
-static isBusy(): boolean | "video" | "scroll" | "image" | "message" | "transfer" | "route" | "animation" | "balloon" | "gather" | "action" | "effect" | "movement";
+static isBusy():
+    | boolean
+    | "video"
+    | "scroll"
+    | "image"
+    | "message"
+    | "transfer"
+    | "route"
+    | "animation"
+    | "balloon"
+    | "gather"
+    | "action"
+    | "effect"
+    | "movement"
 ```
 
 ### updateTpbInput (static method)
@@ -323,7 +336,7 @@ static isBusy(): boolean | "video" | "scroll" | "image" | "message" | "transfer"
 **Signature**
 
 ```ts
-static updateTpbInput(): void;
+static updateTpbInput(): void
 ```
 
 ### checkTpbInputClose (static method)
@@ -331,7 +344,7 @@ static updateTpbInput(): void;
 **Signature**
 
 ```ts
-static checkTpbInputClose(): void;
+static checkTpbInputClose(): void
 ```
 
 ### checkTpbInputOpen (static method)
@@ -339,7 +352,7 @@ static checkTpbInputClose(): void;
 **Signature**
 
 ```ts
-static checkTpbInputOpen(): void;
+static checkTpbInputOpen(): void
 ```
 
 ### isPartyTpbInputtable (static method)
@@ -347,7 +360,7 @@ static checkTpbInputOpen(): void;
 **Signature**
 
 ```ts
-static isPartyTpbInputtable(): boolean;
+static isPartyTpbInputtable(): boolean
 ```
 
 ### needsActorInputCancel (static method)
@@ -355,7 +368,7 @@ static isPartyTpbInputtable(): boolean;
 **Signature**
 
 ```ts
-static needsActorInputCancel(): boolean | null;
+static needsActorInputCancel(): boolean | null
 ```
 
 ### isTpbMainPhase (static method)
@@ -363,7 +376,7 @@ static needsActorInputCancel(): boolean | null;
 **Signature**
 
 ```ts
-static isTpbMainPhase(): boolean;
+static isTpbMainPhase(): boolean
 ```
 
 ### isInputting (static method)
@@ -371,7 +384,7 @@ static isTpbMainPhase(): boolean;
 **Signature**
 
 ```ts
-static isInputting(): boolean;
+static isInputting(): boolean
 ```
 
 ### isInTurn (static method)
@@ -379,7 +392,7 @@ static isInputting(): boolean;
 **Signature**
 
 ```ts
-static isInTurn(): boolean;
+static isInTurn(): boolean
 ```
 
 ### isTurnEnd (static method)
@@ -387,7 +400,7 @@ static isInTurn(): boolean;
 **Signature**
 
 ```ts
-static isTurnEnd(): boolean;
+static isTurnEnd(): boolean
 ```
 
 ### isAborting (static method)
@@ -395,7 +408,7 @@ static isTurnEnd(): boolean;
 **Signature**
 
 ```ts
-static isAborting(): boolean;
+static isAborting(): boolean
 ```
 
 ### isBattleEnd (static method)
@@ -403,7 +416,7 @@ static isAborting(): boolean;
 **Signature**
 
 ```ts
-static isBattleEnd(): boolean;
+static isBattleEnd(): boolean
 ```
 
 ### canEscape (static method)
@@ -411,7 +424,7 @@ static isBattleEnd(): boolean;
 **Signature**
 
 ```ts
-static canEscape(): boolean;
+static canEscape(): boolean
 ```
 
 ### canLose (static method)
@@ -419,7 +432,7 @@ static canEscape(): boolean;
 **Signature**
 
 ```ts
-static canLose(): boolean;
+static canLose(): boolean
 ```
 
 ### isEscaped (static method)
@@ -427,7 +440,7 @@ static canLose(): boolean;
 **Signature**
 
 ```ts
-static isEscaped(): boolean;
+static isEscaped(): boolean
 ```
 
 ### actor (static method)
@@ -435,7 +448,7 @@ static isEscaped(): boolean;
 **Signature**
 
 ```ts
-static actor(): Game_Actor | null;
+static actor(): Game_Actor | null
 ```
 
 ### startBattle (static method)
@@ -443,7 +456,7 @@ static actor(): Game_Actor | null;
 **Signature**
 
 ```ts
-static startBattle(): void;
+static startBattle(): void
 ```
 
 ### displayStartMessages (static method)
@@ -451,7 +464,7 @@ static startBattle(): void;
 **Signature**
 
 ```ts
-static displayStartMessages(): void;
+static displayStartMessages(): void
 ```
 
 ### startInput (static method)
@@ -459,7 +472,7 @@ static displayStartMessages(): void;
 **Signature**
 
 ```ts
-static startInput(): void;
+static startInput(): void
 ```
 
 ### inputtingAction (static method)
@@ -467,7 +480,7 @@ static startInput(): void;
 **Signature**
 
 ```ts
-static inputtingAction(): Game_Action | null;
+static inputtingAction(): Game_Action | null
 ```
 
 ### selectNextCommand (static method)
@@ -475,7 +488,7 @@ static inputtingAction(): Game_Action | null;
 **Signature**
 
 ```ts
-static selectNextCommand(): void;
+static selectNextCommand(): void
 ```
 
 ### selectNextActor (static method)
@@ -483,7 +496,7 @@ static selectNextCommand(): void;
 **Signature**
 
 ```ts
-static selectNextActor(): void;
+static selectNextActor(): void
 ```
 
 ### selectPreviousCommand (static method)
@@ -491,7 +504,7 @@ static selectNextActor(): void;
 **Signature**
 
 ```ts
-static selectPreviousCommand(): void;
+static selectPreviousCommand(): void
 ```
 
 ### selectPreviousActor (static method)
@@ -499,7 +512,7 @@ static selectPreviousCommand(): void;
 **Signature**
 
 ```ts
-static selectPreviousActor(): void;
+static selectPreviousActor(): void
 ```
 
 ### changeCurrentActor (static method)
@@ -507,7 +520,7 @@ static selectPreviousActor(): void;
 **Signature**
 
 ```ts
-static changeCurrentActor(forward: boolean): void;
+static changeCurrentActor(forward: boolean): void
 ```
 
 ### startActorInput (static method)
@@ -515,7 +528,7 @@ static changeCurrentActor(forward: boolean): void;
 **Signature**
 
 ```ts
-static startActorInput(): void;
+static startActorInput(): void
 ```
 
 ### finishActorInput (static method)
@@ -523,7 +536,7 @@ static startActorInput(): void;
 **Signature**
 
 ```ts
-static finishActorInput(): void;
+static finishActorInput(): void
 ```
 
 ### cancelActorInput (static method)
@@ -531,7 +544,7 @@ static finishActorInput(): void;
 **Signature**
 
 ```ts
-static cancelActorInput(): void;
+static cancelActorInput(): void
 ```
 
 ### updateStart (static method)
@@ -539,7 +552,7 @@ static cancelActorInput(): void;
 **Signature**
 
 ```ts
-static updateStart(): void;
+static updateStart(): void
 ```
 
 ### startTurn (static method)
@@ -547,7 +560,7 @@ static updateStart(): void;
 **Signature**
 
 ```ts
-static startTurn(): void;
+static startTurn(): void
 ```
 
 ### updateTurn (static method)
@@ -555,7 +568,7 @@ static startTurn(): void;
 **Signature**
 
 ```ts
-static updateTurn(timeActive: boolean): void;
+static updateTurn(timeActive: boolean): void
 ```
 
 ### updateTpb (static method)
@@ -563,7 +576,7 @@ static updateTurn(timeActive: boolean): void;
 **Signature**
 
 ```ts
-static updateTpb(): void;
+static updateTpb(): void
 ```
 
 ### updateAllTpbBattlers (static method)
@@ -571,7 +584,7 @@ static updateTpb(): void;
 **Signature**
 
 ```ts
-static updateAllTpbBattlers(): void;
+static updateAllTpbBattlers(): void
 ```
 
 ### updateTpbBattler (static method)
@@ -579,7 +592,7 @@ static updateAllTpbBattlers(): void;
 **Signature**
 
 ```ts
-static updateTpbBattler(battler: ActionTarget): void;
+static updateTpbBattler(battler: ActionTarget): void
 ```
 
 ### checkTpbTurnEnd (static method)
@@ -587,7 +600,7 @@ static updateTpbBattler(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-static checkTpbTurnEnd(): void;
+static checkTpbTurnEnd(): void
 ```
 
 ### processTurn (static method)
@@ -595,7 +608,7 @@ static checkTpbTurnEnd(): void;
 **Signature**
 
 ```ts
-static processTurn(): void;
+static processTurn(): void
 ```
 
 ### endBattlerActions (static method)
@@ -603,7 +616,7 @@ static processTurn(): void;
 **Signature**
 
 ```ts
-static endBattlerActions(battler: ActionTarget): void;
+static endBattlerActions(battler: ActionTarget): void
 ```
 
 ### endTurn (static method)
@@ -611,7 +624,7 @@ static endBattlerActions(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-static endTurn(): void;
+static endTurn(): void
 ```
 
 ### updateTurnEnd (static method)
@@ -619,7 +632,7 @@ static endTurn(): void;
 **Signature**
 
 ```ts
-static updateTurnEnd(): void;
+static updateTurnEnd(): void
 ```
 
 ### endAllBattlersTurn (static method)
@@ -627,7 +640,7 @@ static updateTurnEnd(): void;
 **Signature**
 
 ```ts
-static endAllBattlersTurn(): void;
+static endAllBattlersTurn(): void
 ```
 
 ### displayBattlerStatus (static method)
@@ -635,7 +648,7 @@ static endAllBattlersTurn(): void;
 **Signature**
 
 ```ts
-static displayBattlerStatus(battler: ActionTarget, current: boolean): void;
+static displayBattlerStatus(battler: ActionTarget, current: boolean): void
 ```
 
 ### getNextSubject (static method)
@@ -643,7 +656,7 @@ static displayBattlerStatus(battler: ActionTarget, current: boolean): void;
 **Signature**
 
 ```ts
-static getNextSubject(): ActionTarget | null;
+static getNextSubject(): ActionTarget | null
 ```
 
 ### allBattleMembers (static method)
@@ -651,7 +664,7 @@ static getNextSubject(): ActionTarget | null;
 **Signature**
 
 ```ts
-static allBattleMembers(): (Game_Actor | import("../objects").Game_Enemy)[];
+static allBattleMembers(): (Game_Actor | import("../objects").Game_Enemy)[]
 ```
 
 ### makeActionOrders (static method)
@@ -659,7 +672,7 @@ static allBattleMembers(): (Game_Actor | import("../objects").Game_Enemy)[];
 **Signature**
 
 ```ts
-static makeActionOrders(): void;
+static makeActionOrders(): void
 ```
 
 ### startAction (static method)
@@ -667,7 +680,7 @@ static makeActionOrders(): void;
 **Signature**
 
 ```ts
-static startAction(): void;
+static startAction(): void
 ```
 
 ### updateAction (static method)
@@ -675,7 +688,7 @@ static startAction(): void;
 **Signature**
 
 ```ts
-static updateAction(): void;
+static updateAction(): void
 ```
 
 ### endAction (static method)
@@ -683,7 +696,7 @@ static updateAction(): void;
 **Signature**
 
 ```ts
-static endAction(): void;
+static endAction(): void
 ```
 
 ### invokeAction (static method)
@@ -691,7 +704,7 @@ static endAction(): void;
 **Signature**
 
 ```ts
-static invokeAction(subject: ActionTarget, target: ActionTarget): void;
+static invokeAction(subject: ActionTarget, target: ActionTarget): void
 ```
 
 ### invokeNormalAction (static method)
@@ -699,7 +712,7 @@ static invokeAction(subject: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-static invokeNormalAction(subject: ActionTarget, target: ActionTarget): void;
+static invokeNormalAction(subject: ActionTarget, target: ActionTarget): void
 ```
 
 ### invokeCounterAttack (static method)
@@ -707,7 +720,7 @@ static invokeNormalAction(subject: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-static invokeCounterAttack(subject: ActionTarget, target: ActionTarget): void;
+static invokeCounterAttack(subject: ActionTarget, target: ActionTarget): void
 ```
 
 ### invokeMagicReflection (static method)
@@ -715,7 +728,7 @@ static invokeCounterAttack(subject: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-static invokeMagicReflection(subject: ActionTarget, target: ActionTarget): void;
+static invokeMagicReflection(subject: ActionTarget, target: ActionTarget): void
 ```
 
 ### applySubstitute (static method)
@@ -723,7 +736,7 @@ static invokeMagicReflection(subject: ActionTarget, target: ActionTarget): void;
 **Signature**
 
 ```ts
-static applySubstitute(target: ActionTarget): ActionTarget;
+static applySubstitute(target: ActionTarget): ActionTarget
 ```
 
 ### checkSubstitute (static method)
@@ -731,7 +744,7 @@ static applySubstitute(target: ActionTarget): ActionTarget;
 **Signature**
 
 ```ts
-static checkSubstitute(target: ActionTarget): boolean;
+static checkSubstitute(target: ActionTarget): boolean
 ```
 
 ### isActionForced (static method)
@@ -739,7 +752,7 @@ static checkSubstitute(target: ActionTarget): boolean;
 **Signature**
 
 ```ts
-static isActionForced(): boolean;
+static isActionForced(): boolean
 ```
 
 ### forceAction (static method)
@@ -747,7 +760,7 @@ static isActionForced(): boolean;
 **Signature**
 
 ```ts
-static forceAction(battler: ActionTarget): void;
+static forceAction(battler: ActionTarget): void
 ```
 
 ### processForcedAction (static method)
@@ -755,7 +768,7 @@ static forceAction(battler: ActionTarget): void;
 **Signature**
 
 ```ts
-static processForcedAction(): void;
+static processForcedAction(): void
 ```
 
 ### abort (static method)
@@ -763,7 +776,7 @@ static processForcedAction(): void;
 **Signature**
 
 ```ts
-static abort(): void;
+static abort(): void
 ```
 
 ### checkBattleEnd (static method)
@@ -771,7 +784,7 @@ static abort(): void;
 **Signature**
 
 ```ts
-static checkBattleEnd(): boolean;
+static checkBattleEnd(): boolean
 ```
 
 ### checkAbort (static method)
@@ -779,7 +792,7 @@ static checkBattleEnd(): boolean;
 **Signature**
 
 ```ts
-static checkAbort(): boolean;
+static checkAbort(): boolean
 ```
 
 ### processVictory (static method)
@@ -787,7 +800,7 @@ static checkAbort(): boolean;
 **Signature**
 
 ```ts
-static processVictory(): void;
+static processVictory(): void
 ```
 
 ### processEscape (static method)
@@ -795,7 +808,7 @@ static processVictory(): void;
 **Signature**
 
 ```ts
-static processEscape(): boolean;
+static processEscape(): boolean
 ```
 
 ### onEscapeSuccess (static method)
@@ -803,7 +816,7 @@ static processEscape(): boolean;
 **Signature**
 
 ```ts
-static onEscapeSuccess(): void;
+static onEscapeSuccess(): void
 ```
 
 ### onEscapeFailure (static method)
@@ -811,7 +824,7 @@ static onEscapeSuccess(): void;
 **Signature**
 
 ```ts
-static onEscapeFailure(): void;
+static onEscapeFailure(): void
 ```
 
 ### processPartyEscape (static method)
@@ -819,7 +832,7 @@ static onEscapeFailure(): void;
 **Signature**
 
 ```ts
-static processPartyEscape(): void;
+static processPartyEscape(): void
 ```
 
 ### processAbort (static method)
@@ -827,7 +840,7 @@ static processPartyEscape(): void;
 **Signature**
 
 ```ts
-static processAbort(): void;
+static processAbort(): void
 ```
 
 ### processDefeat (static method)
@@ -835,7 +848,7 @@ static processAbort(): void;
 **Signature**
 
 ```ts
-static processDefeat(): void;
+static processDefeat(): void
 ```
 
 ### endBattle (static method)
@@ -843,7 +856,7 @@ static processDefeat(): void;
 **Signature**
 
 ```ts
-static endBattle(result: number): void;
+static endBattle(result: number): void
 ```
 
 ### updateBattleEnd (static method)
@@ -851,7 +864,7 @@ static endBattle(result: number): void;
 **Signature**
 
 ```ts
-static updateBattleEnd(): void;
+static updateBattleEnd(): void
 ```
 
 ### makeRewards (static method)
@@ -859,7 +872,7 @@ static updateBattleEnd(): void;
 **Signature**
 
 ```ts
-static makeRewards(): void;
+static makeRewards(): void
 ```
 
 ### displayVictoryMessage (static method)
@@ -867,7 +880,7 @@ static makeRewards(): void;
 **Signature**
 
 ```ts
-static displayVictoryMessage(): void;
+static displayVictoryMessage(): void
 ```
 
 ### displayDefeatMessage (static method)
@@ -875,7 +888,7 @@ static displayVictoryMessage(): void;
 **Signature**
 
 ```ts
-static displayDefeatMessage(): void;
+static displayDefeatMessage(): void
 ```
 
 ### displayEscapeSuccessMessage (static method)
@@ -883,7 +896,7 @@ static displayDefeatMessage(): void;
 **Signature**
 
 ```ts
-static displayEscapeSuccessMessage(): void;
+static displayEscapeSuccessMessage(): void
 ```
 
 ### displayEscapeFailureMessage (static method)
@@ -891,7 +904,7 @@ static displayEscapeSuccessMessage(): void;
 **Signature**
 
 ```ts
-static displayEscapeFailureMessage(): void;
+static displayEscapeFailureMessage(): void
 ```
 
 ### displayRewards (static method)
@@ -899,7 +912,7 @@ static displayEscapeFailureMessage(): void;
 **Signature**
 
 ```ts
-static displayRewards(): void;
+static displayRewards(): void
 ```
 
 ### displayExp (static method)
@@ -907,7 +920,7 @@ static displayRewards(): void;
 **Signature**
 
 ```ts
-static displayExp(): void;
+static displayExp(): void
 ```
 
 ### displayGold (static method)
@@ -915,7 +928,7 @@ static displayExp(): void;
 **Signature**
 
 ```ts
-static displayGold(): void;
+static displayGold(): void
 ```
 
 ### displayDropItems (static method)
@@ -923,7 +936,7 @@ static displayGold(): void;
 **Signature**
 
 ```ts
-static displayDropItems(): void;
+static displayDropItems(): void
 ```
 
 ### gainRewards (static method)
@@ -931,7 +944,7 @@ static displayDropItems(): void;
 **Signature**
 
 ```ts
-static gainRewards(): void;
+static gainRewards(): void
 ```
 
 ### gainExp (static method)
@@ -939,7 +952,7 @@ static gainRewards(): void;
 **Signature**
 
 ```ts
-static gainExp(): void;
+static gainExp(): void
 ```
 
 ### gainGold (static method)
@@ -947,7 +960,7 @@ static gainExp(): void;
 **Signature**
 
 ```ts
-static gainGold(): void;
+static gainGold(): void
 ```
 
 ### gainDropItems (static method)
@@ -955,5 +968,5 @@ static gainGold(): void;
 **Signature**
 
 ```ts
-static gainDropItems(): void;
+static gainDropItems(): void
 ```

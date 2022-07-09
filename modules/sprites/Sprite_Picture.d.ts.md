@@ -1,6 +1,6 @@
 ---
 title: sprites/Sprite_Picture.d.ts
-nav_order: 132
+nav_order: 133
 parent: Modules
 ---
 
@@ -47,7 +47,7 @@ export declare class Sprite_Picture {
 **Signature**
 
 ```ts
-picture(): import("..").Game_Picture | null;
+picture(): import("..").Game_Picture | null
 ```
 
 ### update (method)
@@ -55,7 +55,7 @@ picture(): import("..").Game_Picture | null;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateBitmap (method)
@@ -63,7 +63,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateBitmap(): void;
+updateBitmap(): void
 ```
 
 ### updateOrigin (method)
@@ -71,7 +71,7 @@ updateBitmap(): void;
 **Signature**
 
 ```ts
-updateOrigin(): void;
+updateOrigin(): void
 ```
 
 ### updatePosition (method)
@@ -79,7 +79,7 @@ updateOrigin(): void;
 **Signature**
 
 ```ts
-updatePosition(): void;
+updatePosition(): void
 ```
 
 ### updateScale (method)
@@ -87,7 +87,7 @@ updatePosition(): void;
 **Signature**
 
 ```ts
-updateScale(): void;
+updateScale(): void
 ```
 
 ### updateTone (method)
@@ -95,7 +95,7 @@ updateScale(): void;
 **Signature**
 
 ```ts
-updateTone(): void;
+updateTone(): void
 ```
 
 ### updateOther (method)
@@ -103,7 +103,7 @@ updateTone(): void;
 **Signature**
 
 ```ts
-updateOther(): void;
+updateOther(): void
 ```
 
 ### loadBitmap (method)
@@ -111,7 +111,7 @@ updateOther(): void;
 **Signature**
 
 ```ts
-loadBitmap(): void;
+loadBitmap(): void
 ```
 
 ### \_pictureId (property)

@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Equip.d.ts
-nav_order: 99
+nav_order: 100
 parent: Modules
 ---
 
@@ -57,7 +57,7 @@ export declare class Scene_Equip
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### createStatusWindow (method)
@@ -65,7 +65,7 @@ create(): void;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -73,7 +73,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### createCommandWindow (method)
@@ -81,7 +81,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createCommandWindow(): void;
+createCommandWindow(): void
 ```
 
 ### commandWindowRect (method)
@@ -89,7 +89,7 @@ createCommandWindow(): void;
 **Signature**
 
 ```ts
-commandWindowRect(): Rectangle;
+commandWindowRect(): Rectangle
 ```
 
 ### createSlotWindow (method)
@@ -97,7 +97,7 @@ commandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createSlotWindow(): void;
+createSlotWindow(): void
 ```
 
 ### slotWindowRect (method)
@@ -105,7 +105,7 @@ createSlotWindow(): void;
 **Signature**
 
 ```ts
-slotWindowRect(): Rectangle;
+slotWindowRect(): Rectangle
 ```
 
 ### createItemWindow (method)
@@ -113,7 +113,7 @@ slotWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createItemWindow(): void;
+createItemWindow(): void
 ```
 
 ### itemWindowRect (method)
@@ -121,7 +121,7 @@ createItemWindow(): void;
 **Signature**
 
 ```ts
-itemWindowRect(): Rectangle;
+itemWindowRect(): Rectangle
 ```
 
 ### statusWidth (method)
@@ -129,7 +129,7 @@ itemWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-statusWidth(): number;
+statusWidth(): number
 ```
 
 ### needsPageButtons (method)
@@ -137,7 +137,7 @@ statusWidth(): number;
 **Signature**
 
 ```ts
-needsPageButtons(): boolean;
+needsPageButtons(): boolean
 ```
 
 ### arePageButtonsEnabled (method)
@@ -145,7 +145,7 @@ needsPageButtons(): boolean;
 **Signature**
 
 ```ts
-arePageButtonsEnabled(): boolean;
+arePageButtonsEnabled(): boolean
 ```
 
 ### refreshActor (method)
@@ -153,7 +153,7 @@ arePageButtonsEnabled(): boolean;
 **Signature**
 
 ```ts
-refreshActor(): void;
+refreshActor(): void
 ```
 
 ### commandEquip (method)
@@ -161,7 +161,7 @@ refreshActor(): void;
 **Signature**
 
 ```ts
-commandEquip(): void;
+commandEquip(): void
 ```
 
 ### commandOptimize (method)
@@ -169,7 +169,7 @@ commandEquip(): void;
 **Signature**
 
 ```ts
-commandOptimize(): void;
+commandOptimize(): void
 ```
 
 ### commandClear (method)
@@ -177,7 +177,7 @@ commandOptimize(): void;
 **Signature**
 
 ```ts
-commandClear(): void;
+commandClear(): void
 ```
 
 ### onSlotOk (method)
@@ -185,7 +185,7 @@ commandClear(): void;
 **Signature**
 
 ```ts
-onSlotOk(): void;
+onSlotOk(): void
 ```
 
 ### onSlotCancel (method)
@@ -193,7 +193,7 @@ onSlotOk(): void;
 **Signature**
 
 ```ts
-onSlotCancel(): void;
+onSlotCancel(): void
 ```
 
 ### onItemOk (method)
@@ -201,7 +201,7 @@ onSlotCancel(): void;
 **Signature**
 
 ```ts
-onItemOk(): void;
+onItemOk(): void
 ```
 
 ### executeEquipChange (method)
@@ -209,7 +209,7 @@ onItemOk(): void;
 **Signature**
 
 ```ts
-executeEquipChange(): void;
+executeEquipChange(): void
 ```
 
 ### onItemCancel (method)
@@ -217,7 +217,7 @@ executeEquipChange(): void;
 **Signature**
 
 ```ts
-onItemCancel(): void;
+onItemCancel(): void
 ```
 
 ### onActorChange (method)
@@ -225,7 +225,7 @@ onItemCancel(): void;
 **Signature**
 
 ```ts
-onActorChange(): void;
+onActorChange(): void
 ```
 
 ### hideItemWindow (method)
@@ -233,7 +233,7 @@ onActorChange(): void;
 **Signature**
 
 ```ts
-hideItemWindow(): void;
+hideItemWindow(): void
 ```
 
 ### \_statusWindow (property)

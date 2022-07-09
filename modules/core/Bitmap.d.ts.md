@@ -86,7 +86,7 @@ Loads a image file.
 **Signature**
 
 ```ts
-static load(url: string): Bitmap;
+static load(url: string): Bitmap
 ```
 
 ### snap (static method)
@@ -96,7 +96,7 @@ Takes a snapshot of the game screen.
 **Signature**
 
 ```ts
-static snap(stage: Stage): Bitmap;
+static snap(stage: Stage): Bitmap
 ```
 
 ### isReady (method)
@@ -106,7 +106,7 @@ Checks whether the bitmap is ready to render.
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### isError (method)
@@ -116,7 +116,7 @@ Checks whether a loading error has occurred.
 **Signature**
 
 ```ts
-isError(): boolean;
+isError(): boolean
 ```
 
 ### destroy (method)
@@ -126,7 +126,7 @@ Destroys the bitmap.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### resize (method)
@@ -136,7 +136,7 @@ Resizes the bitmap.
 **Signature**
 
 ```ts
-resize(width: number, height: number): void;
+resize(width: number, height: number): void
 ```
 
 ### blt (method)
@@ -146,7 +146,17 @@ Performs a block transfer.
 **Signature**
 
 ```ts
-blt(source: Bitmap, sx: number, sy: number, sw: number, sh: number, dx: number, dy: number, dw?: number, dh?: number): void;
+blt(
+    source: Bitmap,
+    sx: number,
+    sy: number,
+    sw: number,
+    sh: number,
+    dx: number,
+    dy: number,
+    dw?: number,
+    dh?: number
+  ): void
 ```
 
 ### getPixel (method)
@@ -156,7 +166,7 @@ Returns pixel color at the specified point.
 **Signature**
 
 ```ts
-getPixel(x: number, y: number): string;
+getPixel(x: number, y: number): string
 ```
 
 ### getAlphaPixel (method)
@@ -166,7 +176,7 @@ Returns alpha pixel value at the specified point.
 **Signature**
 
 ```ts
-getAlphaPixel(x: number, y: number): number;
+getAlphaPixel(x: number, y: number): number
 ```
 
 ### clearRect (method)
@@ -176,7 +186,7 @@ Clears the specified rectangle.
 **Signature**
 
 ```ts
-clearRect(x: number, y: number, width: number, height: number): void;
+clearRect(x: number, y: number, width: number, height: number): void
 ```
 
 ### clear (method)
@@ -186,7 +196,7 @@ Clears the entire bitmap.
 **Signature**
 
 ```ts
-clear(): void;
+clear(): void
 ```
 
 ### fillRect (method)
@@ -196,7 +206,7 @@ Fills the specified rectangle.
 **Signature**
 
 ```ts
-fillRect(x: number, y: number, width: number, height: number, color: string): void;
+fillRect(x: number, y: number, width: number, height: number, color: string): void
 ```
 
 ### fillAll (method)
@@ -206,7 +216,7 @@ Fills the entire bitmap.
 **Signature**
 
 ```ts
-fillAll(color: string): void;
+fillAll(color: string): void
 ```
 
 ### strokeRect (method)
@@ -216,7 +226,7 @@ Draws the specified rectangular frame.
 **Signature**
 
 ```ts
-strokeRect(x: number, y: number, width: number, height: number, color: string): void;
+strokeRect(x: number, y: number, width: number, height: number, color: string): void
 ```
 
 ### gradientFillRect (method)
@@ -226,7 +236,15 @@ Draws the rectangle with a gradation.
 **Signature**
 
 ```ts
-gradientFillRect(x: number, y: number, width: number, height: number, color1: string, color2: string, vertical?: boolean): void;
+gradientFillRect(
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    color1: string,
+    color2: string,
+    vertical?: boolean
+  ): void
 ```
 
 ### drawCircle (method)
@@ -236,7 +254,7 @@ Draws a bitmap in the shape of a circle.
 **Signature**
 
 ```ts
-drawCircle(x: number, y: number, radius: number, color: string): void;
+drawCircle(x: number, y: number, radius: number, color: string): void
 ```
 
 ### drawText (method)
@@ -246,7 +264,14 @@ Draws the outline text to the bitmap.
 **Signature**
 
 ```ts
-drawText(text: string, x: number, y: number, maxWidth: number, lineHeight: number, align?: CanvasTextAlign): void;
+drawText(
+    text: string,
+    x: number,
+    y: number,
+    maxWidth: number,
+    lineHeight: number,
+    align?: CanvasTextAlign
+  ): void
 ```
 
 ### measureTextWidth (method)
@@ -256,7 +281,7 @@ Returns the width of the specified text.
 **Signature**
 
 ```ts
-measureTextWidth(text: string): number;
+measureTextWidth(text: string): number
 ```
 
 ### addLoadListener (method)
@@ -266,7 +291,7 @@ Adds a callback function that will be called when the bitmap is loaded.
 **Signature**
 
 ```ts
-addLoadListener(listner: (bitmap: Bitmap) => void): void;
+addLoadListener(listner: (bitmap: Bitmap) => void): void
 ```
 
 ### retry (method)
@@ -276,7 +301,7 @@ Tries to load the image again.
 **Signature**
 
 ```ts
-retry(): void;
+retry(): void
 ```
 
 ### \_makeFontNameText (method)
@@ -284,7 +309,7 @@ retry(): void;
 **Signature**
 
 ```ts
-_makeFontNameText(): string;
+_makeFontNameText(): string
 ```
 
 ### \_drawTextOutline (method)
@@ -292,7 +317,7 @@ _makeFontNameText(): string;
 **Signature**
 
 ```ts
-_drawTextOutline(text: string, tx: number, ty: number, maxWidth: number): void;
+_drawTextOutline(text: string, tx: number, ty: number, maxWidth: number): void
 ```
 
 ### \_drawTextBody (method)
@@ -300,7 +325,7 @@ _drawTextOutline(text: string, tx: number, ty: number, maxWidth: number): void;
 **Signature**
 
 ```ts
-_drawTextBody(text: string, tx: number, ty: number, maxWidth: number): void;
+_drawTextBody(text: string, tx: number, ty: number, maxWidth: number): void
 ```
 
 ### \_createCanvas (method)
@@ -308,7 +333,7 @@ _drawTextBody(text: string, tx: number, ty: number, maxWidth: number): void;
 **Signature**
 
 ```ts
-_createCanvas(width: number, height: number): void;
+_createCanvas(width: number, height: number): void
 ```
 
 ### \_ensureCanvas (method)
@@ -316,7 +341,7 @@ _createCanvas(width: number, height: number): void;
 **Signature**
 
 ```ts
-_ensureCanvas(): void;
+_ensureCanvas(): void
 ```
 
 ### \_destroyCanvas (method)
@@ -324,7 +349,7 @@ _ensureCanvas(): void;
 **Signature**
 
 ```ts
-_destroyCanvas(): void;
+_destroyCanvas(): void
 ```
 
 ### \_createBaseTexture (method)
@@ -332,7 +357,7 @@ _destroyCanvas(): void;
 **Signature**
 
 ```ts
-_createBaseTexture(source: HTMLImageElement | HTMLCanvasElement): void;
+_createBaseTexture(source: HTMLImageElement | HTMLCanvasElement): void
 ```
 
 ### \_updateScaleMode (method)
@@ -340,7 +365,7 @@ _createBaseTexture(source: HTMLImageElement | HTMLCanvasElement): void;
 **Signature**
 
 ```ts
-_updateScaleMode(): void;
+_updateScaleMode(): void
 ```
 
 ### \_startLoading (method)
@@ -348,7 +373,7 @@ _updateScaleMode(): void;
 **Signature**
 
 ```ts
-_startLoading(): void;
+_startLoading(): void
 ```
 
 ### \_startDecrypting (method)
@@ -356,7 +381,7 @@ _startLoading(): void;
 **Signature**
 
 ```ts
-_startDecrypting(): void;
+_startDecrypting(): void
 ```
 
 ### \_onXhrLoad (method)
@@ -364,7 +389,7 @@ _startDecrypting(): void;
 **Signature**
 
 ```ts
-_onXhrLoad(xhr: XMLHttpRequest): void;
+_onXhrLoad(xhr: XMLHttpRequest): void
 ```
 
 ### \_onLoad (method)
@@ -372,7 +397,7 @@ _onXhrLoad(xhr: XMLHttpRequest): void;
 **Signature**
 
 ```ts
-_onLoad(): void;
+_onLoad(): void
 ```
 
 ### \_callLoadListeners (method)
@@ -380,7 +405,7 @@ _onLoad(): void;
 **Signature**
 
 ```ts
-_callLoadListeners(): void;
+_callLoadListeners(): void
 ```
 
 ### \_onError (method)
@@ -388,7 +413,7 @@ _callLoadListeners(): void;
 **Signature**
 
 ```ts
-_onError(): void;
+_onError(): void
 ```
 
 ### \_canvas (property)

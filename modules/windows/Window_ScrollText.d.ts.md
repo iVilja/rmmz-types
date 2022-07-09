@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ScrollText.d.ts
-nav_order: 178
+nav_order: 179
 parent: Modules
 ---
 
@@ -50,7 +50,7 @@ export declare class Window_ScrollText {
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### startMessage (method)
@@ -58,7 +58,7 @@ update(): void;
 **Signature**
 
 ```ts
-startMessage(): void;
+startMessage(): void
 ```
 
 ### refresh (method)
@@ -66,7 +66,7 @@ startMessage(): void;
 **Signature**
 
 ```ts
-refresh(): void;
+refresh(): void
 ```
 
 ### updatePlacement (method)
@@ -74,7 +74,7 @@ refresh(): void;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### contentsHeight (method)
@@ -82,7 +82,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-contentsHeight(): number;
+contentsHeight(): number
 ```
 
 ### updateMessage (method)
@@ -90,7 +90,7 @@ contentsHeight(): number;
 **Signature**
 
 ```ts
-updateMessage(): void;
+updateMessage(): void
 ```
 
 ### scrollSpeed (method)
@@ -98,7 +98,7 @@ updateMessage(): void;
 **Signature**
 
 ```ts
-scrollSpeed(): number;
+scrollSpeed(): number
 ```
 
 ### isFastForward (method)
@@ -106,7 +106,7 @@ scrollSpeed(): number;
 **Signature**
 
 ```ts
-isFastForward(): boolean;
+isFastForward(): boolean
 ```
 
 ### fastForwardRate (method)
@@ -114,7 +114,7 @@ isFastForward(): boolean;
 **Signature**
 
 ```ts
-fastForwardRate(): number;
+fastForwardRate(): number
 ```
 
 ### terminateMessage (method)
@@ -122,7 +122,7 @@ fastForwardRate(): number;
 **Signature**
 
 ```ts
-terminateMessage(): void;
+terminateMessage(): void
 ```
 
 ### \_text (property)

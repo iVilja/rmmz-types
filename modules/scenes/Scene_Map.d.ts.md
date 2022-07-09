@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Map.d.ts
-nav_order: 106
+nav_order: 107
 parent: Modules
 ---
 
@@ -95,7 +95,7 @@ export declare class Scene_Map
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### isReady (method)
@@ -103,7 +103,7 @@ create(): void;
 **Signature**
 
 ```ts
-isReady(): boolean;
+isReady(): boolean
 ```
 
 ### onMapLoaded (method)
@@ -111,7 +111,7 @@ isReady(): boolean;
 **Signature**
 
 ```ts
-onMapLoaded(): void;
+onMapLoaded(): void
 ```
 
 ### onTransfer (method)
@@ -119,7 +119,7 @@ onMapLoaded(): void;
 **Signature**
 
 ```ts
-onTransfer(): void;
+onTransfer(): void
 ```
 
 ### start (method)
@@ -127,7 +127,7 @@ onTransfer(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### onTransferEnd (method)
@@ -135,7 +135,7 @@ start(): void;
 **Signature**
 
 ```ts
-onTransferEnd(): void;
+onTransferEnd(): void
 ```
 
 ### shouldAutosave (method)
@@ -143,7 +143,7 @@ onTransferEnd(): void;
 **Signature**
 
 ```ts
-shouldAutosave(): boolean;
+shouldAutosave(): boolean
 ```
 
 ### update (method)
@@ -151,7 +151,7 @@ shouldAutosave(): boolean;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateMainMultiply (method)
@@ -159,7 +159,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateMainMultiply(): void;
+updateMainMultiply(): void
 ```
 
 ### updateMain (method)
@@ -167,7 +167,7 @@ updateMainMultiply(): void;
 **Signature**
 
 ```ts
-updateMain(): void;
+updateMain(): void
 ```
 
 ### isPlayerActive (method)
@@ -175,7 +175,7 @@ updateMain(): void;
 **Signature**
 
 ```ts
-isPlayerActive(): boolean;
+isPlayerActive(): boolean
 ```
 
 ### isFastForward (method)
@@ -183,7 +183,7 @@ isPlayerActive(): boolean;
 **Signature**
 
 ```ts
-isFastForward(): boolean;
+isFastForward(): boolean
 ```
 
 ### stop (method)
@@ -191,7 +191,7 @@ isFastForward(): boolean;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### isBusy (method)
@@ -199,7 +199,7 @@ stop(): void;
 **Signature**
 
 ```ts
-isBusy(): boolean;
+isBusy(): boolean
 ```
 
 ### terminate (method)
@@ -207,7 +207,7 @@ isBusy(): boolean;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### needsFadeIn (method)
@@ -215,7 +215,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-needsFadeIn(): boolean;
+needsFadeIn(): boolean
 ```
 
 ### needsSlowFadeOut (method)
@@ -223,7 +223,7 @@ needsFadeIn(): boolean;
 **Signature**
 
 ```ts
-needsSlowFadeOut(): boolean | null;
+needsSlowFadeOut(): boolean | null
 ```
 
 ### updateWaitCount (method)
@@ -231,7 +231,7 @@ needsSlowFadeOut(): boolean | null;
 **Signature**
 
 ```ts
-updateWaitCount(): boolean;
+updateWaitCount(): boolean
 ```
 
 ### updateDestination (method)
@@ -239,7 +239,7 @@ updateWaitCount(): boolean;
 **Signature**
 
 ```ts
-updateDestination(): void;
+updateDestination(): void
 ```
 
 ### updateMenuButton (method)
@@ -247,7 +247,7 @@ updateDestination(): void;
 **Signature**
 
 ```ts
-updateMenuButton(): void;
+updateMenuButton(): void
 ```
 
 ### hideMenuButton (method)
@@ -255,7 +255,7 @@ updateMenuButton(): void;
 **Signature**
 
 ```ts
-hideMenuButton(): void;
+hideMenuButton(): void
 ```
 
 ### updateMapNameWindow (method)
@@ -263,7 +263,7 @@ hideMenuButton(): void;
 **Signature**
 
 ```ts
-updateMapNameWindow(): void;
+updateMapNameWindow(): void
 ```
 
 ### isMenuEnabled (method)
@@ -271,7 +271,7 @@ updateMapNameWindow(): void;
 **Signature**
 
 ```ts
-isMenuEnabled(): boolean;
+isMenuEnabled(): boolean
 ```
 
 ### isMapTouchOk (method)
@@ -279,7 +279,7 @@ isMenuEnabled(): boolean;
 **Signature**
 
 ```ts
-isMapTouchOk(): boolean;
+isMapTouchOk(): boolean
 ```
 
 ### processMapTouch (method)
@@ -287,7 +287,7 @@ isMapTouchOk(): boolean;
 **Signature**
 
 ```ts
-processMapTouch(): void;
+processMapTouch(): void
 ```
 
 ### isAnyButtonPressed (method)
@@ -295,7 +295,7 @@ processMapTouch(): void;
 **Signature**
 
 ```ts
-isAnyButtonPressed(): boolean;
+isAnyButtonPressed(): boolean
 ```
 
 ### onMapTouch (method)
@@ -303,7 +303,7 @@ isAnyButtonPressed(): boolean;
 **Signature**
 
 ```ts
-onMapTouch(): void;
+onMapTouch(): void
 ```
 
 ### isSceneChangeOk (method)
@@ -311,7 +311,7 @@ onMapTouch(): void;
 **Signature**
 
 ```ts
-isSceneChangeOk(): boolean;
+isSceneChangeOk(): boolean
 ```
 
 ### updateScene (method)
@@ -319,7 +319,7 @@ isSceneChangeOk(): boolean;
 **Signature**
 
 ```ts
-updateScene(): void;
+updateScene(): void
 ```
 
 ### createDisplayObjects (method)
@@ -327,7 +327,7 @@ updateScene(): void;
 **Signature**
 
 ```ts
-createDisplayObjects(): void;
+createDisplayObjects(): void
 ```
 
 ### createSpriteset (method)
@@ -335,7 +335,7 @@ createDisplayObjects(): void;
 **Signature**
 
 ```ts
-createSpriteset(): void;
+createSpriteset(): void
 ```
 
 ### createAllWindows (method)
@@ -343,7 +343,7 @@ createSpriteset(): void;
 **Signature**
 
 ```ts
-createAllWindows(): void;
+createAllWindows(): void
 ```
 
 ### createMapNameWindow (method)
@@ -351,7 +351,7 @@ createAllWindows(): void;
 **Signature**
 
 ```ts
-createMapNameWindow(): void;
+createMapNameWindow(): void
 ```
 
 ### mapNameWindowRect (method)
@@ -359,7 +359,7 @@ createMapNameWindow(): void;
 **Signature**
 
 ```ts
-mapNameWindowRect(): Rectangle;
+mapNameWindowRect(): Rectangle
 ```
 
 ### createButtons (method)
@@ -367,7 +367,7 @@ mapNameWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createButtons(): void;
+createButtons(): void
 ```
 
 ### createMenuButton (method)
@@ -375,7 +375,7 @@ createButtons(): void;
 **Signature**
 
 ```ts
-createMenuButton(): void;
+createMenuButton(): void
 ```
 
 ### updateTransferPlayer (method)
@@ -383,7 +383,7 @@ createMenuButton(): void;
 **Signature**
 
 ```ts
-updateTransferPlayer(): void;
+updateTransferPlayer(): void
 ```
 
 ### updateEncounter (method)
@@ -391,7 +391,7 @@ updateTransferPlayer(): void;
 **Signature**
 
 ```ts
-updateEncounter(): void;
+updateEncounter(): void
 ```
 
 ### updateCallMenu (method)
@@ -399,7 +399,7 @@ updateEncounter(): void;
 **Signature**
 
 ```ts
-updateCallMenu(): void;
+updateCallMenu(): void
 ```
 
 ### isMenuCalled (method)
@@ -407,7 +407,7 @@ updateCallMenu(): void;
 **Signature**
 
 ```ts
-isMenuCalled(): boolean;
+isMenuCalled(): boolean
 ```
 
 ### callMenu (method)
@@ -415,7 +415,7 @@ isMenuCalled(): boolean;
 **Signature**
 
 ```ts
-callMenu(): void;
+callMenu(): void
 ```
 
 ### updateCallDebug (method)
@@ -423,7 +423,7 @@ callMenu(): void;
 **Signature**
 
 ```ts
-updateCallDebug(): void;
+updateCallDebug(): void
 ```
 
 ### isDebugCalled (method)
@@ -431,7 +431,7 @@ updateCallDebug(): void;
 **Signature**
 
 ```ts
-isDebugCalled(): boolean;
+isDebugCalled(): boolean
 ```
 
 ### fadeInForTransfer (method)
@@ -439,7 +439,7 @@ isDebugCalled(): boolean;
 **Signature**
 
 ```ts
-fadeInForTransfer(): void;
+fadeInForTransfer(): void
 ```
 
 ### fadeOutForTransfer (method)
@@ -447,7 +447,7 @@ fadeInForTransfer(): void;
 **Signature**
 
 ```ts
-fadeOutForTransfer(): void;
+fadeOutForTransfer(): void
 ```
 
 ### launchBattle (method)
@@ -455,7 +455,7 @@ fadeOutForTransfer(): void;
 **Signature**
 
 ```ts
-launchBattle(): void;
+launchBattle(): void
 ```
 
 ### stopAudioOnBattleStart (method)
@@ -463,7 +463,7 @@ launchBattle(): void;
 **Signature**
 
 ```ts
-stopAudioOnBattleStart(): void;
+stopAudioOnBattleStart(): void
 ```
 
 ### startEncounterEffect (method)
@@ -471,7 +471,7 @@ stopAudioOnBattleStart(): void;
 **Signature**
 
 ```ts
-startEncounterEffect(): void;
+startEncounterEffect(): void
 ```
 
 ### updateEncounterEffect (method)
@@ -479,7 +479,7 @@ startEncounterEffect(): void;
 **Signature**
 
 ```ts
-updateEncounterEffect(): void;
+updateEncounterEffect(): void
 ```
 
 ### snapForBattleBackground (method)
@@ -487,7 +487,7 @@ updateEncounterEffect(): void;
 **Signature**
 
 ```ts
-snapForBattleBackground(): void;
+snapForBattleBackground(): void
 ```
 
 ### startFlashForEncounter (method)
@@ -495,7 +495,7 @@ snapForBattleBackground(): void;
 **Signature**
 
 ```ts
-startFlashForEncounter(duration: number): void;
+startFlashForEncounter(duration: number): void
 ```
 
 ### encounterEffectSpeed (method)
@@ -503,7 +503,7 @@ startFlashForEncounter(duration: number): void;
 **Signature**
 
 ```ts
-encounterEffectSpeed(): number;
+encounterEffectSpeed(): number
 ```
 
 ### isMessageWindowClosing (method)
@@ -511,7 +511,7 @@ encounterEffectSpeed(): number;
 **Signature**
 
 ```ts
-isMessageWindowClosing(): boolean;
+isMessageWindowClosing(): boolean
 ```
 
 ### \_waitCount (property)

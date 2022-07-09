@@ -1,6 +1,6 @@
 ---
 title: windows/Window_Message.d.ts
-nav_order: 169
+nav_order: 170
 parent: Modules
 ---
 
@@ -100,7 +100,7 @@ export declare class Window_Message {
 **Signature**
 
 ```ts
-initMembers(): void;
+initMembers(): void
 ```
 
 ### setGoldWindow (method)
@@ -108,7 +108,7 @@ initMembers(): void;
 **Signature**
 
 ```ts
-setGoldWindow(goldWindow: Window_Gold): void;
+setGoldWindow(goldWindow: Window_Gold): void
 ```
 
 ### setNameBoxWindow (method)
@@ -116,7 +116,7 @@ setGoldWindow(goldWindow: Window_Gold): void;
 **Signature**
 
 ```ts
-setNameBoxWindow(nameBoxWindow: Window_NameBox): void;
+setNameBoxWindow(nameBoxWindow: Window_NameBox): void
 ```
 
 ### setChoiceListWindow (method)
@@ -124,7 +124,7 @@ setNameBoxWindow(nameBoxWindow: Window_NameBox): void;
 **Signature**
 
 ```ts
-setChoiceListWindow(choiceListWindow: Window_ChoiceList): void;
+setChoiceListWindow(choiceListWindow: Window_ChoiceList): void
 ```
 
 ### setNumberInputWindow (method)
@@ -132,7 +132,7 @@ setChoiceListWindow(choiceListWindow: Window_ChoiceList): void;
 **Signature**
 
 ```ts
-setNumberInputWindow(numberInputWindow: Window_NumberInput): void;
+setNumberInputWindow(numberInputWindow: Window_NumberInput): void
 ```
 
 ### setEventItemWindow (method)
@@ -140,7 +140,7 @@ setNumberInputWindow(numberInputWindow: Window_NumberInput): void;
 **Signature**
 
 ```ts
-setEventItemWindow(eventItemWindow: Window_EventItem): void;
+setEventItemWindow(eventItemWindow: Window_EventItem): void
 ```
 
 ### clearFlags (method)
@@ -148,7 +148,7 @@ setEventItemWindow(eventItemWindow: Window_EventItem): void;
 **Signature**
 
 ```ts
-clearFlags(): void;
+clearFlags(): void
 ```
 
 ### update (method)
@@ -156,7 +156,7 @@ clearFlags(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### checkToNotClose (method)
@@ -164,7 +164,7 @@ update(): void;
 **Signature**
 
 ```ts
-checkToNotClose(): void;
+checkToNotClose(): void
 ```
 
 ### synchronizeNameBox (method)
@@ -172,7 +172,7 @@ checkToNotClose(): void;
 **Signature**
 
 ```ts
-synchronizeNameBox(): void;
+synchronizeNameBox(): void
 ```
 
 ### canStart (method)
@@ -180,7 +180,7 @@ synchronizeNameBox(): void;
 **Signature**
 
 ```ts
-canStart(): boolean;
+canStart(): boolean
 ```
 
 ### startMessage (method)
@@ -188,7 +188,7 @@ canStart(): boolean;
 **Signature**
 
 ```ts
-startMessage(): void;
+startMessage(): void
 ```
 
 ### newLineX (method)
@@ -196,7 +196,7 @@ startMessage(): void;
 **Signature**
 
 ```ts
-newLineX(textState: TextState): number;
+newLineX(textState: TextState): number
 ```
 
 ### updatePlacement (method)
@@ -204,7 +204,7 @@ newLineX(textState: TextState): number;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### updateBackground (method)
@@ -212,7 +212,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-updateBackground(): void;
+updateBackground(): void
 ```
 
 ### terminateMessage (method)
@@ -220,7 +220,7 @@ updateBackground(): void;
 **Signature**
 
 ```ts
-terminateMessage(): void;
+terminateMessage(): void
 ```
 
 ### updateWait (method)
@@ -228,7 +228,7 @@ terminateMessage(): void;
 **Signature**
 
 ```ts
-updateWait(): boolean;
+updateWait(): boolean
 ```
 
 ### updateLoading (method)
@@ -236,7 +236,7 @@ updateWait(): boolean;
 **Signature**
 
 ```ts
-updateLoading(): boolean;
+updateLoading(): boolean
 ```
 
 ### updateInput (method)
@@ -244,7 +244,7 @@ updateLoading(): boolean;
 **Signature**
 
 ```ts
-updateInput(): boolean;
+updateInput(): boolean
 ```
 
 ### isAnySubWindowActive (method)
@@ -252,7 +252,7 @@ updateInput(): boolean;
 **Signature**
 
 ```ts
-isAnySubWindowActive(): boolean;
+isAnySubWindowActive(): boolean
 ```
 
 ### updateMessage (method)
@@ -260,7 +260,7 @@ isAnySubWindowActive(): boolean;
 **Signature**
 
 ```ts
-updateMessage(): boolean;
+updateMessage(): boolean
 ```
 
 ### shouldBreakHere (method)
@@ -268,7 +268,7 @@ updateMessage(): boolean;
 **Signature**
 
 ```ts
-shouldBreakHere(textState: TextState): boolean;
+shouldBreakHere(textState: TextState): boolean
 ```
 
 ### canBreakHere (method)
@@ -276,7 +276,7 @@ shouldBreakHere(textState: TextState): boolean;
 **Signature**
 
 ```ts
-canBreakHere(textState: TextState): boolean;
+canBreakHere(textState: TextState): boolean
 ```
 
 ### onEndOfText (method)
@@ -284,7 +284,7 @@ canBreakHere(textState: TextState): boolean;
 **Signature**
 
 ```ts
-onEndOfText(): void;
+onEndOfText(): void
 ```
 
 ### startInput (method)
@@ -292,7 +292,7 @@ onEndOfText(): void;
 **Signature**
 
 ```ts
-startInput(): boolean;
+startInput(): boolean
 ```
 
 ### isTriggered (method)
@@ -300,7 +300,7 @@ startInput(): boolean;
 **Signature**
 
 ```ts
-isTriggered(): boolean;
+isTriggered(): boolean
 ```
 
 ### doesContinue (method)
@@ -308,7 +308,7 @@ isTriggered(): boolean;
 **Signature**
 
 ```ts
-doesContinue(): boolean;
+doesContinue(): boolean
 ```
 
 ### areSettingsChanged (method)
@@ -316,7 +316,7 @@ doesContinue(): boolean;
 **Signature**
 
 ```ts
-areSettingsChanged(): boolean;
+areSettingsChanged(): boolean
 ```
 
 ### updateShowFast (method)
@@ -324,7 +324,7 @@ areSettingsChanged(): boolean;
 **Signature**
 
 ```ts
-updateShowFast(): void;
+updateShowFast(): void
 ```
 
 ### newPage (method)
@@ -332,7 +332,7 @@ updateShowFast(): void;
 **Signature**
 
 ```ts
-newPage(textState: TextState): void;
+newPage(textState: TextState): void
 ```
 
 ### updateSpeakerName (method)
@@ -340,7 +340,7 @@ newPage(textState: TextState): void;
 **Signature**
 
 ```ts
-updateSpeakerName(): void;
+updateSpeakerName(): void
 ```
 
 ### loadMessageFace (method)
@@ -348,7 +348,7 @@ updateSpeakerName(): void;
 **Signature**
 
 ```ts
-loadMessageFace(): void;
+loadMessageFace(): void
 ```
 
 ### drawMessageFace (method)
@@ -356,7 +356,7 @@ loadMessageFace(): void;
 **Signature**
 
 ```ts
-drawMessageFace(): void;
+drawMessageFace(): void
 ```
 
 ### processControlCharacter (method)
@@ -364,7 +364,7 @@ drawMessageFace(): void;
 **Signature**
 
 ```ts
-processControlCharacter(textState: TextState, c: string): void;
+processControlCharacter(textState: TextState, c: string): void
 ```
 
 ### processNewLine (method)
@@ -372,7 +372,7 @@ processControlCharacter(textState: TextState, c: string): void;
 **Signature**
 
 ```ts
-processNewLine(textState: TextState): void;
+processNewLine(textState: TextState): void
 ```
 
 ### processNewPage (method)
@@ -380,7 +380,7 @@ processNewLine(textState: TextState): void;
 **Signature**
 
 ```ts
-processNewPage(textState: TextState): void;
+processNewPage(textState: TextState): void
 ```
 
 ### isEndOfText (method)
@@ -388,7 +388,7 @@ processNewPage(textState: TextState): void;
 **Signature**
 
 ```ts
-isEndOfText(textState: TextState): boolean;
+isEndOfText(textState: TextState): boolean
 ```
 
 ### needsNewPage (method)
@@ -396,7 +396,7 @@ isEndOfText(textState: TextState): boolean;
 **Signature**
 
 ```ts
-needsNewPage(textState: TextState): boolean;
+needsNewPage(textState: TextState): boolean
 ```
 
 ### processEscapeCharacter (method)
@@ -404,7 +404,7 @@ needsNewPage(textState: TextState): boolean;
 **Signature**
 
 ```ts
-processEscapeCharacter(code: MessageEscapeCharacter | EscapeCharacter, textState: TextState): void;
+processEscapeCharacter(code: MessageEscapeCharacter | EscapeCharacter, textState: TextState): void
 ```
 
 ### startWait (method)
@@ -412,7 +412,7 @@ processEscapeCharacter(code: MessageEscapeCharacter | EscapeCharacter, textState
 **Signature**
 
 ```ts
-startWait(count: number): void;
+startWait(count: number): void
 ```
 
 ### startPause (method)
@@ -420,7 +420,7 @@ startWait(count: number): void;
 **Signature**
 
 ```ts
-startPause(): void;
+startPause(): void
 ```
 
 ### isWaiting (method)
@@ -428,7 +428,7 @@ startPause(): void;
 **Signature**
 
 ```ts
-isWaiting(): boolean;
+isWaiting(): boolean
 ```
 
 ### \_background (property)

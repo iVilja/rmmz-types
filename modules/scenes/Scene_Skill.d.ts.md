@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Skill.d.ts
-nav_order: 114
+nav_order: 115
 parent: Modules
 ---
 
@@ -51,7 +51,7 @@ export declare class Scene_Skill
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -59,7 +59,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### createSkillTypeWindow (method)
@@ -67,7 +67,7 @@ start(): void;
 **Signature**
 
 ```ts
-createSkillTypeWindow(): void;
+createSkillTypeWindow(): void
 ```
 
 ### skillTypeWindowRect (method)
@@ -75,7 +75,7 @@ createSkillTypeWindow(): void;
 **Signature**
 
 ```ts
-skillTypeWindowRect(): Rectangle;
+skillTypeWindowRect(): Rectangle
 ```
 
 ### createStatusWindow (method)
@@ -83,7 +83,7 @@ skillTypeWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -91,7 +91,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### createItemWindow (method)
@@ -99,7 +99,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createItemWindow(): void;
+createItemWindow(): void
 ```
 
 ### itemWindowRect (method)
@@ -107,7 +107,7 @@ createItemWindow(): void;
 **Signature**
 
 ```ts
-itemWindowRect(): Rectangle;
+itemWindowRect(): Rectangle
 ```
 
 ### needsPageButtons (method)
@@ -115,7 +115,7 @@ itemWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-needsPageButtons(): boolean;
+needsPageButtons(): boolean
 ```
 
 ### arePageButtonsEnabled (method)
@@ -123,7 +123,7 @@ needsPageButtons(): boolean;
 **Signature**
 
 ```ts
-arePageButtonsEnabled(): boolean;
+arePageButtonsEnabled(): boolean
 ```
 
 ### refreshActor (method)
@@ -131,7 +131,7 @@ arePageButtonsEnabled(): boolean;
 **Signature**
 
 ```ts
-refreshActor(): void;
+refreshActor(): void
 ```
 
 ### user (method)
@@ -139,7 +139,7 @@ refreshActor(): void;
 **Signature**
 
 ```ts
-user(): import("..").Game_Actor;
+user(): import("..").Game_Actor
 ```
 
 ### commandSkill (method)
@@ -147,7 +147,7 @@ user(): import("..").Game_Actor;
 **Signature**
 
 ```ts
-commandSkill(): void;
+commandSkill(): void
 ```
 
 ### onItemOk (method)
@@ -155,7 +155,7 @@ commandSkill(): void;
 **Signature**
 
 ```ts
-onItemOk(): void;
+onItemOk(): void
 ```
 
 ### onItemCancel (method)
@@ -163,7 +163,7 @@ onItemOk(): void;
 **Signature**
 
 ```ts
-onItemCancel(): void;
+onItemCancel(): void
 ```
 
 ### playSeForItem (method)
@@ -171,7 +171,7 @@ onItemCancel(): void;
 **Signature**
 
 ```ts
-playSeForItem(): void;
+playSeForItem(): void
 ```
 
 ### useItem (method)
@@ -179,7 +179,7 @@ playSeForItem(): void;
 **Signature**
 
 ```ts
-useItem(): void;
+useItem(): void
 ```
 
 ### onActorChange (method)
@@ -187,7 +187,7 @@ useItem(): void;
 **Signature**
 
 ```ts
-onActorChange(): void;
+onActorChange(): void
 ```
 
 ### \_skillTypeWindow (property)

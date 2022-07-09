@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_Battle.d.ts
-nav_order: 96
+nav_order: 97
 parent: Modules
 ---
 
@@ -114,7 +114,7 @@ export declare class Scene_Battle
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### start (method)
@@ -122,7 +122,7 @@ create(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -130,7 +130,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateVisibility (method)
@@ -138,7 +138,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateVisibility(): void;
+updateVisibility(): void
 ```
 
 ### updateBattleProcess (method)
@@ -146,7 +146,7 @@ updateVisibility(): void;
 **Signature**
 
 ```ts
-updateBattleProcess(): void;
+updateBattleProcess(): void
 ```
 
 ### isTimeActive (method)
@@ -154,7 +154,7 @@ updateBattleProcess(): void;
 **Signature**
 
 ```ts
-isTimeActive(): boolean;
+isTimeActive(): boolean
 ```
 
 ### isAnyInputWindowActive (method)
@@ -162,7 +162,7 @@ isTimeActive(): boolean;
 **Signature**
 
 ```ts
-isAnyInputWindowActive(): boolean;
+isAnyInputWindowActive(): boolean
 ```
 
 ### changeInputWindow (method)
@@ -170,7 +170,7 @@ isAnyInputWindowActive(): boolean;
 **Signature**
 
 ```ts
-changeInputWindow(): void;
+changeInputWindow(): void
 ```
 
 ### stop (method)
@@ -178,7 +178,7 @@ changeInputWindow(): void;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### terminate (method)
@@ -186,7 +186,7 @@ stop(): void;
 **Signature**
 
 ```ts
-terminate(): void;
+terminate(): void
 ```
 
 ### shouldAutosave (method)
@@ -194,7 +194,7 @@ terminate(): void;
 **Signature**
 
 ```ts
-shouldAutosave(): boolean | null;
+shouldAutosave(): boolean | null
 ```
 
 ### needsSlowFadeOut (method)
@@ -202,7 +202,7 @@ shouldAutosave(): boolean | null;
 **Signature**
 
 ```ts
-needsSlowFadeOut(): boolean | null;
+needsSlowFadeOut(): boolean | null
 ```
 
 ### updateLogWindowVisibility (method)
@@ -210,7 +210,7 @@ needsSlowFadeOut(): boolean | null;
 **Signature**
 
 ```ts
-updateLogWindowVisibility(): void;
+updateLogWindowVisibility(): void
 ```
 
 ### updateStatusWindowVisibility (method)
@@ -218,7 +218,7 @@ updateLogWindowVisibility(): void;
 **Signature**
 
 ```ts
-updateStatusWindowVisibility(): void;
+updateStatusWindowVisibility(): void
 ```
 
 ### shouldOpenStatusWindow (method)
@@ -226,7 +226,7 @@ updateStatusWindowVisibility(): void;
 **Signature**
 
 ```ts
-shouldOpenStatusWindow(): boolean;
+shouldOpenStatusWindow(): boolean
 ```
 
 ### updateStatusWindowPosition (method)
@@ -234,7 +234,7 @@ shouldOpenStatusWindow(): boolean;
 **Signature**
 
 ```ts
-updateStatusWindowPosition(): void;
+updateStatusWindowPosition(): void
 ```
 
 ### statusWindowX (method)
@@ -242,7 +242,7 @@ updateStatusWindowPosition(): void;
 **Signature**
 
 ```ts
-statusWindowX(): number;
+statusWindowX(): number
 ```
 
 ### updateInputWindowVisibility (method)
@@ -250,7 +250,7 @@ statusWindowX(): number;
 **Signature**
 
 ```ts
-updateInputWindowVisibility(): void;
+updateInputWindowVisibility(): void
 ```
 
 ### needsInputWindowChange (method)
@@ -258,7 +258,7 @@ updateInputWindowVisibility(): void;
 **Signature**
 
 ```ts
-needsInputWindowChange(): boolean;
+needsInputWindowChange(): boolean
 ```
 
 ### updateCancelButton (method)
@@ -266,7 +266,7 @@ needsInputWindowChange(): boolean;
 **Signature**
 
 ```ts
-updateCancelButton(): void;
+updateCancelButton(): void
 ```
 
 ### createDisplayObjects (method)
@@ -274,7 +274,7 @@ updateCancelButton(): void;
 **Signature**
 
 ```ts
-createDisplayObjects(): void;
+createDisplayObjects(): void
 ```
 
 ### createSpriteset (method)
@@ -282,7 +282,7 @@ createDisplayObjects(): void;
 **Signature**
 
 ```ts
-createSpriteset(): void;
+createSpriteset(): void
 ```
 
 ### createAllWindows (method)
@@ -290,7 +290,7 @@ createSpriteset(): void;
 **Signature**
 
 ```ts
-createAllWindows(): void;
+createAllWindows(): void
 ```
 
 ### createLogWindow (method)
@@ -298,7 +298,7 @@ createAllWindows(): void;
 **Signature**
 
 ```ts
-createLogWindow(): void;
+createLogWindow(): void
 ```
 
 ### logWindowRect (method)
@@ -306,7 +306,7 @@ createLogWindow(): void;
 **Signature**
 
 ```ts
-logWindowRect(): Rectangle;
+logWindowRect(): Rectangle
 ```
 
 ### createStatusWindow (method)
@@ -314,7 +314,7 @@ logWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createStatusWindow(): void;
+createStatusWindow(): void
 ```
 
 ### statusWindowRect (method)
@@ -322,7 +322,7 @@ createStatusWindow(): void;
 **Signature**
 
 ```ts
-statusWindowRect(): Rectangle;
+statusWindowRect(): Rectangle
 ```
 
 ### createPartyCommandWindow (method)
@@ -330,7 +330,7 @@ statusWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createPartyCommandWindow(): void;
+createPartyCommandWindow(): void
 ```
 
 ### partyCommandWindowRect (method)
@@ -338,7 +338,7 @@ createPartyCommandWindow(): void;
 **Signature**
 
 ```ts
-partyCommandWindowRect(): Rectangle;
+partyCommandWindowRect(): Rectangle
 ```
 
 ### createActorCommandWindow (method)
@@ -346,7 +346,7 @@ partyCommandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createActorCommandWindow(): void;
+createActorCommandWindow(): void
 ```
 
 ### actorCommandWindowRect (method)
@@ -354,7 +354,7 @@ createActorCommandWindow(): void;
 **Signature**
 
 ```ts
-actorCommandWindowRect(): Rectangle;
+actorCommandWindowRect(): Rectangle
 ```
 
 ### createHelpWindow (method)
@@ -362,7 +362,7 @@ actorCommandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createHelpWindow(): void;
+createHelpWindow(): void
 ```
 
 ### helpWindowRect (method)
@@ -370,7 +370,7 @@ createHelpWindow(): void;
 **Signature**
 
 ```ts
-helpWindowRect(): Rectangle;
+helpWindowRect(): Rectangle
 ```
 
 ### createSkillWindow (method)
@@ -378,7 +378,7 @@ helpWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createSkillWindow(): void;
+createSkillWindow(): void
 ```
 
 ### skillWindowRect (method)
@@ -386,7 +386,7 @@ createSkillWindow(): void;
 **Signature**
 
 ```ts
-skillWindowRect(): Rectangle;
+skillWindowRect(): Rectangle
 ```
 
 ### createItemWindow (method)
@@ -394,7 +394,7 @@ skillWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createItemWindow(): void;
+createItemWindow(): void
 ```
 
 ### itemWindowRect (method)
@@ -402,7 +402,7 @@ createItemWindow(): void;
 **Signature**
 
 ```ts
-itemWindowRect(): Rectangle;
+itemWindowRect(): Rectangle
 ```
 
 ### createActorWindow (method)
@@ -410,7 +410,7 @@ itemWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createActorWindow(): void;
+createActorWindow(): void
 ```
 
 ### actorWindowRect (method)
@@ -418,7 +418,7 @@ createActorWindow(): void;
 **Signature**
 
 ```ts
-actorWindowRect(): Rectangle;
+actorWindowRect(): Rectangle
 ```
 
 ### createEnemyWindow (method)
@@ -426,7 +426,7 @@ actorWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-createEnemyWindow(): void;
+createEnemyWindow(): void
 ```
 
 ### enemyWindowRect (method)
@@ -434,7 +434,7 @@ createEnemyWindow(): void;
 **Signature**
 
 ```ts
-enemyWindowRect(): Rectangle;
+enemyWindowRect(): Rectangle
 ```
 
 ### helpAreaTop (method)
@@ -442,7 +442,7 @@ enemyWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-helpAreaTop(): number;
+helpAreaTop(): number
 ```
 
 ### helpAreaBottom (method)
@@ -450,7 +450,7 @@ helpAreaTop(): number;
 **Signature**
 
 ```ts
-helpAreaBottom(): number;
+helpAreaBottom(): number
 ```
 
 ### helpAreaHeight (method)
@@ -458,7 +458,7 @@ helpAreaBottom(): number;
 **Signature**
 
 ```ts
-helpAreaHeight(): number;
+helpAreaHeight(): number
 ```
 
 ### buttonAreaTop (method)
@@ -466,7 +466,7 @@ helpAreaHeight(): number;
 **Signature**
 
 ```ts
-buttonAreaTop(): number;
+buttonAreaTop(): number
 ```
 
 ### windowAreaHeight (method)
@@ -474,7 +474,7 @@ buttonAreaTop(): number;
 **Signature**
 
 ```ts
-windowAreaHeight(): number;
+windowAreaHeight(): number
 ```
 
 ### createButtons (method)
@@ -482,7 +482,7 @@ windowAreaHeight(): number;
 **Signature**
 
 ```ts
-createButtons(): void;
+createButtons(): void
 ```
 
 ### createCancelButton (method)
@@ -490,7 +490,7 @@ createButtons(): void;
 **Signature**
 
 ```ts
-createCancelButton(): void;
+createCancelButton(): void
 ```
 
 ### closeCommandWindows (method)
@@ -498,7 +498,7 @@ createCancelButton(): void;
 **Signature**
 
 ```ts
-closeCommandWindows(): void;
+closeCommandWindows(): void
 ```
 
 ### hideSubInputWindows (method)
@@ -506,7 +506,7 @@ closeCommandWindows(): void;
 **Signature**
 
 ```ts
-hideSubInputWindows(): void;
+hideSubInputWindows(): void
 ```
 
 ### startPartyCommandSelection (method)
@@ -514,7 +514,7 @@ hideSubInputWindows(): void;
 **Signature**
 
 ```ts
-startPartyCommandSelection(): void;
+startPartyCommandSelection(): void
 ```
 
 ### commandFight (method)
@@ -522,7 +522,7 @@ startPartyCommandSelection(): void;
 **Signature**
 
 ```ts
-commandFight(): void;
+commandFight(): void
 ```
 
 ### commandEscape (method)
@@ -530,7 +530,7 @@ commandFight(): void;
 **Signature**
 
 ```ts
-commandEscape(): void;
+commandEscape(): void
 ```
 
 ### startActorCommandSelection (method)
@@ -538,7 +538,7 @@ commandEscape(): void;
 **Signature**
 
 ```ts
-startActorCommandSelection(): void;
+startActorCommandSelection(): void
 ```
 
 ### commandAttack (method)
@@ -546,7 +546,7 @@ startActorCommandSelection(): void;
 **Signature**
 
 ```ts
-commandAttack(): void;
+commandAttack(): void
 ```
 
 ### commandSkill (method)
@@ -554,7 +554,7 @@ commandAttack(): void;
 **Signature**
 
 ```ts
-commandSkill(): void;
+commandSkill(): void
 ```
 
 ### commandGuard (method)
@@ -562,7 +562,7 @@ commandSkill(): void;
 **Signature**
 
 ```ts
-commandGuard(): void;
+commandGuard(): void
 ```
 
 ### commandItem (method)
@@ -570,7 +570,7 @@ commandGuard(): void;
 **Signature**
 
 ```ts
-commandItem(): void;
+commandItem(): void
 ```
 
 ### commandCancel (method)
@@ -578,7 +578,7 @@ commandItem(): void;
 **Signature**
 
 ```ts
-commandCancel(): void;
+commandCancel(): void
 ```
 
 ### selectNextCommand (method)
@@ -586,7 +586,7 @@ commandCancel(): void;
 **Signature**
 
 ```ts
-selectNextCommand(): void;
+selectNextCommand(): void
 ```
 
 ### selectPreviousCommand (method)
@@ -594,7 +594,7 @@ selectNextCommand(): void;
 **Signature**
 
 ```ts
-selectPreviousCommand(): void;
+selectPreviousCommand(): void
 ```
 
 ### startActorSelection (method)
@@ -602,7 +602,7 @@ selectPreviousCommand(): void;
 **Signature**
 
 ```ts
-startActorSelection(): void;
+startActorSelection(): void
 ```
 
 ### onActorOk (method)
@@ -610,7 +610,7 @@ startActorSelection(): void;
 **Signature**
 
 ```ts
-onActorOk(): void;
+onActorOk(): void
 ```
 
 ### onActorCancel (method)
@@ -618,7 +618,7 @@ onActorOk(): void;
 **Signature**
 
 ```ts
-onActorCancel(): void;
+onActorCancel(): void
 ```
 
 ### startEnemySelection (method)
@@ -626,7 +626,7 @@ onActorCancel(): void;
 **Signature**
 
 ```ts
-startEnemySelection(): void;
+startEnemySelection(): void
 ```
 
 ### onEnemyOk (method)
@@ -634,7 +634,7 @@ startEnemySelection(): void;
 **Signature**
 
 ```ts
-onEnemyOk(): void;
+onEnemyOk(): void
 ```
 
 ### onEnemyCancel (method)
@@ -642,7 +642,7 @@ onEnemyOk(): void;
 **Signature**
 
 ```ts
-onEnemyCancel(): void;
+onEnemyCancel(): void
 ```
 
 ### onSkillOk (method)
@@ -650,7 +650,7 @@ onEnemyCancel(): void;
 **Signature**
 
 ```ts
-onSkillOk(): void;
+onSkillOk(): void
 ```
 
 ### onSkillCancel (method)
@@ -658,7 +658,7 @@ onSkillOk(): void;
 **Signature**
 
 ```ts
-onSkillCancel(): void;
+onSkillCancel(): void
 ```
 
 ### onItemOk (method)
@@ -666,7 +666,7 @@ onSkillCancel(): void;
 **Signature**
 
 ```ts
-onItemOk(): void;
+onItemOk(): void
 ```
 
 ### onItemCancel (method)
@@ -674,7 +674,7 @@ onItemOk(): void;
 **Signature**
 
 ```ts
-onItemCancel(): void;
+onItemCancel(): void
 ```
 
 ### onSelectAction (method)
@@ -682,7 +682,7 @@ onItemCancel(): void;
 **Signature**
 
 ```ts
-onSelectAction(): void;
+onSelectAction(): void
 ```
 
 ### endCommandSelection (method)
@@ -690,7 +690,7 @@ onSelectAction(): void;
 **Signature**
 
 ```ts
-endCommandSelection(): void;
+endCommandSelection(): void
 ```
 
 ### \_logWindow (property)

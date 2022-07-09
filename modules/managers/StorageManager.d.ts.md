@@ -1,6 +1,6 @@
 ---
 title: managers/StorageManager.d.ts
-nav_order: 61
+nav_order: 62
 parent: Modules
 ---
 
@@ -70,7 +70,7 @@ export declare class StorageManager {
 **Signature**
 
 ```ts
-static isLocalMode(): boolean;
+static isLocalMode(): boolean
 ```
 
 ### saveObject (static method)
@@ -78,7 +78,7 @@ static isLocalMode(): boolean;
 **Signature**
 
 ```ts
-static saveObject<T>(saveName: string, object: T): Promise<number | void>;
+static saveObject<T>(saveName: string, object: T): Promise<number | void>
 ```
 
 ### loadObject (static method)
@@ -86,7 +86,7 @@ static saveObject<T>(saveName: string, object: T): Promise<number | void>;
 **Signature**
 
 ```ts
-static loadObject<T>(saveName: string): Promise<T>;
+static loadObject<T>(saveName: string): Promise<T>
 ```
 
 ### objectToJson (static method)
@@ -94,7 +94,7 @@ static loadObject<T>(saveName: string): Promise<T>;
 **Signature**
 
 ```ts
-static objectToJson<T>(object: T): Promise<string>;
+static objectToJson<T>(object: T): Promise<string>
 ```
 
 ### jsonToObject (static method)
@@ -102,7 +102,7 @@ static objectToJson<T>(object: T): Promise<string>;
 **Signature**
 
 ```ts
-static jsonToObject<T>(json: string): Promise<T>;
+static jsonToObject<T>(json: string): Promise<T>
 ```
 
 ### jsonToZip (static method)
@@ -110,7 +110,7 @@ static jsonToObject<T>(json: string): Promise<T>;
 **Signature**
 
 ```ts
-static jsonToZip(json: string): Promise<string>;
+static jsonToZip(json: string): Promise<string>
 ```
 
 ### zipToJson (static method)
@@ -118,7 +118,7 @@ static jsonToZip(json: string): Promise<string>;
 **Signature**
 
 ```ts
-static zipToJson(zip: string): Promise<string>;
+static zipToJson(zip: string): Promise<string>
 ```
 
 ### saveZip (static method)
@@ -126,7 +126,7 @@ static zipToJson(zip: string): Promise<string>;
 **Signature**
 
 ```ts
-static saveZip(saveName: string, zip: string): Promise<void> | Promise<number>;
+static saveZip(saveName: string, zip: string): Promise<void> | Promise<number>
 ```
 
 ### loadZip (static method)
@@ -134,7 +134,7 @@ static saveZip(saveName: string, zip: string): Promise<void> | Promise<number>;
 **Signature**
 
 ```ts
-static loadZip(saveName: string): Promise<string>;
+static loadZip(saveName: string): Promise<string>
 ```
 
 ### exists (static method)
@@ -142,7 +142,7 @@ static loadZip(saveName: string): Promise<string>;
 **Signature**
 
 ```ts
-static exists(saveName: string): any;
+static exists(saveName: string): any
 ```
 
 ### remove (static method)
@@ -150,7 +150,7 @@ static exists(saveName: string): any;
 **Signature**
 
 ```ts
-static remove(saveName: string): void | Promise<number>;
+static remove(saveName: string): void | Promise<number>
 ```
 
 ### saveToLocalFile (static method)
@@ -158,7 +158,7 @@ static remove(saveName: string): void | Promise<number>;
 **Signature**
 
 ```ts
-static saveToLocalFile(saveName: string, zip: string): Promise<void>;
+static saveToLocalFile(saveName: string, zip: string): Promise<void>
 ```
 
 ### loadFromLocalFile (static method)
@@ -166,7 +166,7 @@ static saveToLocalFile(saveName: string, zip: string): Promise<void>;
 **Signature**
 
 ```ts
-static loadFromLocalFile(saveName: string): Promise<string>;
+static loadFromLocalFile(saveName: string): Promise<string>
 ```
 
 ### localFileExists (static method)
@@ -174,7 +174,7 @@ static loadFromLocalFile(saveName: string): Promise<string>;
 **Signature**
 
 ```ts
-static localFileExists(saveName: string): any;
+static localFileExists(saveName: string): any
 ```
 
 ### removeLocalFile (static method)
@@ -182,7 +182,7 @@ static localFileExists(saveName: string): any;
 **Signature**
 
 ```ts
-static removeLocalFile(saveName: string): void;
+static removeLocalFile(saveName: string): void
 ```
 
 ### saveToForage (static method)
@@ -190,7 +190,7 @@ static removeLocalFile(saveName: string): void;
 **Signature**
 
 ```ts
-static saveToForage(saveName: string, zip: string): Promise<number>;
+static saveToForage(saveName: string, zip: string): Promise<number>
 ```
 
 ### loadFromForage (static method)
@@ -198,7 +198,7 @@ static saveToForage(saveName: string, zip: string): Promise<number>;
 **Signature**
 
 ```ts
-static loadFromForage(saveName: string): Promise<string>;
+static loadFromForage(saveName: string): Promise<string>
 ```
 
 ### forageExists (static method)
@@ -206,7 +206,7 @@ static loadFromForage(saveName: string): Promise<string>;
 **Signature**
 
 ```ts
-static forageExists(saveName: string): boolean;
+static forageExists(saveName: string): boolean
 ```
 
 ### removeForage (static method)
@@ -214,7 +214,7 @@ static forageExists(saveName: string): boolean;
 **Signature**
 
 ```ts
-static removeForage(saveName: string): Promise<number>;
+static removeForage(saveName: string): Promise<number>
 ```
 
 ### updateForageKeys (static method)
@@ -222,7 +222,7 @@ static removeForage(saveName: string): Promise<number>;
 **Signature**
 
 ```ts
-static updateForageKeys(): Promise<number>;
+static updateForageKeys(): Promise<number>
 ```
 
 ### forageKeysUpdated (static method)
@@ -230,7 +230,7 @@ static updateForageKeys(): Promise<number>;
 **Signature**
 
 ```ts
-static forageKeysUpdated(): boolean;
+static forageKeysUpdated(): boolean
 ```
 
 ### fsMkdir (static method)
@@ -238,7 +238,7 @@ static forageKeysUpdated(): boolean;
 **Signature**
 
 ```ts
-static fsMkdir(path: string): void;
+static fsMkdir(path: string): void
 ```
 
 ### fsRename (static method)
@@ -246,7 +246,7 @@ static fsMkdir(path: string): void;
 **Signature**
 
 ```ts
-static fsRename(oldPath: string, newPath: string): void;
+static fsRename(oldPath: string, newPath: string): void
 ```
 
 ### fsUnlink (static method)
@@ -254,7 +254,7 @@ static fsRename(oldPath: string, newPath: string): void;
 **Signature**
 
 ```ts
-static fsUnlink(path: string): void;
+static fsUnlink(path: string): void
 ```
 
 ### fsReadFile (static method)
@@ -262,7 +262,7 @@ static fsUnlink(path: string): void;
 **Signature**
 
 ```ts
-static fsReadFile(path: string): string | null;
+static fsReadFile(path: string): string | null
 ```
 
 ### fsWriteFile (static method)
@@ -270,7 +270,7 @@ static fsReadFile(path: string): string | null;
 **Signature**
 
 ```ts
-static fsWriteFile(path: string, data: string): void;
+static fsWriteFile(path: string, data: string): void
 ```
 
 ### fileDirectoryPath (static method)
@@ -278,7 +278,7 @@ static fsWriteFile(path: string, data: string): void;
 **Signature**
 
 ```ts
-static fileDirectoryPath(): any;
+static fileDirectoryPath(): any
 ```
 
 ### filePath (static method)
@@ -286,7 +286,7 @@ static fileDirectoryPath(): any;
 **Signature**
 
 ```ts
-static filePath(saveName: string): string;
+static filePath(saveName: string): string
 ```
 
 ### forageKey (static method)
@@ -294,7 +294,7 @@ static filePath(saveName: string): string;
 **Signature**
 
 ```ts
-static forageKey(saveName: string): string;
+static forageKey(saveName: string): string
 ```
 
 ### forageTestKey (static method)
@@ -302,5 +302,5 @@ static forageKey(saveName: string): string;
 **Signature**
 
 ```ts
-static forageTestKey(): string;
+static forageTestKey(): string
 ```

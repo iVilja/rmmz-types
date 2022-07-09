@@ -49,7 +49,7 @@ Destroys the tiling sprite.
 **Signature**
 
 ```ts
-destroy(): void;
+destroy(): void
 ```
 
 ### update (method)
@@ -59,7 +59,7 @@ Updates the tiling sprite for each frame.
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### move (method)
@@ -69,7 +69,7 @@ Sets the x, y, width, and height all at once.
 **Signature**
 
 ```ts
-move(x: number, y: number, width: number, height: number): void;
+move(x: number, y: number, width: number, height: number): void
 ```
 
 ### setFrame (method)
@@ -79,7 +79,7 @@ Specifies the region of the image that the tiling sprite will use.
 **Signature**
 
 ```ts
-setFrame(x: number, y: number, width: number, height: number): void;
+setFrame(x: number, y: number, width: number, height: number): void
 ```
 
 ### updateTransform (method)
@@ -89,7 +89,7 @@ Updates the transform on all children of this container for rendering.
 **Signature**
 
 ```ts
-updateTransform(): void;
+updateTransform(): void
 ```
 
 ### \_onBitmapChange (method)
@@ -97,7 +97,7 @@ updateTransform(): void;
 **Signature**
 
 ```ts
-_onBitmapChange(): void;
+_onBitmapChange(): void
 ```
 
 ### \_onBitmapLoad (method)
@@ -105,7 +105,7 @@ _onBitmapChange(): void;
 **Signature**
 
 ```ts
-_onBitmapLoad(): void;
+_onBitmapLoad(): void
 ```
 
 ### \_refresh (method)
@@ -113,7 +113,7 @@ _onBitmapLoad(): void;
 **Signature**
 
 ```ts
-_refresh(): void;
+_refresh(): void
 ```
 
 ### \_bitmap (property)

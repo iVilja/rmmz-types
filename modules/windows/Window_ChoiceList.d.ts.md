@@ -1,6 +1,6 @@
 ---
 title: windows/Window_ChoiceList.d.ts
-nav_order: 150
+nav_order: 151
 parent: Modules
 ---
 
@@ -62,7 +62,7 @@ export declare class Window_ChoiceList {
 **Signature**
 
 ```ts
-setMessageWindow(messageWindow: Window_Message): void;
+setMessageWindow(messageWindow: Window_Message): void
 ```
 
 ### createCancelButton (method)
@@ -70,7 +70,7 @@ setMessageWindow(messageWindow: Window_Message): void;
 **Signature**
 
 ```ts
-createCancelButton(): void;
+createCancelButton(): void
 ```
 
 ### start (method)
@@ -78,7 +78,7 @@ createCancelButton(): void;
 **Signature**
 
 ```ts
-start(): void;
+start(): void
 ```
 
 ### update (method)
@@ -86,7 +86,7 @@ start(): void;
 **Signature**
 
 ```ts
-update(): void;
+update(): void
 ```
 
 ### updateCancelButton (method)
@@ -94,7 +94,7 @@ update(): void;
 **Signature**
 
 ```ts
-updateCancelButton(): void;
+updateCancelButton(): void
 ```
 
 ### selectDefault (method)
@@ -102,7 +102,7 @@ updateCancelButton(): void;
 **Signature**
 
 ```ts
-selectDefault(): void;
+selectDefault(): void
 ```
 
 ### updatePlacement (method)
@@ -110,7 +110,7 @@ selectDefault(): void;
 **Signature**
 
 ```ts
-updatePlacement(): void;
+updatePlacement(): void
 ```
 
 ### updateBackground (method)
@@ -118,7 +118,7 @@ updatePlacement(): void;
 **Signature**
 
 ```ts
-updateBackground(): void;
+updateBackground(): void
 ```
 
 ### placeCancelButton (method)
@@ -126,7 +126,7 @@ updateBackground(): void;
 **Signature**
 
 ```ts
-placeCancelButton(): void;
+placeCancelButton(): void
 ```
 
 ### windowX (method)
@@ -134,7 +134,7 @@ placeCancelButton(): void;
 **Signature**
 
 ```ts
-windowX(): number;
+windowX(): number
 ```
 
 ### windowY (method)
@@ -142,7 +142,7 @@ windowX(): number;
 **Signature**
 
 ```ts
-windowY(): number;
+windowY(): number
 ```
 
 ### windowWidth (method)
@@ -150,7 +150,7 @@ windowY(): number;
 **Signature**
 
 ```ts
-windowWidth(): number;
+windowWidth(): number
 ```
 
 ### windowHeight (method)
@@ -158,7 +158,7 @@ windowWidth(): number;
 **Signature**
 
 ```ts
-windowHeight(): number;
+windowHeight(): number
 ```
 
 ### numVisibleRows (method)
@@ -166,7 +166,7 @@ windowHeight(): number;
 **Signature**
 
 ```ts
-numVisibleRows(): number;
+numVisibleRows(): number
 ```
 
 ### maxLines (method)
@@ -174,7 +174,7 @@ numVisibleRows(): number;
 **Signature**
 
 ```ts
-maxLines(): 4 | 8;
+maxLines(): 4 | 8
 ```
 
 ### maxChoiceWidth (method)
@@ -182,7 +182,7 @@ maxLines(): 4 | 8;
 **Signature**
 
 ```ts
-maxChoiceWidth(): number;
+maxChoiceWidth(): number
 ```
 
 ### makeCommandList (method)
@@ -190,7 +190,7 @@ maxChoiceWidth(): number;
 **Signature**
 
 ```ts
-makeCommandList(): void;
+makeCommandList(): void
 ```
 
 ### drawItem (method)
@@ -198,7 +198,7 @@ makeCommandList(): void;
 **Signature**
 
 ```ts
-drawItem(index: number): void;
+drawItem(index: number): void
 ```
 
 ### isCancelEnabled (method)
@@ -206,7 +206,7 @@ drawItem(index: number): void;
 **Signature**
 
 ```ts
-isCancelEnabled(): boolean;
+isCancelEnabled(): boolean
 ```
 
 ### needsCancelButton (method)
@@ -214,7 +214,7 @@ isCancelEnabled(): boolean;
 **Signature**
 
 ```ts
-needsCancelButton(): boolean;
+needsCancelButton(): boolean
 ```
 
 ### callOkHandler (method)
@@ -222,7 +222,7 @@ needsCancelButton(): boolean;
 **Signature**
 
 ```ts
-callOkHandler(): void;
+callOkHandler(): void
 ```
 
 ### callCancelHandler (method)
@@ -230,7 +230,7 @@ callOkHandler(): void;
 **Signature**
 
 ```ts
-callCancelHandler(): void;
+callCancelHandler(): void
 ```
 
 ### \_background (property)

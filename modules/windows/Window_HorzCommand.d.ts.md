@@ -1,6 +1,6 @@
 ---
 title: windows/Window_HorzCommand.d.ts
-nav_order: 162
+nav_order: 163
 parent: Modules
 ---
 
@@ -36,7 +36,7 @@ export declare class Window_HorzCommand
 **Signature**
 
 ```ts
-maxCols(): number;
+maxCols(): number
 ```
 
 ### itemTextAlign (method)
@@ -44,5 +44,5 @@ maxCols(): number;
 **Signature**
 
 ```ts
-itemTextAlign(): "center";
+itemTextAlign(): "center"
 ```

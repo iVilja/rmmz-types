@@ -1,6 +1,6 @@
 ---
 title: scenes/Scene_GameEnd.d.ts
-nav_order: 101
+nav_order: 102
 parent: Modules
 ---
 
@@ -37,7 +37,7 @@ export declare class Scene_GameEnd
 **Signature**
 
 ```ts
-create(): void;
+create(): void
 ```
 
 ### stop (method)
@@ -45,7 +45,7 @@ create(): void;
 **Signature**
 
 ```ts
-stop(): void;
+stop(): void
 ```
 
 ### createBackground (method)
@@ -53,7 +53,7 @@ stop(): void;
 **Signature**
 
 ```ts
-createBackground(): void;
+createBackground(): void
 ```
 
 ### createCommandWindow (method)
@@ -61,7 +61,7 @@ createBackground(): void;
 **Signature**
 
 ```ts
-createCommandWindow(): void;
+createCommandWindow(): void
 ```
 
 ### commandWindowRect (method)
@@ -69,7 +69,7 @@ createCommandWindow(): void;
 **Signature**
 
 ```ts
-commandWindowRect(): Rectangle;
+commandWindowRect(): Rectangle
 ```
 
 ### commandToTitle (method)
@@ -77,7 +77,7 @@ commandWindowRect(): Rectangle;
 **Signature**
 
 ```ts
-commandToTitle(): void;
+commandToTitle(): void
 ```
 
 ### \_commandWindow (property)
