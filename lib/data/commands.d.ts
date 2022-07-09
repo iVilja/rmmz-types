@@ -539,10 +539,7 @@ export declare type DataCommand = {
   /* Plugin Command MV (deprecated) */
   | $<356, [string]>
   /* Plugin Command */
-  | $<
-      357,
-      [string /* Plugin File name */, string /* Command Name */, undefined, unknown[] /* Arguments */]
-    >
+  | $<357, [string /* Plugin File name */, string /* Command Name */, undefined, unknown[] /* Arguments */]>
 )
 export declare type CommandCode = DataCommand["code"]
 export declare type RouteCommandCode = RouteMovementCommand["code"]

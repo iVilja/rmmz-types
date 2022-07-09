@@ -1,4 +1,4 @@
-import { RmmzPlugin } from "../data/plugin"
+import { PluginParameters, RmmzPlugin } from "../data"
 /**
  * PluginManager
  *
@@ -18,6 +18,10 @@ export declare class PluginManager {
   static makeUrl(filename: string): string
   static checkErrors(): void
   static throwLoadError(url: string): void
-  static registerCommand(pluginName: string, commandName: string, func: () => void): void
+  static registerCommand<T extends PluginParameters>(
+    pluginName: string,
+    commandName: string,
+    func: (args: T) => void
+  ): void
   static callCommand(self: unknown, pluginName: string, commandName: string, args: unknown[]): void
 }
