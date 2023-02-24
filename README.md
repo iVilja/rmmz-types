@@ -9,9 +9,9 @@ TypeScript declarations for RPG Maker MZ (RMMZ).
 Install this package by
 
 ```bash
-$ npm install rmmz@npm:rmmz-types
+$ npm install -D rmmz@npm:rmmz-types
 # or just
-$ npm install rmmz-types
+$ npm install -D rmmz-types
 ```
 
 ## Usage
